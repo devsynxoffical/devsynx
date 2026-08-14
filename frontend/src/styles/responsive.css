@@ -1,0 +1,354 @@
+/* ============================================
+   SITE-WIDE MOBILE & TABLET FIXES
+   ============================================ */
+
+/* Static FAQ blocks (used on blog, global, contact pages) */
+.faq-item {
+  padding: 20px 24px;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+
+.faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-item h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.faq-item p {
+  font-size: 0.938rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+/* Section CTAs with multiple buttons */
+.section__action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 16px;
+}
+
+/* Prevent long-URL / button text overflow */
+.service-card__title,
+.section__title,
+.page-hero__title {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ============================================
+   TABLET — use mobile nav (avoids cramped header)
+   ============================================ */
+@media (max-width: 1024px) {
+  .header__nav,
+  .header__cta {
+    display: none;
+  }
+
+  .header__menu-btn {
+    display: flex;
+  }
+
+  .header__mobile {
+    display: block;
+  }
+
+  .section__header {
+    margin-bottom: 48px;
+  }
+
+  .footer {
+    padding-top: 64px;
+  }
+
+  .footer__seo-strip {
+    padding-top: 20px;
+  }
+
+  .footer__links--wrap {
+    gap: 6px 14px;
+  }
+}
+
+/* ============================================
+   MOBILE
+   ============================================ */
+@media (max-width: 768px) {
+  .section {
+    padding: 56px 0;
+  }
+
+  .section__header {
+    margin-bottom: 36px;
+    padding: 0 4px;
+  }
+
+  .section__title {
+    font-size: clamp(1.5rem, 5.5vw, 2rem);
+  }
+
+  .section__subtitle {
+    font-size: 0.95rem;
+  }
+
+  /* First section below fixed header (blog, solutions hub, etc.) */
+  .main-content > .section:first-child {
+    padding-top: calc(var(--header-height) + 24px);
+  }
+
+  .section__action {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 32px;
+  }
+
+  .section__action .btn {
+    width: 100%;
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+    min-height: 48px;
+  }
+
+  /* Header & mobile drawer */
+  .header__logo-text {
+    font-size: 1.1rem;
+  }
+
+  .header__mobile {
+    top: var(--header-height);
+    height: calc(100dvh - var(--header-height));
+    max-height: calc(100dvh - var(--header-height));
+    padding: 16px 16px calc(24px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .header__mobile-nav {
+    gap: 6px;
+    padding-bottom: 16px;
+  }
+
+  .header__mobile-nav .btn {
+    margin-top: 8px;
+    white-space: normal;
+    text-align: center;
+    min-height: 48px;
+  }
+
+  .header--menu-open {
+    background: var(--color-white) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-bottom-color: var(--color-border) !important;
+  }
+
+  .header--menu-open .header__logo-text {
+    background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .header--menu-open .header__menu-icon span {
+    background: var(--color-dark);
+  }
+
+  /* Cards & grids */
+  .about-card {
+    padding: 24px 20px;
+  }
+
+  .about-card__title {
+    font-size: 1.2rem;
+  }
+
+  .about-card__text {
+    font-size: 0.938rem;
+  }
+
+  .service-card {
+    padding: 24px 20px;
+  }
+
+  .service-card__title {
+    font-size: 1.125rem;
+  }
+
+  .faq-item {
+    padding: 16px 18px;
+  }
+
+  .faq-item h3 {
+    font-size: 0.98rem;
+  }
+
+  .faq__answer-inner {
+    padding-left: 20px;
+    padding-right: 16px;
+  }
+
+  .faq__question {
+    gap: 12px;
+    padding: 14px 16px;
+  }
+
+  .faq__question-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 48px;
+  }
+
+  .footer__brand {
+    text-align: center;
+  }
+
+  .footer__logo {
+    justify-content: center;
+  }
+
+  .footer__desc {
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__contact-list {
+    align-items: center;
+  }
+
+  .footer__section {
+    text-align: center;
+  }
+
+  .footer__links {
+    align-items: center;
+  }
+
+  .footer__seo-strip .footer__title {
+    text-align: center;
+  }
+
+  .footer__links--wrap {
+    justify-content: center;
+    gap: 8px 12px;
+  }
+
+  .footer__link {
+    font-size: 0.813rem;
+  }
+
+  .footer__link:hover {
+    padding-left: 0;
+  }
+
+  /* CTA */
+  .cta__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
+  .cta__subtitle {
+    font-size: 0.95rem;
+  }
+
+  .cta__inner {
+    padding: 0 8px;
+  }
+
+  /* Page hero */
+  .page-hero {
+    padding: calc(var(--header-height) + 24px) 0 36px;
+  }
+
+  .page-hero__subtitle {
+    padding: 0 4px;
+  }
+
+  /* Reduce motion shift overflow on small screens */
+  .animate-on-scroll {
+    transform: translateY(24px);
+  }
+
+  .animate--fade-left,
+  .animate--fade-right {
+    transform: translateY(24px);
+  }
+}
+
+/* ============================================
+   SMALL MOBILE
+   ============================================ */
+@media (max-width: 480px) {
+  :root {
+    --header-height: 60px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section__header {
+    margin-bottom: 28px;
+  }
+
+  .header__logo-img {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  .header__logo-text {
+    font-size: 1rem;
+  }
+
+  .btn--lg {
+    padding: 13px 20px;
+    font-size: 0.938rem;
+  }
+
+  .about-card {
+    padding: 20px 16px;
+  }
+
+  .value-card {
+    padding: 24px 20px;
+  }
+
+  .contact-form-wrapper {
+    padding: 20px 16px;
+  }
+
+  .contact-info__card {
+    padding: 24px 20px;
+  }
+
+  .footer__links--wrap li {
+    flex: 1 1 calc(50% - 8px);
+    min-width: 0;
+  }
+
+  .footer__links--wrap .footer__link {
+    display: block;
+    line-height: 1.35;
+  }
+}
+
+/* Touch devices — disable hover lift that causes layout shift */
+@media (hover: none) and (pointer: coarse) {
+  .service-card:hover,
+  .about-card:hover,
+  .value-card:hover {
+    transform: none;
+  }
+}

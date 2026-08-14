@@ -1,0 +1,82 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Prevent Apache content-negotiation from choosing index.txt over index.html
+<IfModule mod_negotiation.c>
+    Options -MultiViews
+</IfModule>
+
+# Serve directory index.html for trailing slash URLs
+DirectoryIndex index.html
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Canonical domain: devsynx.com (no www)
+RewriteCond %{HTTP_HOST} ^www\.devsynx\.com$ [NC]
+RewriteRule ^(.*)$ https://devsynx.com/$1 [L,R=301]
+
+# Redirect accidental Next internal payload URLs to clean route URLs
+RewriteRule ^(.*/)?index\.txt$ /$1 [R=301,L,NC]
+
+# === CRITICAL: Skip rewriting for actual files and directories ===
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Handle 404 errors
+ErrorDocument 404 /404.html
+
+# Enable GZIP compression for better performance
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# Browser caching for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/json "access plus 1 week"
+    ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Correct MIME types (critical for _next assets)
+<IfModule mod_mime.c>
+    AddType application/javascript .js .mjs
+    AddType text/css .css
+    AddType image/svg+xml .svg
+    AddType application/json .json
+    AddType font/woff2 .woff2
+    AddType font/woff .woff
+    AddType image/webp .webp
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Allow access to _next directory (some hosts block underscore-prefixed dirs)
+<IfModule mod_authz_core.c>
+    <Directory "_next">
+        Require all granted
+    </Directory>
+</IfModule>
