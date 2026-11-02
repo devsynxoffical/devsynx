@@ -9,13 +9,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/*.txt", "/_next/"],
       },
     ],
-    sitemap: [
-      `${pathToAbsoluteUrl("/")}sitemap/priority.xml`,
-      `${pathToAbsoluteUrl("/")}sitemap/secondary.xml`,
-    ],
-    host: pathToAbsoluteUrl("/").replace(/\/$/, ""),
+    sitemap: "https://devsynx.com/sitemap.xml",
   };
 }

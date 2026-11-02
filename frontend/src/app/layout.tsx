@@ -18,6 +18,7 @@ import { pathToAbsoluteUrl } from "@/seo/priorityPages";
 import "@/styles/fonts.css";
 import "./globals.css";
 import "@/styles/about.css";
+import "@/styles/city-landing.css";
 import "@/styles/responsive.css";
 
 export const viewport: Viewport = {
@@ -29,12 +30,19 @@ export const viewport: Viewport = {
 };
 
 const siteDescription =
-  "Devsynx builds custom software, AI systems, and SaaS products that drive real business growth. MVP delivered in under 30 days. Trusted by 50+ clients worldwide. Based in Pakistan, serving globally.";
+  "Custom software, AI systems, and SaaS products built for growth. Production-ready MVPs delivered in under 30 days. Trusted by 300+ clients worldwide.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://devsynx.com"),
   verification: {
     google: "oAtkeRVxkEt7aCuVLEfrbNTCiNnAQenDnFwXZlf2GzE",
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+    other: {
+      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION
+        ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }
+        : {}),
+      indexnow: "devsynx2026indexnow4c8f9b2a",
+    },
   },
   title: {
     default: "Custom Software Development & AI Solutions | Devsynx",
@@ -104,49 +112,85 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: SITE_NAME,
-  alternateName: ["DEVSYNX", "Devsinc", "Dev Sinc", "Dev Synx"],
-  url: pathToAbsoluteUrl("/"),
-  logo: pathToAbsoluteUrl("/logo.png"),
+  "@id": "https://devsynx.com/#organization",
+  name: "DEVSYNX",
+  legalName: "DEVSYNX Private Limited",
+  alternateName: ["Devsynx", "Dev Synx"],
+  url: "https://devsynx.com/",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://devsynx.com/logo.png",
+    width: 512,
+    height: 512,
+  },
+  image: "https://devsynx.com/logo.png",
   description:
-    "Devsynx builds reliable, scalable software and AI systems that help businesses grow, automate, and move faster.",
+    "DEVSYNX Private Limited is a software development company in Islamabad, Pakistan. It builds custom software, AI automation and AI agents, web and mobile apps, SaaS products and Shopify stores, and provides SEO and digital marketing, for clients in Pakistan, the United States, the United Kingdom, Canada, Australia and the UAE.",
   email: "info@devsynx.com",
-  telephone: "+923029462542",
+  telephone: "+92-302-946-2542",
+  founder: [
+    {
+      "@type": "Person",
+      name: "Syed Hassan Ali Shah",
+      jobTitle: "CEO and Founder",
+    },
+    {
+      "@type": "Person",
+      name: "Sana Fatima",
+      jobTitle: "Co-Founder",
+    },
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Islamabad",
+    addressRegion: "Islamabad Capital Territory",
     addressCountry: "PK",
   },
   sameAs: [...ORGANIZATION_SAME_AS],
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+923029462542",
-    contactType: "customer service",
-    email: "info@devsynx.com",
-    availableLanguage: ["English"],
-  },
-  foundingLocation: {
-    "@type": "Place",
-    name: "Islamabad, Pakistan",
-  },
-  areaServed: ORGANIZATION_AREA_SERVED,
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      telephone: "+92-302-946-2542",
+      email: "info@devsynx.com",
+      availableLanguage: ["English", "Urdu"],
+      areaServed: ["PK", "US", "GB", "CA", "AU", "AE"],
+    },
+  ],
+  areaServed: [
+    { "@type": "City", name: "Islamabad" },
+    { "@type": "City", name: "Rawalpindi" },
+    { "@type": "Country", name: "Pakistan" },
+    { "@type": "Country", name: "United States" },
+    { "@type": "Country", name: "United Kingdom" },
+    { "@type": "Country", name: "Canada" },
+    { "@type": "Country", name: "Australia" },
+    { "@type": "Country", name: "United Arab Emirates" },
+  ],
+  knowsAbout: [
+    "Custom software development",
+    "AI automation",
+    "AI agent development",
+    "Web development",
+    "Mobile app development",
+    "SaaS development",
+    "Shopify development",
+    "Search engine optimization",
+    "Digital marketing",
+  ],
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: SITE_NAME,
-  url: pathToAbsoluteUrl("/"),
+  name: "DEVSYNX",
+  url: "https://devsynx.com/",
   description: siteDescription,
   publisher: {
     "@type": "Organization",
-    name: SITE_NAME,
-    logo: {
-      "@type": "ImageObject",
-      url: pathToAbsoluteUrl("/logo.png"),
-    },
+    "@id": "https://devsynx.com/#organization",
   },
-  inLanguage: "en-US",
+  inLanguage: "en",
 };
 
 export default function RootLayout({
@@ -157,6 +201,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-VP1M3HVXMD"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-VP1M3HVXMD');
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

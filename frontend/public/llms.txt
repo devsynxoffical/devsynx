@@ -1,0 +1,44 @@
+# DEVSYNX
+
+> DEVSYNX Private Limited is a software development company in Islamabad, Pakistan. It builds custom software, AI automation and AI agents, web and mobile apps, SaaS products and Shopify stores, and provides SEO and digital marketing, for clients in Pakistan, the United States, the United Kingdom, Canada, Australia and the UAE.
+
+Contact: info@devsynx.com, phone and WhatsApp +92 302 946 2542. Address: Islamabad, Pakistan. Founder and CEO: Syed Hassan Ali Shah. Clients served: 300+.
+
+## Company
+- [About DEVSYNX](https://devsynx.com/about/): company facts, leadership, mission
+- [Team](https://devsynx.com/team/): founders and engineers
+- [Contact](https://devsynx.com/contact/): email, phone, WhatsApp, office
+
+## Services
+- [AI automation agency](https://devsynx.com/services/ai-automation/): engineered business process automation with LLMs, n8n and custom code
+- [AI agent development](https://devsynx.com/services/voice-ai-bots/): custom voice, chat and workflow agents
+- [Web development](https://devsynx.com/services/custom-web-development/): Next.js and React websites and web apps
+- [Mobile app development](https://devsynx.com/services/mobile-app-development/): iOS and Android apps in Flutter and React Native
+- [SaaS development](https://devsynx.com/services/saas-product-development/): multi-tenant SaaS from MVP to scale
+- [Shopify development](https://devsynx.com/services/ecommerce-solutions/): custom themes, apps and headless stores
+- [All services](https://devsynx.com/services/)
+
+## Locations and markets
+- [Software house in Islamabad](https://devsynx.com/software-house-islamabad/)
+- [Software house in Rawalpindi](https://devsynx.com/software-house-rawalpindi/)
+- [Web development in Islamabad](https://devsynx.com/web-development-islamabad/)
+- [SEO services in Islamabad](https://devsynx.com/seo-services-islamabad/)
+- [Digital marketing agency in Islamabad](https://devsynx.com/digital-marketing-agency-islamabad/)
+- [United States](https://devsynx.com/usa/)
+
+## Case studies
+- [All client projects](https://devsynx.com/clients/): 70+ case studies by industry and country
+- [DEVSYNX AI voice agent](https://devsynx.com/clients/ai-calling-agent/)
+- [WhatsApp Business API platform](https://devsynx.com/clients/whatsapp-business-api/)
+- [Contractor Leads US](https://devsynx.com/clients/contractor-leads/)
+- [Doughi Cookies UK](https://devsynx.com/clients/doughi/)
+- [DEVSYNX HRMS](https://devsynx.com/clients/devsynx-attendance-hr/)
+
+## Guides
+- [Software development cost](https://devsynx.com/blog/how-much-does-software-development-cost/)
+- [Build an MVP in 30 Days](https://devsynx.com/blog/how-to-build-an-mvp-in-30-days/)
+- [Why outsource software development to Pakistan](https://devsynx.com/blog/why-outsource-software-development-to-pakistan/)
+
+## Optional
+- [Blog](https://devsynx.com/blog/)
+- [Portfolio](https://devsynx.com/portfolio/)

@@ -10,9 +10,9 @@ import {
 import { buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "About Devsynx — Software & AI Agency in Islamabad",
+  title: "About DEVSYNX: Software and AI Engineering Company",
   description:
-    "Devsynx is a full-service software and AI agency founded in Islamabad, Pakistan. We help businesses launch products, automate operations, and scale with technology.",
+    "DEVSYNX is a software and AI engineering company in Islamabad, Pakistan, serving clients in the US, UK, UAE and Pakistan.",
   path: "/about/",
   keywords: [
     "about devsynx",
@@ -25,7 +25,7 @@ export const metadata: Metadata = buildPageMetadata({
     ...blogIntentKeywords.slice(0, 6),
     ...topCountryKeywords.slice(0, 10),
   ],
-  ogImageAlt: "About Devsynx — Software & AI Agency",
+  ogImageAlt: "About Devsynx | Software & AI Agency",
 });
 
 export default function AboutLayout({

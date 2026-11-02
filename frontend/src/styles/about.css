@@ -9,7 +9,7 @@
 
 .about-card {
   padding: 40px;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   transition: var(--transition-lift);
@@ -110,7 +110,7 @@
 
 .about-stat {
   padding: 28px;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   text-align: center;
@@ -185,7 +185,7 @@
 
 .value-card {
   padding: 32px;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   transition: var(--transition-lift);

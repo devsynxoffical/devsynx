@@ -16,18 +16,13 @@ export function AnimatedSection({
   className = "",
   animation = "fade-up",
   delay = 0,
-  threshold = 0.15,
+  threshold = 0.01,
   stagger = false,
 }: AnimatedSectionProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     document.documentElement.classList.add("motion-ready");
-
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-    if (prefersReducedMotion) return;
 
     const el = ref.current;
     if (!el) return;
@@ -36,25 +31,38 @@ export function AnimatedSection({
       ([entry]) => {
         if (entry.isIntersecting) {
           setTimeout(() => {
-            el.classList.add("animated");
-            if (stagger) {
-              const items = el.querySelectorAll(".stagger-item");
-              items.forEach((child, i) => {
-                (child as HTMLElement).style.setProperty("--stagger-i", String(i));
-                requestAnimationFrame(() => {
+            if (el) {
+              el.classList.add("animated");
+              if (stagger) {
+                const items = el.querySelectorAll(".stagger-item");
+                items.forEach((child, i) => {
+                  (child as HTMLElement).style.setProperty("--stagger-i", String(i));
                   (child as HTMLElement).classList.add("animated");
                 });
-              });
+              }
             }
           }, delay);
           observer.unobserve(el);
         }
       },
-      { threshold }
+      { threshold: 0.01 }
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
+
+    // Safety fallback: force visibility after 400ms so content is never hidden
+    const fallbackTimer = setTimeout(() => {
+      if (el) {
+        el.classList.add("animated");
+        const items = el.querySelectorAll(".stagger-item");
+        items.forEach((child) => (child as HTMLElement).classList.add("animated"));
+      }
+    }, 400);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
   }, [delay, threshold, stagger]);
 
   return (

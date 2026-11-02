@@ -16,7 +16,7 @@ export function SeoPriorityLinks({
 
   return (
     <nav className={className} aria-label={title}>
-      <h4 className="footer__title">{title}</h4>
+      <div className="footer__title">{title}</div>
       <ul className="footer__links footer__links--wrap">
         {links.map((link) => (
           <li key={link.href}>

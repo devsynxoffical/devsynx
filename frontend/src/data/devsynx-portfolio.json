@@ -1,0 +1,1218 @@
+[
+  {
+    "name": "RBO Accounting Services FZE",
+    "category": [
+      "Web Development",
+      "SEO"
+    ],
+    "url": "https://www.rboaccounting.ae",
+    "image": "https://image.thum.io/get/width/1200/https://www.rboaccounting.ae",
+    "summary": "Full website rebuild and SEO restructure: 45 pages, location and service hubs, structured data, redirect map, GBP optimisation, ongoing keyword strategy.",
+    "assets": {
+      "desktop": "portfolio-assets/rbo-accounting-services-fze-desktop.png",
+      "mobile": "portfolio-assets/rbo-accounting-services-fze-mobile.png",
+      "mockup": "portfolio-assets/rbo-accounting-services-fze-mockup.jpg"
+    }
+  },
+  {
+    "name": "NW Canvas Industry",
+    "category": [
+      "Web Development",
+      "3D"
+    ],
+    "url": "https://nw-canvas.com",
+    "image": "https://image.thum.io/get/width/1200/https://nw-canvas.com",
+    "summary": "Industrial factory website in React/Next.js with scroll animations, 25 tent 3D asset library and 77 product catalogue.",
+    "assets": {
+      "desktop": "portfolio-assets/nw-canvas-industry-desktop.png",
+      "mobile": "portfolio-assets/nw-canvas-industry-mobile.png",
+      "mockup": "portfolio-assets/nw-canvas-industry-mockup.jpg"
+    }
+  },
+  {
+    "name": "ZAHH Beverages",
+    "category": [
+      "Web Development",
+      "Branding",
+      "3D"
+    ],
+    "url": "https://zahhbeverages.com",
+    "image": "https://image.thum.io/get/width/1200/https://zahhbeverages.com",
+    "summary": "Mineral water brand site, 3D bottles, multi pack renders, icons, flyers and brochures.",
+    "assets": {
+      "desktop": "portfolio-assets/zahh-beverages-desktop.png",
+      "mobile": "portfolio-assets/zahh-beverages-mobile.png",
+      "mockup": "portfolio-assets/zahh-beverages-mockup.jpg"
+    }
+  },
+  {
+    "name": "Million Dollar Funnels",
+    "category": [
+      "Web Development",
+      "Branding"
+    ],
+    "url": "https://milliondollarfunnels.us",
+    "image": "https://image.thum.io/get/width/1200/https://milliondollarfunnels.us",
+    "summary": "Dark funnel agency site with cyan and electric blue accents and logo recolour.",
+    "assets": {
+      "desktop": "portfolio-assets/million-dollar-funnels-desktop.png",
+      "mobile": "portfolio-assets/million-dollar-funnels-mobile.png",
+      "mockup": "portfolio-assets/million-dollar-funnels-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/million-dollar-funnels-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/million-dollar-funnels-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/million-dollar-funnels-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Funnel",
+      "Lead gen",
+      "High ticket"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Million Dollar Media",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://milliondollarmedia.us",
+    "image": "https://image.thum.io/get/width/1200/https://milliondollarmedia.us",
+    "summary": "Creative and social media agency site with client showcase cards.",
+    "assets": {
+      "desktop": "portfolio-assets/million-dollar-media-desktop.png",
+      "mobile": "portfolio-assets/million-dollar-media-mobile.png",
+      "mockup": "portfolio-assets/million-dollar-media-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/million-dollar-media-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/million-dollar-media-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/million-dollar-media-pdf-mockup.jpg"
+    },
+    "tags": [
+      "AI video",
+      "Creative agency",
+      "B2B"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Funnels That Print",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://funnelsthatprint.com",
+    "image": "https://image.thum.io/get/width/1200/https://funnelsthatprint.com",
+    "summary": "Funnel agency site with portfolio, case studies, testimonial videos and custom generated imagery.",
+    "assets": {
+      "desktop": "portfolio-assets/funnels-that-print-desktop.png",
+      "mobile": "portfolio-assets/funnels-that-print-mobile.png",
+      "mockup": "portfolio-assets/funnels-that-print-mockup.jpg"
+    }
+  },
+  {
+    "name": "Ustaad.ae",
+    "category": [
+      "SEO",
+      "Content"
+    ],
+    "url": "https://ustaad.ae",
+    "image": "https://image.thum.io/get/width/1200/https://ustaad.ae",
+    "summary": "Blog strategy, subject landing pages, photoreal imagery and Search Console driven SEO for a UAE tutoring marketplace.",
+    "assets": {
+      "desktop": "portfolio-assets/ustaad-ae-desktop.png",
+      "mobile": "portfolio-assets/ustaad-ae-mobile.png",
+      "mockup": "portfolio-assets/ustaad-ae-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/ustaad-ae-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/ustaad-ae-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/ustaad-ae-pdf-mockup.jpg"
+    },
+    "tags": [
+      "EdTech",
+      "UAE",
+      "Tutoring"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Top Performance",
+    "category": [
+      "E-commerce",
+      "AI"
+    ],
+    "url": "https://topperformance.qa",
+    "image": "https://image.thum.io/get/width/1200/https://topperformance.qa",
+    "summary": "Virtual try on integration for car accessories.",
+    "assets": {
+      "desktop": "portfolio-assets/top-performance-desktop.png",
+      "mobile": "portfolio-assets/top-performance-mobile.png",
+      "mockup": "portfolio-assets/top-performance-mockup.jpg"
+    }
+  },
+  {
+    "name": "productboxeswholesale.com",
+    "category": [
+      "SEO"
+    ],
+    "url": "https://productboxeswholesale.com",
+    "image": "https://image.thum.io/get/width/1200/https://productboxeswholesale.com",
+    "summary": "82 page technical SEO audit and action plan.",
+    "assets": {
+      "desktop": "portfolio-assets/productboxeswholesale-com-desktop.png",
+      "mobile": "portfolio-assets/productboxeswholesale-com-mobile.png",
+      "mockup": "portfolio-assets/productboxeswholesale-com-mockup.jpg"
+    }
+  },
+  {
+    "name": "topcustomboxes.com",
+    "category": [
+      "SEO"
+    ],
+    "url": "https://topcustomboxes.com",
+    "image": "https://image.thum.io/get/width/1200/https://topcustomboxes.com",
+    "summary": "257 page audit diagnosing content churn, duplicate H1s and cannibalization.",
+    "assets": {
+      "desktop": "portfolio-assets/topcustomboxes-com-desktop.png",
+      "mobile": "portfolio-assets/topcustomboxes-com-mobile.png",
+      "mockup": "portfolio-assets/topcustomboxes-com-mockup.jpg"
+    }
+  },
+  {
+    "name": "acutepharmacy.us",
+    "category": [
+      "SEO"
+    ],
+    "url": "https://acutepharmacy.us",
+    "image": "https://image.thum.io/get/width/1200/https://acutepharmacy.us",
+    "summary": "Ongoing SEO service engagement.",
+    "assets": {
+      "desktop": "portfolio-assets/acutepharmacy-us-desktop.png",
+      "mobile": "portfolio-assets/acutepharmacy-us-mobile.png",
+      "mockup": "portfolio-assets/acutepharmacy-us-mockup.jpg"
+    }
+  },
+  {
+    "name": "Smart-Links Cabling Solutions",
+    "category": [
+      "Web Imagery",
+      "AI"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "AI generated service card and hero imagery for all service pages."
+  },
+  {
+    "name": "InstallmentGuard",
+    "category": [
+      "Software Product",
+      "Android"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Mobile installment management with remote device lock, anti theft, child lock and distributor admin panel."
+  },
+  {
+    "name": "ZeParty",
+    "category": [
+      "Mobile App",
+      "Live Streaming"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Live social entertainment app: short video, live streaming, gifts, PK battles, party rooms, game center, animated badge system."
+  },
+  {
+    "name": "DEVSYNX Attendance and HR",
+    "category": [
+      "Internal Tool"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "QR check in, admin dashboard, self service portal, payroll and leave management. Live in use."
+  },
+  {
+    "name": "Employee Management, Security and CRM Platform",
+    "category": [
+      "Web App",
+      "Desktop App"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Admin panel, offline capable activity tracker desktop app, attendance, CRM, targets, Workspace email assignment."
+  },
+  {
+    "name": "Google Review Removal System",
+    "category": [
+      "Web App"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Bulk review processing, 5,000+ links per day, multi client, queue and reporting."
+  },
+  {
+    "name": "WhatsApp Business API System",
+    "category": [
+      "Integration"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Meta Cloud API messaging system with contacts, templates, delivery tracking and auto reply."
+  },
+  {
+    "name": "Google Workspace Security Implementation",
+    "category": [
+      "IT Security"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "13 area Workspace hardening: MFA, endpoint management, Context Aware Access, DLP, OAuth controls, offboarding, backup."
+  },
+  {
+    "name": "AI Calling Agent",
+    "category": [
+      "AI",
+      "Voice"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "AI voice agent for inbound and outbound calls."
+  },
+  {
+    "name": "AI Video Content Production",
+    "category": [
+      "Content",
+      "AI"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "UGC style reels on Higgsfield for US and DACH e-commerce brands."
+  },
+  {
+    "name": "Motion Graphic Explainer Videos",
+    "category": [
+      "Content"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "History explainers with generated imagery, parallax and kinetic captions."
+  },
+  {
+    "name": "Contractor Leads US",
+    "category": [
+      "Lead Generation and CRM"
+    ],
+    "url": "https://www.contractorleads.us/",
+    "image": "https://image.thum.io/get/width/1200/https://www.contractorleads.us/",
+    "caseStudy": "https://devsynx.com/clients/contractor-leads/",
+    "summary": "Lead acquisition platform and automated CRM for commercial and residential contractors across North America. Next.js, SMS dispatch.",
+    "assets": {
+      "desktop": "portfolio-assets/contractor-leads-us-desktop.png",
+      "mobile": "portfolio-assets/contractor-leads-us-mobile.png",
+      "mockup": "portfolio-assets/contractor-leads-us-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/contractor-leads-us-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/contractor-leads-us-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/contractor-leads-us-pdf-mockup.jpg"
+    },
+    "tags": [
+      "SaaS",
+      "Lead data",
+      "Dashboard"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Roofing Systems Co",
+    "category": [
+      "Construction and Solar"
+    ],
+    "url": "https://roofingsystems.co/",
+    "image": "https://image.thum.io/get/width/1200/https://roofingsystems.co/",
+    "caseStudy": "https://devsynx.com/clients/roofing-systems/",
+    "summary": "Digital portal for commercial roofing estimating, solar integration workflows and project management.",
+    "assets": {
+      "desktop": "portfolio-assets/roofing-systems-co-desktop.png",
+      "mobile": "portfolio-assets/roofing-systems-co-mobile.png",
+      "mockup": "portfolio-assets/roofing-systems-co-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/roofing-systems-co-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/roofing-systems-co-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/roofing-systems-co-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Landing page",
+      "Home services",
+      "CRO"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Suuvo Travel",
+    "category": [
+      "Travel and Hospitality"
+    ],
+    "url": "https://www.suuvo.com/",
+    "image": "https://image.thum.io/get/width/1200/https://www.suuvo.com/",
+    "caseStudy": "https://devsynx.com/clients/suuvo/",
+    "summary": "Travel discovery and booking engine with itinerary planning, flight search and hotel reservations. Amadeus APIs.",
+    "assets": {
+      "desktop": "portfolio-assets/suuvo-travel-desktop.png",
+      "mobile": "portfolio-assets/suuvo-travel-mobile.png",
+      "mockup": "portfolio-assets/suuvo-travel-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/suuvo-travel-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/suuvo-travel-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/suuvo-travel-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Social platform",
+      "App launch",
+      "Waitlist"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Qualified Leads X",
+    "category": [
+      "Sales Intelligence"
+    ],
+    "url": "https://www.qualifiedleadsx.com/",
+    "image": "https://image.thum.io/get/width/1200/https://www.qualifiedleadsx.com/",
+    "caseStudy": "https://devsynx.com/clients/qualified-leads-x/",
+    "summary": "B2B lead enrichment and qualification platform that scores and routes high intent prospects.",
+    "assets": {
+      "desktop": "portfolio-assets/qualified-leads-x-desktop.png",
+      "mobile": "portfolio-assets/qualified-leads-x-mobile.png",
+      "mockup": "portfolio-assets/qualified-leads-x-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/qualified-leads-x-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/qualified-leads-x-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/qualified-leads-x-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Funnel",
+      "Meta ads",
+      "Mastermind"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Seven Figure Studio",
+    "category": [
+      "Agency and Digital Marketing"
+    ],
+    "url": "https://sevenfigurestudio.us/",
+    "image": "https://image.thum.io/get/width/1200/https://sevenfigurestudio.us/",
+    "caseStudy": "https://devsynx.com/clients/seven-figure-studio/",
+    "summary": "Creative agency portal with full funnel marketing, brand strategy and Webflow/Next.js design.",
+    "assets": {
+      "desktop": "portfolio-assets/seven-figure-studio-desktop.png",
+      "mobile": "portfolio-assets/seven-figure-studio-mobile.png",
+      "mockup": "portfolio-assets/seven-figure-studio-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/seven-figure-studio-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/seven-figure-studio-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/seven-figure-studio-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Video ads",
+      "UGC",
+      "Creators"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "RA Enterprise Contractor",
+    "category": [
+      "Enterprise Contracting"
+    ],
+    "url": "https://raenterprisecontractor.my/",
+    "image": "https://image.thum.io/get/width/1200/https://raenterprisecontractor.my/",
+    "caseStudy": "https://devsynx.com/clients/ra-enterprise-contractor/",
+    "summary": "Infrastructure and commercial contractor platform with project tracking, bidding and compliance management. Malaysia.",
+    "assets": {
+      "desktop": "portfolio-assets/ra-enterprise-contractor-desktop.png",
+      "mobile": "portfolio-assets/ra-enterprise-contractor-mobile.png",
+      "mockup": "portfolio-assets/ra-enterprise-contractor-mockup.jpg"
+    }
+  },
+  {
+    "name": "Rizki Akbar Enterprise",
+    "category": [
+      "Corporate Solutions"
+    ],
+    "url": "https://www.rizkiakbarenterprise.com/",
+    "image": "https://image.thum.io/get/width/1200/https://www.rizkiakbarenterprise.com/",
+    "caseStudy": "https://devsynx.com/clients/rizki-akbar-enterprise/",
+    "summary": "Multi industry corporate portal for supply chain logistics, trade consulting and enterprise services. Indonesia and SEA.",
+    "assets": {
+      "desktop": "portfolio-assets/rizki-akbar-enterprise-desktop.png",
+      "mobile": "portfolio-assets/rizki-akbar-enterprise-mobile.png",
+      "mockup": "portfolio-assets/rizki-akbar-enterprise-mockup.jpg"
+    }
+  },
+  {
+    "name": "AG Plumbing Murah",
+    "category": [
+      "On Demand Home Services"
+    ],
+    "url": "https://agplumbingmurah.com/",
+    "image": "https://image.thum.io/get/width/1200/https://agplumbingmurah.com/",
+    "caseStudy": "https://devsynx.com/clients/ag-plumbing-murah/",
+    "summary": "Emergency plumbing booking system connecting homeowners and businesses with certified technicians.",
+    "assets": {
+      "desktop": "portfolio-assets/ag-plumbing-murah-desktop.png",
+      "mobile": "portfolio-assets/ag-plumbing-murah-mobile.png",
+      "mockup": "portfolio-assets/ag-plumbing-murah-mockup.jpg"
+    }
+  },
+  {
+    "name": "QuickDoctor Ireland",
+    "category": [
+      "Telehealth and Healthcare"
+    ],
+    "url": "https://quickdoctor.ie/",
+    "image": "https://image.thum.io/get/width/1200/https://quickdoctor.ie/",
+    "caseStudy": "https://devsynx.com/clients/quickdoctor-ie/",
+    "summary": "GDPR compliant online doctor consultation platform with digital prescriptions.",
+    "assets": {
+      "desktop": "portfolio-assets/quickdoctor-ireland-desktop.png",
+      "mobile": "portfolio-assets/quickdoctor-ireland-mobile.png",
+      "mockup": "portfolio-assets/quickdoctor-ireland-mockup.jpg"
+    }
+  },
+  {
+    "name": "BallChart Sports",
+    "category": [
+      "Sports Analytics"
+    ],
+    "url": "https://ballchart.com",
+    "image": "https://image.thum.io/get/width/1200/https://ballchart.com",
+    "caseStudy": "https://devsynx.com/clients/ballchart/",
+    "summary": "Real time sports analytics and interactive charting platform. D3.js, mobile app.",
+    "assets": {
+      "desktop": "portfolio-assets/ballchart-sports-desktop.png",
+      "mobile": "portfolio-assets/ballchart-sports-mobile.png",
+      "mockup": "portfolio-assets/ballchart-sports-mockup.jpg"
+    }
+  },
+  {
+    "name": "Saviored Learning",
+    "category": [
+      "EdTech and E-Learning"
+    ],
+    "url": "https://saviored.com",
+    "image": "https://image.thum.io/get/width/1200/https://saviored.com",
+    "caseStudy": "https://devsynx.com/clients/saviored/",
+    "summary": "Online course management with video streaming, quizzes, certifications and Stripe billing.",
+    "assets": {
+      "desktop": "portfolio-assets/saviored-learning-desktop.png",
+      "mobile": "portfolio-assets/saviored-learning-mobile.png",
+      "mockup": "portfolio-assets/saviored-learning-mockup.jpg"
+    }
+  },
+  {
+    "name": "Horizone Invest",
+    "category": [
+      "Real Estate FinTech"
+    ],
+    "url": "https://horizoneinvest.com",
+    "image": "https://image.thum.io/get/width/1200/https://horizoneinvest.com",
+    "caseStudy": "https://devsynx.com/clients/horizone-invest/",
+    "summary": "Fractional property investment portal with portfolio management, yield tracking and KYC.",
+    "assets": {
+      "desktop": "portfolio-assets/horizone-invest-desktop.png",
+      "mobile": "portfolio-assets/horizone-invest-mobile.png",
+      "mockup": "portfolio-assets/horizone-invest-mockup.jpg"
+    }
+  },
+  {
+    "name": "MDT Control Systems",
+    "category": [
+      "Industrial IoT and SCADA"
+    ],
+    "url": "https://mdtcontrol.com",
+    "image": "https://image.thum.io/get/width/1200/https://mdtcontrol.com",
+    "caseStudy": "https://devsynx.com/clients/mdt-control/",
+    "summary": "SCADA monitoring and control software for manufacturing automation, telemetry and IoT hardware. MQTT.",
+    "assets": {
+      "desktop": "portfolio-assets/mdt-control-systems-desktop.png",
+      "mobile": "portfolio-assets/mdt-control-systems-mobile.png",
+      "mockup": "portfolio-assets/mdt-control-systems-mockup.jpg"
+    }
+  },
+  {
+    "name": "RankMora SaaS",
+    "category": [
+      "SEO SaaS Platform"
+    ],
+    "url": "https://rankmora.io/",
+    "image": "https://image.thum.io/get/width/1200/https://rankmora.io/",
+    "caseStudy": "https://devsynx.com/clients/rankmora/",
+    "summary": "Automated keyword rank tracking and SEO intelligence SaaS across global markets.",
+    "assets": {
+      "desktop": "portfolio-assets/rankmora-saas-desktop.png",
+      "mobile": "portfolio-assets/rankmora-saas-mobile.png",
+      "mockup": "portfolio-assets/rankmora-saas-mockup.jpg",
+      "pdf_desktop": "portfolio-assets/rankmora-saas-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/rankmora-saas-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/rankmora-saas-pdf-mockup.jpg"
+    },
+    "tags": [
+      "SaaS",
+      "SEO tools",
+      "Subscriptions"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "The Star Mint",
+    "category": [
+      "Web3 and Digital Assets"
+    ],
+    "url": "https://thestarmint.com/",
+    "image": "https://image.thum.io/get/width/1200/https://thestarmint.com/",
+    "caseStudy": "https://devsynx.com/clients/thestarmint/",
+    "summary": "Web3 collectible marketplace with instant minting, smart contracts and secondary trading. Solidity, IPFS.",
+    "assets": {
+      "desktop": "portfolio-assets/the-star-mint-desktop.png",
+      "mobile": "portfolio-assets/the-star-mint-mobile.png",
+      "mockup": "portfolio-assets/the-star-mint-mockup.jpg"
+    }
+  },
+  {
+    "name": "Sigma Smart Tech",
+    "category": [
+      "Smart Home and IoT"
+    ],
+    "url": "https://sigmasmarttech.com/",
+    "image": "https://image.thum.io/get/width/1200/https://sigmasmarttech.com/",
+    "caseStudy": "https://devsynx.com/clients/sigma-smart-tech/",
+    "summary": "IoT mobile app and cloud dashboard for smart home control, security monitoring and energy management.",
+    "assets": {
+      "desktop": "portfolio-assets/sigma-smart-tech-desktop.png",
+      "mobile": "portfolio-assets/sigma-smart-tech-mobile.png",
+      "mockup": "portfolio-assets/sigma-smart-tech-mockup.jpg"
+    }
+  },
+  {
+    "name": "Spicify App",
+    "category": [
+      "Mobile Social App"
+    ],
+    "url": "https://www.spicifyapp.com/",
+    "image": "https://image.thum.io/get/width/1200/https://www.spicifyapp.com/",
+    "caseStudy": "https://devsynx.com/clients/spicify-app/",
+    "summary": "Cross platform culinary social app with meal planning, recipe sharing and AI recommendations. Flutter.",
+    "assets": {
+      "desktop": "portfolio-assets/spicify-app-desktop.png",
+      "mobile": "portfolio-assets/spicify-app-mobile.png",
+      "mockup": "portfolio-assets/spicify-app-mockup.jpg"
+    }
+  },
+  {
+    "name": "Egg Produce",
+    "category": [
+      "AgriTech and Logistics"
+    ],
+    "url": "https://eggproduce.com/",
+    "image": "https://image.thum.io/get/width/1200/https://eggproduce.com/",
+    "caseStudy": "https://devsynx.com/clients/egg-produce/",
+    "summary": "Agricultural B2B marketplace and cold chain logistics tracking from farms to retail.",
+    "assets": {
+      "desktop": "portfolio-assets/egg-produce-desktop.png",
+      "mobile": "portfolio-assets/egg-produce-mobile.png",
+      "mockup": "portfolio-assets/egg-produce-mockup.jpg"
+    }
+  },
+  {
+    "name": "DEVSYNX",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://devsynx.com",
+    "image": "https://image.thum.io/get/width/1200/https://devsynx.com",
+    "summary": "Our own agency site. Dark high contrast hero, live stats, 20 service pages and a project intake flow on Next.js.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/devsynx-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/devsynx-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/devsynx-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/devsynx-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Next.js",
+      "Custom software",
+      "AI"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Scale With Ads",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://scalewithads.us",
+    "image": "https://image.thum.io/get/width/1200/https://scalewithads.us",
+    "summary": "Done for you client acquisition offer. Clean white layout, bold promise headline, proof sections and a single call to action.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/scale-with-ads-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/scale-with-ads-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/scale-with-ads-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/scale-with-ads-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Funnel",
+      "Paid ads",
+      "Booking"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Vaishali Media Productions",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://www.vaishalimediaproductionsllc.com",
+    "image": "https://image.thum.io/get/width/1200/https://www.vaishalimediaproductionsllc.com",
+    "summary": "Growth systems agency led by a founder brand. Magazine style hero, service stack (leads, funnels, ads, creative) and client wins.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/vaishali-media-productions-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/vaishali-media-productions-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/vaishali-media-productions-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/vaishali-media-productions-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Growth systems",
+      "Personal brand",
+      "Funnels"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Alpha Ahead LLC",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://alphaaheadllc.com",
+    "image": "https://image.thum.io/get/width/1200/https://alphaaheadllc.com",
+    "summary": "US business strategy and digital solutions agency. Corporate layout, service grid, team section and consultation booking.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/alpha-ahead-llc-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/alpha-ahead-llc-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/alpha-ahead-llc-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/alpha-ahead-llc-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Corporate",
+      "Consulting",
+      "US"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Alpha Ahead Real Estate",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://alphaahead.estate",
+    "image": "https://image.thum.io/get/width/1200/https://alphaahead.estate",
+    "summary": "Luxury real estate brokerage in Dubai. Full screen property imagery, listing search and lead capture for buyers and investors.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/alpha-ahead-real-estate-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/alpha-ahead-real-estate-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/alpha-ahead-real-estate-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/alpha-ahead-real-estate-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Real estate",
+      "Dubai",
+      "Listings"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Zingo Assist",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://zingoassist.us",
+    "image": "https://image.thum.io/get/width/1200/https://zingoassist.us",
+    "summary": "Virtual assistant agency for US businesses. Friendly illustrated hero, service packages, trust badges and free consultation flow.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/zingo-assist-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/zingo-assist-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/zingo-assist-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/zingo-assist-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Virtual assistants",
+      "Agency",
+      "Booking"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Entiix",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://entiix.com",
+    "image": "https://image.thum.io/get/width/1200/https://entiix.com",
+    "summary": "Meta Ads monitoring and lead intelligence SaaS. Product landing with live metrics preview, pricing and sign in to dashboard.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/entiix-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/entiix-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/entiix-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/entiix-pdf-mockup.jpg"
+    },
+    "tags": [
+      "SaaS",
+      "Ad intelligence",
+      "Dashboard"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Odoo Service",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://odooservice.de",
+    "image": "https://image.thum.io/get/width/1200/https://odooservice.de",
+    "summary": "German Odoo implementation and consulting agency. Dark tech hero, service overview, references and contact in German.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/odoo-service-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/odoo-service-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/odoo-service-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/odoo-service-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Odoo",
+      "B2B",
+      "Germany"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "YGI Holiday Homes",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://ygiholidayhomes.com",
+    "image": "https://image.thum.io/get/width/1200/https://ygiholidayhomes.com",
+    "summary": "Luxury short term rentals in Dubai. Full bleed property photography, listings and direct booking enquiries.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/ygi-holiday-homes-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/ygi-holiday-homes-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/ygi-holiday-homes-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/ygi-holiday-homes-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Hospitality",
+      "Dubai",
+      "Bookings"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "AlphaMedi Assist",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://alphamediassist.com",
+    "image": "https://image.thum.io/get/width/1200/https://alphamediassist.com",
+    "summary": "Medical billing and healthcare virtual assistant services. Clear service breakdown, compliance messaging and consultation booking.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/alphamedi-assist-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/alphamedi-assist-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/alphamedi-assist-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/alphamedi-assist-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Healthcare",
+      "Medical billing",
+      "B2B"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Orvex Booths",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://orvex.devsynx.com",
+    "image": "https://image.thum.io/get/width/1200/https://orvex.devsynx.com",
+    "summary": "Luxury photo booth rental in Florida. Elegant editorial layout, packages, gallery and event booking form.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/orvex-booths-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/orvex-booths-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/orvex-booths-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/orvex-booths-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Events",
+      "Florida",
+      "Bookings"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Rebecca Minkoff",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://www.rebeccaminkoff.com",
+    "image": "https://image.thum.io/get/width/1200/https://www.rebeccaminkoff.com",
+    "summary": "Designer handbags and apparel. Seasonal campaign hero, mega menu, collection pages and text list signup.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/rebecca-minkoff-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/rebecca-minkoff-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/rebecca-minkoff-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/rebecca-minkoff-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify Plus",
+      "Fashion",
+      "US"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Purrchase AI",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://www.purrchase.ai",
+    "image": "https://image.thum.io/get/width/1200/https://www.purrchase.ai",
+    "summary": "AI try on and product animation app for Shopify merchants. App landing with demos and install flow.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/purrchase-ai-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/purrchase-ai-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/purrchase-ai-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/purrchase-ai-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify app",
+      "AI try on",
+      "SaaS"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "SUBDIV",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://subdiv3d.com",
+    "image": "https://image.thum.io/get/width/1200/https://subdiv3d.com",
+    "summary": "3D powered Shopify and custom sites for product brands. Interactive 3D hero and product visual showcase.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/subdiv-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/subdiv-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/subdiv-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/subdiv-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "3D",
+      "Product brands"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "MIZN Abayas",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://www.miznabaya.com",
+    "image": "https://image.thum.io/get/width/1200/https://www.miznabaya.com",
+    "summary": "Premium abaya brand. Soft editorial collection launches, lookbook and mobile first checkout.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/mizn-abayas-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/mizn-abayas-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/mizn-abayas-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/mizn-abayas-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Fashion",
+      "Pakistan"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Silayi Pret",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://silayipret.com",
+    "image": "https://image.thum.io/get/width/1200/https://silayipret.com",
+    "summary": "Affordable Pakistani eastern wear. Collection heavy navigation, campaign banners and clearance flows.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/silayi-pret-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/silayi-pret-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/silayi-pret-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/silayi-pret-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Eastern wear",
+      "Sale"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Luxora Women",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://luxoraa.pk",
+    "image": "https://image.thum.io/get/width/1200/https://luxoraa.pk",
+    "summary": "Women's luxury watch store. Sale hero, bundle offers, best sellers and WhatsApp ordering.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/luxora-women-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/luxora-women-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/luxora-women-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/luxora-women-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Watches",
+      "Offers"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Studio Pink Designs",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://studiopinkdesigns.com",
+    "image": "https://image.thum.io/get/width/1200/https://studiopinkdesigns.com",
+    "summary": "Prints, apparel and custom gifts. Personalization led product pages and clean pastel branding.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/studio-pink-designs-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/studio-pink-designs-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/studio-pink-designs-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/studio-pink-designs-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Prints",
+      "Custom"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Dr. Said Skin Shop",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://saidskin.com",
+    "image": "https://image.thum.io/get/width/1200/https://saidskin.com",
+    "summary": "Medical grade skincare from a dermatology practice. Regimen builder, product education and subscriptions.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/dr-said-skin-shop-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/dr-said-skin-shop-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/dr-said-skin-shop-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/dr-said-skin-shop-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Skincare",
+      "Medical"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "GamingWise",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://gamingwise.tech",
+    "image": "https://image.thum.io/get/width/1200/https://gamingwise.tech",
+    "summary": "PC components store for Morocco. Dark gaming aesthetic, configurator and French language catalog.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/gamingwise-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/gamingwise-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/gamingwise-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/gamingwise-pdf-mockup.jpg"
+    },
+    "tags": [
+      "E-commerce",
+      "PC parts",
+      "Morocco"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Doughi",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://doughi.co.uk",
+    "image": "https://image.thum.io/get/width/1200/https://doughi.co.uk",
+    "summary": "Cookie brand storefront. Flavor drops, product storytelling and one tap ordering.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/doughi-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/doughi-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/doughi-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/doughi-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "Food",
+      "UK"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Signature Design by Ashley",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://signaturedesign-by-ashley.com",
+    "image": "https://image.thum.io/get/width/1200/https://signaturedesign-by-ashley.com",
+    "summary": "Furniture collection store: sofas, beds, dining. Room based navigation and large lifestyle imagery.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/signature-design-by-ashley-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/signature-design-by-ashley-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/signature-design-by-ashley-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/signature-design-by-ashley-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Furniture",
+      "Catalog",
+      "US"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Solettos",
+    "category": [
+      "E-commerce"
+    ],
+    "url": "https://www.solettos.com",
+    "image": "https://image.thum.io/get/width/1200/https://www.solettos.com",
+    "summary": "Ball of foot cushion for heels. Single product D2C store with explainer sections and reviews.",
+    "assets": {
+      "pdf_desktop": "portfolio-assets/solettos-pdf-desktop.png",
+      "pdf_mobile": "portfolio-assets/solettos-pdf-mobile.png",
+      "pdf_mockup": "portfolio-assets/solettos-pdf-mockup.jpg",
+      "mockup": "portfolio-assets/solettos-pdf-mockup.jpg"
+    },
+    "tags": [
+      "Shopify",
+      "D2C product",
+      "Launch"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Superhuman Mail",
+    "category": [
+      "Mobile App"
+    ],
+    "url": "https://play.google.com/store/apps/details?id=com.superhuman.mail",
+    "image": "https://image.thum.io/get/width/1200/https://play.google.com/store/apps/details?id=com.superhuman.mail",
+    "summary": "Productivity email client. Fast triage, keyboard first flows and AI assisted writing.",
+    "assets": {
+      "store-listing": "portfolio-assets/superhuman-mail-store-listing.png"
+    },
+    "tags": [
+      "Android",
+      "Utilities"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Glitchy Digital Marketing",
+    "category": [
+      "Mobile App"
+    ],
+    "url": "https://apps.apple.com/pk/app/glitchy-digital-marketing/id6738339402",
+    "image": "https://image.thum.io/get/width/1200/https://apps.apple.com/pk/app/glitchy-digital-marketing/id6738339402",
+    "summary": "Marketing agency client app: offers, analytics, campaign tracking and squads in one place.",
+    "assets": {
+      "store-listing": "portfolio-assets/glitchy-digital-marketing-store-listing.png"
+    },
+    "tags": [
+      "iOS",
+      "Games"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "ProGenius Students SEO",
+    "category": [
+      "SEO"
+    ],
+    "url": "https://progeniusstudents.com",
+    "image": "https://image.thum.io/get/width/1200/https://progeniusstudents.com",
+    "summary": "SEO case study: 22.6k organic clicks, 139k impressions, 16.2% CTR, average position 7.8 in 90 days (Google Search Console). Technical cleanup, keyword mapping, rewritten titles and metas, FAQ content and schema.",
+    "assets": {
+      "case-study": "portfolio-assets/progenius-students-seo-case-study.png",
+      "desktop": "portfolio-assets/progenius-students-seo-desktop.png",
+      "mobile": "portfolio-assets/progenius-students-seo-mobile.png",
+      "mockup": "portfolio-assets/progenius-students-seo-mockup.jpg"
+    },
+    "tags": [
+      "SEO",
+      "Technical SEO",
+      "Content"
+    ],
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "UI/UX Design Portfolio (Figma)",
+    "category": [
+      "UI/UX Design"
+    ],
+    "url": "",
+    "image": "",
+    "summary": "Working Figma file with app and web screens, flows, components and prototypes across client projects. Process: research and personas, IA, low and high fidelity wireframes, interactive prototype, design system, developer handoff.",
+    "assets": {
+      "thumb": "portfolio-assets/ui-ux-figma-thumb.png"
+    },
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Fix It Bilal",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://fixitbilal.com",
+    "image": "https://image.thum.io/get/width/1200/https://fixitbilal.com",
+    "summary": "Local home repair and handyman service website.",
+    "assets": {
+      "desktop": "portfolio-assets/fix-it-bilal-desktop.png",
+      "mobile": "portfolio-assets/fix-it-bilal-mobile.png",
+      "mockup": "portfolio-assets/fix-it-bilal-mockup.jpg"
+    },
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Horizon Sole",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://horizonsole.com",
+    "image": "https://image.thum.io/get/width/1200/https://horizonsole.com",
+    "summary": "Footwear brand website.",
+    "assets": {},
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "RA Enterprise Contractor",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://raenterprise.devsynx.com",
+    "image": "https://image.thum.io/get/width/1200/https://raenterprise.devsynx.com",
+    "summary": "Enterprise contracting platform (DEVSYNX hosted demo).",
+    "assets": {},
+    "source": "PDF portfolio"
+  },
+  {
+    "name": "Rizki Akbar Enterprise",
+    "category": [
+      "Web Development"
+    ],
+    "url": "https://rizkiakbarenterprise.devsynx.com",
+    "image": "https://image.thum.io/get/width/1200/https://rizkiakbarenterprise.devsynx.com",
+    "summary": "Corporate business portal (DEVSYNX hosted demo).",
+    "assets": {},
+    "source": "PDF portfolio"
+  }
+]

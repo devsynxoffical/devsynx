@@ -54,8 +54,6 @@ export const topCountryKeywords = [
 
 export const brandVariantKeywords = [
   "devsynx",
-  "devsinc",
-  "dev sinc",
   "dev synx",
   "devsynx company",
   "devsynx agency",
@@ -140,4 +138,32 @@ export const blogIntentKeywords = [
   "ai use cases for business",
   "chatbot vs ai agent difference",
   "benefits of custom software vs off the shelf",
+];
+
+export const trendingTechKeywords2026 = [
+  "ai voice agent development company",
+  "conversational ai telephony system",
+  "autonomous outbound sales calling agent",
+  "custom saas development company",
+  "multi tenant cloud architecture",
+  "nextjs 15 full stack development agency",
+  "flutter mobile app development company",
+  "native ios swiftui app development",
+  "native android kotlin app development",
+  "iot mobile app development company",
+  "smart home hardware ble bluetooth sync",
+  "webrtc live audio video streaming app",
+  "mobile social entertainment app development",
+  "high concurrency gaming voice room app",
+  "shopify plus custom development agency",
+  "headless ecommerce development",
+  "technical seo audit & programmatic seo",
+  "faceted navigation crawl budget optimization",
+  "high roas meta ads conversion funnel",
+  "direct response vsl funnel architecture",
+  "figma design system development company",
+  "3d webgl threejs interactive website",
+  "enterprise scada telemetry software",
+  "fintech installment escrow payment system",
+  "ai medical billing and telehealth portal",
 ];

@@ -6,12 +6,27 @@ import Link from "next/link";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { FAQ } from "@/components/FAQ";
 
+import { buildBreadcrumbSchema, buildFaqSchema, buildWebPageSchema } from "@/seo/metadata";
+
 const contactFaqs = [
   { question: "What happens after I submit the contact form?", answer: "You'll receive an email confirmation within minutes. Our team reviews your inquiry and responds within 24 hours with a personalized reply and next steps." },
-  { question: "Do you offer free consultations?", answer: "Yes! We offer a free 30-minute consultation call where we discuss your project requirements, goals, and provide initial recommendations — no strings attached." },
+  { question: "Do you offer free consultations?", answer: "Yes! We offer a free 30-minute consultation call where we discuss your project requirements, goals, and provide initial recommendations with no strings attached." },
   { question: "What information should I include in my message?", answer: "The more detail you provide, the better we can assist. Include your project goals, timeline, budget range, and any specific technologies or requirements you have in mind." },
   { question: "Can we schedule a video call?", answer: "Absolutely. After the initial contact, we typically set up a video call to discuss your project in depth. We use Google Meet, Zoom, or Microsoft Teams based on your preference." },
 ];
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: "Home", path: "/" },
+  { name: "Contact", path: "/contact/" },
+]);
+
+const pageSchema = buildWebPageSchema({
+  title: "Contact Devsynx | Start Your Software & AI Project",
+  description: "Get in touch with Devsynx. Book a consultation, request a project quote, or reach out to our engineering leadership team.",
+  path: "/contact/",
+});
+
+const faqSchema = buildFaqSchema(contactFaqs);
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -36,6 +51,18 @@ export default function ContactPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Page Hero */}
       <section className="page-hero">
         <div className="page-hero__bg">

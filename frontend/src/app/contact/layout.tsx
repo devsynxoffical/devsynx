@@ -10,9 +10,9 @@ import {
 import { buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Contact Devsynx — Start Your Software Project",
+  title: "Contact DEVSYNX: Call, WhatsApp or Book a Call",
   description:
-    "Contact Devsynx for custom software development, AI systems, cloud solutions, and mobile app projects. Book a free consultation and get a response within 24 hours.",
+    "Call or WhatsApp DEVSYNX on +92 302 946 2542, email info@devsynx.com, or book a free 30 minute call. Reply within 24 hours.",
   path: "/contact/",
   keywords: [
     "contact devsynx",

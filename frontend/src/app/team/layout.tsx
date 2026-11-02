@@ -1,21 +1,13 @@
 import type { Metadata } from "next";
-import { brandVariantKeywords, coreIntentKeywords } from "@/seo/keywords";
-import { buildPageMetadata } from "@/seo/metadata";
 
-export const metadata: Metadata = buildPageMetadata({
-  title: "Our Team — Leadership & Specialists",
+export const metadata: Metadata = {
+  title: "DEVSYNX Team: Engineers and Leadership",
   description:
-    "Meet the Devsynx team — founders, engineers, and specialists delivering custom software, AI solutions, and medical billing expertise for clients worldwide.",
-  path: "/team/",
-  keywords: [
-    "devsynx team",
-    "software development team pakistan",
-    "devsynx leadership",
-    ...coreIntentKeywords.slice(0, 6),
-    ...brandVariantKeywords,
-  ],
-  ogImageAlt: "Devsynx Team",
-});
+    "Meet the DEVSYNX team in Islamabad: leadership, developers and designers who build software, apps and AI systems for clients worldwide.",
+  alternates: {
+    canonical: "https://devsynx.com/team/",
+  },
+};
 
 export default function TeamLayout({
   children,

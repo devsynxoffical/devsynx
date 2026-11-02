@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildPageMetadata({
     title: service.title,
-    description: service.longDescription.slice(0, 160),
+    description: service.description || service.longDescription.slice(0, 155),
     path: `/services/${service.slug}/`,
     keywords: [
       service.title,
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ...blogIntentKeywords.slice(0, 6),
       ...topCountryKeywords.slice(0, 8),
     ],
-    ogImageAlt: `${service.title} — Devsynx`,
+    ogImageAlt: `${service.title} | Devsynx`,
   });
 }
 

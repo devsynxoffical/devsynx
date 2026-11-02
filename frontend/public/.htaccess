@@ -1,46 +1,65 @@
-# Enable Rewrite Engine
+# Devsynx Production Apache Configuration (.htaccess)
 RewriteEngine On
 
-# Prevent Apache content-negotiation from choosing index.txt over index.html
+# 301 Permanent Redirects for Old Indexed & Consolidated URLs
+RewriteRule ^services/cloud-solutions/?$ /services/cloud-migration/ [R=301,L]
+RewriteRule ^services/business-process-automation/?$ /services/process-automation/ [R=301,L]
+RewriteRule ^solutions/software-application-development/?$ /services/custom-web-development/ [R=301,L]
+RewriteRule ^solutions/web-development-company-services/?$ /services/custom-web-development/ [R=301,L]
+RewriteRule ^solutions/ai-automation-services/?$ /services/ai-automation/ [R=301,L]
+RewriteRule ^solutions/?$ /services/ [R=301,L]
+RewriteRule ^global/singapore/web-development/?$ /services/custom-web-development/ [R=301,L]
+RewriteRule ^global/?$ /usa/ [R=301,L]
+
+# 1. Disable MultiViews to avoid conflicts with index.html files
 <IfModule mod_negotiation.c>
     Options -MultiViews
 </IfModule>
 
-# Serve directory index.html for trailing slash URLs
+# 2. Set default DirectoryIndex
 DirectoryIndex index.html
 
-# Force HTTPS
+# 3. Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Canonical domain: devsynx.com (no www)
+# 4. Canonical domain: devsynx.com (redirect www to non-www)
 RewriteCond %{HTTP_HOST} ^www\.devsynx\.com$ [NC]
 RewriteRule ^(.*)$ https://devsynx.com/$1 [L,R=301]
 
-# Redirect accidental Next internal payload URLs to clean route URLs
-RewriteRule ^(.*/)?index\.txt$ /$1 [R=301,L,NC]
+# Protect against direct browser visits to Next.js RSC index.txt files
+RewriteRule ^robots\.txt$ - [L]
+RewriteRule ^llms\.txt$ - [L]
+RewriteRule ^f9c42b8e3a1d4790b561d87a2e5c9f3b\.txt$ - [L]
+RewriteRule ^devsynx2026indexnow4c8f9b2a\.txt$ - [L]
 
-# === CRITICAL: Skip rewriting for actual files and directories ===
+RewriteCond %{HTTP:RSC} ^$
+RewriteRule ^(.*)/index\.txt$ /$1/ [R=301,L]
+
+RewriteCond %{HTTP:RSC} ^$
+RewriteRule ^index\.txt$ / [R=301,L]
+
+# 5. Serve existing static files & directories directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# Handle 404 errors
+# 6. Map clean routes (e.g. /about or /about/) to /about/index.html
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(.*)$ /$1/index.html [L]
+
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.*)$ /$1.html [L]
+
+# 7. Fallback Error Document
 ErrorDocument 404 /404.html
 
-# Enable GZIP compression for better performance
+# 8. Enable GZIP compression for all static assets
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html
-    AddOutputFilterByType DEFLATE text/css
-    AddOutputFilterByType DEFLATE text/javascript
-    AddOutputFilterByType DEFLATE application/javascript
-    AddOutputFilterByType DEFLATE application/json
-    AddOutputFilterByType DEFLATE application/xml
-    AddOutputFilterByType DEFLATE image/svg+xml
-    AddOutputFilterByType DEFLATE font/woff2
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json application/xml image/svg+xml font/woff2
 </IfModule>
 
-# Browser caching for static assets
+# 9. Browser Caching
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresByType text/css "access plus 1 year"
@@ -55,7 +74,7 @@ ErrorDocument 404 /404.html
     ExpiresByType text/html "access plus 0 seconds"
 </IfModule>
 
-# Correct MIME types (critical for _next assets)
+# 10. Correct MIME Types
 <IfModule mod_mime.c>
     AddType application/javascript .js .mjs
     AddType text/css .css
@@ -66,17 +85,10 @@ ErrorDocument 404 /404.html
     AddType image/webp .webp
 </IfModule>
 
-# Security headers
+# 11. Security Headers
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
-</IfModule>
-
-# Allow access to _next directory (some hosts block underscore-prefixed dirs)
-<IfModule mod_authz_core.c>
-    <Directory "_next">
-        Require all granted
-    </Directory>
 </IfModule>

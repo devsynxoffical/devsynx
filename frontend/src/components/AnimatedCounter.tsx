@@ -17,7 +17,7 @@ export function AnimatedCounter({
   duration = 2000,
   className = "",
 }: AnimatedCounterProps) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(end);
   const ref = useRef<HTMLSpanElement>(null);
   const hasAnimated = useRef(false);
 
@@ -29,6 +29,7 @@ export function AnimatedCounter({
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
+          setCount(0);
           const startTime = performance.now();
 
           const animate = (currentTime: number) => {

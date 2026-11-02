@@ -1,0 +1,29 @@
+{
+  "projectId": "devsynx",
+  "domain": "devsynx.com",
+  "siteUrl": "https://devsynx.com",
+  "sitemapUrl": "https://devsynx.com/sitemap.xml",
+  "indexNow": {
+    "key": "devsynx2026indexnow4c8f9b2a",
+    "keyLocation": "https://devsynx.com/devsynx2026indexnow4c8f9b2a.txt"
+  },
+  "business_overview": "Devsynx builds custom software, AI systems, automation agents, and SaaS products that drive real business growth. MVP delivered in under 30 days. Trusted by 300+ clients worldwide. Headquartered in Islamabad, Pakistan, serving clients primarily across the United States, United Kingdom, UAE, Canada, and Australia.",
+  "current_goal": "Rank top 10 for commercial-intent keywords ('custom software development company', 'ai automation services', 'saas development company', 'mvp development') across US, UK, and UAE markets. Achieve full Google and Bing search indexation for all 70 client case studies and 20 service pages.",
+  "positioning": "Fast, high-velocity engineering agency delivering production-ready MVPs in under 30 days. Enterprise architecture, AI calling/automation agents, modern tech stack (Next.js, TypeScript, Python, Cloud), transparent pricing, and 100% client code ownership.",
+  "targetCountries": ["United States", "United Kingdom", "United Arab Emirates", "Canada", "Australia", "Pakistan"],
+  "keyPages": [
+    { "url": "https://devsynx.com/", "role": "hub", "topic": "Custom Software & AI Solutions" },
+    { "url": "https://devsynx.com/services/custom-web-development/", "role": "money", "topic": "Web Development" },
+    { "url": "https://devsynx.com/services/mobile-app-development/", "role": "money", "topic": "Mobile Applications" },
+    { "url": "https://devsynx.com/services/saas-product-development/", "role": "money", "topic": "SaaS Product Development" },
+    { "url": "https://devsynx.com/solutions/ai-automation-services/", "role": "money", "topic": "AI Automation" },
+    { "url": "https://devsynx.com/usa/", "role": "money", "topic": "Software Development USA" },
+    { "url": "https://devsynx.com/clients/", "role": "hub", "topic": "Portfolio & 70+ Case Studies" },
+    { "url": "https://devsynx.com/blog/", "role": "spoke", "topic": "Insights & Guides" }
+  ],
+  "competitors": [
+    { "domain": "toptal.com", "name": "Toptal", "notes": "Competitor for elite remote software developers" },
+    { "domain": "10pearls.com", "name": "10Pearls", "notes": "Large Pakistani-founded software development company" },
+    { "domain": "devsdata.com", "name": "DevsData", "notes": "Boutique software engineering & tech advisory" }
+  ]
+}

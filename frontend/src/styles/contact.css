@@ -10,7 +10,7 @@
 
 .contact-form-wrapper {
   padding: 44px;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
@@ -82,7 +82,7 @@
 .contact-form__input:focus,
 .contact-form__textarea:focus {
   border-color: var(--color-primary);
-  background: var(--color-white);
+  background: var(--color-card-bg);
   box-shadow: 0 0 0 3px rgba(6,144,157,0.1);
 }
 
@@ -100,7 +100,7 @@
 
 .contact-info__card {
   padding: 32px;
-  background: var(--color-white);
+  background: var(--color-card-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   transition: border-color var(--duration-fast) var(--ease-out),

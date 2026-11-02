@@ -1,10 +1,43 @@
 "use client";
 
 import "@/styles/service-detail.css";
+import "@/styles/clients.css";
 import Link from "next/link";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { FAQ } from "@/components/FAQ";
+import { PortfolioCardThumbnail } from "@/components/PortfolioCardThumbnail";
+import { clientProjects } from "@/data/clients";
 import type { Service } from "@/data/services";
+
+function getServiceCaseStudies(serviceSlug: string) {
+  const map: Record<string, string[]> = {
+    "custom-web-development": ["zingo-assist", "odoo-service", "alphamedi-assist"],
+    "mobile-app-development": ["sigma-smart-tech", "spicify-app", "zeparty"],
+    "saas-product-development": ["entiix", "installmentguard", "devsynx-platform"],
+    "ui-ux-design": ["subdiv", "rebecca-minkoff", "ui-ux-design-portfolio"],
+    "ecommerce-solutions": ["purrchase-ai", "doughi", "dr-said-skin-shop"],
+    "progressive-web-apps": ["superhuman-mail", "glitchy-digital-marketing", "suuvo"],
+    "devops-cicd": ["google-workspace-security", "mdt-control", "devsynx-platform"],
+    "cloud-migration": ["smart-links-cabling", "google-workspace-security", "mdt-control"],
+    "microservices-architecture": ["devsynx-platform", "entiix", "installmentguard"],
+    "serverless-computing": ["rankmora", "ai-calling-agent", "entiix"],
+    "cloud-security-compliance": ["employee-security-crm", "google-workspace-security", "quickdoctor-ie"],
+    "ai-automation": ["ai-calling-agent", "purrchase-ai", "entiix"],
+    "voice-ai-bots": ["ai-calling-agent", "whatsapp-business-api", "contractor-leads"],
+    "process-automation": ["contractor-leads", "devsynx-attendance-hr", "employee-security-crm"],
+    "predictive-analytics": ["entiix", "rankmora", "scale-with-ads"],
+    "nlp-text-mining": ["ai-calling-agent", "google-review-removal", "superhuman-mail"],
+    "api-development-integration": ["whatsapp-business-api", "smart-links-cabling", "installmentguard"],
+    "quality-assurance-testing": ["quickdoctor-ie", "ballchart", "sigma-smart-tech"],
+    "cybersecurity-auditing": ["google-workspace-security", "employee-security-crm", "installmentguard"],
+    "legacy-system-modernization": ["odoo-service", "rbo-accounting", "nw-canvas"],
+  };
+
+  const projectIds = map[serviceSlug] || ["zingo-assist", "entiix", "odoo-service"];
+  return projectIds
+    .map((id) => clientProjects.find((p) => p.id === id))
+    .filter((p): p is (typeof clientProjects)[0] => Boolean(p));
+}
 
 interface ServicePageClientProps {
   service: Service;
@@ -216,6 +249,49 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
         </div>
       </section>
 
+      {/* Featured Production Case Studies */}
+      <section className="section" style={{ background: "var(--color-bg)", borderTop: "1px solid var(--color-border)" }}>
+        <div className="container">
+          <AnimatedSection animation="fade-up">
+            <div className="section__header" style={{ textAlign: "center", marginBottom: "40px" }}>
+              <span className="section__label">Proven Track Record</span>
+              <h2 className="section__title">
+                Featured <span className="text-gradient">Case Studies</span>
+              </h2>
+              <p className="section__subtitle">
+                Explore production systems engineered and launched by Devsynx for {service.shortTitle.toLowerCase()}.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <div className="portfolio-grid">
+            {getServiceCaseStudies(service.slug).map((project) => (
+              <div key={project.id} className="portfolio-card">
+                <PortfolioCardThumbnail project={project} />
+                <div className="portfolio-card__content">
+                  <span className="portfolio-card__category">{project.category}</span>
+                  <h3 className="portfolio-card__title">{project.clientName}</h3>
+                  <div style={{ fontSize: "0.813rem", color: "var(--color-primary)", fontWeight: 700, marginBottom: "8px" }}>
+                    {project.domain}
+                  </div>
+                  <p className="portfolio-card__desc">{project.description}</p>
+                  <div className="portfolio-card__actions" style={{ marginTop: "16px" }}>
+                    <Link href={`/clients/${project.id}/`} className="btn btn--sm btn--primary" style={{ flex: 1, textAlign: "center" }}>
+                      Deep Case Study
+                    </Link>
+                    {project.websiteUrl && (
+                      <a href={project.websiteUrl} target="_blank" rel="noopener noreferrer" className="btn btn--sm btn--secondary">
+                        Visit ↗
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Services */}
       <section className="section section--alt">
         <div className="container">
@@ -260,7 +336,12 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
         <div className="container">
           <AnimatedSection animation="zoom-in">
             <div className="cta__inner">
-              <div className="cta__badge">🚀 Get Started Today</div>
+              <div className="cta__badge" style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+                Get Started Today
+              </div>
               <h2 className="cta__title">Ready to Get Started with {service.shortTitle}?</h2>
               <p className="cta__subtitle">
                 Let&apos;s discuss how {service.shortTitle.toLowerCase()} can transform your business.

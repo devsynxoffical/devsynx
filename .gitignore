@@ -1,5 +1,11 @@
+.DS_Store
 node_modules
 # Keep environment variables out of version control
 .env
 
 /generated/prisma
+
+service_account.json
+google-indexing*.json
+!service_account.template.json
+

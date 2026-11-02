@@ -3,9 +3,9 @@ import { brandVariantKeywords, coreIntentKeywords } from "@/seo/keywords";
 import { buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Client Projects & Case Studies",
+  title: "Client Case Studies & Engineering Portfolio",
   description:
-    "Explore Devsynx client projects across healthcare, SaaS, AI automation, e-commerce, mobile apps, and cloud — delivered for businesses worldwide.",
+    "Explore 70+ verified DEVSYNX case studies across healthcare, SaaS, AI automation, e-commerce, mobile apps, and cloud delivered for global clients.",
   path: "/clients/",
   keywords: [
     "devsynx clients",
@@ -15,7 +15,7 @@ export const metadata: Metadata = buildPageMetadata({
     ...coreIntentKeywords.slice(0, 6),
     ...brandVariantKeywords,
   ],
-  ogImageAlt: "Devsynx Client Projects",
+  ogImageAlt: "DEVSYNX Client Projects",
 });
 
 export default function ClientsLayout({

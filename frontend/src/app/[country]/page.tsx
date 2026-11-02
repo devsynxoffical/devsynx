@@ -15,15 +15,6 @@ import { CtaSection } from "@/components/CtaSection";
 
 const countryLandingSlugs = [
   "usa",
-  "uk",
-  "uae",
-  "dubai",
-  "saudi-arabia",
-  "canada",
-  "australia",
-  "germany",
-  "france",
-  "singapore",
 ];
 
 type Props = {
@@ -45,15 +36,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const title = `Software Development Company in ${country.name}`;
-  const description = `Devsynx provides software development, web development, mobile apps, cloud, SaaS, and AI automation services for businesses in ${country.name}.`;
+  const title = country.slug === "usa"
+    ? "Software Development Company for US Businesses"
+    : `Software Development Company in ${country.name}`;
+  const description = country.slug === "usa"
+    ? "Offshore software, AI automation and app development for US companies. Senior engineers in Islamabad, 8 AM to 1 PM Eastern overlap, USD pricing."
+    : `DEVSYNX provides software development, web development, mobile apps, cloud, SaaS, and AI automation services for businesses in ${country.name}.`;
   const isPriority = isPriorityPath(`/${country.slug}/`);
+
+  const usaKeywords = [
+    "offshore software development company usa",
+    "software outsourcing pakistan",
+    "hire offshore developers usa",
+    "pakistan software house for us clients",
+    "us software development outsourcing",
+    "dedicated engineering squad us",
+  ];
 
   return buildPageMetadata({
     title,
     description,
     path: `/${country.slug}/`,
     keywords: [
+      ...(country.slug === "usa" ? usaKeywords : []),
       `software development company ${country.name.toLowerCase()}`,
       `web development agency ${country.name.toLowerCase()}`,
       `ai development company ${country.name.toLowerCase()}`,
@@ -109,13 +114,105 @@ export default async function CountryLandingPage({ params }: Props) {
       <PageHero
         label={country.name}
         title={
-          <>
-            Offshore software development for{" "}
-            <span className="text-gradient">{country.name}</span> businesses
-          </>
+          country.slug === "usa" ? (
+            <>
+              Offshore Software Development for{" "}
+              <span className="text-gradient">US Startups &amp; Enterprises</span>
+            </>
+          ) : (
+            <>
+              Offshore software development for{" "}
+              <span className="text-gradient">{country.name}</span> businesses
+            </>
+          )
         }
-        subtitle={content.intro}
+        subtitle={
+          country.slug === "usa"
+            ? "Senior full-stack engineering pods and AI specialists with 5+ hours daily US business hours overlap. 60% lower total cost than US onshore agencies with zero compromise on code quality."
+            : content.intro
+        }
       />
+
+      {country.slug === "usa" && (
+        <section className="section" style={{ paddingTop: "24px", paddingBottom: "24px" }}>
+          <div className="container">
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+                gap: "24px",
+                padding: "32px",
+                background: "linear-gradient(135deg, rgba(6, 144, 157, 0.08) 0%, rgba(26, 115, 232, 0.05) 100%)",
+                border: "1px solid rgba(6, 144, 157, 0.25)",
+                borderRadius: "20px",
+              }}
+            >
+              <div>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    color: "#06909D",
+                  }}
+                >
+                  US Timezone Alignment
+                </span>
+                <h3 style={{ fontSize: "1.35rem", fontWeight: 800, margin: "8px 0 12px", color: "var(--color-heading, #fff)" }}>
+                  Daily Real-Time Overlap
+                </h3>
+                <p style={{ fontSize: "0.938rem", color: "var(--color-text-secondary, #94a3b8)", lineHeight: 1.6 }}>
+                  Our engineering squads overlap with Eastern Time (EST 8:00 AM – 1:00 PM) and Pacific Time (PST) for real-time Slack messaging, daily standups, and bi-weekly sprint demos.
+                </p>
+              </div>
+
+              <div>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    color: "#06909D",
+                  }}
+                >
+                  US Client Portfolio
+                </span>
+                <h3 style={{ fontSize: "1.35rem", fontWeight: 800, margin: "8px 0 12px", color: "var(--color-heading, #fff)" }}>
+                  Verified US Production Apps
+                </h3>
+                <p style={{ fontSize: "0.938rem", color: "var(--color-text-secondary, #94a3b8)", lineHeight: 1.6 }}>
+                  Trusted by North American teams for IoT hardware apps (<Link href="/clients/sigma-smart-tech/" style={{ color: "#06909D", fontWeight: 600 }}>Sigma Smart Tech</Link>), social platforms (<Link href="/clients/spicify-app/" style={{ color: "#06909D", fontWeight: 600 }}>Spicify</Link>), and web platforms.
+                </p>
+              </div>
+
+              <div>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    color: "#06909D",
+                  }}
+                >
+                  Schedule A Discovery Sprint
+                </span>
+                <h3 style={{ fontSize: "1.35rem", fontWeight: 800, margin: "8px 0 12px", color: "var(--color-heading, #fff)" }}>
+                  Book a Consultation Call
+                </h3>
+                <p style={{ fontSize: "0.938rem", color: "var(--color-text-secondary, #94a3b8)", lineHeight: 1.6, marginBottom: "16px" }}>
+                  Speak directly with Syed Hassan Ali Shah (CEO &amp; Lead Architect) to review your architecture or evaluate an MVP sprint.
+                </p>
+                <Link href="/contact/" className="btn btn--primary" style={{ padding: "8px 16px", fontSize: "0.85rem" }}>
+                  Schedule Discovery Call →
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section section--alt">
         <div className="container">
@@ -193,10 +290,10 @@ export default async function CountryLandingPage({ params }: Props) {
 function mapServiceSlug(landingSlug: string): string {
   const map: Record<string, string> = {
     "web-development": "custom-web-development",
-    "software-development": "custom-web-development",
-    "ai-automation": "ai-machine-learning",
+    "software-development": "saas-product-development",
+    "ai-automation": "ai-automation",
     "mobile-app-development": "mobile-app-development",
-    "cloud-solutions": "cloud-solutions",
+    "cloud-solutions": "cloud-migration",
   };
   return map[landingSlug] ?? landingSlug;
 }

@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
 import { pathToAbsoluteUrl } from "./priorityPages";
 
-export const SITE_NAME = "Devsynx";
+export const SITE_NAME = "DEVSYNX";
 export const TWITTER_HANDLE = "@devsynx";
 
 export const DEFAULT_OG_IMAGE = {
   url: "/logo.png",
   width: 512,
   height: 512,
-  alt: "Devsynx — Custom Software & AI Solutions",
+  alt: "DEVSYNX | Custom Software & AI Solutions",
   type: "image/png",
 } as const;
 
 export const ORGANIZATION_SAME_AS = [
-  "https://www.linkedin.com/company/devsynx",
-  "https://twitter.com/devsynx",
-  "https://github.com/devsynx",
-  "https://wa.me/923029462542",
+  "https://www.instagram.com/devsynx.official/",
+  "https://www.linkedin.com/company/devsynx-offial/",
 ] as const;
 
 export const ORGANIZATION_AREA_SERVED = [
@@ -60,8 +58,9 @@ export function buildPageMetadata({
   includeCanonical = true,
 }: BuildPageMetadataOptions): Metadata {
   const canonical = pathToAbsoluteUrl(path);
-  const fullTitle = `${title} | ${SITE_NAME}`;
-  const imageAlt = ogImageAlt ?? `${title} — ${SITE_NAME}`;
+  const cleanTitle = title.replace(/\s*\|\s*Devsynx\s*$/i, "").trim();
+  const fullTitle = `${cleanTitle} | ${SITE_NAME}`;
+  const imageAlt = ogImageAlt ?? fullTitle;
 
   const openGraph = {
     title: fullTitle,
@@ -80,7 +79,7 @@ export function buildPageMetadata({
   } satisfies Metadata["openGraph"];
 
   return {
-    title,
+    title: cleanTitle,
     description,
     ...(keywords?.length ? { keywords } : {}),
     robots,
@@ -148,9 +147,15 @@ export function buildArticleSchema(post: {
     dateModified: post.updatedAt ?? post.publishedAt,
     image: pathToAbsoluteUrl("/logo.png"),
     author: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: pathToAbsoluteUrl("/"),
+      "@type": "Person",
+      name: "Syed Hassan Ali Shah",
+      jobTitle: "CEO & Founder",
+      url: pathToAbsoluteUrl("/about/"),
+      worksFor: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: pathToAbsoluteUrl("/"),
+      },
     },
     publisher: {
       "@type": "Organization",
@@ -225,3 +230,51 @@ export function buildProfessionalServiceSchema(page: {
     },
   };
 }
+
+export function buildCaseStudySchema(project: {
+  title: string;
+  clientName: string;
+  description: string;
+  path: string;
+  image: string;
+  websiteUrl: string;
+  category: string;
+}) {
+  const pageUrl = pathToAbsoluteUrl(project.path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${project.clientName} Case Study — ${project.title}`,
+    description: project.description,
+    mainEntityOfPage: pageUrl,
+    url: pageUrl,
+    image: pathToAbsoluteUrl(project.image),
+    author: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: pathToAbsoluteUrl("/"),
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      logo: {
+        "@type": "ImageObject",
+        url: pathToAbsoluteUrl("/logo.png"),
+      },
+    },
+    about: {
+      "@type": "SoftwareApplication",
+      name: project.clientName,
+      applicationCategory: project.category,
+      operatingSystem: "All",
+      sameAs: project.websiteUrl,
+      author: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: pathToAbsoluteUrl("/"),
+      },
+    },
+    inLanguage: "en-US",
+  };
+}
+
