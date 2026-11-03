@@ -11,6 +11,7 @@ import type { Service } from "@/data/services";
 
 function getServiceCaseStudies(serviceSlug: string) {
   const map: Record<string, string[]> = {
+    "seo-services": ["productboxeswholesale", "topcustomboxes", "rankmora"],
     "custom-web-development": ["zingo-assist", "odoo-service", "alphamedi-assist"],
     "mobile-app-development": ["sigma-smart-tech", "spicify-app", "zeparty"],
     "saas-product-development": ["entiix", "installmentguard", "devsynx-platform"],

@@ -245,7 +245,7 @@ export const Header: React.FC = () => {
                             <ul style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                               <li><Link href="/services/custom-web-development/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Web Development</Link></li>
                               <li><Link href="/services/mobile-app-development/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>App Development</Link></li>
-                              <li><Link href="/services/custom-web-development/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Custom Software</Link></li>
+                              <li><Link href="/services/seo-services/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Technical SEO Agency</Link></li>
                               <li><Link href="/services/ui-ux-design/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>UX/UI Design</Link></li>
                             </ul>
                           </div>
@@ -261,8 +261,8 @@ export const Header: React.FC = () => {
                             <h4 style={{ fontSize: "0.813rem", fontWeight: 700, color: "var(--color-primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "16px" }}>AI &amp; Automation</h4>
                             <ul style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                               <li><Link href="/services/ai-automation/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Generative AI &amp; Agents</Link></li>
-                              <li><Link href="/services/ai-automation/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Process Automation</Link></li>
-                              <li><Link href="/services/ai-automation/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Voice Calling Bots</Link></li>
+                              <li><Link href="/services/process-automation/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Process Automation &amp; RPA</Link></li>
+                              <li><Link href="/services/voice-ai-bots/" className="megamenu-item" style={{ fontSize: "0.938rem", fontWeight: 600 }}>Voice Calling Bots</Link></li>
                             </ul>
                           </div>
                           <div>

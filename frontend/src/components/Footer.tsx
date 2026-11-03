@@ -8,7 +8,17 @@ import { ORGANIZATION_SAME_AS } from "@/seo/metadata";
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
-  const topServices = services.slice(0, 6);
+  const coreServiceSlugs = [
+    "custom-web-development",
+    "ai-automation",
+    "seo-services",
+    "saas-product-development",
+    "mobile-app-development",
+    "voice-ai-bots",
+  ];
+  const topServices = coreServiceSlugs
+    .map((slug) => services.find((s) => s.slug === slug))
+    .filter((s): s is (typeof services)[0] => Boolean(s));
 
   return (
     <footer className="footer">
@@ -76,20 +86,29 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Company & Locations */}
+          {/* Global Hubs */}
           <div className="footer__section">
-            <div className="footer__title">Company &amp; Locations</div>
+            <div className="footer__title">Global Hubs</div>
+            <ul className="footer__links">
+              <li><Link href="/usa/" className="footer__link">United States</Link></li>
+              <li><Link href="/uk/" className="footer__link">United Kingdom</Link></li>
+              <li><Link href="/uae/" className="footer__link">UAE &amp; Dubai</Link></li>
+              <li><Link href="/germany/" className="footer__link">Germany</Link></li>
+              <li><Link href="/canada/" className="footer__link">Canada</Link></li>
+              <li><Link href="/australia/" className="footer__link">Australia</Link></li>
+            </ul>
+          </div>
+
+          {/* Company & Regional */}
+          <div className="footer__section">
+            <div className="footer__title">Company &amp; Regional</div>
             <ul className="footer__links">
               <li><Link href="/about/" className="footer__link">About Us</Link></li>
               <li><Link href="/team/" className="footer__link">Our Team</Link></li>
-              <li><Link href="/clients/" className="footer__link">Portfolio</Link></li>
+              <li><Link href="/clients/" className="footer__link">Portfolio (70+ Clients)</Link></li>
               <li><Link href="/software-house-islamabad/" className="footer__link">Software House Islamabad</Link></li>
-              <li><Link href="/software-house-rawalpindi/" className="footer__link">Software House Rawalpindi</Link></li>
-              <li><Link href="/web-development-islamabad/" className="footer__link">Web Dev Islamabad</Link></li>
-              <li><Link href="/seo-services-islamabad/" className="footer__link">SEO Islamabad</Link></li>
-              <li><Link href="/digital-marketing-agency-islamabad/" className="footer__link">Digital Marketing Islamabad</Link></li>
-              <li><Link href="/usa/" className="footer__link">USA</Link></li>
-              <li><Link href="/contact/" className="footer__link">Contact Us</Link></li>
+              <li><Link href="/software-house-rawalpindi/" className="footer__link">Rawalpindi Office</Link></li>
+              <li><Link href="/contact/" className="footer__link">Contact &amp; Quotes</Link></li>
             </ul>
           </div>
 

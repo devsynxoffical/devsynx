@@ -37,12 +37,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   entries.push(toSitemapEntry("/about/", 0.95, "weekly"));
   entries.push(toSitemapEntry("/contact/", 0.95, "weekly"));
   entries.push(toSitemapEntry("/blog/", 0.90, "weekly"));
-  entries.push(toSitemapEntry("/usa/", 0.90, "weekly"));
-  entries.push(toSitemapEntry("/software-house-islamabad/", 0.94, "weekly"));
-  entries.push(toSitemapEntry("/software-house-rawalpindi/", 0.94, "weekly"));
-  entries.push(toSitemapEntry("/web-development-islamabad/", 0.94, "weekly"));
-  entries.push(toSitemapEntry("/seo-services-islamabad/", 0.94, "weekly"));
-  entries.push(toSitemapEntry("/digital-marketing-agency-islamabad/", 0.94, "weekly"));
+
+  // Top-Tier International Country Hubs
+  entries.push(toSitemapEntry("/usa/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/uk/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/uae/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/germany/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/canada/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/australia/", 0.95, "weekly"));
+
+  // Regional Pakistan Hubs
+  entries.push(toSitemapEntry("/software-house-islamabad/", 0.90, "weekly"));
+  entries.push(toSitemapEntry("/software-house-rawalpindi/", 0.90, "weekly"));
+  entries.push(toSitemapEntry("/web-development-islamabad/", 0.90, "weekly"));
+  entries.push(toSitemapEntry("/seo-services-islamabad/", 0.90, "weekly"));
+  entries.push(toSitemapEntry("/digital-marketing-agency-islamabad/", 0.90, "weekly"));
 
   // 71 Client Case Study Pages (High SEO priority for client name / domain discovery)
   for (const slug of getAllClientSlugs()) {

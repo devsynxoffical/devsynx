@@ -20,7 +20,51 @@ export interface Service {
 }
 
 export const services: Service[] = [
-  // Digital Transformation (6 Services)
+  // Digital Transformation (7 Services)
+  {
+    slug: 'seo-services',
+    title: 'Technical SEO Services & Organic Growth Agency',
+    shortTitle: 'Technical SEO',
+    description: 'Enterprise technical SEO, Next.js Core Web Vitals optimization, programmatic SEO architecture, and international ranking strategies for US, UK, and global brands.',
+    longDescription: 'Devsynx is an engineering-first technical SEO agency. We bridge the gap between technical web development and organic search algorithms. From Next.js App Router metadata and dynamic JSON-LD structured schema to programmatic SEO architecture, sub-second Core Web Vitals, and data-driven content clustering, we turn search into a compounding revenue engine for businesses in the US, UK, Europe, UAE, and worldwide.',
+    icon: 'search',
+    image: '/images/services/web-dev.webp',
+    category: 'Digital Transformation',
+    gradient: 'linear-gradient(135deg, #059669 0%, #004050 100%)',
+    features: [
+      'Next.js & React Technical SEO Architecture',
+      'Sub-Second Core Web Vitals (LCP, INP, CLS) Tuning',
+      'Programmatic SEO & Dynamic Landing Page Engines',
+      'Comprehensive JSON-LD Schema & Knowledge Graph Integration',
+      'International SEO, Multi-Region Hreflang & Geo-Targeting',
+      'High-Authority Digital PR & Commercial Backlink Acquisition',
+    ],
+    benefits: [
+      'Top 3 rankings for high-intent commercial keywords',
+      '95+ Mobile & Desktop Google PageSpeed scores',
+      'Sustainable inbound organic pipeline with zero paid ad dependency',
+    ],
+    useCases: [
+      'High-growth B2B SaaS and enterprise tech platforms',
+      'High-volume E-commerce stores & packaging marketplaces',
+      'International multi-location service companies',
+      'Next.js web applications migrating from legacy stacks',
+    ],
+    faqs: [
+      {
+        question: 'How does Devsynx differ from traditional SEO agencies?',
+        answer: 'Unlike traditional agencies that only deliver slide decks, Devsynx is an engineering software house. Our senior developers write the Next.js code, optimize SSR/SSG rendering, implement schema markup directly, optimize databases, and fix server bottlenecks to dominate technical search signals.',
+      },
+      {
+        question: 'Do you specialize in Next.js and JavaScript SEO?',
+        answer: 'Yes. Next.js is our core specialization. We architect Server-Side Rendering (SSR) and Static Site Generation (SSG) pipelines with dynamic OpenGraph images, canonical URLs, automated XML sitemaps, and robots.txt rules that ensure flawless Googlebot crawling.',
+      },
+      {
+        question: 'How long does it take to see organic ranking improvements?',
+        answer: 'Technical fixes (indexing fixes, Core Web Vitals optimization, internal link restructuring) typically yield measurable ranking and impression jumps in 2 to 4 weeks, with compounding organic revenue growth establishing over 60 to 90 days.',
+      },
+    ],
+  },
   {
     slug: 'custom-web-development',
     title: 'Custom Web Development Company & React Services',

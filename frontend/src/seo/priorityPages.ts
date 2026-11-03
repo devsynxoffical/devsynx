@@ -22,12 +22,21 @@ export const priorityServiceSlugs = [
   "custom-web-development",
   "mobile-app-development",
   "saas-product-development",
+  "ai-automation",
+  "seo-services",
   "ui-ux-design",
   "devops-cicd",
 ] as const;
 
 /** Target market country landings */
-export const priorityCountrySlugs = ["usa"] as const;
+export const priorityCountrySlugs = [
+  "usa",
+  "uk",
+  "uae",
+  "germany",
+  "canada",
+  "australia",
+] as const;
 
 /** Solution intent pages */
 export const prioritySolutionSlugs = [
@@ -68,7 +77,13 @@ export const priorityPageLinks: PriorityLink[] = [
   { href: "/services/ai-automation/", label: "AI Automation Services" },
   { href: "/services/ui-ux-design/", label: "UI/UX Design" },
   { href: "/services/devops-cicd/", label: "DevOps & CI/CD" },
+  { href: "/services/seo-services/", label: "Technical SEO Services" },
   { href: "/usa/", label: "Software Development USA" },
+  { href: "/uk/", label: "Software Development UK" },
+  { href: "/uae/", label: "Software & AI UAE" },
+  { href: "/germany/", label: "Software Development Germany" },
+  { href: "/canada/", label: "Software Development Canada" },
+  { href: "/australia/", label: "Software Development Australia" },
   { href: "/software-house-islamabad/", label: "Software House Islamabad" },
   { href: "/software-house-rawalpindi/", label: "Software House Rawalpindi" },
   { href: "/web-development-islamabad/", label: "Web Development Islamabad" },

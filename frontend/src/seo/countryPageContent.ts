@@ -44,6 +44,33 @@ const contentBySlug: Record<string, CountryContent> = {
       "Engagements include WhatsApp-ready support flows, performance-optimized Next.js sites, and integrations with HubSpot, Zoho, and custom ERPs.",
     industries: ["E-commerce", "Travel", "FMCG", "Proptech", "B2B Services"],
   },
+  germany: {
+    intro:
+      "German enterprises, Mittelstand companies, and startups partner with Devsynx for high-precision software engineering, scalable web platforms, and autonomous AI automation.",
+    whyOffshore:
+      "Engineering leaders in Berlin, Munich, Frankfurt, and Hamburg leverage our senior engineering pods for rigorous clean-code standards, 4+ hours CET business overlap, and strict GDPR compliance.",
+    delivery:
+      "We run structured bi-weekly sprints, comprehensive automated test suites (CI/CD), clear technical documentation, and production deployments on AWS Europe or GCP Frankfurt.",
+    industries: ["Fintech & Banking", "Automotive & Logistics", "Industrial B2B", "Healthcare & MedTech", "Enterprise SaaS"],
+  },
+  canada: {
+    intro:
+      "Canadian startups, scale-ups, and enterprises partner with Devsynx for dedicated full-stack development, mobile apps, and AI workflow automation at 60% lower cost than domestic agencies.",
+    whyOffshore:
+      "Founders and engineering leaders across Toronto, Vancouver, Montreal, and Calgary work seamlessly with our Islamabad hub with 100% Eastern and Pacific daytime overlap.",
+    delivery:
+      "We provide dedicated sprint pods, transparent Jira/Slack communication, fixed-cost MVP milestones, and SOC2-ready cloud delivery on AWS Canada Central.",
+    industries: ["Fintech", "HealthTech", "CleanTech & Energy", "E-commerce & Retail", "B2B SaaS"],
+  },
+  australia: {
+    intro:
+      "Australian businesses trust Devsynx for high-speed software development, custom web applications, and autonomous AI automation with rapid sprint turnarounds.",
+    whyOffshore:
+      "Teams across Sydney, Melbourne, Brisbane, and Perth benefit from our timezone advantage—tasks discussed during your afternoon are developed, tested, and staged for review overnight.",
+    delivery:
+      "Our Australian clients enjoy dedicated Slack communication, weekly video reviews, fixed-price discovery sprints, and cloud architectures optimized for Australian users.",
+    industries: ["Mining & Logistics", "Fintech & Wealth", "Real Estate & PropTech", "E-Commerce", "Health & Wellness"],
+  },
 };
 
 const defaultContent = (country: CountryTarget): CountryContent => ({
