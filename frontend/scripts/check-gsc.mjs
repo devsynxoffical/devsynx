@@ -72,7 +72,7 @@ async function main() {
   console.log("Sites in GSC:", JSON.stringify(sitesData, null, 2));
 
   // 2. If sites exist, inspect URLs
-  const siteUrl = sitesData.siteEntry && sitesData.siteEntry.length > 0 ? sitesData.siteEntry[0].siteUrl : "https://devsynx.com/";
+  const siteUrl = "https://devsynx.com/";
   console.log(`\n🔍 Inspecting URLs for site: ${siteUrl}`);
 
   // Test inspecting a few key URLs

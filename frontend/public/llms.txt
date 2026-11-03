@@ -1,44 +1,55 @@
 # DEVSYNX
 
-> DEVSYNX Private Limited is a software development company in Islamabad, Pakistan. It builds custom software, AI automation and AI agents, web and mobile apps, SaaS products and Shopify stores, and provides SEO and digital marketing, for clients in Pakistan, the United States, the United Kingdom, Canada, Australia and the UAE.
+> DEVSYNX Private Limited is a premier software development, AI automation, and technical SEO engineering company. It builds custom software, autonomous AI agents, high-performance Next.js web applications, mobile apps, and multi-tenant SaaS products for clients across the United States, United Kingdom, United Arab Emirates, Germany, Canada, Australia, and Pakistan.
 
-Contact: info@devsynx.com, phone and WhatsApp +92 302 946 2542. Address: Islamabad, Pakistan. Founder and CEO: Syed Hassan Ali Shah. Clients served: 300+.
+Contact: info@devsynx.com, phone and WhatsApp +92 302 946 2542. Primary engineering hub: Islamabad, Pakistan. Founder and CEO: Syed Hassan Ali Shah. Clients served: 300+.
 
-## Company
-- [About DEVSYNX](https://devsynx.com/about/): company facts, leadership, mission
-- [Team](https://devsynx.com/team/): founders and engineers
-- [Contact](https://devsynx.com/contact/): email, phone, WhatsApp, office
+## Global Hubs & Target Markets
+- [United States Software Development](https://devsynx.com/usa/): dedicated squads with 5+ hours daily EST/PST overlap and USD pricing
+- [United Kingdom Software Development](https://devsynx.com/uk/): GDPR-compliant bespoke web, mobile & AI development for London & UK teams
+- [UAE & Dubai Software Development](https://devsynx.com/uae/): bilingual Arabic/English web apps, mobile solutions & AI for Dubai & Abu Dhabi
+- [Germany Software Development](https://devsynx.com/germany/): high-precision software engineering, clean code & AI automation with CET overlap
+- [Canada Software Development](https://devsynx.com/canada/): dedicated engineering pods for Toronto, Vancouver & Montreal tech companies
+- [Australia Software Development](https://devsynx.com/australia/): overnight engineering velocity and custom software for Sydney & Melbourne
 
-## Services
-- [AI automation agency](https://devsynx.com/services/ai-automation/): engineered business process automation with LLMs, n8n and custom code
-- [AI agent development](https://devsynx.com/services/voice-ai-bots/): custom voice, chat and workflow agents
-- [Web development](https://devsynx.com/services/custom-web-development/): Next.js and React websites and web apps
-- [Mobile app development](https://devsynx.com/services/mobile-app-development/): iOS and Android apps in Flutter and React Native
-- [SaaS development](https://devsynx.com/services/saas-product-development/): multi-tenant SaaS from MVP to scale
-- [Shopify development](https://devsynx.com/services/ecommerce-solutions/): custom themes, apps and headless stores
-- [All services](https://devsynx.com/services/)
-
-## Locations and markets
+## Regional Pakistan Hubs
 - [Software house in Islamabad](https://devsynx.com/software-house-islamabad/)
 - [Software house in Rawalpindi](https://devsynx.com/software-house-rawalpindi/)
 - [Web development in Islamabad](https://devsynx.com/web-development-islamabad/)
 - [SEO services in Islamabad](https://devsynx.com/seo-services-islamabad/)
 - [Digital marketing agency in Islamabad](https://devsynx.com/digital-marketing-agency-islamabad/)
-- [United States](https://devsynx.com/usa/)
 
-## Case studies
-- [All client projects](https://devsynx.com/clients/): 70+ case studies by industry and country
-- [DEVSYNX AI voice agent](https://devsynx.com/clients/ai-calling-agent/)
-- [WhatsApp Business API platform](https://devsynx.com/clients/whatsapp-business-api/)
-- [Contractor Leads US](https://devsynx.com/clients/contractor-leads/)
-- [Doughi Cookies UK](https://devsynx.com/clients/doughi/)
-- [DEVSYNX HRMS](https://devsynx.com/clients/devsynx-attendance-hr/)
+## Core Services
+- [Technical SEO Agency](https://devsynx.com/services/seo-services/): enterprise technical SEO, Next.js Core Web Vitals, programmatic SEO & international growth
+- [Custom Web Development](https://devsynx.com/services/custom-web-development/): Next.js and React high-performance websites and web applications
+- [AI Automation Agency](https://devsynx.com/services/ai-automation/): autonomous LLM agent workflows, RAG pipelines and business process automation
+- [Voice AI Bots & Calling Agents](https://devsynx.com/services/voice-ai-bots/): sub-second latency conversational AI phone agents for lead qualification and booking
+- [SaaS Product Development](https://devsynx.com/services/saas-product-development/): multi-tenant cloud architecture, Stripe billing and MVP engineering
+- [Mobile App Development](https://devsynx.com/services/mobile-app-development/): native and cross-platform iOS and Android apps in Flutter and React Native
+- [Robotic Process Automation (RPA)](https://devsynx.com/services/process-automation/): invoice extraction, data entry bots, and multi-system webhooks
+- [DevOps & Cloud Migration](https://devsynx.com/services/devops-cicd/): AWS, GCP and Azure infrastructure automation and CI/CD pipelines
+- [All 20 Services](https://devsynx.com/services/)
 
-## Guides
-- [Software development cost](https://devsynx.com/blog/how-much-does-software-development-cost/)
-- [Build an MVP in 30 Days](https://devsynx.com/blog/how-to-build-an-mvp-in-30-days/)
-- [Why outsource software development to Pakistan](https://devsynx.com/blog/why-outsource-software-development-to-pakistan/)
+## Featured Case Studies
+- [All client projects](https://devsynx.com/clients/): 70+ production case studies by industry and geography
+- [Sigma Smart Tech US](https://devsynx.com/clients/sigma-smart-tech/): IoT hardware app and cloud connectivity
+- [Spicify App US](https://devsynx.com/clients/spicify-app/): high-engagement mobile dating platform
+- [Contractor Leads US](https://devsynx.com/clients/contractor-leads/): nationwide lead acquisition and SMS dispatch engine
+- [QuickDoctor UK & Ireland](https://devsynx.com/clients/quickdoctor-ie/): GDPR-compliant telehealth consultation system
+- [RBO Accounting FZE UAE](https://devsynx.com/clients/rbo-accounting/): FTA-approved corporate tax & accounting platform
+- [Product Boxes Wholesale](https://devsynx.com/clients/productboxeswholesale/): enterprise packaging marketplace with technical SEO architecture
+- [DEVSYNX AI Voice Agent](https://devsynx.com/clients/ai-calling-agent/): sub-500ms voice synthesis and automated CRM qualification
+- [WhatsApp Business API Platform](https://devsynx.com/clients/whatsapp-business-api/): omni-channel customer support and automated messaging
 
-## Optional
-- [Blog](https://devsynx.com/blog/)
-- [Portfolio](https://devsynx.com/portfolio/)
+## Authority Guides & Engineering Articles
+- [Software Development Cost in 2026](https://devsynx.com/blog/how-much-does-software-development-cost/): pricing breakdown by tech stack and region
+- [Build an MVP in 30 Days](https://devsynx.com/blog/how-to-build-an-mvp-in-30-days/): fast-track product engineering playbook
+- [Next.js SEO Optimization Guide](https://devsynx.com/blog/nextjs-seo-optimization-guide/): App Router metadata and Core Web Vitals guide
+- [Why Outsource Software Development to Pakistan](https://devsynx.com/blog/why-outsource-software-development-to-pakistan/): talent density and cost advantage
+- [Cloud Migration Checklist](https://devsynx.com/blog/cloud-migration-checklist/): step-by-step enterprise cloud transition guide
+
+## Company
+- [About DEVSYNX](https://devsynx.com/about/): leadership, company overview and engineering culture
+- [Team](https://devsynx.com/team/): architects, engineers and mobile developers
+- [Portfolio](https://devsynx.com/portfolio/): showcase across web, mobile, SaaS, and SEO
+- [Contact](https://devsynx.com/contact/): discovery calls, project quotes and office locations

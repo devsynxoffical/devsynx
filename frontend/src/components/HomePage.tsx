@@ -266,7 +266,7 @@ export default function HomePage() {
                       Custom AI agents, voice calling bots, and automated LLM pipelines that cut operational overhead and accelerate business growth.
                     </p>
                   </div>
-                  <Link href="/solutions/ai-automation-services/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#FDBD02', fontWeight: 600, fontSize: '0.938rem' }}>
+                  <Link href="/services/ai-automation/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#FDBD02', fontWeight: 600, fontSize: '0.938rem' }}>
                     Explore AI Systems
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </Link>
@@ -294,7 +294,17 @@ export default function HomePage() {
             </div>
           </AnimatedSection>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', marginTop: '40px' }}>
-            {services.slice(0, 6).map((service, index) => (
+            {[
+              "custom-web-development",
+              "ai-automation",
+              "seo-services",
+              "saas-product-development",
+              "mobile-app-development",
+              "voice-ai-bots",
+            ]
+              .map((slug) => services.find((s) => s.slug === slug))
+              .filter((s): s is (typeof services)[0] => Boolean(s))
+              .map((service, index) => (
               <AnimatedSection key={service.slug} animation="fade-up" delay={index * 80}>
                 <Link href={`/services/${service.slug}/`} className="service-img-card" style={{ position: 'relative', height: '300px', borderRadius: '20px', overflow: 'hidden', display: 'block', textDecoration: 'none', border: '1px solid rgba(255,255,255,0.12)', boxShadow: '0 12px 32px rgba(0,0,0,0.3)', transition: 'all 0.3s ease' }}>
                   <Image src={service.image} alt={service.title} fill style={{ objectFit: 'cover', filter: 'brightness(0.75)' }} />
