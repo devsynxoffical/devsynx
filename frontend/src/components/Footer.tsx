@@ -96,6 +96,24 @@ export const Footer: React.FC = () => {
               <li><Link href="/germany/" className="footer__link">Germany</Link></li>
               <li><Link href="/canada/" className="footer__link">Canada</Link></li>
               <li><Link href="/australia/" className="footer__link">Australia</Link></li>
+              <li><Link href="/software-development-company-dubai/" className="footer__link">Dubai</Link></li>
+              <li><Link href="/software-development-company-riyadh/" className="footer__link">Saudi Arabia</Link></li>
+              <li><Link href="/software-development-company-london/" className="footer__link">London</Link></li>
+              <li><Link href="/software-development-company-new-york/" className="footer__link">New York</Link></li>
+            </ul>
+          </div>
+
+          <div className="footer__section">
+            <div className="footer__title">Pakistan</div>
+            <ul className="footer__links">
+              <li><Link href="/software-house-pakistan/" className="footer__link">Software House Pakistan</Link></li>
+              <li><Link href="/software-house-lahore/" className="footer__link">Software House Lahore</Link></li>
+              <li><Link href="/software-house-karachi/" className="footer__link">Software House Karachi</Link></li>
+              <li><Link href="/software-house-faisalabad/" className="footer__link">Software House Faisalabad</Link></li>
+              <li><Link href="/software-house-multan/" className="footer__link">Software House Multan</Link></li>
+              <li><Link href="/software-house-peshawar/" className="footer__link">Software House Peshawar</Link></li>
+              <li><Link href="/seo-services-pakistan/" className="footer__link">SEO Services Pakistan</Link></li>
+              <li><Link href="/app-development-company-pakistan/" className="footer__link">App Development Pakistan</Link></li>
             </ul>
           </div>
 
