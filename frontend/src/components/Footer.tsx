@@ -98,6 +98,9 @@ export const Footer: React.FC = () => {
               <li><Link href="/australia/" className="footer__link">Australia</Link></li>
               <li><Link href="/software-development-company-dubai/" className="footer__link">Dubai</Link></li>
               <li><Link href="/software-development-company-riyadh/" className="footer__link">Saudi Arabia</Link></li>
+              <li><Link href="/software-development-company-doha/" className="footer__link">Qatar</Link></li>
+              <li><Link href="/software-development-company-sydney/" className="footer__link">Sydney</Link></li>
+              <li><Link href="/software-development-company-toronto/" className="footer__link">Toronto</Link></li>
               <li><Link href="/software-development-company-london/" className="footer__link">London</Link></li>
               <li><Link href="/software-development-company-new-york/" className="footer__link">New York</Link></li>
             </ul>
