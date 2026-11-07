@@ -1,3 +1,5 @@
+import { blogEnhancements } from "./blogEnhancements";
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -9,9 +11,11 @@ export type BlogPost = {
   ctaText: string;
   publishedAt: string;
   updatedAt?: string;
+  takeaways?: string[];
+  faqs?: { question: string; answer: string }[];
 };
 
-export const blogPosts: BlogPost[] = [
+const baseBlogPosts: BlogPost[] = [
   {
     slug: "how-to-build-an-mvp-in-30-days",
     title: "How to Build an MVP in 30 Days (2026 Founder Guide)",
@@ -439,6 +443,20 @@ export const blogPosts: BlogPost[] = [
     updatedAt: "2026-10-25",
   },
 ];
+
+/** Merge post-specific takeaways, FAQs and rewritten bodies (seo/blogEnhancements.ts). */
+export const blogPosts: BlogPost[] = baseBlogPosts.map((post) => {
+  const e = blogEnhancements[post.slug];
+  if (!e) return post;
+  const base = e.rewrite ? { ...post, ...e.rewrite, keywords: e.rewrite.keywords ?? post.keywords } : post;
+  return {
+    ...base,
+    sections: [...base.sections, ...(e.extraSections ?? [])],
+    takeaways: e.takeaways,
+    faqs: e.faqs,
+    updatedAt: e.updatedAt ?? post.updatedAt,
+  };
+});
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find((post) => post.slug === slug);

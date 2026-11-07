@@ -100,6 +100,27 @@ export function LocalLandingPage({ page }: { page: LocalPage }) {
         </div>
       </section>
 
+      {/* Local highlights (page-specific) */}
+      {page.highlights ? (
+        <section className="city-section city-section--alt">
+          <div className="container">
+            <div className="city-section__header">
+              <span className="city-section__tag">{page.highlights.tag}</span>
+              <h2 className="city-section__title">{page.highlights.title}</h2>
+            </div>
+            <div className="city-grid">
+              {page.highlights.cards.map((c) => (
+                <div className="city-card" key={c.title}>
+                  <div className="city-card__icon">{c.icon}</div>
+                  <h3 className="city-card__title">{c.title}</h3>
+                  <p className="city-card__text">{c.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* Services */}
       <section className="city-section city-section--alt">
         <div className="container">

@@ -26,7 +26,8 @@ export default function SoftwareHouseIslamabadPage() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "@id": "https://devsynx.com/#organization",
+    "@id": "https://devsynx.com/#islamabad-office",
+    parentOrganization: { "@id": "https://devsynx.com/#organization" },
     name: "DEVSYNX Private Limited",
     url: "https://devsynx.com/software-house-islamabad/",
     logo: "https://devsynx.com/icon.png",

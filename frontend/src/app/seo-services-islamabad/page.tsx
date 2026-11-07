@@ -29,13 +29,7 @@ export default function SeoServicesIslamabadPage() {
     serviceType: "Search Engine Optimization",
     name: "DEVSYNX - SEO Services in Islamabad",
     description: "Local SEO, Google Maps 3-pack rankings, technical SEO, and link building for businesses in Islamabad and Rawalpindi.",
-    provider: {
-      "@type": "ProfessionalService",
-      "@id": "https://devsynx.com/#organization",
-      name: "DEVSYNX Private Limited",
-      telephone: "+923029462542",
-      email: "info@devsynx.com",
-    },
+    provider: { "@id": "https://devsynx.com/#organization" },
     areaServed: [
       { "@type": "City", name: "Islamabad" },
       { "@type": "City", name: "Rawalpindi" },

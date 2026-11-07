@@ -7,6 +7,13 @@ import { localPages } from "@/seo/localPages";
 
 export const dynamic = "force-static";
 
+/**
+ * Date of the last meaningful site-wide content change. Update it when page
+ * content actually changes; do not use the build time, because a lastmod that
+ * changes on every deploy teaches search engines to ignore it.
+ */
+const SITE_CONTENT_UPDATED = "2026-11-07";
+
 function toSitemapEntry(
   path: string,
   priority: number,
@@ -15,7 +22,7 @@ function toSitemapEntry(
 ): MetadataRoute.Sitemap[0] {
   return {
     url: pathToAbsoluteUrl(path),
-    lastModified: lastModified ? new Date(lastModified) : new Date(),
+    lastModified: new Date(lastModified ?? SITE_CONTENT_UPDATED),
     changeFrequency,
     priority,
   };

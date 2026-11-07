@@ -29,13 +29,7 @@ export default function SoftwareHouseRawalpindiPage() {
     serviceType: "Software Development",
     name: "DEVSYNX - Software House Serving Rawalpindi",
     description: "Custom software, mobile apps, web development, ERP, and POS systems for businesses in Rawalpindi.",
-    provider: {
-      "@type": "ProfessionalService",
-      "@id": "https://devsynx.com/#organization",
-      name: "DEVSYNX Private Limited",
-      telephone: "+923029462542",
-      email: "info@devsynx.com",
-    },
+    provider: { "@id": "https://devsynx.com/#organization" },
     areaServed: {
       "@type": "City",
       name: "Rawalpindi",

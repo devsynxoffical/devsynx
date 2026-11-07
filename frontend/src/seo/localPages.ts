@@ -5,6 +5,8 @@
  * Nov 2026 OpenSEO research in /seo-research (keyword-volumes-2026-11.csv).
  */
 
+import { localPageOverrides } from "./localPageOverrides";
+
 export type LocalPage = {
   slug: string;
   path: string;
@@ -29,6 +31,7 @@ export type LocalPage = {
   introTag: string;
   introTitle: string;
   intro: string[];
+  highlights?: { tag: string; title: string; cards: { icon: string; title: string; text: string }[] };
   servicesTitle: string;
   services: { icon: string; title: string; text: string; href?: string; linkLabel?: string }[];
   caseStudiesTitle: string;
@@ -179,7 +182,7 @@ function softwareHousePage(c: PkCity): LocalPage {
     group: "pakistan",
     navLabel: `Software House ${c.name}`,
     metaTitle: `Software House in ${c.name}`,
-    metaDescription: `Software house serving ${c.name}: custom web apps, mobile apps, ERP and AI automation with fixed PKR pricing and 100% code ownership. WhatsApp for a quote in 48 hours.`,
+    metaDescription: `Software house serving ${c.name}: custom web apps, mobile apps, ERP and AI automation with fixed PKR pricing and full code ownership. Quote in 48 hours.`,
     keywords: c.keywords,
     serviceName: "Software Development",
     placeLabel: c.name,
@@ -200,7 +203,7 @@ function softwareHousePage(c: PkCity): LocalPage {
     stats: PK_STATS,
     introTag: `Why ${c.name} Businesses Work With Us`,
     introTitle: `Building Software for ${c.name}'s Businesses`,
-    intro: [c.economy, c.extra, `We are open about how we work: DEVSYNX's office is in Islamabad, and we deliver ${c.name} projects remotely in two-week sprints. You get a demo build every sprint, a shared WhatsApp group with your engineers, and milestone payments only after you have tested the work.`],
+    intro: [c.economy, c.extra],
     servicesTitle: `Software Development Services in ${c.name}`,
     services: softwareServices(c.name, c.links),
     caseStudiesTitle: "Software We Have Shipped for Pakistani Brands",
@@ -296,7 +299,7 @@ function seoCityPage(city: string, key: string, areas: string[], context: string
     group: "pakistan",
     navLabel: `SEO Services ${city}`,
     metaTitle: `SEO Services in ${city} | SEO Company & Expert`,
-    metaDescription: `SEO services in ${city}: technical SEO, Google Maps ranking, content and link building run by developers. Packages from PKR 45,000/month with monthly ranking reports.`,
+    metaDescription: `SEO services in ${city}: technical SEO, Google Maps ranking, content and link building run by developers. From PKR 45,000/month with monthly reports.`,
     keywords,
     serviceName: "SEO Services",
     placeLabel: city,
@@ -325,7 +328,6 @@ function seoCityPage(city: string, key: string, areas: string[], context: string
     intro: [
       context,
       "Our process starts with keyword research using real Google search volumes, then a page-by-page keyword map, then technical fixes. Only after that do we write content and build links. Every month you get a report showing rankings, Google Search Console clicks and leads, not vanity metrics.",
-      "We practise what we sell: devsynx.com publishes 70+ indexed case studies and city pages built on the same structured-data and internal-linking system we use for clients.",
     ],
     servicesTitle: `SEO Services We Offer in ${city}`,
     services: seoServices(city),
@@ -363,7 +365,7 @@ function dmCityPage(city: string, key: string, areas: string[], context: string,
     group: "pakistan",
     navLabel: `Digital Marketing Agency ${city}`,
     metaTitle: `Digital Marketing Agency in ${city}`,
-    metaDescription: `Digital marketing agency in ${city}: Meta, Google and TikTok ads with server-side tracking, SEO and landing pages built by developers. Retainers from PKR 50,000/month.`,
+    metaDescription: `Digital marketing agency in ${city}: Meta, Google and TikTok ads with server-side tracking, SEO and landing pages. Retainers from PKR 50,000/month.`,
     keywords,
     serviceName: "Digital Marketing",
     placeLabel: city,
@@ -493,7 +495,7 @@ const softwareHousePakistan: LocalPage = {
   path: "/software-house-pakistan/",
   group: "pakistan",
   navLabel: "Software House Pakistan",
-  metaTitle: "Software House in Pakistan | Software Development Company",
+  metaTitle: "Software House in Pakistan",
   metaDescription: "DEVSYNX is a software house in Pakistan building web apps, mobile apps, ERP and AI automation for Pakistani and international clients. 70+ public case studies.",
   keywords: ["software house in pakistan", "software house pakistan", "software development company in pakistan", "software company in pakistan", "best software house in pakistan", "top software companies in pakistan"],
   serviceName: "Software Development",
@@ -699,7 +701,7 @@ function intlPage(c: IntlConfig): LocalPage {
     group: "international",
     navLabel: `${s.nav} ${c.city}`,
     metaTitle: `${s.h1} ${c.city}`,
-    metaDescription: `${s.name} for ${c.city} businesses: senior engineers, fixed ${c.currency} pricing, 100% code ownership and MVPs in about 30 days. See live case studies and get a proposal in 48 hours.`,
+    metaDescription: `${s.name} for ${c.city} businesses: senior engineers, fixed ${c.currency} pricing and full code ownership. See case studies; get a proposal in 48 hours.`,
     keywords: c.keywords,
     serviceName: s.name,
     placeLabel: c.city,
@@ -707,7 +709,7 @@ function intlPage(c: IntlConfig): LocalPage {
     areaServed: [c.city, c.country],
     breadcrumbs: [
       { name: "Home", path: "/" },
-      { name: c.country, path: c.countryHub },
+      ...(c.countryHub ? [{ name: c.country, path: c.countryHub }] : []),
       { name: `${s.nav} ${c.city}`, path },
     ],
     badge: `Serving ${c.city} · ${c.country}`,
@@ -832,7 +834,7 @@ const intlPages: LocalPage[] = [
     service: "software",
     city: "Riyadh",
     country: "Saudi Arabia",
-    countryHub: "/global/saudi-arabia/software-development/",
+    countryHub: "",
     currency: "SAR or USD",
     areas: ["Riyadh", "Jeddah", "Dammam", "Khobar", "Mecca", "Medina", "King Abdullah Financial District", "Olaya"],
     caseStudyIds: ["mizn-abayas", "top-performance", "horizone-invest", "zeparty", "ai-calling-agent", "whatsapp-business-api"],
@@ -1064,7 +1066,7 @@ const intlPages: LocalPage[] = [
     service: "software",
     city: "Doha",
     country: "Qatar",
-    countryHub: "/global/qatar/software-development/",
+    countryHub: "",
     currency: "QAR or USD",
     areas: ["West Bay", "Lusail", "The Pearl", "Msheireb", "Al Sadd", "Al Waab", "Education City", "Al Wakrah", "Al Rayyan", "Industrial Area"],
     caseStudyIds: ["top-performance", "mizn-abayas", "horizone-invest", "rbo-accounting", "zeparty", "whatsapp-business-api"],
@@ -1093,7 +1095,7 @@ const intlPages: LocalPage[] = [
     service: "app",
     city: "Doha",
     country: "Qatar",
-    countryHub: "/global/qatar/mobile-app-development/",
+    countryHub: "",
     currency: "QAR or USD",
     areas: ["West Bay", "Lusail", "The Pearl", "Msheireb", "Al Sadd", "Al Waab", "Education City", "Al Wakrah", "Al Rayyan", "Al Khor"],
     caseStudyIds: ["zeparty", "top-performance", "mizn-abayas", "ustaad-ae", "ygi-holiday-homes", "spicify-app"],
@@ -1153,8 +1155,8 @@ const globalPages: LocalPage[] = [
     slug: "hire-dedicated-developers",
     path: "/hire-dedicated-developers/",
     navLabel: "Hire Dedicated Developers",
-    metaTitle: "Hire Dedicated Developers | Remote App & Web Developers",
-    metaDescription: "Hire dedicated developers from DEVSYNX: senior React, Next.js, Node.js, Flutter, Python and AI engineers who join your team full-time at a flat monthly rate. Start in 5 days.",
+    metaTitle: "Hire Dedicated Developers: App, Web & AI Engineers",
+    metaDescription: "Hire dedicated React, Next.js, Node.js, Flutter, Python and AI developers who join your team full-time at a flat monthly rate. Start within 5 business days.",
     keywords: ["hire dedicated developers", "hire app developers", "hire web developers", "hire remote developers", "dedicated development team", "hire flutter developers", "hire react developers"],
     serviceName: "Dedicated Developers",
     badge: "Senior engineers · Start in 5 business days",
@@ -1208,7 +1210,7 @@ const globalPages: LocalPage[] = [
     path: "/custom-software-development-company/",
     navLabel: "Custom Software Development",
     metaTitle: "Custom Software Development Company",
-    metaDescription: "Custom software development company building SaaS platforms, portals, CRMs, ERPs and AI tools for clients in the US, UK, UAE and Europe. Fixed pricing and 100% code ownership.",
+    metaDescription: "Custom software development for SaaS platforms, portals, CRMs, ERPs and AI tools. Clients in the US, UK, UAE and Europe. Fixed pricing, full code ownership.",
     keywords: ["custom software development company", "custom software development", "custom software development services", "bespoke software development", "software development company", "custom software development company usa"],
     serviceName: "Custom Software Development",
     badge: "SaaS · Portals · CRM & ERP · AI tools",
@@ -1256,7 +1258,7 @@ const globalPages: LocalPage[] = [
     path: "/mvp-development-company/",
     navLabel: "MVP Development",
     metaTitle: "MVP Development Company | Launch in 30 Days",
-    metaDescription: "MVP development company for startups: we scope, design and build a production-ready MVP web or mobile app in about 30 days, at a fixed price with full code ownership.",
+    metaDescription: "MVP development for startups: we scope, design and build a production-ready web or mobile MVP in about 30 days, at a fixed price with full code ownership.",
     keywords: ["mvp development company", "mvp development", "mvp development services", "startup mvp development", "mvp app development", "saas mvp development"],
     serviceName: "MVP Development",
     badge: "Fixed scope · Fixed price · ~30 days",
@@ -1314,8 +1316,8 @@ const globalPages: LocalPage[] = [
     slug: "ai-automation-agency",
     path: "/ai-automation-agency/",
     navLabel: "AI Automation Agency",
-    metaTitle: "AI Automation Agency | AI Agents, Voice Bots & Workflows",
-    metaDescription: "AI automation agency building AI voice agents, WhatsApp and web chatbots, and workflow automation that cut support and admin hours. Live production deployments for US and UAE clients.",
+    metaTitle: "AI Automation Agency: Voice Agents & Chatbots",
+    metaDescription: "AI automation agency building AI voice agents, WhatsApp and web chatbots, and workflow automation that cut support and admin hours, with live deployments.",
     keywords: ["ai automation agency", "ai automation services", "ai agent development", "ai voice agent", "ai chatbot development", "ai automation company", "ai development company"],
     serviceName: "AI Automation",
     badge: "Voice agents · Chatbots · Workflow automation",
@@ -1350,8 +1352,8 @@ const globalPages: LocalPage[] = [
       ["Usage Costs", "Ongoing", "Paid to providers at cost", "LLM, telephony and WhatsApp fees billed by OpenAI, Twilio, Meta etc."],
     ],
     related: [
-      { href: "/solutions/ai-automation-services/", label: "AI Automation Services" },
-      { href: "/services/ai-automation/", label: "AI Automation" },
+      { href: "/services/ai-automation/", label: "AI Automation Services" },
+      { href: "/blog/ai-calling-agents-for-business/", label: "Guide: AI Calling Agents" },
       { href: "/custom-software-development-company/", label: "Custom Software Development" },
       { href: "/software-development-company-dubai/", label: "Software Development Dubai" },
     ],
@@ -1369,7 +1371,7 @@ const globalPages: LocalPage[] = [
 /* Export                                                              */
 /* ------------------------------------------------------------------ */
 
-export const localPages: LocalPage[] = [
+const rawLocalPages: LocalPage[] = [
   softwareHousePage(lahore),
   softwareHousePage(karachi),
   softwareHousePage(faisalabad),
@@ -1423,6 +1425,18 @@ export const localPages: LocalPage[] = [
   ...intlPages,
   ...globalPages,
 ];
+
+export const localPages: LocalPage[] = rawLocalPages.map((page) => {
+  const o = localPageOverrides[page.slug];
+  if (!o) return page;
+  const kept = o.keepFaqs ? o.keepFaqs.map((i) => page.faqs[i]).filter(Boolean) : page.faqs;
+  return {
+    ...page,
+    highlights: o.highlights ?? page.highlights,
+    caseStudyIds: o.caseStudyIds ?? page.caseStudyIds,
+    faqs: [...kept, ...(o.faqs ?? [])],
+  };
+});
 
 export function getLocalPage(slug: string): LocalPage {
   const page = localPages.find((p) => p.slug === slug);

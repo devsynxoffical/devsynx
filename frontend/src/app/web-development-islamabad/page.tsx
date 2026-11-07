@@ -29,13 +29,7 @@ export default function WebDevelopmentIslamabadPage() {
     serviceType: "Web Development",
     name: "DEVSYNX - Web Development in Islamabad",
     description: "Custom Next.js, React, WordPress, and Shopify web development services in Islamabad and Rawalpindi.",
-    provider: {
-      "@type": "ProfessionalService",
-      "@id": "https://devsynx.com/#organization",
-      name: "DEVSYNX Private Limited",
-      telephone: "+923029462542",
-      email: "info@devsynx.com",
-    },
+    provider: { "@id": "https://devsynx.com/#organization" },
     areaServed: [
       { "@type": "City", name: "Islamabad" },
       { "@type": "City", name: "Rawalpindi" },

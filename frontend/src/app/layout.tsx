@@ -114,9 +114,9 @@ export const metadata: Metadata = {
     images: [DEFAULT_OG_IMAGE.url],
     creator: TWITTER_HANDLE,
   },
-  alternates: {
-    canonical: pathToAbsoluteUrl("/"),
-  },
+  // No site-wide canonical here: each page sets its own via buildPageMetadata.
+  // A layout-level canonical made every page without its own (including the
+  // 404 page) point at the homepage.
   category: "Technology",
 };
 

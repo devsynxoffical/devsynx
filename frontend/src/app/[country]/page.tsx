@@ -32,7 +32,7 @@ interface CountryMetaConfig {
 
 const countryMetaMap: Record<string, CountryMetaConfig> = {
   usa: {
-    title: "Software Development Company for US Startups & Enterprises",
+    title: "Software Development Company for US Businesses",
     description: "Offshore software, Next.js web development, and AI automation squads for US businesses. Senior engineers with 5+ hours daily EST/PST overlap and USD pricing.",
     heroTitle: (
       <>
@@ -53,7 +53,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   uk: {
-    title: "Software Development Company UK | Bespoke Web, Mobile & AI",
+    title: "Software Development Company UK: Web, Mobile & AI",
     description: "UK-aligned offshore engineering squads, bespoke Next.js web applications, and AI automation for London, Manchester, and UK businesses. GDPR compliant.",
     heroTitle: (
       <>
@@ -73,7 +73,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   uae: {
-    title: "Software Development & AI Automation Company UAE | Dubai & Abu Dhabi",
+    title: "Software Development Company UAE: Dubai & Abu Dhabi",
     description: "High-performance web development, mobile apps, and autonomous AI automation for Dubai and UAE enterprises. 100% real-time GST timezone alignment.",
     heroTitle: (
       <>
@@ -93,7 +93,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   germany: {
-    title: "Software Development Company Germany | Bespoke Engineering & AI",
+    title: "Software Development Company Germany",
     description: "High-precision custom software, scalable web platforms, and AI automation for German businesses. CET time overlap, clean code architecture, GDPR compliant.",
     heroTitle: (
       <>
@@ -113,7 +113,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   canada: {
-    title: "Software Development Company Canada | Dedicated Engineering Squads",
+    title: "Software Development Company Canada",
     description: "Offshore software development, custom web platforms, and AI workflow automation for Canadian companies across Toronto, Vancouver, and Montreal.",
     heroTitle: (
       <>
@@ -132,7 +132,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   australia: {
-    title: "Software Development Company Australia | Web, Mobile & AI Solutions",
+    title: "Software Development Company Australia",
     description: "Agile software engineering, Next.js web development, and AI automation for Australian startups and enterprises across Sydney, Melbourne, and Brisbane.",
     heroTitle: (
       <>

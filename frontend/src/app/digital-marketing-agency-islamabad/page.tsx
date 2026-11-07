@@ -29,13 +29,7 @@ export default function DigitalMarketingAgencyIslamabadPage() {
     serviceType: "Digital Marketing",
     name: "DEVSYNX - Digital Marketing Agency in Islamabad",
     description: "Performance marketing, Meta ads, TikTok ads, Google Search ads, SEO, and tracking for businesses in Islamabad and Rawalpindi.",
-    provider: {
-      "@type": "ProfessionalService",
-      "@id": "https://devsynx.com/#organization",
-      name: "DEVSYNX Private Limited",
-      telephone: "+923029462542",
-      email: "info@devsynx.com",
-    },
+    provider: { "@id": "https://devsynx.com/#organization" },
     areaServed: [
       { "@type": "City", name: "Islamabad" },
       { "@type": "City", name: "Rawalpindi" },
