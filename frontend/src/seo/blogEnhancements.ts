@@ -266,6 +266,13 @@ export const blogEnhancements: Record<string, BlogEnhancement> = {
   },
 
   "how-much-does-software-development-cost": {
+    extraSections: [
+      {
+        heading: "Estimate Your Own Project",
+        content:
+          "For a quick ballpark based on your own features, use the free calculators: the App Development Cost Calculator (devsynx.com/tools/app-development-cost-calculator/) and the Website Cost Calculator (devsynx.com/tools/website-cost-calculator/). Both show estimated hours, timeline and cost ranges by team location.",
+      },
+    ],
     takeaways: [
       "Software cost is driven mainly by scope (features, user roles, integrations), team location and team seniority.",
       "Get quotes for the same written feature list; comparing totals from different scopes is meaningless.",

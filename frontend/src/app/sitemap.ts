@@ -4,6 +4,7 @@ import { getAllServiceSlugs } from "@/data/services";
 import { blogPosts } from "@/seo/blogPosts";
 import { pathToAbsoluteUrl } from "@/seo/priorityPages";
 import { localPages } from "@/seo/localPages";
+import { toolPages } from "@/seo/toolPages";
 
 export const dynamic = "force-static";
 
@@ -62,6 +63,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   entries.push(toSitemapEntry("/digital-marketing-agency-islamabad/", 0.90, "weekly"));
 
   // City, international and global service landing pages (seo/localPages.ts)
+  entries.push(toSitemapEntry("/tools/", 0.85, "monthly"));
+  for (const tool of toolPages) {
+    entries.push(toSitemapEntry(tool.path, 0.92, "monthly"));
+  }
   for (const page of localPages) {
     entries.push(toSitemapEntry(page.path, page.group === "global" ? 0.92 : 0.9, "weekly"));
   }

@@ -6,6 +6,8 @@
  */
 
 import { localPageOverrides } from "./localPageOverrides";
+import { industryConfigs } from "./industryPages";
+import { usCityConfigs } from "./usCityPages";
 
 export type LocalPage = {
   slug: string;
@@ -32,6 +34,8 @@ export type LocalPage = {
   introTitle: string;
   intro: string[];
   highlights?: { tag: string; title: string; cards: { icon: string; title: string; text: string }[] };
+  guideTitle?: string;
+  guide?: { heading: string; content: string }[];
   servicesTitle: string;
   services: { icon: string; title: string; text: string; href?: string; linkLabel?: string }[];
   caseStudiesTitle: string;
@@ -670,7 +674,7 @@ const appDevelopmentPakistan: LocalPage = {
 /* International city pages                                            */
 /* ------------------------------------------------------------------ */
 
-type IntlConfig = {
+export type IntlConfig = {
   slug: string;
   service: "app" | "software" | "web";
   city: string;
@@ -684,6 +688,9 @@ type IntlConfig = {
   quickAnswerExtra: string;
   faqs: { question: string; answer: string }[];
   related: { href: string; label: string }[];
+  highlights?: LocalPage["highlights"];
+  guideTitle?: string;
+  guide?: LocalPage["guide"];
 };
 
 const intlServiceLabel = {
@@ -735,6 +742,9 @@ function intlPage(c: IntlConfig): LocalPage {
     related: c.related,
     faqs: c.faqs,
     ctaTitle: `Start Your ${c.city} Project`,
+    highlights: c.highlights,
+    guideTitle: c.guideTitle,
+    guide: c.guide,
   };
 }
 
@@ -1423,7 +1433,16 @@ const rawLocalPages: LocalPage[] = [
   ),
   appDevelopmentPakistan,
   ...intlPages,
+  ...usCityConfigs.map(intlPage),
   ...globalPages,
+  ...industryConfigs.map((c) =>
+    globalPage({
+      ...c,
+      pricingTitle: "Ways to Work With Us",
+      pricingNote: "Quoted in USD, GBP, AED or PKR after a free scoping call. You receive a written proposal within 48 hours.",
+      pricing: intlEngagement("your currency"),
+    })
+  ),
 ];
 
 export const localPages: LocalPage[] = rawLocalPages.map((page) => {

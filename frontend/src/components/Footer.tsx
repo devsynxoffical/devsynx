@@ -101,6 +101,10 @@ export const Footer: React.FC = () => {
               <li><Link href="/software-development-company-doha/" className="footer__link">Qatar</Link></li>
               <li><Link href="/software-development-company-sydney/" className="footer__link">Sydney</Link></li>
               <li><Link href="/software-development-company-toronto/" className="footer__link">Toronto</Link></li>
+              <li><Link href="/software-development-company-chicago/" className="footer__link">Chicago</Link></li>
+              <li><Link href="/app-development-company-houston/" className="footer__link">Houston</Link></li>
+              <li><Link href="/app-development-company-austin/" className="footer__link">Austin</Link></li>
+              <li><Link href="/app-development-company-miami/" className="footer__link">Miami</Link></li>
               <li><Link href="/software-development-company-london/" className="footer__link">London</Link></li>
               <li><Link href="/software-development-company-new-york/" className="footer__link">New York</Link></li>
             </ul>
@@ -117,6 +121,19 @@ export const Footer: React.FC = () => {
               <li><Link href="/software-house-peshawar/" className="footer__link">Software House Peshawar</Link></li>
               <li><Link href="/seo-services-pakistan/" className="footer__link">SEO Services Pakistan</Link></li>
               <li><Link href="/app-development-company-pakistan/" className="footer__link">App Development Pakistan</Link></li>
+            </ul>
+          </div>
+
+          <div className="footer__section">
+            <div className="footer__title">Industries &amp; Tools</div>
+            <ul className="footer__links">
+              <li><Link href="/healthcare-software-development/" className="footer__link">Healthcare Software</Link></li>
+              <li><Link href="/real-estate-software-development/" className="footer__link">Real Estate Software</Link></li>
+              <li><Link href="/fintech-software-development/" className="footer__link">Fintech Software</Link></li>
+              <li><Link href="/edtech-software-development/" className="footer__link">EdTech &amp; E-Learning</Link></li>
+              <li><Link href="/field-service-app-development/" className="footer__link">Field Service Apps</Link></li>
+              <li><Link href="/tools/app-development-cost-calculator/" className="footer__link">App Cost Calculator</Link></li>
+              <li><Link href="/tools/website-cost-calculator/" className="footer__link">Website Cost Calculator</Link></li>
             </ul>
           </div>
 

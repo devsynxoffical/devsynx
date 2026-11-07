@@ -505,3 +505,29 @@
   text-decoration: none;
   font-weight: 700;
 }
+
+/* ---------- Long-form guide sections (LocalLandingPage, tool pages) ---------- */
+.guide { max-width: 820px; margin: 0 auto; display: grid; gap: 28px; }
+.guide__item h2 { font-size: 1.45rem; color: var(--color-dark); margin: 0 0 10px; line-height: 1.25; }
+.guide__item h3 { font-size: 1.15rem; color: var(--color-dark); margin: 0 0 8px; }
+.guide__item p { color: var(--color-text); line-height: 1.75; margin: 0; white-space: pre-line; }
+
+/* ---------- Cost calculator ---------- */
+.calc { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .calc { grid-template-columns: 1fr; } }
+.calc__panel { background: var(--color-card-bg); border: 1px solid var(--color-border); border-radius: 16px; padding: 22px; display: grid; gap: 20px; min-width: 0; }
+.calc__group { border: 0; margin: 0; padding: 0; display: grid; gap: 10px; min-width: 0; }
+.calc__group legend { font-weight: 700; color: var(--color-dark); margin-bottom: 8px; padding: 0; }
+.calc__options { display: flex; flex-wrap: wrap; gap: 8px; }
+.calc__opt { position: relative; }
+.calc__opt input { position: absolute; opacity: 0; pointer-events: none; }
+.calc__opt span { display: inline-block; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--color-border); color: var(--color-text); cursor: pointer; font-size: 0.92rem; transition: background .15s, border-color .15s; }
+.calc__opt input:checked + span { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }
+.calc__opt input:focus-visible + span { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+.calc__result { position: sticky; top: 90px; }
+.calc__big { font-size: 2rem; font-weight: 800; color: var(--color-dark); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.calc__label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--color-primary); font-weight: 700; }
+.calc__rows { display: grid; gap: 8px; }
+.calc__row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--color-border); font-size: 0.93rem; color: var(--color-text); font-variant-numeric: tabular-nums; }
+.calc__row b { color: var(--color-dark); white-space: nowrap; }
+.calc__note { font-size: 0.82rem; color: var(--color-text-secondary); line-height: 1.6; }

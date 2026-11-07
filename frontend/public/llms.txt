@@ -36,7 +36,7 @@
 - [Web development in Islamabad](https://devsynx.com/web-development-islamabad/), [Lahore](https://devsynx.com/web-development-lahore/), [Karachi](https://devsynx.com/web-development-karachi/)
 
 ## International
-- [United States](https://devsynx.com/usa/): [New York](https://devsynx.com/software-development-company-new-york/), [Dallas](https://devsynx.com/app-development-company-dallas/)
+- [United States](https://devsynx.com/usa/): [New York](https://devsynx.com/software-development-company-new-york/), [Chicago](https://devsynx.com/software-development-company-chicago/), [Dallas](https://devsynx.com/app-development-company-dallas/), [Houston](https://devsynx.com/app-development-company-houston/), [Austin](https://devsynx.com/app-development-company-austin/), [Miami](https://devsynx.com/app-development-company-miami/)
 - [United Kingdom](https://devsynx.com/uk/): [London](https://devsynx.com/software-development-company-london/)
 - [UAE](https://devsynx.com/uae/): [Dubai software](https://devsynx.com/software-development-company-dubai/), [Dubai apps](https://devsynx.com/app-development-company-dubai/), [Dubai web design](https://devsynx.com/web-design-company-dubai/)
 - Saudi Arabia: [Riyadh](https://devsynx.com/software-development-company-riyadh/)
@@ -71,3 +71,14 @@
 - [About](https://devsynx.com/about/)
 - [Team](https://devsynx.com/team/)
 - [Contact](https://devsynx.com/contact/)
+
+## Industries
+- [Healthcare software development](https://devsynx.com/healthcare-software-development/)
+- [Real estate software development](https://devsynx.com/real-estate-software-development/)
+- [Fintech software development](https://devsynx.com/fintech-software-development/)
+- [EdTech and e-learning software development](https://devsynx.com/edtech-software-development/)
+- [Field service app development for contractors](https://devsynx.com/field-service-app-development/)
+
+## Free tools
+- [App development cost calculator](https://devsynx.com/tools/app-development-cost-calculator/): estimates hours, timeline and cost by team location
+- [Website cost calculator](https://devsynx.com/tools/website-cost-calculator/): estimates website development cost by site type and features

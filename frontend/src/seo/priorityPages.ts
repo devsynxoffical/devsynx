@@ -90,6 +90,8 @@ export const priorityPageLinks: PriorityLink[] = [
   { href: "/seo-services-islamabad/", label: "SEO Services Islamabad" },
   { href: "/digital-marketing-agency-islamabad/", label: "Digital Marketing Islamabad" },
   { href: "/hire-dedicated-developers/", label: "Hire Dedicated Developers" },
+  { href: "/tools/app-development-cost-calculator/", label: "App Development Cost Calculator" },
+  { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
   { href: "/custom-software-development-company/", label: "Custom Software Development" },
   { href: "/mvp-development-company/", label: "MVP Development" },
   { href: "/ai-automation-agency/", label: "AI Automation Agency" },

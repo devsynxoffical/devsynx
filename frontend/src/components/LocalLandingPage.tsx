@@ -145,6 +145,26 @@ export function LocalLandingPage({ page }: { page: LocalPage }) {
         </div>
       </section>
 
+      {/* Long-form guide (page-specific) */}
+      {page.guide?.length ? (
+        <section className="city-section">
+          <div className="container">
+            <div className="city-section__header">
+              <span className="city-section__tag">Guide</span>
+              <h2 className="city-section__title">{page.guideTitle ?? "What You Need to Know"}</h2>
+            </div>
+            <div className="guide">
+              {page.guide.map((g) => (
+                <div className="guide__item" key={g.heading}>
+                  <h3>{g.heading}</h3>
+                  <p>{g.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* Case studies */}
       {caseStudies.length > 0 ? (
         <section className="city-section">
