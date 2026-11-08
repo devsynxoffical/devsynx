@@ -26,6 +26,15 @@
 }
 /* invisible bridge so the panel stays open while the pointer moves down */
 .nav__panel::before { content: ""; position: absolute; left: 0; right: 0; top: -14px; height: 14px; }
+
+/* Wide (multi-column) menus are centred under the whole header, not under
+   their button, so they never run off the left or right edge of the screen. */
+.header__inner { position: relative; }
+.nav__item--wide { position: static; }
+.nav__item--wide .nav__panel { top: 100%; }
+/* wide panels sit under the whole nav row; a bridge there would cover the other
+   menu buttons, so the short close delay in Header.tsx is used instead */
+.nav__item--wide .nav__panel::before { display: none; }
 .nav__panel--wide { width: min(940px, calc(100vw - 48px)); }
 .nav__item--open .nav__panel,
 .nav__item:focus-within .nav__panel {

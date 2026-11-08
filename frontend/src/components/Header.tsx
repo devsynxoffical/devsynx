@@ -19,6 +19,15 @@ export const Header: React.FC = () => {
   const [openId, setOpenId] = useState<string | null>(null);
   const [mobileOpenId, setMobileOpenId] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const openMenu = (id: string) => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setOpenId(id);
+  };
+  const scheduleClose = (id: string) => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => setOpenId((cur) => (cur === id ? null : cur)), 220);
+  };
   const pathname = usePathname();
   const isHomePage = pathname === "/" || pathname === "";
 
@@ -90,9 +99,9 @@ export const Header: React.FC = () => {
               return (
                 <div
                   key={menu.id}
-                  className={`nav__item${isOpen ? " nav__item--open" : ""}`}
-                  onMouseEnter={() => setOpenId(menu.id)}
-                  onMouseLeave={() => setOpenId((cur) => (cur === menu.id ? null : cur))}
+                  className={`nav__item${wide ? " nav__item--wide" : ""}${isOpen ? " nav__item--open" : ""}`}
+                  onMouseEnter={() => openMenu(menu.id)}
+                  onMouseLeave={() => scheduleClose(menu.id)}
                 >
                   <button
                     type="button"
