@@ -9,6 +9,11 @@ name: Build and deploy to hosting (FTPS)
 # Optional repository variable (Settings > Secrets and variables > Actions > Variables):
 #     FTP_SERVER_DIR  folder on the server that holds the site, default "./"
 #                     (use "public_html/" if the FTP account opens one level above it)
+# Contact form email (SMTP) secrets, used to write contact-config.php at deploy time:
+#     SMTP_PASSWORD   password of the mailbox the form sends from (required to enable SMTP)
+#     SMTP_USER       mailbox address, default info@devsynx.com
+#     SMTP_HOST       mail server, default mail.devsynx.com
+#     SMTP_PORT       SSL port, default 465
 
 on:
   push:
@@ -28,6 +33,7 @@ jobs:
     timeout-minutes: 60
     env:
       FTP_SERVER: ${{ secrets.FTP_SERVER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,6 +58,25 @@ jobs:
           test -f frontend/out/index.html
           test -f frontend/out/sitemap.xml
           echo "Pages built: $(find frontend/out -name index.html | wc -l)"
+
+      - name: Write contact form mail settings (from secrets)
+        if: env.SMTP_PASSWORD != ''
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: |
+          python3 - <<'PY'
+          import os
+          def q(s): return "'" + s.replace("\\", "\\\\").replace("'", "\\'") + "'"
+          host = os.environ.get("SMTP_HOST") or "mail.devsynx.com"
+          user = os.environ.get("SMTP_USER") or "info@devsynx.com"
+          port = int(os.environ.get("SMTP_PORT") or "465")
+          pw = os.environ["SMTP_PASSWORD"]
+          with open("frontend/out/contact-config.php", "w") as f:
+              f.write("<?php return ['host' => %s, 'port' => %d, 'user' => %s, 'pass' => %s];\n" % (q(host), port, q(user), q(pw)))
+          print("contact-config.php written for", user, "via", host)
+          PY
 
       - name: Skip deploy (FTP secrets not set yet)
         if: env.FTP_SERVER == ''
