@@ -78,3 +78,24 @@
 .mnav__link { display: block; padding: 9px 8px; color: var(--color-text); text-decoration: none; border-radius: 8px; }
 .mnav__link:hover { background: var(--color-bg-alt); }
 .mnav__link--more { color: var(--color-primary); font-weight: 700; }
+
+/* ---------- Floating WhatsApp button ---------- */
+.wa-float {
+  position: fixed; z-index: 9000;
+  right: calc(18px + env(safe-area-inset-right, 0px));
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  display: inline-flex; align-items: center; gap: 10px;
+  background: #25d366; color: #06301a; text-decoration: none;
+  padding: 12px 18px 12px 14px; border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  font-weight: 700; font-size: .95rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.wa-float:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35); }
+.wa-float:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+@media (max-width: 768px) {
+  .wa-float { padding: 14px; }
+  .wa-float__label { display: none; }
+  /* city pages already have a full-width WhatsApp/Call bar at the bottom on mobile */
+  body:has(.city-sticky-bar) .wa-float { display: none; }
+}

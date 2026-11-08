@@ -9,7 +9,7 @@ import { FAQ } from "@/components/FAQ";
 import { buildBreadcrumbSchema, buildFaqSchema, buildWebPageSchema } from "@/seo/metadata";
 
 const contactFaqs = [
-  { question: "What happens after I submit the contact form?", answer: "You'll receive an email confirmation within minutes. Our team reviews your inquiry and responds within 24 hours with a personalized reply and next steps." },
+  { question: "What happens after I submit the contact form?", answer: "Your message goes straight to our team. We review it and reply within 24 hours by email or WhatsApp with next steps. For a faster answer, message us on WhatsApp at +92 302 946 2542." },
   { question: "Do you offer free consultations?", answer: "Yes! We offer a free 30-minute consultation call where we discuss your project requirements, goals, and provide initial recommendations with no strings attached." },
   { question: "What information should I include in my message?", answer: "The more detail you provide, the better we can assist. Include your project goals, timeline, budget range, and any specific technologies or requirements you have in mind." },
   { question: "Can we schedule a video call?", answer: "Absolutely. After the initial contact, we typically set up a video call to discuss your project in depth. We use Google Meet, Zoom, or Microsoft Teams based on your preference." },
@@ -32,6 +32,7 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     company: "",
     service: "",
     budget: "",
@@ -44,9 +45,32 @@ export default function ContactPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [startedAt] = useState(() => Date.now());
+
+  const whatsappFallback = () =>
+    `https://wa.me/923029462542?text=${encodeURIComponent(
+      `Hi DEVSYNX, I'm ${formData.name}${formData.company ? ` from ${formData.company}` : ""}. ` +
+        `${formData.service ? `Service: ${formData.service}. ` : ""}${formData.budget ? `Budget: ${formData.budget}. ` : ""}` +
+        formData.message
+    )}`;
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    alert("Thank you for your message! We'll get back to you within 24 hours.");
+    setStatus("sending");
+    const body = new FormData(e.currentTarget);
+    body.set("started", String(startedAt));
+    body.set("page", typeof document !== "undefined" ? document.referrer || window.location.href : "");
+    try {
+      const res = await fetch("/contact-submit.php", { method: "POST", body });
+      const data = await res.json().catch(() => ({ ok: false }));
+      if (!res.ok || !data.ok) throw new Error("send failed");
+      setStatus("sent");
+      const w = window as unknown as { gtag?: (...args: unknown[]) => void };
+      w.gtag?.("event", "generate_lead", { method: "contact_form", service: formData.service, budget: formData.budget });
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -99,7 +123,20 @@ export default function ContactPage() {
                   Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </p>
               </div>
+              {status === "sent" ? (
+                <div className="contact-form" role="status" style={{ display: "grid", gap: "14px" }}>
+                  <h3 className="contact-form__title">Thank you, your message has been sent.</h3>
+                  <p className="contact-form__subtitle">
+                    We&apos;ll reply within 24 hours. For a faster answer, message us on WhatsApp.
+                  </p>
+                  <a href={whatsappFallback()} target="_blank" rel="noopener noreferrer" className="btn btn--primary btn--lg btn--full">
+                    Continue on WhatsApp
+                  </a>
+                </div>
+              ) : (
               <form className="contact-form" onSubmit={handleSubmit}>
+                {/* honeypot: hidden from people, filled by bots */}
+                <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", opacity: 0 }} />
                 <div className="contact-form__row">
                   <div className="contact-form__group">
                     <label htmlFor="name" className="contact-form__label">
@@ -134,9 +171,15 @@ export default function ContactPage() {
                 </div>
                 <div className="contact-form__row">
                   <div className="contact-form__group">
+                    <label htmlFor="phone" className="contact-form__label">Phone / WhatsApp</label>
+                    <input type="tel" id="phone" name="phone" className="contact-form__input" placeholder="+92 300 1234567" value={formData.phone} onChange={handleChange} />
+                  </div>
+                  <div className="contact-form__group">
                     <label htmlFor="company" className="contact-form__label">Company</label>
                     <input type="text" id="company" name="company" className="contact-form__input" placeholder="Your Company" value={formData.company} onChange={handleChange} />
                   </div>
+                </div>
+                <div className="contact-form__row">
                   <div className="contact-form__group">
                     <label htmlFor="service" className="contact-form__label">Service Interested In</label>
                     <select id="service" name="service" className="contact-form__input" value={formData.service} onChange={handleChange}>
@@ -150,20 +193,25 @@ export default function ContactPage() {
                       <option value="saas">SaaS Development</option>
                       <option value="cybersecurity">Cybersecurity</option>
                       <option value="ecommerce">E-Commerce</option>
+                      <option value="seo-marketing">SEO & Digital Marketing</option>
+                      <option value="dedicated-developers">Hire Dedicated Developers</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
-                </div>
                 <div className="contact-form__group">
                   <label htmlFor="budget" className="contact-form__label">Estimated Budget</label>
                   <select id="budget" name="budget" className="contact-form__input" value={formData.budget} onChange={handleChange}>
                     <option value="">Select a range</option>
+                    <option value="under-pkr-250k">Under PKR 250,000 (~$900)</option>
+                    <option value="pkr-250k-1m">PKR 250,000 - 1,000,000</option>
+                    <option value="under-5k">Under $5,000</option>
                     <option value="5k-10k">$5,000 - $10,000</option>
                     <option value="10k-25k">$10,000 - $25,000</option>
                     <option value="25k-50k">$25,000 - $50,000</option>
                     <option value="50k-100k">$50,000 - $100,000</option>
                     <option value="100k+">$100,000+</option>
                   </select>
+                </div>
                 </div>
                 <div className="contact-form__group">
                   <label htmlFor="message" className="contact-form__label">
@@ -180,11 +228,19 @@ export default function ContactPage() {
                     required
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn--primary btn--lg btn--full btn--glow">
-                  Send Message
+                {status === "error" ? (
+                  <div role="alert" className="contact-form__subtitle" style={{ color: "#f87171" }}>
+                    Your message could not be sent. Please send it on{" "}
+                    <a href={whatsappFallback()} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>WhatsApp</a>{" "}
+                    or email <a href="mailto:info@devsynx.com" style={{ textDecoration: "underline" }}>info@devsynx.com</a>.
+                  </div>
+                ) : null}
+                <button type="submit" className="btn btn--primary btn--lg btn--full btn--glow" disabled={status === "sending"}>
+                  {status === "sending" ? "Sending..." : "Send Message"}
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13" /><path d="M22 2l-7 20-4-9-9-4 20-7z" /></svg>
                 </button>
               </form>
+              )}
             </AnimatedSection>
 
             {/* Contact Info Sidebar */}
