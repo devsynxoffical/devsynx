@@ -1453,6 +1453,10 @@ export const localPages: LocalPage[] = rawLocalPages.map((page) => {
   const kept = o.keepFaqs ? o.keepFaqs.map((i) => page.faqs[i]).filter(Boolean) : page.faqs;
   return {
     ...page,
+    metaTitle: o.metaTitle ?? page.metaTitle,
+    metaDescription: o.metaDescription ?? page.metaDescription,
+    h1Before: o.h1Before ?? page.h1Before,
+    keywords: [...(o.extraKeywords ?? []), ...page.keywords],
     highlights: o.highlights ?? page.highlights,
     caseStudyIds: o.caseStudyIds ?? page.caseStudyIds,
     faqs: [...kept, ...(o.faqs ?? [])],

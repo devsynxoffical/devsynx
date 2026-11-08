@@ -61,6 +61,27 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [ ] Oman: web design company Oman ("web design company in oman" 210, "website design oman" 140)
 - [ ] Add the new Gulf pages to `seo/navigation.ts` (Middle East column) and `/locations/`
 
+### Middle East matrix (UAE research 8 Nov; Dubai area searches had zero measured volume, so areas go inside service pages, never separate pages)
+- [x] Dubai software page retitled "IT & Software Development Company in Dubai" ("it company dubai" 2,400 KD 3, "it company uae" 590 KD 7)
+- [x] Doha software page retitled "IT & Software Company in Qatar" ("it company qatar" 590, "software company qatar" 260)
+- [ ] SEO agency Dubai (/seo-agency-dubai/): "seo agency/company/services dubai" 5,400 KD 33, "seo agency uae" 480 KD 0; use Ustaad.ae case study; list Dubai areas served
+- [ ] Digital marketing agency Dubai (/digital-marketing-agency-dubai/): 3,600 KD 27, "digital marketing agency uae" 720 KD 0
+- [ ] E-commerce website development Dubai (/ecommerce-website-development-dubai/): 320 KD 28 + "ecommerce development company dubai" 170 KD 9
+- [ ] IT & software company Abu Dhabi (/it-company-abu-dhabi/): "it company abu dhabi" 720 KD 9, "web development company abu dhabi" 110 KD 0, "web design company abu dhabi" 170
+- [ ] SEO & digital marketing Abu Dhabi: "digital marketing agency abu dhabi" 390 KD 12, "seo company abu dhabi" 260 KD 11
+- [ ] IT company & web design Sharjah (/it-company-sharjah/): "it company sharjah" 390 KD 0, "web design company sharjah" 260 KD 0
+- [ ] AEO / GEO service page (/aeo-geo-services/): "generative engine optimization" 110 (UAE), "answer engine optimization" 50, "aeo services" 50; check US/UK volume with remaining credits first
+- [ ] Kuwait, Oman, Qatar web design (see Week 1 list)
+- [ ] Saudi Arabia (Riyadh, Jeddah, Dammam) and Bahrain: Arabic keyword research first (English not supported by the data source)
+
+### US metros (from Nov research; SEO-agency city terms are left to the separate RankEmpire site)
+- [ ] Web design company Dallas (2,400 KD 24)
+- [ ] Web design company New York (1,000 KD 33)
+- [ ] Web design company Miami (880 KD 31)
+- [ ] Web design company Houston (590 KD 35) and San Francisco (590 KD 33)
+- [ ] Web design company Austin (480 KD 35) and Los Angeles (480 KD 37)
+- [ ] Each US web design page needs city-specific content and must stay under 45% similarity to the existing app/software page for the same city
+
 ### Week 2 (15–21 Nov): push page-2 terms to page 1
 - [ ] SEO Lahore / Karachi / Pakistan pages: strengthen for "seo expert in lahore" (1,000), "seo expert in pakistan" (1,000), "seo expert karachi" (590, KD 3)
 - [ ] Web development Lahore / Karachi: strengthen for "web designer in lahore" (320) and "web designer karachi" (210)
@@ -103,4 +124,5 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ## Run log
 
+- 2026-11-08 (late): GitHub Actions FTPS deploy confirmed working (first full upload ~25 min). UAE research (23 credits): Dubai areas have no measurable demand; "it company dubai" 2,400 KD 3. Dubai and Doha software pages retitled for IT-company searches. Credits left: inspectify 139, myouryour 78.
 - 2026-11-08: Plan created. Header and footer rebuilt, /locations/ hub, 4 Pakistan city pages, deploy workflow added. IndexNow: 57 URLs submitted.

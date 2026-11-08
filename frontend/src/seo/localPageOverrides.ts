@@ -8,6 +8,10 @@
 import type { LocalPage } from "./localPages";
 
 export type LocalPageOverride = {
+  metaTitle?: string;
+  metaDescription?: string;
+  h1Before?: string;
+  extraKeywords?: string[];
   highlights?: LocalPage["highlights"];
   caseStudyIds?: string[];
   keepFaqs?: number[];
@@ -179,6 +183,21 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       { question: "Can the system handle the busy season?", answer: "Yes. We design for peak weeks: fast data entry screens, offline mobile apps for packing and farm staff, and daily summary reports for owners." },
       { question: "Can you track profit per lot or per buyer?", answer: "Yes. We record costs from purchase through packing and freight so you can see margins per lot, per buyer and per season." },
     ],
+  },
+
+
+  /* ---------------- Retargeted international pages ---------------- */
+  "software-development-company-dubai": {
+    metaTitle: "IT & Software Development Company in Dubai",
+    metaDescription: "IT and software development company for Dubai and UAE businesses: custom software, web and mobile apps, ERP/CRM and AI automation. Fixed AED or USD pricing.",
+    h1Before: "IT & Software Development Company in",
+    extraKeywords: ["it company dubai", "it company uae", "it company in dubai", "it companies in dubai", "it services company dubai"],
+  },
+  "software-development-company-doha": {
+    metaTitle: "IT & Software Company in Qatar | Doha",
+    metaDescription: "IT and software company serving Doha and Qatar: custom software, web and mobile apps, e-commerce and AI automation, in Arabic and English. Fixed QAR or USD pricing.",
+    h1Before: "IT & Software Company in",
+    extraKeywords: ["it company qatar", "it company in qatar", "software company qatar", "software company in qatar", "it company doha"],
   },
 
   /* ---------------- SEO pages ---------------- */
