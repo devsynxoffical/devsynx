@@ -1,0 +1,362 @@
+/**
+ * UAE service pages (SEO, digital marketing, IT company) built from the
+ * 8 Nov 2026 UAE keyword research. Dubai areas are listed inside the pages
+ * (area searches have no measurable volume on their own).
+ */
+import type { LocalPage } from "./localPages";
+
+const GLOBAL_STATS = [
+  { value: "300+", label: "Projects Shipped" },
+  { value: "15+", label: "Countries Served" },
+  { value: "100%", label: "Code & Account Ownership" },
+  { value: "1 hr", label: "Time Difference to UAE" },
+];
+
+const DUBAI_AREAS = [
+  "Business Bay", "Downtown Dubai", "DIFC", "Dubai Marina", "JLT", "JBR", "Palm Jumeirah", "Jumeirah",
+  "Al Barsha", "Al Quoz", "Deira", "Bur Dubai", "Karama", "Dubai Silicon Oasis", "Dubai Internet City",
+  "Dubai Media City", "Mirdif", "Al Nahda", "JVC", "Motor City", "Dubai South", "Arabian Ranches",
+];
+
+const UAE_RETAINER: [string, string, string, string][] = [
+  ["Audit & Strategy", "2 Weeks", "Fixed fee in AED or USD", "Technical audit, keyword map, competitor gap, 90-day plan"],
+  ["Monthly Retainer", "Monthly, min. 3 months", "Monthly fee in AED or USD", "Ongoing work, content, links, reporting"],
+  ["Project Work", "2 – 8 Weeks", "Fixed price per project", "Website rebuild, landing pages, tracking setup"],
+  ["Ad Spend", "Ongoing", "Paid directly to Google/Meta", "Your accounts, your billing, full transparency"],
+];
+
+const UAE_SOFTWARE: [string, string, string, string][] = [
+  ["Fixed-Scope Project", "3 – 12 Weeks", "Fixed price in AED or USD, by milestone", "Websites, portals, apps with a clear feature list"],
+  ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in AED or USD", "Adding engineers to your team"],
+  ["Support & SLA", "Ongoing", "Monthly retainer", "Monitoring, security updates, fixes, small features"],
+  ["IT Audit", "1 – 2 Weeks", "Fixed fee", "Review of systems, security and integrations with a written plan"],
+];
+
+const base = {
+  group: "international" as const,
+  areaType: "City" as const,
+  stats: GLOBAL_STATS,
+  pricingColumns: ["Engagement", "Timeline", "How It's Priced", "What's Included"] as [string, string, string, string],
+};
+
+export const gulfPages: LocalPage[] = [
+  /* ---------------- SEO agency Dubai ---------------- */
+  {
+    ...base,
+    slug: "seo-agency-dubai",
+    path: "/seo-agency-dubai/",
+    navLabel: "SEO Agency Dubai",
+    metaTitle: "SEO Agency in Dubai | SEO Company & Services",
+    metaDescription: "SEO agency for Dubai and UAE businesses: technical SEO, Arabic and English content, Google Maps ranking and AI-search optimisation, run by developers. Monthly reports.",
+    keywords: ["seo agency dubai", "seo company dubai", "seo services dubai", "seo company uae", "seo agency uae", "seo services uae", "seo expert dubai"],
+    serviceName: "SEO Services",
+    placeLabel: "Dubai",
+    areaServed: ["Dubai", "Abu Dhabi", "Sharjah", "United Arab Emirates"],
+    breadcrumbs: [
+      { name: "Home", path: "/" },
+      { name: "UAE", path: "/uae/" },
+      { name: "SEO Agency Dubai", path: "/seo-agency-dubai/" },
+    ],
+    badge: "SEO for Dubai & UAE · English and Arabic",
+    h1Before: "SEO Agency in",
+    h1Highlight: "Dubai",
+    h1After: "Run by Developers",
+    quickAnswer:
+      "DEVSYNX is an SEO agency serving Dubai and the wider UAE. We fix technical SEO directly in your website's code, build English and Arabic pages for the searches your customers make, rank your Google Business Profile in the map results, and optimise content to be cited in Google's AI Overviews and ChatGPT. You get a keyword map before work starts and a monthly report with rankings, clicks and leads.",
+    whatsappText: "Hi DEVSYNX, I need SEO for my business in Dubai.",
+    introTag: "SEO in Dubai",
+    introTitle: "Why SEO in Dubai Is Different",
+    intro: [
+      "Dubai is one of the most competitive search markets in the region. Real estate, clinics, legal and business-setup firms, restaurants and e-commerce stores all compete for the same first page, and paid clicks for terms like these often cost tens of dirhams each. Ranking organically is how a business stops paying for every visitor.",
+      "Dubai searchers also behave differently: they search in English and Arabic, often include an area (\"near me\", \"in Business Bay\", \"in Marina\"), and increasingly get answers from AI summaries before they click. A good Dubai SEO plan covers all three.",
+      "We work on Gulf time with only a one-hour difference, and our SEO team works alongside our developers, so speed, schema and indexing problems are fixed in the code rather than just listed in an audit. We run SEO for UAE clients such as the Ustaad.ae home-services marketplace.",
+    ],
+    highlights: {
+      tag: "How We Rank Dubai Businesses",
+      title: "What Our Dubai SEO Covers",
+      cards: [
+        { icon: "🗺️", title: "Area-Level Local SEO", text: "Google Business Profile optimisation and location pages for the Dubai communities you actually serve, so you appear in the map pack for nearby searches." },
+        { icon: "🌐", title: "English & Arabic SEO", text: "Separate, properly linked English and Arabic pages with hreflang, so each language ranks for its own searches." },
+        { icon: "🛠️", title: "Technical Fixes in Code", text: "Core Web Vitals, crawl errors, schema and site structure fixed by our developers on WordPress, Shopify or custom sites." },
+        { icon: "🤖", title: "AI Search (AEO / GEO)", text: "Clear answers, FAQ schema and entity information so your business is cited in Google AI Overviews, ChatGPT and Perplexity." },
+      ],
+    },
+    guideTitle: "A Practical Guide to SEO in Dubai",
+    guide: [
+      { heading: "Start with the keywords that bring customers", content: "Many Dubai businesses chase broad terms with huge competition. We start with searches that show buying intent and have realistic competition: the service plus the area, the service plus \"near me\", and the exact problems your customers describe. Every page gets one main search phrase and a clear job." },
+      { heading: "Google Business Profile matters as much as the website", content: "For local services in Dubai, the map results often appear above the normal results. Your profile needs the right categories, a consistent name, address and phone number everywhere online, photos, services, and a steady flow of genuine reviews. We set up the process; your team collects the reviews." },
+      { heading: "Arabic content is an opportunity", content: "Many competitors only publish in English. Well-written Arabic pages, not machine translations, often rank faster because there is less competition. We build them as real pages with their own URLs and link them to the English versions with hreflang." },
+      { heading: "Measure leads, not just rankings", content: "We set up conversion tracking for calls, WhatsApp clicks and forms before we start, so the monthly report shows which pages and searches produce enquiries. Rankings that don't bring customers are not success." },
+      { heading: "What to expect and when", content: "Technical fixes and Google Business Profile improvements can show results within weeks. Ranking new pages for competitive Dubai keywords usually takes three to six months. Nobody can honestly guarantee a #1 position, so we commit to transparent work and real numbers from Google Search Console." },
+    ],
+    servicesTitle: "SEO Services in Dubai",
+    services: [
+      { icon: "📍", title: "Local SEO & Google Maps", text: "Profile optimisation, citations and review strategy for map rankings." },
+      { icon: "🛠️", title: "Technical SEO", text: "Speed, indexing, schema and site architecture fixed by developers.", href: "/services/seo-services/", linkLabel: "SEO Services" },
+      { icon: "✍️", title: "Content & Keyword Strategy", text: "Keyword map with real search volumes and pages written to convert." },
+      { icon: "🛒", title: "E-commerce SEO", text: "Category and product optimisation for Shopify and WooCommerce stores.", href: "/services/ecommerce-solutions/", linkLabel: "E-commerce Development" },
+      { icon: "🤖", title: "AEO / GEO", text: "Optimisation for AI Overviews, ChatGPT and Perplexity answers." },
+      { icon: "📈", title: "Digital Marketing", text: "Google and Meta ads alongside SEO for faster results.", href: "/digital-marketing-agency-dubai/", linkLabel: "Digital Marketing Dubai" },
+    ],
+    caseStudiesTitle: "SEO Results for Our Clients",
+    caseStudyIds: ["ustaad-ae", "progenius-students-seo", "productboxeswholesale", "topcustomboxes", "acutepharmacy", "rankmora"],
+    pricingTitle: "How Our SEO Engagements Work",
+    pricingNote: "Every engagement starts with an audit and a written keyword map. Prices quoted in AED or USD; no long lock-in.",
+    pricing: UAE_RETAINER,
+    areasTitle: "Dubai Areas We Serve",
+    areasNote: "Local SEO campaigns for businesses across Dubai, plus Abu Dhabi, Sharjah and the rest of the UAE.",
+    areas: DUBAI_AREAS,
+    related: [
+      { href: "/digital-marketing-agency-dubai/", label: "Digital Marketing Agency Dubai" },
+      { href: "/software-development-company-dubai/", label: "IT & Software Company Dubai" },
+      { href: "/web-design-company-dubai/", label: "Web Design Company Dubai" },
+      { href: "/app-development-company-dubai/", label: "App Development Dubai" },
+    ],
+    faqs: [
+      { question: "How much does SEO cost in Dubai?", answer: "It depends on how competitive your market is and how much work your website needs. We start with a fixed-fee audit and keyword map, then quote a monthly retainer in AED or USD. Because our team is offshore, our rates are typically below Dubai agency rates for the same work." },
+      { question: "How long does SEO take to work in Dubai?", answer: "Technical fixes and Google Business Profile improvements can show results within weeks. Competitive keywords usually take three to six months to reach the first page." },
+      { question: "Do you do Arabic SEO?", answer: "Yes. We create proper Arabic pages with their own URLs and hreflang tags, written for Arabic searches rather than machine translated." },
+      { question: "Can you guarantee first position on Google?", answer: "No honest agency can guarantee rankings, because Google decides them. We commit to clear deliverables every month and report real data from Google Search Console." },
+      { question: "Do you have an office in Dubai?", answer: "Our team is based in Islamabad, Pakistan, one hour ahead of the UAE, so we work fully within Dubai business hours. We meet clients by video and can travel for larger projects." },
+    ],
+    ctaTitle: "Get a Free SEO Review for Your Dubai Business",
+  },
+
+  /* ---------------- Digital marketing agency Dubai ---------------- */
+  {
+    ...base,
+    slug: "digital-marketing-agency-dubai",
+    path: "/digital-marketing-agency-dubai/",
+    navLabel: "Digital Marketing Agency Dubai",
+    metaTitle: "Digital Marketing Agency in Dubai & UAE",
+    metaDescription: "Digital marketing agency for Dubai and UAE businesses: Google and Meta ads with server-side tracking, SEO, landing pages and WhatsApp lead automation. Measured in leads.",
+    keywords: ["digital marketing agency dubai", "digital marketing agency uae", "digital marketing company dubai", "performance marketing agency dubai", "social media marketing agency dubai"],
+    serviceName: "Digital Marketing",
+    placeLabel: "Dubai",
+    areaServed: ["Dubai", "Abu Dhabi", "Sharjah", "United Arab Emirates"],
+    breadcrumbs: [
+      { name: "Home", path: "/" },
+      { name: "UAE", path: "/uae/" },
+      { name: "Digital Marketing Agency Dubai", path: "/digital-marketing-agency-dubai/" },
+    ],
+    badge: "Performance marketing for Dubai & UAE",
+    h1Before: "Digital Marketing Agency in",
+    h1Highlight: "Dubai",
+    h1After: "Measured in Leads",
+    quickAnswer:
+      "DEVSYNX is a digital marketing agency serving Dubai and the UAE. We run Google Search, Performance Max, Meta and TikTok campaigns, build fast landing pages, and set up server-side conversion tracking and WhatsApp lead automation, so every dirham of ad spend can be traced to an enquiry or sale. Campaigns run in your own ad accounts.",
+    whatsappText: "Hi DEVSYNX, I need digital marketing for my business in Dubai.",
+    introTag: "Marketing in Dubai",
+    introTitle: "Marketing That Pays for Itself in a Costly Market",
+    intro: [
+      "Advertising in Dubai is expensive: real estate, clinics, education and professional services compete in the same auctions, and cost per lead rises every year. The businesses that win are the ones that measure accurately, test creatives constantly and send visitors to pages that convert on mobile.",
+      "We start with tracking: Meta Conversions API, Google enhanced conversions and WhatsApp click tracking. Then campaigns are optimised for real enquiries and sales instead of cheap clicks, and you see exactly what each campaign produces.",
+      "Because our marketers work with our developers, landing pages, tracking and CRM integrations are built in-house, without waiting on another agency.",
+    ],
+    highlights: {
+      tag: "What Works in the UAE",
+      title: "Campaigns We Run for UAE Businesses",
+      cards: [
+        { icon: "🏙️", title: "Real Estate & Rentals", text: "Lead campaigns for projects and listings, with instant WhatsApp replies and lead routing to agents." },
+        { icon: "🩺", title: "Clinics & Wellness", text: "Booking-focused campaigns with call and appointment tracking, within platform health-ad rules." },
+        { icon: "🛍️", title: "E-commerce", text: "Shopping and Meta catalogue campaigns optimised for purchases, with server-side tracking." },
+        { icon: "🏢", title: "B2B & Professional Services", text: "Google Search and LinkedIn campaigns for firms selling to other businesses." },
+      ],
+    },
+    guideTitle: "Getting Better Results from Ads in Dubai",
+    guide: [
+      { heading: "Fix tracking before spending more", content: "Browser privacy changes mean ad platforms miss many conversions. Server-side tracking sends confirmed leads and purchases directly to Google and Meta, so their algorithms learn from real customers. Without it, campaigns optimise for the wrong people." },
+      { heading: "Answer leads in minutes", content: "In Dubai, a lead contacted within minutes is far more likely to convert than one contacted the next day. We connect ad leads to WhatsApp Business so every enquiry gets an instant reply and reaches the right salesperson." },
+      { heading: "Test creatives every week", content: "Creative fatigue is the main reason costs rise. We produce new static, carousel and short video ads regularly, test them in small budgets and scale the winners." },
+      { heading: "Combine ads with SEO", content: "Ads bring results quickly; SEO lowers your cost over time. We use ad data to find the searches that convert best, then target those with SEO pages so you pay for fewer clicks over time." },
+    ],
+    servicesTitle: "Digital Marketing Services in Dubai",
+    services: [
+      { icon: "🔍", title: "Google Ads", text: "Search, Performance Max and Shopping campaigns with call tracking." },
+      { icon: "🎯", title: "Meta & Instagram Ads", text: "Lead and sales campaigns with the Conversions API." },
+      { icon: "🎵", title: "TikTok Ads", text: "Short-form creative for consumer brands." },
+      { icon: "📈", title: "SEO", text: "Organic rankings that keep bringing leads.", href: "/seo-agency-dubai/", linkLabel: "SEO Agency Dubai" },
+      { icon: "🖥️", title: "Landing Pages & CRO", text: "Fast pages built by developers and A/B tested.", href: "/web-design-company-dubai/", linkLabel: "Web Design Dubai" },
+      { icon: "💬", title: "WhatsApp Automation", text: "Instant replies and lead routing via WhatsApp Business API.", href: "/ai-automation-agency/", linkLabel: "AI Automation" },
+    ],
+    caseStudiesTitle: "Marketing & Growth Results",
+    caseStudyIds: ["ustaad-ae", "scale-with-ads", "seven-figure-studio", "ygi-holiday-homes", "alpha-ahead-real-estate", "glitchy-digital-marketing"],
+    pricingTitle: "How We Work",
+    pricingNote: "Management fees quoted in AED or USD after a free account review. Ad spend is paid directly to the platforms from your own accounts.",
+    pricing: UAE_RETAINER,
+    areasTitle: "Where We Run Campaigns",
+    areasNote: "Campaigns targeting all of Dubai, specific communities, the UAE, or the wider GCC.",
+    areas: [...DUBAI_AREAS.slice(0, 14), "Abu Dhabi", "Sharjah", "Ajman", "Al Ain"],
+    related: [
+      { href: "/seo-agency-dubai/", label: "SEO Agency Dubai" },
+      { href: "/software-development-company-dubai/", label: "IT & Software Company Dubai" },
+      { href: "/real-estate-software-development/", label: "Real Estate Software" },
+      { href: "/it-company-abu-dhabi/", label: "IT Company Abu Dhabi" },
+    ],
+    faqs: [
+      { question: "How much does a digital marketing agency cost in Dubai?", answer: "Management fees depend on the number of platforms and the work involved, and are quoted in AED or USD after a free account review. Ad spend is separate and paid directly to Google, Meta or TikTok." },
+      { question: "What ad budget do I need in Dubai?", answer: "It depends on your industry and goal. Many lead-generation campaigns start in the low thousands of dirhams per month to gather data, then scale what works." },
+      { question: "Do I keep my ad accounts?", answer: "Yes. Campaigns run in your own Google Ads and Meta Business accounts; we get partner access and you keep everything." },
+      { question: "Can you track WhatsApp leads from ads?", answer: "Yes. We track WhatsApp clicks and conversations, and can connect WhatsApp Business to your CRM so each lead is attributed to its campaign." },
+      { question: "Do you also do SEO?", answer: "Yes. We combine ads with SEO so your cost per lead falls over time." },
+    ],
+    ctaTitle: "Get a Free Ad Account Review",
+  },
+
+  /* ---------------- IT company Abu Dhabi ---------------- */
+  {
+    ...base,
+    slug: "it-company-abu-dhabi",
+    path: "/it-company-abu-dhabi/",
+    navLabel: "IT Company Abu Dhabi",
+    metaTitle: "IT Company in Abu Dhabi | Software & Web",
+    metaDescription: "IT and software company serving Abu Dhabi: custom software, web development and design, mobile apps, SEO and AI automation for businesses and government suppliers. AED pricing.",
+    keywords: ["it company abu dhabi", "it companies in abu dhabi", "web development company abu dhabi", "web design company abu dhabi", "software company abu dhabi", "seo company abu dhabi", "digital marketing agency abu dhabi"],
+    serviceName: "IT & Software Development",
+    placeLabel: "Abu Dhabi",
+    areaServed: ["Abu Dhabi", "Al Ain", "United Arab Emirates"],
+    breadcrumbs: [
+      { name: "Home", path: "/" },
+      { name: "UAE", path: "/uae/" },
+      { name: "IT Company Abu Dhabi", path: "/it-company-abu-dhabi/" },
+    ],
+    badge: "Software, web & AI for Abu Dhabi",
+    h1Before: "IT Company in",
+    h1Highlight: "Abu Dhabi",
+    h1After: "for Software, Web & AI",
+    quickAnswer:
+      "DEVSYNX is an IT and software company serving Abu Dhabi. We build custom software and business systems, websites and web applications, mobile apps, and AI automation, and we provide SEO and digital marketing. We focus on software and digital services rather than hardware or network installation, and quote fixed prices in AED or USD.",
+    whatsappText: "Hi DEVSYNX, I am in Abu Dhabi and need software or a website built.",
+    introTag: "Abu Dhabi",
+    introTitle: "Digital Services for Abu Dhabi Organisations",
+    intro: [
+      "Abu Dhabi's economy is anchored by energy, government, healthcare, education and a fast-growing private sector supported by initiatives around ADGM and Hub71. Organisations here increasingly need custom digital systems: portals, approval workflows, bilingual websites and data dashboards.",
+      "We build these as a remote engineering team with full working-hour overlap with the UAE, bilingual Arabic and English interfaces where needed, and documentation and handover suitable for organisations with procurement and security requirements.",
+    ],
+    highlights: {
+      tag: "What We Build",
+      title: "IT Services for Abu Dhabi Businesses",
+      cards: [
+        { icon: "🏛️", title: "Portals & Workflow Systems", text: "Request, approval and case-management portals with role-based access and audit logs." },
+        { icon: "🌐", title: "Bilingual Websites", text: "Arabic and English websites with proper right-to-left layouts, SEO and accessibility." },
+        { icon: "📊", title: "Dashboards & Integrations", text: "Reporting dashboards that pull data from your ERP, CRM and spreadsheets into one view." },
+        { icon: "🤖", title: "AI Assistants", text: "Arabic and English chat and voice assistants for customer and internal support." },
+      ],
+    },
+    guideTitle: "Choosing an IT Partner in Abu Dhabi",
+    guide: [
+      { heading: "IT services vs software development", content: "\"IT company\" can mean very different things: hardware supply, network installation, managed IT support, or software development. Be clear which you need. DEVSYNX focuses on software, websites, apps and AI; for office networks or hardware you need a local systems integrator, and we can work alongside them." },
+      { heading: "Security and data residency", content: "Many Abu Dhabi organisations need data hosted in the UAE and clear access controls. We can deploy to UAE cloud regions, document data flows, and follow your security policies for access, logging and backups." },
+      { heading: "Bilingual from the start", content: "Building Arabic support into the design from day one costs far less than adding it later. We design layouts, content structures and fonts for both languages together." },
+    ],
+    servicesTitle: "Our Services in Abu Dhabi",
+    services: [
+      { icon: "💻", title: "Custom Software", text: "Business systems, portals and SaaS products.", href: "/custom-software-development-company/", linkLabel: "Custom Software" },
+      { icon: "🌐", title: "Web Development & Design", text: "Fast, bilingual websites and web apps.", href: "/web-design-company-dubai/", linkLabel: "Web Design UAE" },
+      { icon: "📱", title: "Mobile Apps", text: "iOS and Android apps in Flutter and React Native.", href: "/app-development-company-dubai/", linkLabel: "App Development UAE" },
+      { icon: "📈", title: "SEO & Digital Marketing", text: "Search rankings and ad campaigns measured in leads.", href: "/seo-agency-dubai/", linkLabel: "SEO UAE" },
+      { icon: "🤖", title: "AI Automation", text: "Chatbots, voice agents and workflow automation.", href: "/ai-automation-agency/", linkLabel: "AI Automation" },
+      { icon: "👩‍💻", title: "Dedicated Developers", text: "Engineers who join your team monthly.", href: "/hire-dedicated-developers/", linkLabel: "Hire Developers" },
+    ],
+    caseStudiesTitle: "Work for UAE Clients",
+    caseStudyIds: ["rbo-accounting", "smart-links-cabling", "horizone-invest", "ygi-holiday-homes", "ustaad-ae", "ai-calling-agent"],
+    pricingTitle: "Ways to Work With Us",
+    pricingNote: "Quoted in AED or USD after a free scoping call. Written proposal within 48 hours.",
+    pricing: UAE_SOFTWARE,
+    areasTitle: "Areas We Serve in Abu Dhabi",
+    areasNote: "Remote delivery with full UAE working-hour overlap; on-site visits for larger projects.",
+    areas: ["Abu Dhabi City", "Al Reem Island", "Al Maryah Island (ADGM)", "Khalifa City", "Mussafah", "Yas Island", "Saadiyat Island", "Al Raha", "Masdar City", "Al Ain"],
+    related: [
+      { href: "/software-development-company-dubai/", label: "IT & Software Company Dubai" },
+      { href: "/it-company-sharjah/", label: "IT Company Sharjah" },
+      { href: "/seo-agency-dubai/", label: "SEO Agency Dubai" },
+      { href: "/uae/", label: "Software Development UAE" },
+    ],
+    faqs: [
+      { question: "What IT services do you provide in Abu Dhabi?", answer: "Custom software, websites and web applications, mobile apps, AI automation, SEO and digital marketing. We don't supply hardware or install office networks." },
+      { question: "Can you host our data in the UAE?", answer: "Yes. We can deploy to UAE cloud regions and document how data is stored, accessed and backed up." },
+      { question: "Do you build Arabic websites and apps?", answer: "Yes. We build bilingual Arabic and English products with correct right-to-left layouts and Arabic typography." },
+      { question: "How do you price projects in Abu Dhabi?", answer: "Fixed prices in AED or USD per milestone for defined projects, or a monthly rate for dedicated developers and support." },
+      { question: "Do you work with government suppliers?", answer: "We work with private companies and suppliers that serve public-sector clients, providing documentation and handover packages for their procurement and security reviews." },
+    ],
+    ctaTitle: "Start Your Abu Dhabi Project",
+  },
+
+  /* ---------------- IT company & web design Sharjah ---------------- */
+  {
+    ...base,
+    slug: "it-company-sharjah",
+    path: "/it-company-sharjah/",
+    navLabel: "IT Company Sharjah",
+    metaTitle: "IT Company & Web Design Company in Sharjah",
+    metaDescription: "IT and web design company serving Sharjah and Ajman: websites, e-commerce stores, business software and SEO for SMEs, traders and manufacturers. Fixed AED pricing.",
+    keywords: ["it company sharjah", "web design company sharjah", "it companies in sharjah", "website design sharjah", "web development company sharjah", "digital marketing agency sharjah", "web design company ajman"],
+    serviceName: "Web Design & IT Services",
+    placeLabel: "Sharjah",
+    areaServed: ["Sharjah", "Ajman", "United Arab Emirates"],
+    breadcrumbs: [
+      { name: "Home", path: "/" },
+      { name: "UAE", path: "/uae/" },
+      { name: "IT Company Sharjah", path: "/it-company-sharjah/" },
+    ],
+    badge: "Websites & software for Sharjah SMEs",
+    h1Before: "IT Company & Web Design in",
+    h1Highlight: "Sharjah",
+    quickAnswer:
+      "DEVSYNX is an IT and web design company serving Sharjah and Ajman. We design and build business websites, e-commerce stores and web applications, develop business software such as inventory and quotation systems, and provide SEO and Google Business Profile optimisation. Prices are fixed in AED or USD before work starts.",
+    whatsappText: "Hi DEVSYNX, I am in Sharjah and need a website or software.",
+    introTag: "Sharjah",
+    introTitle: "Websites and Systems for Sharjah's Traders and SMEs",
+    intro: [
+      "Sharjah is home to thousands of small and medium businesses: traders, manufacturers in its industrial areas, free-zone companies, workshops, clinics and educational institutions. Many rely on an outdated website, or none at all, and run quotations, stock and orders on spreadsheets.",
+      "We help these businesses get a fast, professional website that brings enquiries from Google, and practical software that removes manual work, at prices that make sense for an SME.",
+    ],
+    highlights: {
+      tag: "Sharjah Businesses",
+      title: "What Sharjah Companies Ask Us For",
+      cards: [
+        { icon: "🏭", title: "Industrial & Trading Websites", text: "Product catalogues and RFQ forms for manufacturers and traders in the industrial areas and free zones." },
+        { icon: "🧾", title: "Quotation & Inventory Systems", text: "Quotations, delivery notes, stock and invoices in one simple web system." },
+        { icon: "🛒", title: "Online Stores", text: "E-commerce stores with UAE payment gateways and delivery integrations." },
+        { icon: "📍", title: "Local SEO", text: "Google Business Profile and local pages so customers in Sharjah and Ajman find you first." },
+      ],
+    },
+    guideTitle: "Getting a Website That Brings Business in Sharjah",
+    guide: [
+      { heading: "Make it easy to contact you", content: "Most local customers want to call or message, not read long pages. Put WhatsApp, phone and location at the top, show your services clearly, and make sure the site loads quickly on mobile data." },
+      { heading: "Show proof", content: "Photos of real work, client logos, certifications and reviews build trust faster than generic text. For B2B companies, product specifications and downloadable catalogues matter most." },
+      { heading: "Get found on Google Maps", content: "For Sharjah searches, the map results are often the first thing people see. A complete Google Business Profile with the right categories and genuine reviews is one of the cheapest ways to get more enquiries." },
+    ],
+    servicesTitle: "Our Services in Sharjah",
+    services: [
+      { icon: "🌐", title: "Website Design", text: "Fast, mobile-first business websites.", href: "/web-design-company-dubai/", linkLabel: "Web Design UAE" },
+      { icon: "🛒", title: "E-commerce", text: "Shopify and WooCommerce stores.", href: "/services/ecommerce-solutions/", linkLabel: "E-commerce Development" },
+      { icon: "💻", title: "Business Software", text: "Quotation, inventory and order systems.", href: "/custom-software-development-company/", linkLabel: "Custom Software" },
+      { icon: "📈", title: "SEO", text: "Local SEO and Google Business Profile.", href: "/seo-agency-dubai/", linkLabel: "SEO UAE" },
+      { icon: "🎯", title: "Digital Marketing", text: "Google and Meta ads measured in enquiries.", href: "/digital-marketing-agency-dubai/", linkLabel: "Digital Marketing UAE" },
+      { icon: "🤖", title: "WhatsApp Automation", text: "Instant replies to enquiries and order updates.", href: "/ai-automation-agency/", linkLabel: "AI Automation" },
+    ],
+    caseStudiesTitle: "Websites and Systems for UAE Businesses",
+    caseStudyIds: ["fix-it-bilal", "smart-links-cabling", "rbo-accounting", "alpha-ahead-real-estate", "ustaad-ae", "nw-canvas"],
+    pricingTitle: "Ways to Work With Us",
+    pricingNote: "Fixed quotes in AED or USD with domain, hosting setup and on-page SEO included for websites.",
+    pricing: UAE_SOFTWARE,
+    areasTitle: "Areas We Serve",
+    areasNote: "Sharjah, Ajman and the Northern Emirates, remotely with full UAE working-hour overlap.",
+    areas: ["Al Majaz", "Al Nahda (Sharjah)", "Al Khan", "Muwaileh", "University City", "Industrial Area", "SAIF Zone", "Hamriyah Free Zone", "Ajman", "Umm Al Quwain", "Ras Al Khaimah"],
+    related: [
+      { href: "/it-company-abu-dhabi/", label: "IT Company Abu Dhabi" },
+      { href: "/software-development-company-dubai/", label: "IT & Software Company Dubai" },
+      { href: "/web-design-company-dubai/", label: "Web Design Company Dubai" },
+      { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
+    ],
+    faqs: [
+      { question: "How much does a website cost in Sharjah?", answer: "A business website is a fixed-price project quoted in AED or USD after a short call; e-commerce and custom systems cost more depending on features. Our website cost calculator gives a first estimate." },
+      { question: "How long does it take to build a website?", answer: "A business website usually takes 2 to 4 weeks, an online store 3 to 6 weeks, depending on content and integrations." },
+      { question: "Do you build Arabic websites?", answer: "Yes. We build bilingual Arabic and English websites with proper right-to-left layouts." },
+      { question: "Can you help us appear on Google Maps?", answer: "Yes. We optimise your Google Business Profile and local listings and set up a simple review process." },
+      { question: "Do you also work with Ajman businesses?", answer: "Yes. We serve Sharjah, Ajman and the other Northern Emirates." },
+    ],
+    ctaTitle: "Get a Fixed Quote for Your Sharjah Business",
+  },
+];

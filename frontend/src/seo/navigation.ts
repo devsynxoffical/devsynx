@@ -96,7 +96,11 @@ export const navMenus: NavMenu[] = [
       {
         title: "Middle East",
         links: [
-          { label: "Dubai, UAE", href: "/software-development-company-dubai/" },
+          { label: "IT & Software, Dubai", href: "/software-development-company-dubai/" },
+          { label: "SEO Agency, Dubai", href: "/seo-agency-dubai/" },
+          { label: "Digital Marketing, Dubai", href: "/digital-marketing-agency-dubai/" },
+          { label: "Abu Dhabi", href: "/it-company-abu-dhabi/" },
+          { label: "Sharjah", href: "/it-company-sharjah/" },
           { label: "Riyadh, Saudi Arabia", href: "/software-development-company-riyadh/" },
           { label: "Doha, Qatar", href: "/software-development-company-doha/" },
           { label: "UAE", href: "/uae/" },

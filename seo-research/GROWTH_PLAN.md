@@ -64,12 +64,12 @@ which only the owner can create. Rankings cannot be guaranteed.
 ### Middle East matrix (UAE research 8 Nov; Dubai area searches had zero measured volume, so areas go inside service pages, never separate pages)
 - [x] Dubai software page retitled "IT & Software Development Company in Dubai" ("it company dubai" 2,400 KD 3, "it company uae" 590 KD 7)
 - [x] Doha software page retitled "IT & Software Company in Qatar" ("it company qatar" 590, "software company qatar" 260)
-- [ ] SEO agency Dubai (/seo-agency-dubai/): "seo agency/company/services dubai" 5,400 KD 33, "seo agency uae" 480 KD 0; use Ustaad.ae case study; list Dubai areas served
-- [ ] Digital marketing agency Dubai (/digital-marketing-agency-dubai/): 3,600 KD 27, "digital marketing agency uae" 720 KD 0
+- [x] SEO agency Dubai (/seo-agency-dubai/): "seo agency/company/services dubai" 5,400 KD 33, "seo agency uae" 480 KD 0; use Ustaad.ae case study; list Dubai areas served
+- [x] Digital marketing agency Dubai (/digital-marketing-agency-dubai/): 3,600 KD 27, "digital marketing agency uae" 720 KD 0
 - [ ] E-commerce website development Dubai (/ecommerce-website-development-dubai/): 320 KD 28 + "ecommerce development company dubai" 170 KD 9
-- [ ] IT & software company Abu Dhabi (/it-company-abu-dhabi/): "it company abu dhabi" 720 KD 9, "web development company abu dhabi" 110 KD 0, "web design company abu dhabi" 170
+- [x] IT & software company Abu Dhabi (/it-company-abu-dhabi/): "it company abu dhabi" 720 KD 9, "web development company abu dhabi" 110 KD 0, "web design company abu dhabi" 170
 - [ ] SEO & digital marketing Abu Dhabi: "digital marketing agency abu dhabi" 390 KD 12, "seo company abu dhabi" 260 KD 11
-- [ ] IT company & web design Sharjah (/it-company-sharjah/): "it company sharjah" 390 KD 0, "web design company sharjah" 260 KD 0
+- [x] IT company & web design Sharjah (/it-company-sharjah/): "it company sharjah" 390 KD 0, "web design company sharjah" 260 KD 0
 - [ ] AEO / GEO service page (/aeo-geo-services/): "generative engine optimization" 110 (UAE), "answer engine optimization" 50, "aeo services" 50; check US/UK volume with remaining credits first
 - [ ] Kuwait, Oman, Qatar web design (see Week 1 list)
 - [ ] Saudi Arabia (Riyadh, Jeddah, Dammam) and Bahrain: Arabic keyword research first (English not supported by the data source)
@@ -124,5 +124,6 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ## Run log
 
+- 2026-11-08 (night): Contact form fixed (it never sent anything; now emails info@devsynx.com via contact-submit.php with CSV backup), floating WhatsApp button, header dropdowns fixed (no overflow). Built SEO Agency Dubai, Digital Marketing Agency Dubai, IT Company Abu Dhabi, IT Company Sharjah (all <15% similarity, 940–1,300 words). Next: e-commerce Dubai, Qatar web design, Kuwait, Oman, AEO/GEO page.
 - 2026-11-08 (late): GitHub Actions FTPS deploy confirmed working (first full upload ~25 min). UAE research (23 credits): Dubai areas have no measurable demand; "it company dubai" 2,400 KD 3. Dubai and Doha software pages retitled for IT-company searches. Credits left: inspectify 139, myouryour 78.
 - 2026-11-08: Plan created. Header and footer rebuilt, /locations/ hub, 4 Pakistan city pages, deploy workflow added. IndexNow: 57 URLs submitted.

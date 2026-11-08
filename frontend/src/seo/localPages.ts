@@ -9,6 +9,7 @@ import { localPageOverrides } from "./localPageOverrides";
 import { industryConfigs } from "./industryPages";
 import { usCityConfigs } from "./usCityPages";
 import { pkCitiesBatch2 } from "./pkCitiesBatch2";
+import { gulfPages } from "./gulfPages";
 
 export type LocalPage = {
   slug: string;
@@ -1436,6 +1437,7 @@ const rawLocalPages: LocalPage[] = [
   appDevelopmentPakistan,
   ...intlPages,
   ...usCityConfigs.map(intlPage),
+  ...gulfPages,
   ...globalPages,
   ...industryConfigs.map((c) =>
     globalPage({
