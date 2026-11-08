@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 $TO = 'info@devsynx.com';
-$FROM = 'website@devsynx.com';
+$FROM = 'info@devsynx.com'; // must be a real mailbox on this hosting account
 
 function field($key, $max = 500) {
     $v = isset($_POST[$key]) ? trim((string) $_POST[$key]) : '';
@@ -91,7 +91,12 @@ if ($email !== '') {
 }
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-$sent = @mail($TO, '=?UTF-8?B?' . base64_encode($subject) . '?=', $body, $headers, '-f' . $FROM);
+$encSubject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
+// Some hosts reject the -f envelope sender; try with it, then without.
+$sent = @mail($TO, $encSubject, $body, $headers, '-f' . $FROM);
+if (!$sent) {
+    $sent = @mail($TO, $encSubject, $body, $headers);
+}
 
 if ($sent || $saved) {
     echo json_encode(['ok' => true, 'mailed' => (bool) $sent, 'saved' => $saved]);
