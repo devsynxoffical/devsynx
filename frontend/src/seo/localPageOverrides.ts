@@ -107,6 +107,80 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
 
+
+  "software-house-gujranwala": {
+    caseStudyIds: ["nw-canvas", "devsynx-attendance-hr", "zahh-beverages", "installmentguard", "whatsapp-business-api", "odoo-service"],
+    keepFaqs: [0, 1, 3],
+    highlights: {
+      tag: "Gujranwala Industries",
+      title: "Software for Gujranwala's Manufacturers and Traders",
+      cards: [
+        { icon: "🌀", title: "Fans & Electrical Goods", text: "Dealer portals, seasonal production planning and warranty registration for fan and appliance makers." },
+        { icon: "🚿", title: "Sanitary Ware & Ceramics", text: "Product catalogues with finishes and sizes, showroom enquiries and dealer pricing." },
+        { icon: "🔪", title: "Cutlery & Steel", text: "Order tracking for domestic and export buyers, with costing per batch." },
+        { icon: "🧾", title: "Dealer Credit & Ledgers", text: "Credit limits, payment reminders on WhatsApp and dealer statements." },
+      ],
+    },
+    faqs: [
+      { question: "Do you visit Gujranwala for meetings?", answer: "Gujranwala is within easy reach of our Islamabad office by motorway, so we can hold kickoff workshops on-site for larger projects. Day-to-day work runs on WhatsApp and video calls." },
+      { question: "Can you set up Odoo for a manufacturing company?", answer: "Yes. We implement Odoo manufacturing, inventory, sales and accounting modules and build custom add-ons where your process differs." },
+    ],
+  },
+  "software-house-bahawalpur": {
+    caseStudyIds: ["egg-produce", "saviored", "devsynx-attendance-hr", "whatsapp-business-api", "zahh-beverages", "luxora-women"],
+    keepFaqs: [0, 1, 3],
+    highlights: {
+      tag: "Bahawalpur Industries",
+      title: "What Bahawalpur Businesses Ask Us to Build",
+      cards: [
+        { icon: "🌱", title: "Agri-Trading & Cotton", text: "Purchase records, ginning and stock tracking, buyer and grower ledgers." },
+        { icon: "🎓", title: "Schools & Academies", text: "Admissions, fee collection, attendance and results with SMS and WhatsApp alerts." },
+        { icon: "🩺", title: "Clinics & Labs", text: "Appointments, patient records, lab reports and billing." },
+        { icon: "🛍️", title: "Online Stores", text: "Shopify and WooCommerce stores with COD, courier booking and order confirmation." },
+      ],
+    },
+    faqs: [
+      { question: "Is custom software affordable for a small business in Bahawalpur?", answer: "We start with the one workflow that costs you the most time and build it as a small, fixed-price project. You can add modules later as the business grows." },
+      { question: "Will the system work on mobile phones?", answer: "Yes. We design mobile-first, and where staff work in the field we build apps that keep working offline." },
+    ],
+  },
+  "software-house-sialkot": {
+    caseStudyIds: ["nw-canvas", "doughi", "rebecca-minkoff", "solettos", "devsynx-attendance-hr", "mizn-abayas"],
+    keepFaqs: [0, 1, 3],
+    highlights: {
+      tag: "Sialkot Exporters",
+      title: "Software for Sialkot's Export Industries",
+      cards: [
+        { icon: "⚽", title: "Sports Goods", text: "Catalogues for balls, gloves and teamwear with custom-order and branding requests." },
+        { icon: "🩺", title: "Surgical & Dental Instruments", text: "Product catalogues with specifications, certifications and distributor enquiries." },
+        { icon: "👜", title: "Leather & Apparel", text: "Sample tracking, buyer approvals and production status for every order." },
+        { icon: "📦", title: "Shipment Documentation", text: "Order, invoice and shipping document management so nothing is missed at dispatch." },
+      ],
+    },
+    faqs: [
+      { question: "Can international buyers place orders through the website?", answer: "Yes. We build RFQ and custom-order forms, distributor logins with their own prices, and order status pages buyers can check themselves." },
+      { question: "Do you also handle SEO for export websites?", answer: "Yes. We optimise product and category pages for the searches buyers in Europe and North America make, and build the site to load fast worldwide." },
+    ],
+  },
+  "software-house-sargodha": {
+    caseStudyIds: ["egg-produce", "nw-canvas", "devsynx-attendance-hr", "whatsapp-business-api", "saviored", "installmentguard"],
+    keepFaqs: [0, 1, 3],
+    highlights: {
+      tag: "Sargodha Industries",
+      title: "Software for Sargodha's Citrus, Agri and Education Sectors",
+      cards: [
+        { icon: "🍊", title: "Kinnow Processing & Export", text: "Grower purchases, grading, packing lines, cold storage and export orders in one system." },
+        { icon: "🚚", title: "Season Logistics", text: "Truck dispatch, delivery tracking and buyer updates during the peak season." },
+        { icon: "🎓", title: "Colleges & Academies", text: "Admissions, fees, attendance and parent communication." },
+        { icon: "🏪", title: "Retail & Wholesale", text: "POS, stock across branches and credit customer ledgers." },
+      ],
+    },
+    faqs: [
+      { question: "Can the system handle the busy season?", answer: "Yes. We design for peak weeks: fast data entry screens, offline mobile apps for packing and farm staff, and daily summary reports for owners." },
+      { question: "Can you track profit per lot or per buyer?", answer: "Yes. We record costs from purchase through packing and freight so you can see margins per lot, per buyer and per season." },
+    ],
+  },
+
   /* ---------------- SEO pages ---------------- */
   "seo-services-lahore": {
     caseStudyIds: ["ustaad-ae", "productboxeswholesale", "topcustomboxes", "progenius-students-seo", "rankmora", "silayi-pret"],

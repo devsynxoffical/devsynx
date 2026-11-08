@@ -1,0 +1,223 @@
+market,keyword,monthly_searches,keyword_difficulty,cpc_usd,intent
+KW,it company kuwait,320,,1.38,
+KW,website design kuwait,320,,7.71,
+KW,it company in kuwait,320,,1.38,
+KW,website design in kuwait,320,,7.71,
+KW,website design,140,,2.54,
+KW,software company kuwait,140,,2.11,
+KW,digital marketing agency kuwait,140,,2.19,
+KW,software company in kuwait,140,,2.11,
+KW,web development company kuwait,90,,7.19,
+KW,web design company kuwait,90,,7.19,
+KW,app development company kuwait,90,,,
+KW,mobile app development company kuwait,90,,,
+KW,web development company in kuwait,90,,7.19,
+KW,web design company in kuwait,90,,7.19,
+KW,app development company in kuwait,90,,,
+KW,mobile app development company in kuwait,90,,,
+KW,seo company kuwait,70,,6.03,
+KW,software company,50,,2.7,
+KW,it company,50,,0.73,
+KW,erp software,50,,2.89,
+KW,ai automation,50,,3.71,
+KW,digital marketing agency,40,,,
+KW,crm software,40,,,
+KW,web development company,30,,18.68,
+KW,mobile app development company,30,,15.83,
+KW,app developers,30,,2.43,
+KW,app developers kuwait,30,,27.51,
+KW,app developers in kuwait,30,,27.51,
+KW,software development company,20,,,
+KW,app development company,20,,58.89,
+KW,seo agency,20,,,
+KW,software development company kuwait,20,,2.57,
+KW,seo agency kuwait,20,,,
+KW,ecommerce website development kuwait,20,,,
+KW,software development company in kuwait,20,,2.57,
+KW,software house,10,,,
+KW,web design company,10,,,
+KW,seo company,10,,0.88,
+KW,seo services,10,,,
+KW,ecommerce website development,10,,,
+KW,seo services kuwait,10,,,
+KW,erp software kuwait,10,,13.41,
+KW,crm software kuwait,10,,,
+OM,it company oman,210,,2.5,
+OM,web development company oman,210,,1.35,
+OM,web design company oman,210,,1.35,
+OM,it company in oman,210,,2.5,
+OM,web development company in oman,210,,1.35,
+OM,web design company in oman,210,,1.35,
+OM,website design,170,,2.57,
+OM,software company oman,140,,3.05,
+OM,website design oman,140,,1.33,
+OM,software company in oman,140,,3.05,
+OM,website design in oman,140,,1.33,
+OM,digital marketing agency,110,,2.61,
+OM,software company,90,,0.28,
+OM,it company in muscat,90,,0.77,
+OM,erp software,70,,4,
+OM,crm software,50,,3.77,
+OM,digital marketing agency oman,50,,2.57,
+OM,it company,40,,0.49,
+OM,ai automation,40,,2.86,
+OM,software company in muscat,40,,0.67,
+OM,it company muscat,30,,0.54,
+OM,software development company in oman,30,,3.44,
+OM,software development company,20,,6.9,
+OM,app developers,20,,,
+OM,seo agency,20,,,
+OM,website design muscat,20,,1.6,
+OM,seo company oman,20,,,
+OM,software house,10,,,
+OM,web development company,10,,,
+OM,web design company,10,,,
+OM,app development company,10,,,
+OM,mobile app development company,10,,,
+OM,seo company,10,,4.43,
+OM,seo services,10,,,
+OM,ecommerce website development,10,,,
+OM,web development company muscat,10,,,
+OM,web design company muscat,10,,,
+OM,app development company oman,10,,,
+OM,app developers oman,10,,,
+OM,seo services muscat,10,,,
+OM,seo services oman,10,,,
+OM,seo agency muscat,10,,,
+OM,seo agency oman,10,,,
+OM,digital marketing agency muscat,10,,2.09,
+OM,erp software oman,10,,2.81,
+OM,software house in oman,10,,0.92,
+OM,mobile app development company in muscat,10,,,
+OM,mobile app development company in oman,10,,19.76,
+PK,seo expert in lahore,1000,11,0.56,commercial
+PK,seo expert in pakistan,1000,20,0.42,commercial
+PK,seo expert lahore,1000,11,0.26,commercial
+PK,seo expert pakistan,1000,20,0.42,commercial
+PK,seo expert in karachi,590,3,0.12,commercial
+PK,seo expert karachi,590,3,0.12,commercial
+PK,software house in gujranwala,480,19,0.13,navigational
+PK,web designer in islamabad,480,12,0.7,commercial
+PK,software house in bahawalpur,390,0,0.18,navigational
+PK,software house in sialkot,320,20,,navigational
+PK,web designer in lahore,320,25,0.55,commercial
+PK,web designer lahore,320,20,0.55,commercial
+PK,software house in sargodha,260,0,,navigational
+PK,software house bahawalpur,210,0,0.29,navigational
+PK,software house gujranwala,210,19,0.04,navigational
+PK,software house in gujrat,210,11,,navigational
+PK,seo expert in islamabad,210,14,0.06,commercial
+PK,web designer karachi,210,69,0.85,commercial
+PK,software house in abbottabad,170,,,navigational
+PK,app development company in pakistan,170,53,0.28,commercial
+PK,mobile app development company in pakistan,170,53,0.28,commercial
+PK,web designer islamabad,170,0,0.66,commercial
+PK,software house sialkot,110,17,0.26,navigational
+PK,web designer in karachi,110,20,0.81,commercial
+PK,digital marketing agency in bahawalpur,90,,,commercial
+PK,software house hyderabad,90,,0.13,navigational
+PK,software house sargodha,90,0,,navigational
+PK,web designer in pakistan,90,24,0.71,commercial
+PK,web designer pakistan,90,24,0.71,commercial
+PK,digital marketing agency gujranwala,70,,1.14,commercial
+PK,digital marketing agency in sialkot,70,,0.07,commercial
+PK,web designer in rawalpindi,70,,0.44,commercial
+PK,wordpress developer in lahore,70,44,,commercial
+PK,wordpress developer in pakistan,70,,,commercial
+PK,wordpress developer pakistan,70,,0.35,commercial
+PK,digital marketing agency sialkot,50,,,commercial
+PK,software company hyderabad,50,,,navigational
+PK,software company in hyderabad,50,,,commercial
+PK,software house abbottabad,50,,,navigational
+PK,software house gujrat,50,,,navigational
+PK,software house in quetta,50,,,navigational
+PK,seo expert in rawalpindi,50,,,commercial
+PK,seo expert islamabad,50,14,,commercial
+PK,seo services in sialkot,40,,,commercial
+PK,software house in mardan,40,,,commercial
+PK,digital marketing agency bahawalpur,30,,3.88,commercial
+PK,digital marketing agency in gujranwala,30,,,commercial
+PK,software company in gujranwala,30,,,navigational
+PK,ecommerce website development in pakistan,30,40,0.23,commercial
+PK,wordpress developer in islamabad,30,,,commercial
+PK,digital marketing agency hyderabad,20,,2.4,commercial
+PK,digital marketing agency in hyderabad,20,,2.4,commercial
+PK,digital marketing agency in sargodha,20,,,commercial
+PK,seo company hyderabad,20,,,commercial
+PK,software house mardan,20,,,navigational
+PK,web development in sialkot,20,45,,commercial
+PK,web development sialkot,20,45,,navigational
+PK,it company hyderabad,20,,0.08,navigational
+PK,it company in hyderabad,20,,0.08,navigational
+PK,app development hyderabad,10,,,navigational
+PK,seo services hyderabad,10,,,commercial
+PK,seo services in hyderabad,10,,,commercial
+PK,software house sukkur,10,,,commercial
+PK,web design gujranwala,10,,,commercial
+PK,web design hyderabad,10,,0.39,commercial
+PK,web design sialkot,10,,,commercial
+PK,web development hyderabad,10,,,commercial
+PK,web development in hyderabad,10,,,commercial
+PK,website development hyderabad,10,,,commercial
+PK,website development in hyderabad,10,,,commercial
+PK,app development company in islamabad,10,,,commercial
+PK,ecommerce website development in karachi,10,45,,commercial
+PK,ecommerce website development in lahore,10,,,commercial
+PK,ecommerce website development karachi,10,45,,commercial
+PK,it company in gujrat,10,,,navigational
+PK,mobile app development company in lahore,10,,,commercial
+PK,mobile app development company lahore,10,,,navigational
+PK,mobile app development company pakistan,10,53,0.5,navigational
+QA,it company qatar,590,,3.17,
+QA,it company in qatar,590,,3.17,
+QA,website design qatar,390,,6.78,
+QA,web design company in doha,390,,6.78,
+QA,website design in qatar,390,,6.78,
+QA,software company,260,,7.03,
+QA,mobile app development company,260,,,
+QA,software company qatar,260,,3.98,
+QA,software company in qatar,260,,3.98,
+QA,crm software,210,,8.96,
+QA,website design,170,,5.04,
+QA,erp software,140,,5.04,
+QA,web development company qatar,140,,4.97,
+QA,web design company qatar,140,,4.97,
+QA,web development company in qatar,140,,4.97,
+QA,web design company in qatar,140,,4.97,
+QA,seo company qatar,110,,,
+QA,digital marketing agency qatar,110,,2.76,
+QA,digital marketing agency,90,,5.56,
+QA,app development company qatar,90,,,
+QA,mobile app development company doha,90,,,
+QA,mobile app development company qatar,90,,,
+QA,mobile app development company in doha,90,,,
+QA,it company,70,,1.61,
+QA,ai automation,70,,2.65,
+QA,mobile app development company in qatar,70,,0.27,
+QA,app developers,50,,15.83,
+QA,erp software qatar,50,,2.51,
+QA,it company in doha,50,,2.16,
+QA,app development company,40,,19.72,
+QA,website design doha,40,,2.08,
+QA,app developers qatar,40,,29.5,
+QA,software house in qatar,40,,3.84,
+QA,website design in doha,40,,2.08,
+QA,app developers in qatar,40,,29.5,
+QA,software house,20,,,
+QA,web development company,20,,,
+QA,web design company,20,,5.84,
+QA,seo services,20,,9.94,
+QA,seo agency,20,,6.6,
+QA,seo services qatar,20,,,
+QA,ai automation qatar,20,,2.32,
+QA,app development company in qatar,20,,13.71,
+QA,software development company,10,,2.19,
+QA,seo company,10,,2.98,
+QA,ecommerce website development,10,,,
+QA,web design company doha,10,,,
+QA,app development company doha,10,,,
+QA,app developers doha,10,,,
+QA,seo company doha,10,,,
+QA,seo agency qatar,10,,,
+QA,digital marketing agency doha,10,,0.59,
+QA,crm software qatar,10,,,

@@ -3,10 +3,12 @@ import Link from "next/link";
 import { buildBreadcrumbSchema, buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Web Development in Islamabad: Next.js & WordPress | DEVSYNX",
+  title: "Web Designer & Web Development in Islamabad",
   description: "Web development in Islamabad and Rawalpindi: custom Next.js websites, web apps and Shopify stores built for speed and Google ranking. Fixed prices in PKR.",
   path: "/web-development-islamabad/",
   keywords: [
+    "web designer in islamabad",
+    "web designer islamabad",
     "web development in islamabad",
     "website development company in islamabad",
     "web development company in rawalpindi",

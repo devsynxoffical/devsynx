@@ -64,6 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // City, international and global service landing pages (seo/localPages.ts)
   entries.push(toSitemapEntry("/tools/", 0.85, "monthly"));
+  entries.push(toSitemapEntry("/locations/", 0.85, "weekly"));
   for (const tool of toolPages) {
     entries.push(toSitemapEntry(tool.path, 0.92, "monthly"));
   }

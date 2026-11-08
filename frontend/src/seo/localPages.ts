@@ -8,6 +8,7 @@
 import { localPageOverrides } from "./localPageOverrides";
 import { industryConfigs } from "./industryPages";
 import { usCityConfigs } from "./usCityPages";
+import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 
 export type LocalPage = {
   slug: string;
@@ -166,7 +167,7 @@ const pkRelated = [
 /* Pakistan: software house city pages                                 */
 /* ------------------------------------------------------------------ */
 
-type PkCity = {
+export type PkCity = {
   key: string;
   name: string;
   province: string;
@@ -1387,6 +1388,7 @@ const rawLocalPages: LocalPage[] = [
   softwareHousePage(faisalabad),
   softwareHousePage(multan),
   softwareHousePage(peshawar),
+  ...pkCitiesBatch2.map(softwareHousePage),
   softwareHousePakistan,
   seoCityPage(
     "Lahore",

@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { services } from "@/data/services";
-import { SeoPriorityLinks } from "@/components/SeoPriorityLinks";
 import { ORGANIZATION_SAME_AS } from "@/seo/metadata";
 
 export const Footer: React.FC = () => {
@@ -86,84 +85,42 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Global Hubs */}
           <div className="footer__section">
-            <div className="footer__title">Global Hubs</div>
+            <div className="footer__title">Industries</div>
             <ul className="footer__links">
-              <li><Link href="/usa/" className="footer__link">United States</Link></li>
-              <li><Link href="/uk/" className="footer__link">United Kingdom</Link></li>
-              <li><Link href="/uae/" className="footer__link">UAE &amp; Dubai</Link></li>
-              <li><Link href="/germany/" className="footer__link">Germany</Link></li>
-              <li><Link href="/canada/" className="footer__link">Canada</Link></li>
-              <li><Link href="/australia/" className="footer__link">Australia</Link></li>
-              <li><Link href="/software-development-company-dubai/" className="footer__link">Dubai</Link></li>
-              <li><Link href="/software-development-company-riyadh/" className="footer__link">Saudi Arabia</Link></li>
-              <li><Link href="/software-development-company-doha/" className="footer__link">Qatar</Link></li>
-              <li><Link href="/software-development-company-sydney/" className="footer__link">Sydney</Link></li>
-              <li><Link href="/software-development-company-toronto/" className="footer__link">Toronto</Link></li>
-              <li><Link href="/software-development-company-chicago/" className="footer__link">Chicago</Link></li>
-              <li><Link href="/app-development-company-houston/" className="footer__link">Houston</Link></li>
-              <li><Link href="/app-development-company-austin/" className="footer__link">Austin</Link></li>
-              <li><Link href="/app-development-company-miami/" className="footer__link">Miami</Link></li>
-              <li><Link href="/software-development-company-london/" className="footer__link">London</Link></li>
-              <li><Link href="/software-development-company-new-york/" className="footer__link">New York</Link></li>
-            </ul>
-          </div>
-
-          <div className="footer__section">
-            <div className="footer__title">Pakistan</div>
-            <ul className="footer__links">
-              <li><Link href="/software-house-pakistan/" className="footer__link">Software House Pakistan</Link></li>
-              <li><Link href="/software-house-lahore/" className="footer__link">Software House Lahore</Link></li>
-              <li><Link href="/software-house-karachi/" className="footer__link">Software House Karachi</Link></li>
-              <li><Link href="/software-house-faisalabad/" className="footer__link">Software House Faisalabad</Link></li>
-              <li><Link href="/software-house-multan/" className="footer__link">Software House Multan</Link></li>
-              <li><Link href="/software-house-peshawar/" className="footer__link">Software House Peshawar</Link></li>
-              <li><Link href="/seo-services-pakistan/" className="footer__link">SEO Services Pakistan</Link></li>
-              <li><Link href="/app-development-company-pakistan/" className="footer__link">App Development Pakistan</Link></li>
-            </ul>
-          </div>
-
-          <div className="footer__section">
-            <div className="footer__title">Industries &amp; Tools</div>
-            <ul className="footer__links">
-              <li><Link href="/healthcare-software-development/" className="footer__link">Healthcare Software</Link></li>
-              <li><Link href="/real-estate-software-development/" className="footer__link">Real Estate Software</Link></li>
-              <li><Link href="/fintech-software-development/" className="footer__link">Fintech Software</Link></li>
+              <li><Link href="/healthcare-software-development/" className="footer__link">Healthcare</Link></li>
+              <li><Link href="/real-estate-software-development/" className="footer__link">Real Estate</Link></li>
+              <li><Link href="/fintech-software-development/" className="footer__link">Fintech</Link></li>
               <li><Link href="/edtech-software-development/" className="footer__link">EdTech &amp; E-Learning</Link></li>
-              <li><Link href="/field-service-app-development/" className="footer__link">Field Service Apps</Link></li>
-              <li><Link href="/tools/app-development-cost-calculator/" className="footer__link">App Cost Calculator</Link></li>
-              <li><Link href="/tools/website-cost-calculator/" className="footer__link">Website Cost Calculator</Link></li>
+              <li><Link href="/field-service-app-development/" className="footer__link">Field Service</Link></li>
             </ul>
           </div>
 
-          {/* Company & Regional */}
           <div className="footer__section">
-            <div className="footer__title">Company &amp; Regional</div>
+            <div className="footer__title">Locations</div>
+            <ul className="footer__links">
+              <li><Link href="/software-house-islamabad/" className="footer__link">Islamabad (HQ)</Link></li>
+              <li><Link href="/software-house-lahore/" className="footer__link">Lahore</Link></li>
+              <li><Link href="/software-house-karachi/" className="footer__link">Karachi</Link></li>
+              <li><Link href="/software-development-company-dubai/" className="footer__link">Dubai</Link></li>
+              <li><Link href="/software-development-company-new-york/" className="footer__link">New York</Link></li>
+              <li><Link href="/software-development-company-london/" className="footer__link">London</Link></li>
+              <li><Link href="/locations/" className="footer__link footer__link--all">All Locations →</Link></li>
+            </ul>
+          </div>
+
+          <div className="footer__section">
+            <div className="footer__title">Company</div>
             <ul className="footer__links">
               <li><Link href="/about/" className="footer__link">About Us</Link></li>
               <li><Link href="/team/" className="footer__link">Our Team</Link></li>
-              <li><Link href="/clients/" className="footer__link">Portfolio (70+ Clients)</Link></li>
-              <li><Link href="/software-house-islamabad/" className="footer__link">Software House Islamabad</Link></li>
-              <li><Link href="/software-house-rawalpindi/" className="footer__link">Rawalpindi Office</Link></li>
-              <li><Link href="/contact/" className="footer__link">Contact &amp; Quotes</Link></li>
+              <li><Link href="/clients/" className="footer__link">Case Studies</Link></li>
+              <li><Link href="/blog/" className="footer__link">Blog</Link></li>
+              <li><Link href="/tools/" className="footer__link">Free Cost Calculators</Link></li>
+              <li><Link href="/contact/" className="footer__link">Contact</Link></li>
             </ul>
           </div>
 
-          {/* Newsletter / CTA */}
-          <div className="footer__section">
-            <div className="footer__title">Get In Touch</div>
-            <p className="footer__cta-text">
-              Have a project in mind? Let&apos;s discuss how we can help your business grow.
-            </p>
-            <Link href="/contact/" className="btn btn--accent btn--sm">
-              Contact Us
-            </Link>
-          </div>
-        </div>
-
-        <div className="footer__seo-strip">
-          <SeoPriorityLinks title="Popular Pages" />
         </div>
 
         {/* Bottom Bar */}

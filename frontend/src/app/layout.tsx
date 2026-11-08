@@ -19,6 +19,7 @@ import "@/styles/fonts.css";
 import "./globals.css";
 import "@/styles/about.css";
 import "@/styles/city-landing.css";
+import "@/styles/nav.css";
 import "@/styles/responsive.css";
 
 export const viewport: Viewport = {
