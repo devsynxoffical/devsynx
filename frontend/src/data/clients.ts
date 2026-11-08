@@ -6014,6 +6014,11 @@ export const clientProjects: ClientProject[] = [
         "label": "Average SERP Position",
         "value": "7.8",
         "description": "Top-page average search position across indexed academic subjects"
+      },
+      {
+        "label": "Latest 28 Days",
+        "value": "8.76K clicks",
+        "description": "Google Search Console, 10 Oct – 6 Nov 2026: 29.3K impressions, 29.9% CTR, average position 6.6, all organic"
       }
     ],
     "keyFeatures": [
