@@ -53,25 +53,25 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [x] Software house pages: Gujranwala (480/mo), Bahawalpur (390+210), Sialkot (320+110), Sargodha (260+90)
 - [x] Web development Islamabad retitled for "web designer in islamabad" (480/mo, KD 12)
 - [ ] Software house pages: Gujrat (210), Abbottabad (170+50), Hyderabad (90+50)
-- [ ] Qatar: web design company Doha ("web design company in doha" 390, "website design qatar" 390)
+- [x] Qatar: web design company Doha ("web design company in doha" 390, "website design qatar" 390)
 - [ ] Qatar: retitle Doha software page toward "software company in qatar" (260) / "it company qatar" (590) without cannibalising
-- [ ] Kuwait: software / IT company Kuwait ("it company kuwait" 320, "software company kuwait" 140)
-- [ ] Kuwait: website design Kuwait (320)
-- [ ] Oman: software / IT company Oman ("it company oman" 210, "software company oman" 140, "web development company oman" 210)
-- [ ] Oman: web design company Oman ("web design company in oman" 210, "website design oman" 140)
-- [ ] Add the new Gulf pages to `seo/navigation.ts` (Middle East column) and `/locations/`
+- [x] Kuwait: software / IT company Kuwait ("it company kuwait" 320, "software company kuwait" 140)
+- [x] Kuwait: website design Kuwait (320)
+- [x] Oman: software / IT company Oman ("it company oman" 210, "software company oman" 140, "web development company oman" 210)
+- [x] Oman: web design company Oman ("web design company in oman" 210, "website design oman" 140)
+- [x] Add the new Gulf pages to `seo/navigation.ts` (Middle East column) and `/locations/`
 
 ### Middle East matrix (UAE research 8 Nov; Dubai area searches had zero measured volume, so areas go inside service pages, never separate pages)
 - [x] Dubai software page retitled "IT & Software Development Company in Dubai" ("it company dubai" 2,400 KD 3, "it company uae" 590 KD 7)
 - [x] Doha software page retitled "IT & Software Company in Qatar" ("it company qatar" 590, "software company qatar" 260)
 - [x] SEO agency Dubai (/seo-agency-dubai/): "seo agency/company/services dubai" 5,400 KD 33, "seo agency uae" 480 KD 0; use Ustaad.ae case study; list Dubai areas served
 - [x] Digital marketing agency Dubai (/digital-marketing-agency-dubai/): 3,600 KD 27, "digital marketing agency uae" 720 KD 0
-- [ ] E-commerce website development Dubai (/ecommerce-website-development-dubai/): 320 KD 28 + "ecommerce development company dubai" 170 KD 9
+- [x] E-commerce website development Dubai (/ecommerce-website-development-dubai/): 320 KD 28 + "ecommerce development company dubai" 170 KD 9
 - [x] IT & software company Abu Dhabi (/it-company-abu-dhabi/): "it company abu dhabi" 720 KD 9, "web development company abu dhabi" 110 KD 0, "web design company abu dhabi" 170
 - [ ] SEO & digital marketing Abu Dhabi: "digital marketing agency abu dhabi" 390 KD 12, "seo company abu dhabi" 260 KD 11
 - [x] IT company & web design Sharjah (/it-company-sharjah/): "it company sharjah" 390 KD 0, "web design company sharjah" 260 KD 0
 - [ ] AEO / GEO service page (/aeo-geo-services/): "generative engine optimization" 110 (UAE), "answer engine optimization" 50, "aeo services" 50; check US/UK volume with remaining credits first
-- [ ] Kuwait, Oman, Qatar web design (see Week 1 list)
+- [x] Kuwait, Oman, Qatar web design (see Week 1 list)
 - [ ] Saudi Arabia (Riyadh, Jeddah, Dammam) and Bahrain: Arabic keyword research first (English not supported by the data source)
 
 ### US metros (from Nov research; SEO-agency city terms are left to the separate RankEmpire site)
@@ -124,6 +124,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ## Run log
 
+- 2026-11-09 09:14 PKT (run 1): GSC (31 Oct–6 Nov): 17 clicks / 2,053 impressions vs 16 / 1,787 the week before (+15% impressions), avg position ~34 → ~29. Indexed within hours: seo-agency-dubai, software-house-gujranwala, healthcare-software-development. Still unknown to Google: app cost calculator, Chicago, New York, London, Peshawar, Digital Marketing Lahore. Page 1: "how to choose a software development company" #6.6 (36 impr), "best practices in choosing…" #3.4, "software house near me" #9.6, "software house in saddar rawalpindi" #8.3, "software house karachi" #10. Built: web-design-company-doha, it-company-kuwait (IT + website design), it-company-oman (IT + web development + web design), ecommerce-website-development-dubai; 910–1,033 words, max 16% similarity. Middle East menu reorganised. Owner pending: SMTP_PASSWORD secret (form emails), Google Business Profile, hosting crawler whitelist.
 - 2026-11-08 (night): Contact form fixed (it never sent anything; now emails info@devsynx.com via contact-submit.php with CSV backup), floating WhatsApp button, header dropdowns fixed (no overflow). Built SEO Agency Dubai, Digital Marketing Agency Dubai, IT Company Abu Dhabi, IT Company Sharjah (all <15% similarity, 940–1,300 words). Next: e-commerce Dubai, Qatar web design, Kuwait, Oman, AEO/GEO page.
 - 2026-11-08 (late): GitHub Actions FTPS deploy confirmed working (first full upload ~25 min). UAE research (23 credits): Dubai areas have no measurable demand; "it company dubai" 2,400 KD 3. Dubai and Doha software pages retitled for IT-company searches. Credits left: inspectify 139, myouryour 78.
 - 2026-11-08: Plan created. Header and footer rebuilt, /locations/ hub, 4 Pakistan city pages, deploy workflow added. IndexNow: 57 URLs submitted.
