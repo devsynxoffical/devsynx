@@ -11,6 +11,7 @@ import { usCityConfigs } from "./usCityPages";
 import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 import { gulfPages } from "./gulfPages";
 import { gulfPages2 } from "./gulfPages2";
+import { aeoPage } from "./aeoPage";
 
 export type LocalPage = {
   slug: string;
@@ -1440,6 +1441,7 @@ const rawLocalPages: LocalPage[] = [
   ...usCityConfigs.map(intlPage),
   ...gulfPages,
   ...gulfPages2,
+  aeoPage,
   ...globalPages,
   ...industryConfigs.map((c) =>
     globalPage({

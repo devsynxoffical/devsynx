@@ -202,6 +202,9 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- SEO pages ---------------- */
   "seo-services-lahore": {
+    metaTitle: "SEO Expert & SEO Services in Lahore",
+    h1Before: "SEO Expert & SEO Services in",
+    extraKeywords: ["seo expert in lahore", "seo expert lahore", "best seo expert in lahore", "seo specialist lahore"],
     caseStudyIds: ["ustaad-ae", "productboxeswholesale", "topcustomboxes", "progenius-students-seo", "rankmora", "silayi-pret"],
     keepFaqs: [0, 3],
     highlights: {
@@ -214,11 +217,15 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Will an SEO expert work on my account?", answer: "Yes. Your campaign is planned and reviewed by an experienced SEO specialist, technical fixes are made by our developers, and you speak directly with the person working on your account rather than a sales manager." },
       { question: "Why is SEO in Lahore so competitive?", answer: "Lahore has more searches for SEO and marketing services than any other Pakistani city, and many established agencies compete for them. Ranking needs a technically sound site, strong local signals and consistent content and links over several months." },
       { question: "Do you work with Lahore e-commerce stores?", answer: "Yes. We optimise category and product pages, fix technical issues on Shopify and WooCommerce, and build content that targets the product searches your customers use." },
     ],
   },
   "seo-services-karachi": {
+    metaTitle: "SEO Expert & SEO Services in Karachi",
+    h1Before: "SEO Expert & SEO Services in",
+    extraKeywords: ["seo expert in karachi", "seo expert karachi", "seo specialist karachi"],
     caseStudyIds: ["productboxeswholesale", "acutepharmacy", "ustaad-ae", "topcustomboxes", "rankmora", "progenius-students-seo"],
     keepFaqs: [0, 1],
     highlights: {
@@ -231,8 +238,18 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Will an SEO expert work on my account?", answer: "Yes. Your campaign is planned and reviewed by an experienced SEO specialist, technical fixes are made by our developers, and you speak directly with the person working on your account rather than a sales manager." },
       { question: "Can you help a B2B company in Karachi get enquiries from Google?", answer: "Yes. We target product, specification and supplier searches, build detailed product pages and add enquiry forms and WhatsApp contact so trade buyers can reach you quickly." },
       { question: "My business has several branches in Karachi. How do you handle that?", answer: "Each branch gets its own Google Business Profile and its own location page with accurate address, hours and phone number, all linked from a branch directory." },
+    ],
+  },
+
+  "seo-services-pakistan": {
+    metaTitle: "SEO Expert & SEO Services in Pakistan",
+    h1Before: "SEO Expert & SEO Services in",
+    extraKeywords: ["seo expert in pakistan", "seo expert pakistan", "best seo expert in pakistan", "seo specialist pakistan"],
+    faqs: [
+      { question: "Will an SEO expert work on my account?", answer: "Yes. Your campaign is planned and reviewed by an experienced SEO specialist, technical fixes are made by our developers, and you speak directly with the person working on your account rather than a sales manager." },
     ],
   },
 
@@ -274,6 +291,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- Web development pages ---------------- */
   "web-development-lahore": {
+    metaTitle: "Web Designer & Web Development in Lahore",
+    extraKeywords: ["web designer in lahore", "web designer lahore", "website designer lahore"],
     caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "zahh-beverages", "doughi", "studio-pink-designs"],
     keepFaqs: [0, 3],
     highlights: {
@@ -291,6 +310,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "web-development-karachi": {
+    metaTitle: "Web Designer & Web Development in Karachi",
+    extraKeywords: ["web designer karachi", "web designer in karachi", "website designer karachi"],
     caseStudyIds: ["nw-canvas", "rbo-accounting", "smart-links-cabling", "zahh-beverages", "orvex-booths", "alpha-ahead-real-estate"],
     keepFaqs: [0, 3],
     highlights: {

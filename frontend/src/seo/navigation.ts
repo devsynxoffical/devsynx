@@ -45,6 +45,7 @@ export const navMenus: NavMenu[] = [
         title: "Grow & Scale",
         links: [
           { label: "SEO Services", href: "/services/seo-services/", desc: "Technical, local & e-commerce" },
+          { label: "AI SEO (AEO & GEO)", href: "/ai-seo-agency/", desc: "Show up in ChatGPT & AI Overviews" },
           { label: "E-commerce Development", href: "/services/ecommerce-solutions/" },
           { label: "Hire Dedicated Developers", href: "/hire-dedicated-developers/", desc: "Full-time engineers, monthly" },
           { label: "DevOps & CI/CD", href: "/services/devops-cicd/" },
