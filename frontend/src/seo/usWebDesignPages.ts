@@ -1,7 +1,8 @@
 /**
  * US web design city pages (run 3, 10 Nov 2026). Demand from the Nov US research:
  * "web design company dallas" 2,400 (KD 24), "new york" 1,000 (KD 33),
- * "miami" 880 (KD 31), "houston" 590 (KD 35). Rendered via intlPage().
+ * "miami" 880 (KD 31), "houston" 590 (KD 35).
+ * Run 4: "san francisco" 590 (KD 33), "austin" 480 (KD 35), "los angeles" 480 (KD 37). Rendered via intlPage().
  */
 import type { IntlConfig } from "./localPages";
 
@@ -201,6 +202,148 @@ export const usWebDesignConfigs: IntlConfig[] = [
       { href: "/app-development-company-houston/", label: "App Development Houston" },
       { href: "/web-design-company-dallas/", label: "Web Design Dallas" },
       { href: "/healthcare-software-development/", label: "Healthcare Software" },
+      { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
+    ],
+  },
+  {
+    slug: "web-design-company-san-francisco",
+    service: "web",
+    city: "San Francisco",
+    country: "United States",
+    countryHub: "/usa/",
+    currency: "USD",
+    areas: ["SoMa", "Mission District", "Financial District", "Hayes Valley", "Mission Bay", "Oakland", "Berkeley", "Palo Alto", "Mountain View", "San Jose", "Sunnyvale", "Redwood City"],
+    caseStudyIds: ["rankmora", "purrchase-ai", "entiix", "superhuman-mail", "installmentguard", "devsynx-platform"],
+    keywords: ["web design company san francisco", "web design san francisco", "website design san francisco", "web designer san francisco", "san francisco web design agency", "web development company san francisco"],
+    quickAnswerExtra: "We design marketing websites and product sites for Bay Area startups and SaaS companies, built in Next.js with a design system your team can extend after launch.",
+    intro: [
+      "In San Francisco and the wider Bay Area, the website is usually the first product a startup ships. Investors, candidates and early customers judge the company by it, and it has to explain a technical product in a few seconds, load instantly and convert visitors into sign-ups or demo requests.",
+      "That is the kind of website we build most often for software companies: SaaS marketing sites, product launch pages, documentation and pricing pages, and the web apps behind them. Our own SaaS work, including the Rankmora SEO platform and Purrchase AI, means we design from the point of view of a product team, not just a brochure.",
+      "Bay Area agency rates often put a proper marketing site out of reach before a seed or Series A round. We offer senior design and Next.js engineering on a fixed USD price, with live calls in the Pacific Time morning.",
+    ],
+    highlights: {
+      tag: "Bay Area Websites",
+      title: "Websites We Build for Bay Area Companies",
+      cards: [
+        { icon: "🚀", title: "Startup Launch Sites", text: "A sharp story, waitlist or demo booking and analytics in place for launch day." },
+        { icon: "☁️", title: "SaaS Marketing Sites", text: "Feature, pricing, comparison and integration pages that rank and convert to trials." },
+        { icon: "📚", title: "Docs & Developer Pages", text: "Fast documentation, changelogs and API reference that developers actually use." },
+        { icon: "🧩", title: "Design Systems", text: "Reusable components in Figma and code, so your team can ship new pages without a designer." },
+      ],
+    },
+    guideTitle: "What a Bay Area Startup Website Needs",
+    guide: [
+      { heading: "Explain the product in one screen", content: "Visitors decide in seconds. A specific headline, a product visual or short demo loop, and one clear call to action, such as a free trial or a demo booking, beat a page of buzzwords. We test headlines with your real users before launch." },
+      { heading: "Let marketing ship without engineers", content: "A headless CMS such as Sanity or Contentful, connected to Next.js, lets marketers publish landing pages, blog posts and changelog entries themselves while the site stays fast and version-controlled." },
+      { heading: "Plan pages for search and AI answers", content: "Comparison pages, integration pages and use-case pages capture buyers who already know what they need. Clear structure and schema also help your product appear in ChatGPT and Google AI Overviews answers." },
+      { heading: "Measure the funnel from day one", content: "We set up product analytics and conversion events for sign-ups and demo requests, so you can see which pages and campaigns bring real users, not just traffic." },
+    ],
+    servicesTitle: "Web Design Services in San Francisco",
+    services: webServices("San Francisco"),
+    faqs: [
+      { question: "How much does a startup website cost in San Francisco?", answer: "We quote a fixed USD price after a short call. A focused launch site is usually a fraction of Bay Area agency rates, and you own the code and design files." },
+      { question: "Do you build with Next.js and a headless CMS?", answer: "Yes. Most of our marketing sites use Next.js with Sanity, Contentful or a Git-based CMS, deployed on Vercel or your own cloud." },
+      { question: "Can you work with our in-house engineers?", answer: "Yes. We work in your repository, follow your code review process and hand over a component library and documentation." },
+      { question: "What time-zone overlap do you have with the Bay Area?", answer: "We hold live calls in the Pacific Time morning and post written updates in Slack before your day starts." },
+    ],
+    related: [
+      { href: "/services/saas-product-development/", label: "SaaS Product Development" },
+      { href: "/web-design-company-los-angeles/", label: "Web Design Los Angeles" },
+      { href: "/mvp-development-company/", label: "MVP Development" },
+      { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
+    ],
+  },
+  {
+    slug: "web-design-company-austin",
+    service: "web",
+    city: "Austin",
+    country: "United States",
+    countryHub: "/usa/",
+    currency: "USD",
+    areas: ["Downtown Austin", "East Austin", "South Congress", "The Domain", "Mueller", "Round Rock", "Cedar Park", "Georgetown", "Pflugerville", "Leander", "Bee Cave", "San Marcos"],
+    caseStudyIds: ["scale-with-ads", "seven-figure-studio", "zingo-assist", "solettos", "horizon-sole", "productboxeswholesale"],
+    keywords: ["web design company austin", "web design austin", "website design austin", "web designer austin", "austin web design agency", "web development company austin"],
+    quickAnswerExtra: "We design websites and online stores for Austin startups, consumer brands, restaurants and service businesses, with fast builds and SEO in place from launch.",
+    intro: [
+      "Austin mixes a fast-growing tech scene with a strong independent business culture: direct-to-consumer brands, restaurants and bars, fitness studios, creative agencies and a wave of home-service companies following the metro's population growth into Round Rock, Cedar Park and Georgetown.",
+      "For these businesses we build websites that look like the brand and sell like a store. Our e-commerce work for US brands such as Solettos and Horizon Sole, and conversion-focused sites for agencies like Scale With Ads, shape how we approach an Austin project.",
+      "Our team works offshore with overlap in the Central Time morning, so Austin companies get senior designers and developers on a fixed USD price instead of local agency day rates.",
+    ],
+    highlights: {
+      tag: "Austin Websites",
+      title: "Websites We Build for Austin Businesses",
+      cards: [
+        { icon: "🛍️", title: "DTC & Consumer Brands", text: "Shopify and headless stores with strong product storytelling and subscriptions." },
+        { icon: "🌮", title: "Restaurants & Venues", text: "Menus, online ordering, private event enquiries and live music calendars." },
+        { icon: "🏋️", title: "Fitness & Wellness", text: "Class schedules, memberships and booking connected to Mindbody or similar tools." },
+        { icon: "🏡", title: "Growing Suburbs", text: "Service-area pages for Round Rock, Cedar Park and Georgetown home-service firms." },
+      ],
+    },
+    guideTitle: "Building a Website That Grows With an Austin Brand",
+    guide: [
+      { heading: "Brand first, but never slow", content: "Austin brands rely on personality: photography, video and bold type. We keep that character while compressing media and loading it lazily, so the site still scores well on Core Web Vitals and loads quickly on a phone at a festival or a food truck queue." },
+      { heading: "Make the store the website", content: "For consumer brands the online store is the main channel. Bundles, subscriptions, reviews, loyalty and local pickup should be part of the design from the start, not plugins added later." },
+      { heading: "Follow the population into the suburbs", content: "Much of the metro's growth is north of the city. Home-service and healthcare businesses win more calls with useful pages for each suburb they serve, linked from the main service pages." },
+    ],
+    servicesTitle: "Web Design Services in Austin",
+    services: webServices("Austin"),
+    faqs: [
+      { question: "How much does web design cost in Austin?", answer: "We quote a fixed USD price after a short call. Our website cost calculator gives a first estimate, and most projects cost well below Austin agency rates." },
+      { question: "Do you build Shopify stores?", answer: "Yes. We design and build Shopify and headless Shopify stores, including subscriptions, bundles, reviews and local pickup." },
+      { question: "Can you connect our booking or ordering system?", answer: "Yes. We integrate online ordering, class booking and reservation tools with the website so customers do not leave your brand to book." },
+      { question: "Do you work with Austin startups?", answer: "Yes. We build launch sites and MVPs for early-stage companies, and the app development team can take the product further." },
+    ],
+    related: [
+      { href: "/app-development-company-austin/", label: "App Development Austin" },
+      { href: "/web-design-company-dallas/", label: "Web Design Dallas" },
+      { href: "/services/ecommerce-solutions/", label: "E-commerce Development" },
+      { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
+    ],
+  },
+  {
+    slug: "web-design-company-los-angeles",
+    service: "web",
+    city: "Los Angeles",
+    country: "United States",
+    countryHub: "/usa/",
+    currency: "USD",
+    areas: ["Downtown LA", "Hollywood", "Santa Monica", "Venice", "Culver City", "Beverly Hills", "Silver Lake", "Pasadena", "Burbank", "Long Beach", "Irvine", "Glendale"],
+    caseStudyIds: ["rebecca-minkoff", "vaishali-media-productions", "million-dollar-media", "signature-design-by-ashley", "studio-pink-designs", "ai-video-production"],
+    keywords: ["web design company los angeles", "web design los angeles", "website design los angeles", "web designer los angeles", "los angeles web design agency", "web development company los angeles"],
+    quickAnswerExtra: "We design websites for Los Angeles fashion and beauty brands, media and production companies, creators and professional firms, with rich visuals that stay fast.",
+    intro: [
+      "Los Angeles runs on image. Fashion and beauty labels, production companies, studios, creators and hospitality brands all need a website that looks as good as their work, and that still loads fast enough to sell when traffic arrives from Instagram, TikTok or a press feature.",
+      "We have built online experiences for fashion brand Rebecca Minkoff, for media companies such as Vaishali Media Productions and Million Dollar Media, and for beauty and design brands. That work shapes how we approach portfolio sites, lookbooks and stores in LA.",
+      "Our designers and developers work offshore with live calls in the Pacific Time morning, so you get a polished, custom site on a fixed USD price.",
+    ],
+    highlights: {
+      tag: "LA Websites",
+      title: "Websites We Build for Los Angeles Brands",
+      cards: [
+        { icon: "👗", title: "Fashion & Beauty", text: "Lookbooks, shoppable editorials and Shopify stores built for launches and drops." },
+        { icon: "🎬", title: "Media & Production", text: "Showreels, project galleries and enquiry flows for studios and agencies." },
+        { icon: "🎤", title: "Creators & Talent", text: "Personal brand sites with booking, newsletter and merchandise built in." },
+        { icon: "⚖️", title: "Professional Firms", text: "Law, medical and financial practices across the county, built for trust and enquiries." },
+      ],
+    },
+    guideTitle: "Visual Websites That Still Perform",
+    guide: [
+      { heading: "Video without the wait", content: "Showreels and background video sell creative work, but they can make a page heavy. We stream video in adaptive formats, show a still frame first and load the full file only when needed, keeping pages fast on mobile." },
+      { heading: "Plan for traffic spikes from social and press", content: "A product drop, a viral post or a magazine feature can bring thousands of visitors in an hour. Static pages on a global CDN and a store checkout that scales prevent the site from failing at the worst moment." },
+      { heading: "Cover a county of cities", content: "Los Angeles County has dozens of cities, from Santa Monica to Pasadena and Long Beach. Service businesses and practices get more local calls with pages for the cities they actually serve." },
+    ],
+    servicesTitle: "Web Design Services in Los Angeles",
+    services: webServices("Los Angeles"),
+    faqs: [
+      { question: "How much does web design cost in Los Angeles?", answer: "We quote a fixed USD price after a short call, usually far below LA agency rates for comparable design quality. The website cost calculator gives a first estimate." },
+      { question: "Can you build a Shopify store for a fashion or beauty brand?", answer: "Yes. We build Shopify stores with lookbooks, product drops, pre-orders, subscriptions and shoppable content." },
+      { question: "Can my portfolio site include a showreel?", answer: "Yes. We embed or self-host showreels and galleries in fast, adaptive formats so they play smoothly without slowing the page." },
+      { question: "What hours do you work with Los Angeles clients?", answer: "We hold live calls in the Pacific Time morning and send written updates before your working day starts." },
+    ],
+    related: [
+      { href: "/web-design-company-san-francisco/", label: "Web Design San Francisco" },
+      { href: "/services/ecommerce-solutions/", label: "E-commerce Development" },
+      { href: "/services/ui-ux-design/", label: "UI/UX Design" },
       { href: "/tools/website-cost-calculator/", label: "Website Cost Calculator" },
     ],
   },

@@ -91,6 +91,7 @@ export const navMenus: NavMenu[] = [
           { label: "Sialkot", href: "/software-house-sialkot/" },
           { label: "Bahawalpur", href: "/software-house-bahawalpur/" },
           { label: "Sargodha", href: "/software-house-sargodha/" },
+          { label: "Gujrat", href: "/software-house-gujrat/" },
           { label: "All of Pakistan", href: "/software-house-pakistan/" },
         ],
       },
@@ -124,6 +125,9 @@ export const navMenus: NavMenu[] = [
           { label: "Web Design, Dallas", href: "/web-design-company-dallas/" },
           { label: "Web Design, Houston", href: "/web-design-company-houston/" },
           { label: "Web Design, Miami", href: "/web-design-company-miami/" },
+          { label: "Web Design, Austin", href: "/web-design-company-austin/" },
+          { label: "Web Design, San Francisco", href: "/web-design-company-san-francisco/" },
+          { label: "Web Design, Los Angeles", href: "/web-design-company-los-angeles/" },
         ],
       },
       {

@@ -16,6 +16,8 @@ export type LocalPageOverride = {
   caseStudyIds?: string[];
   keepFaqs?: number[];
   faqs?: { question: string; answer: string }[];
+  servicesTitle?: string;
+  services?: LocalPage["services"];
 };
 
 export const localPageOverrides: Record<string, LocalPageOverride> = {
@@ -182,6 +184,34 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     faqs: [
       { question: "Can the system handle the busy season?", answer: "Yes. We design for peak weeks: fast data entry screens, offline mobile apps for packing and farm staff, and daily summary reports for owners." },
       { question: "Can you track profit per lot or per buyer?", answer: "Yes. We record costs from purchase through packing and freight so you can see margins per lot, per buyer and per season." },
+    ],
+  },
+
+  "software-house-gujrat": {
+    caseStudyIds: ["alpha-ahead-real-estate", "entiix", "employee-security-crm", "ai-calling-agent", "rbo-accounting", "google-workspace-security"],
+    servicesTitle: "What We Build for Gujrat Companies",
+    services: [
+      { icon: "📦", title: "Dealer & Distributor Portals", text: "Dealers in other cities see their prices, credit limit and stock, place orders and track dispatch from a phone." },
+      { icon: "🏭", title: "Production & Inventory", text: "Raw material, work-in-progress and finished goods for fan, furniture and ceramics units, with seasonal planning." },
+      { icon: "🛋️", title: "Catalogue & Showroom Websites", text: "Product catalogues with sizes, finishes and prices that bring enquiries from Lahore, Islamabad and abroad.", href: "/services/custom-web-development/", linkLabel: "Web Development" },
+      { icon: "📱", title: "Owner Apps for Overseas Families", text: "Android and iOS apps that show sales, rent, expenses and site photos to owners living in Europe or the Gulf.", href: "/services/mobile-app-development/", linkLabel: "Mobile Apps" },
+      { icon: "🏠", title: "Installment & Rent Management", text: "Property installments, tenant rent, receipts and automatic reminders by SMS or WhatsApp." },
+      { icon: "🤖", title: "WhatsApp & AI Automation", text: "Order confirmations, payment reminders and enquiry replies handled automatically.", href: "/ai-automation-agency/", linkLabel: "AI Automation" },
+    ],
+    keepFaqs: [0, 1, 3],
+    highlights: {
+      tag: "Gujrat Industries",
+      title: "Software for Gujrat's Fan, Furniture and Overseas-Owned Businesses",
+      cards: [
+        { icon: "🌀", title: "Fan Manufacturers", text: "Dealer ordering, seasonal production planning, warranty claims and spare-parts stock." },
+        { icon: "🪑", title: "Furniture & Ceramics", text: "Online catalogues with finishes and sizes, custom order tracking and showroom stock." },
+        { icon: "✈️", title: "Overseas Owners", text: "Phone dashboards for sales, rent, expenses and construction progress, with WhatsApp alerts." },
+        { icon: "🏘️", title: "Property & Installments", text: "Plot and house installment plans, receipts, reminders and buyer statements." },
+      ],
+    },
+    faqs: [
+      { question: "Can you manage warranty claims for a fan manufacturer?", answer: "Yes. Dealers or customers register a claim with the serial number and photos, your service team tracks it to repair or replacement, and you see which models and batches cause the most claims." },
+      { question: "Can buyers abroad pay installments for a property in Gujrat?", answer: "Yes. We build installment systems with payment schedules, online or bank receipts, automatic reminders and statements that buyers living abroad can check at any time." },
     ],
   },
 

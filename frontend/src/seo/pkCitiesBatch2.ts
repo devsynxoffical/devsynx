@@ -46,4 +46,15 @@ export const pkCitiesBatch2: PkCity[] = [
     links: {},
     keywords: ["software house in sargodha", "software house sargodha", "software company in sargodha", "it company sargodha", "web development sargodha"],
   },
+  {
+    key: "gujrat",
+    name: "Gujrat",
+    province: "Punjab",
+    areas: ["Jinnah Road", "Rehman Shaheed Road", "Bhimber Road", "Shadman Colony", "Gujrat Cantt", "Kunjah", "Lalamusa", "Kharian", "Jalalpur Jattan", "Sarai Alamgir"],
+    economy: "Gujrat is famous for electric fans, furniture and ceramics, and for one of the largest overseas communities in Pakistan, with families from Kharian, Lalamusa and the surrounding villages living in Europe, the UK and the Gulf. Local manufacturers sell to dealers across the country, while many businesses and property projects here are run for, or by, owners who live abroad.",
+    extra: "That shapes the software we build for Gujrat: dealer and distributor ordering for fan and furniture makers, product catalogues for buyers in other cities, and dashboards that let overseas owners follow sales, rent collection or construction progress from their phones. Students and graduates from the University of Gujrat also make it a good base for remote teams.",
+    localFaq: { question: "Can overseas Pakistanis from Gujrat manage a local business through your software?", answer: "Yes. We build owner dashboards and mobile apps that show daily sales, stock, expenses, rent collection or project progress, with WhatsApp alerts, so owners in Europe, the UK or the Gulf can follow everything from abroad." },
+    links: {},
+    keywords: ["software house in gujrat", "software house gujrat", "software company in gujrat", "it company gujrat", "web development gujrat"],
+  },
 ];

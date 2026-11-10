@@ -1469,6 +1469,8 @@ export const localPages: LocalPage[] = rawLocalPages.map((page) => {
     keywords: [...(o.extraKeywords ?? []), ...page.keywords],
     highlights: o.highlights ?? page.highlights,
     caseStudyIds: o.caseStudyIds ?? page.caseStudyIds,
+    servicesTitle: o.servicesTitle ?? page.servicesTitle,
+    services: o.services ?? page.services,
     faqs: [...kept, ...(o.faqs ?? [])],
   };
 });
