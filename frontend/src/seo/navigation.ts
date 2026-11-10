@@ -120,6 +120,10 @@ export const navMenus: NavMenu[] = [
           { label: "Miami", href: "/app-development-company-miami/" },
           { label: "Toronto", href: "/software-development-company-toronto/" },
           { label: "Calgary", href: "/app-development-company-calgary/" },
+          { label: "Web Design, New York", href: "/web-design-company-new-york/" },
+          { label: "Web Design, Dallas", href: "/web-design-company-dallas/" },
+          { label: "Web Design, Houston", href: "/web-design-company-houston/" },
+          { label: "Web Design, Miami", href: "/web-design-company-miami/" },
         ],
       },
       {

@@ -8,6 +8,7 @@
 import { localPageOverrides } from "./localPageOverrides";
 import { industryConfigs } from "./industryPages";
 import { usCityConfigs } from "./usCityPages";
+import { usWebDesignConfigs } from "./usWebDesignPages";
 import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 import { gulfPages } from "./gulfPages";
 import { gulfPages2 } from "./gulfPages2";
@@ -695,6 +696,8 @@ export type IntlConfig = {
   highlights?: LocalPage["highlights"];
   guideTitle?: string;
   guide?: LocalPage["guide"];
+  services?: LocalPage["services"];
+  servicesTitle?: string;
 };
 
 const intlServiceLabel = {
@@ -732,8 +735,8 @@ function intlPage(c: IntlConfig): LocalPage {
     introTag: `${c.city} Projects`,
     introTitle: `How We Work With ${c.city} Companies`,
     intro: c.intro,
-    servicesTitle: `What We Build for ${c.city} Businesses`,
-    services: intlSoftwareServices,
+    servicesTitle: c.servicesTitle ?? `What We Build for ${c.city} Businesses`,
+    services: c.services ?? intlSoftwareServices,
     caseStudiesTitle: `Work for Clients in ${c.country} and Beyond`,
     caseStudyIds: c.caseStudyIds,
     pricingTitle: "Ways to Work With Us",
@@ -1439,6 +1442,7 @@ const rawLocalPages: LocalPage[] = [
   appDevelopmentPakistan,
   ...intlPages,
   ...usCityConfigs.map(intlPage),
+  ...usWebDesignConfigs.map(intlPage),
   ...gulfPages,
   ...gulfPages2,
   aeoPage,

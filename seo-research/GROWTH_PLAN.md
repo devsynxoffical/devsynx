@@ -75,10 +75,10 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [ ] Saudi Arabia (Riyadh, Jeddah, Dammam) and Bahrain: Arabic keyword research first (English not supported by the data source)
 
 ### US metros (from Nov research; SEO-agency city terms are left to the separate RankEmpire site)
-- [ ] Web design company Dallas (2,400 KD 24)
-- [ ] Web design company New York (1,000 KD 33)
-- [ ] Web design company Miami (880 KD 31)
-- [ ] Web design company Houston (590 KD 35) and San Francisco (590 KD 33)
+- [x] Web design company Dallas (2,400 KD 24)
+- [x] Web design company New York (1,000 KD 33)
+- [x] Web design company Miami (880 KD 31)
+- [x] Web design company Houston (590 KD 35); [ ] San Francisco (590 KD 33)
 - [ ] Web design company Austin (480 KD 35) and Los Angeles (480 KD 37)
 - [ ] Each US web design page needs city-specific content and must stay under 45% similarity to the existing app/software page for the same city
 
@@ -90,7 +90,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [ ] Internal links: link each city page to its nearest cities and to the matching industry pages
 
 ### Week 3 (22–28 Nov): international demand with low difficulty
-- [ ] US: web design company Dallas (2,400/mo, KD 24)
+- [x] US: web design company Dallas (2,400/mo, KD 24)
 - [ ] US: app development company Chicago merge check vs software page (590, KD 27)
 - [ ] Canada: web development company Calgary (590, KD 28): improve existing Calgary page
 - [ ] UK: app development company London (390): improve London page sections for apps
@@ -124,6 +124,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ## Run log
 
+- 2026-11-10 09:14 PKT (run 3): GSC 1–7 Nov: 20 clicks / 2,336 impressions vs 15 / 1,784 the week before (+31% impressions); 7 Nov alone 511 impressions. /ai-seo-agency/ indexed. Still unknown to Google: New York, London, Peshawar, Digital Marketing Lahore (owner asked to request indexing). Built 4 US web design pages: web-design-company-dallas, -new-york, -miami, -houston (919–1,019 words, max similarity 41% Houston vs Dallas, all well below the matching app-development city pages). Added city-specific sections (Miami seasonal peaks + site-builder migration, Houston storm season + Spanish pages). Added to the North America menu. Next: San Francisco, Austin and Los Angeles web design; software house Gujrat, Abbottabad, Hyderabad.
 - 2026-11-09 21:13 PKT (run 2): Indexed since run 1: app cost calculator, digital-marketing-agency-dubai, it-company-abu-dhabi, web-design-company-doha, it-company-kuwait, ecommerce-website-development-dubai, software-house-sialkot, /locations/. Still unknown: New York, London. GSC 6–9 Nov (partial): web-development-lahore #1.5 (1 click), seo-services-islamabad #13 (was #49 in Oct), software-house-rawalpindi #7.8, software-house-pakistan #12, karachi #13, lahore #16, how-to-choose guide #7.3 (132 impr, 1 click), multan 1 click. AEO research (34 credits, myouryour key now 44): US "ai seo agency" 1,600 KD 0, "ai seo services" 1,000 KD 2, "aeo agency" 590 KD 1, "llm seo" 720 KD 8; UK "ai seo agency" 480 KD 2. Built /ai-seo-agency/ (1,429 words, 8% max similarity, added to Services menu). Retitled SEO Lahore/Karachi/Pakistan to "SEO Expert & SEO Services in …" (+ expert FAQ) and web development Lahore/Karachi to "Web Designer & Web Development in …". Local preview server blocked by session policy, so the screenshot check is done on the live page after deploy.
 - 2026-11-09 09:14 PKT (run 1): GSC (31 Oct–6 Nov): 17 clicks / 2,053 impressions vs 16 / 1,787 the week before (+15% impressions), avg position ~34 → ~29. Indexed within hours: seo-agency-dubai, software-house-gujranwala, healthcare-software-development. Still unknown to Google: app cost calculator, Chicago, New York, London, Peshawar, Digital Marketing Lahore. Page 1: "how to choose a software development company" #6.6 (36 impr), "best practices in choosing…" #3.4, "software house near me" #9.6, "software house in saddar rawalpindi" #8.3, "software house karachi" #10. Built: web-design-company-doha, it-company-kuwait (IT + website design), it-company-oman (IT + web development + web design), ecommerce-website-development-dubai; 910–1,033 words, max 16% similarity. Middle East menu reorganised. Owner pending: SMTP_PASSWORD secret (form emails), Google Business Profile, hosting crawler whitelist.
 - 2026-11-08 (night): Contact form fixed (it never sent anything; now emails info@devsynx.com via contact-submit.php with CSV backup), floating WhatsApp button, header dropdowns fixed (no overflow). Built SEO Agency Dubai, Digital Marketing Agency Dubai, IT Company Abu Dhabi, IT Company Sharjah (all <15% similarity, 940–1,300 words). Next: e-commerce Dubai, Qatar web design, Kuwait, Oman, AEO/GEO page.
