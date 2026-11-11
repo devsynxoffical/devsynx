@@ -53,8 +53,9 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [x] Software house pages: Gujranwala (480/mo), Bahawalpur (390+210), Sialkot (320+110), Sargodha (260+90)
 - [x] Web development Islamabad retitled for "web designer in islamabad" (480/mo, KD 12)
 - [x] Software house Gujrat (210)
-- [ ] Software house pages: Abbottabad (170+50), Hyderabad (90+50)
-- [ ] De-duplicate older PK software house pages: Sargodha 62%, Sialkot 58% and others share the template services/pricing blocks; give each a `services` override (now supported in localPageOverrides) and distinct case studies until all are under 45%
+- [x] Software house Abbottabad (170+50)
+- [ ] Software house Hyderabad (90+50)
+- [x] De-duplicate older PK software house pages (done run 5, all now 30–38%): Sargodha 62%, Sialkot 58% and others share the template services/pricing blocks; give each a `services` override (now supported in localPageOverrides) and distinct case studies until all are under 45%
 - [x] Qatar: web design company Doha ("web design company in doha" 390, "website design qatar" 390)
 - [ ] Qatar: retitle Doha software page toward "software company in qatar" (260) / "it company qatar" (590) without cannibalising
 - [x] Kuwait: software / IT company Kuwait ("it company kuwait" 320, "software company kuwait" 140)
@@ -85,6 +86,9 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [x] Each US web design page needs city-specific content and must stay under 45% similarity to the existing app/software page for the same city
 
 ### Week 2 (15–21 Nov): push page-2 terms to page 1
+- [ ] De-duplicate the other local page groups still over 45%: SEO Lahore/Karachi/Pakistan (61–64%), digital marketing Lahore/Karachi (59–61%), web development Lahore/Karachi (55–57%), app development Dallas/Houston/Doha/Dubai/Calgary/Melbourne (47–61%, also under 900 words)
+- [ ] Expand software-house-rawalpindi (773 words) and software-house-pakistan (859 words) past 900 words
+- [ ] Owner to confirm the true project count: About page says 100+, city page stats say 300+
 - [x] SEO Lahore / Karachi / Pakistan pages: strengthen for "seo expert in lahore" (1,000), "seo expert in pakistan" (1,000), "seo expert karachi" (590, KD 3)
 - [x] Web development Lahore / Karachi: strengthen for "web designer in lahore" (320) and "web designer karachi" (210)
 - [ ] Software house Islamabad / Rawalpindi: add Islamabad and Rawalpindi case studies, office details once the owner provides the address
@@ -100,7 +104,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ### Week 4 (29 Nov – 5 Dec): conversions and authority support
 - [ ] GA4 events for WhatsApp, phone and form clicks; report leads by page
-- [ ] Prepare Clutch, GoodFirms, DesignRush and P@SHA listing texts for the owner
+- [x] Prepare Clutch, GoodFirms, DesignRush and P@SHA listing texts for the owner (seo-research/LISTINGS.md)
 - [ ] Saudi Arabia (Jeddah) and Bahrain: Arabic keyword research (needs credits) before any page
 
 ### Month 2 (Dec – early Jan)
@@ -126,6 +130,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 
 ## Run log
 
+- 2026-11-11 09:14 PKT (run 5): GSC 4–10 Nov: 23 clicks / 3,283 impressions vs 13 / 2,038 the week before (28 Oct–3 Nov), impressions +61%. Indexed within hours: web design San Francisco, Austin, Los Angeles, software house Gujrat. Still unknown to Google (live, 200, index/follow, in sitemap, so only a crawl request is missing): software New York, London, Peshawar, Digital Marketing Lahore, web design New York, Miami. Page 1 (non-brand, 4–10 Nov): seo services islamabad #6.9, software house in saddar rawalpindi #6.8, software house near me #9.2, multan software houses #4.7, software houses in multan #8.5, software house faisalabad #8, software house karachi #10.4 (1 click). Page 2: seo near me #10.6 (24 impr), software house #11.9 (15 impr, Pakistan page), software house in karachi #13.5, software house in multan #15.8, business process automation pakistan #11.8. Done: (1) all 10 older software house city pages now have city-specific services, pricing rows and case study sets; similarity dropped from 51–64% to 30–38%; case study heading changed from 'for Pakistani Brands' to 'Projects Our Team Has Shipped' because several listed projects are for clients abroad; (2) seo-research/LISTINGS.md with Clutch, GoodFirms, DesignRush, TechBehemoths, P@SHA, Google Business Profile and LinkedIn texts; (3) new software-house-abbottabad (932 words, 30%). Found 13 more local pages over 45% (SEO, digital marketing, web development, app development groups); added to backlog. Found a project-count conflict (About 100+, city pages 300+); asked owner.
 - 2026-11-10 21:17 PKT (run 4): Indexed within an hour of going live: web-design-company-dallas, web-design-company-houston. Still unknown: web design New York and Miami (live today), software New York, London, Peshawar, Digital Marketing Lahore. GSC 1–10 Nov page 1: web-development-lahore #1.5, software house in saddar rawalpindi #6.8, software house near me #9.5, software houses in multan #8.5, software house faisalabad #8, digital marketing islamabad #7, app development in pakistan #8, request a proposal software development ksa #4.3 (Riyadh page), web development company in sharjah #8, how-to-choose guide #3.4–6.6 (419 impressions). Built: web-design-company-san-francisco, -austin, -los-angeles (981–1,081 words, max similarity 39%) and software-house-gujrat (1,050 words, 39%, Gujrat-specific services, case studies and FAQs). Added `services`/`servicesTitle` to page overrides. Found that older PK city pages (Sargodha 62%, Sialkot 58%) exceed 45% similarity because of shared template blocks; added a backlog item to fix them. Next: de-duplicate PK pages, Abbottabad, Hyderabad, Abu Dhabi SEO/digital marketing.
 - 2026-11-10 09:14 PKT (run 3): GSC 1–7 Nov: 20 clicks / 2,336 impressions vs 15 / 1,784 the week before (+31% impressions); 7 Nov alone 511 impressions. /ai-seo-agency/ indexed. Still unknown to Google: New York, London, Peshawar, Digital Marketing Lahore (owner asked to request indexing). Built 4 US web design pages: web-design-company-dallas, -new-york, -miami, -houston (919–1,019 words, max similarity 41% Houston vs Dallas, all well below the matching app-development city pages). Added city-specific sections (Miami seasonal peaks + site-builder migration, Houston storm season + Spanish pages). Added to the North America menu. Next: San Francisco, Austin and Los Angeles web design; software house Gujrat, Abbottabad, Hyderabad.
 - 2026-11-09 21:13 PKT (run 2): Indexed since run 1: app cost calculator, digital-marketing-agency-dubai, it-company-abu-dhabi, web-design-company-doha, it-company-kuwait, ecommerce-website-development-dubai, software-house-sialkot, /locations/. Still unknown: New York, London. GSC 6–9 Nov (partial): web-development-lahore #1.5 (1 click), seo-services-islamabad #13 (was #49 in Oct), software-house-rawalpindi #7.8, software-house-pakistan #12, karachi #13, lahore #16, how-to-choose guide #7.3 (132 impr, 1 click), multan 1 click. AEO research (34 credits, myouryour key now 44): US "ai seo agency" 1,600 KD 0, "ai seo services" 1,000 KD 2, "aeo agency" 590 KD 1, "llm seo" 720 KD 8; UK "ai seo agency" 480 KD 2. Built /ai-seo-agency/ (1,429 words, 8% max similarity, added to Services menu). Retitled SEO Lahore/Karachi/Pakistan to "SEO Expert & SEO Services in …" (+ expert FAQ) and web development Lahore/Karachi to "Web Designer & Web Development in …". Local preview server blocked by session policy, so the screenshot check is done on the live page after deploy.

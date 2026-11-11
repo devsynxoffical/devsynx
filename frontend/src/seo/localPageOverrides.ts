@@ -18,13 +18,62 @@ export type LocalPageOverride = {
   faqs?: { question: string; answer: string }[];
   servicesTitle?: string;
   services?: LocalPage["services"];
+  pricing?: LocalPage["pricing"];
 };
 
 export const localPageOverrides: Record<string, LocalPageOverride> = {
   /* ---------------- Software house pages ---------------- */
   "software-house-lahore": {
-    caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "zahh-beverages", "ai-calling-agent", "devsynx-attendance-hr"],
+    caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "ai-calling-agent", "alpha-ahead-real-estate", "superhuman-mail"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Fashion Store (Shopify or custom)", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Catalogue, size charts, COD confirmation, courier booking, sale-day caching"],
+      ["Restaurant Ordering App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Menu, delivery zones across Lahore, rider app, kitchen screen, WhatsApp updates"],
+      ["Housing Society Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Plot inventory, file transfers, installments, member logins and dealer leads"],
+      ["School ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, fee vouchers, results, attendance and parent app"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Lahore Brands and Businesses",
+    services: [
+          {
+                icon: "🛍️",
+                title: "Shopify & Custom Stores",
+                text: "Stores for Lahore labels with COD confirmation, courier booking with TCS, Leopards or PostEx, and sale-day load planning.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "📲",
+                title: "Customer Apps",
+                text: "Loyalty, ordering and booking apps for restaurants, salons and gyms across Gulberg, DHA and Johar Town.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🏘️",
+                title: "Housing Society Software",
+                text: "Plot inventory, file transfers, installment schedules and member portals for developers on Raiwind Road and Bahria Town."
+          },
+          {
+                icon: "🏫",
+                title: "School & Academy Portals",
+                text: "Admissions, fee vouchers, results and parent apps for schools and tuition academies."
+          },
+          {
+                icon: "🌐",
+                title: "Business Websites",
+                text: "Fast Next.js or WordPress sites for Lahore firms that need enquiries, not just a brochure.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "🤖",
+                title: "WhatsApp Order Automation",
+                text: "Automatic order confirmations, abandoned-cart reminders and delivery updates on WhatsApp.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
     highlights: {
       tag: "Lahore Industries",
       title: "What Lahore Businesses Ask Us to Build",
@@ -41,8 +90,54 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-karachi": {
-    caseStudyIds: ["nw-canvas", "zahh-beverages", "devsynx-attendance-hr", "installmentguard", "whatsapp-business-api", "rbo-accounting"],
+    caseStudyIds: ["installmentguard", "rbo-accounting", "employee-security-crm", "top-performance", "whatsapp-business-api", "nw-canvas"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Import & Distribution System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Shipments, landed cost, godown stock, distributor orders and credit"],
+      ["Delivery & Fleet App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Rider and driver apps, proof of delivery, routes and live tracking"],
+      ["Lending / Installment Platform", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Applications, KYC documents, schedules, repayments and recovery reports"],
+      ["B2B Ordering Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Wholesale price lists, online orders and WhatsApp enquiry buttons"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Karachi Traders, Importers and Lenders",
+    services: [
+          {
+                icon: "📦",
+                title: "Import & Distribution Systems",
+                text: "Shipments, landed cost, godown stock and distributor orders in one system for Saddar, SITE and Korangi traders."
+          },
+          {
+                icon: "🚚",
+                title: "Fleet & Delivery Apps",
+                text: "Rider and driver apps with proof of delivery, route planning and live tracking across the city.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "💳",
+                title: "Lending & Installment Platforms",
+                text: "Loan and installment origination, KYC, repayment schedules and recovery dashboards."
+          },
+          {
+                icon: "🏬",
+                title: "Multi-Branch POS",
+                text: "Point of sale with central stock, transfers and branch-wise profit for retail chains."
+          },
+          {
+                icon: "🛒",
+                title: "B2B Ordering Portals",
+                text: "Wholesale buyers order online at their own price lists and credit terms.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🤖",
+                title: "Finance & Ops Automation",
+                text: "Bank reconciliation, invoice reading and daily reports produced automatically.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
     highlights: {
       tag: "Karachi Industries",
       title: "Software for Karachi's Trading, Logistics and Finance Businesses",
@@ -59,8 +154,54 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-faisalabad": {
-    caseStudyIds: ["nw-canvas", "mizn-abayas", "odoo-service", "devsynx-attendance-hr", "egg-produce", "silayi-pret"],
+    caseStudyIds: ["odoo-service", "mdt-control", "devsynx-attendance-hr", "ra-enterprise-contractor", "entiix", "signature-design-by-ashley"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Mill Production ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Lots, stages, wastage, efficiency per shift and dispatch"],
+      ["Export Order & LC Tracker", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Buyer POs, samples, LC terms, shipment status and documents"],
+      ["Exporter Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Product range, capacity, certifications and RFQ form for foreign buyers"],
+      ["Owner Dashboard App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Production, dispatch and receivables on the owner's phone"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Faisalabad Mills and Exporters",
+    services: [
+          {
+                icon: "🧵",
+                title: "Mill Production Software",
+                text: "Spinning, weaving and processing stages tracked by lot, with wastage and efficiency per shift."
+          },
+          {
+                icon: "📑",
+                title: "Export Order & LC Tracking",
+                text: "Buyer POs, samples, LC terms and shipment status visible to merchandisers and owners."
+          },
+          {
+                icon: "🌍",
+                title: "Buyer-Facing B2B Websites",
+                text: "Product and capability sites that bring enquiries from importers in Europe and the US.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "👷",
+                title: "Payroll for Piece-Rate Workers",
+                text: "Piece-rate, overtime and attendance for large workforces, with biometric integration."
+          },
+          {
+                icon: "📱",
+                title: "Owner Dashboards",
+                text: "Daily production, dispatch and receivables on the owner's phone.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🤖",
+                title: "Document Automation",
+                text: "Commercial invoices, packing lists and certificates generated from order data.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
     highlights: {
       tag: "Faisalabad Industries",
       title: "Systems Built for Textile Mills and Exporters",
@@ -77,8 +218,52 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-multan": {
-    caseStudyIds: ["egg-produce", "saviored", "devsynx-attendance-hr", "whatsapp-business-api", "zahh-beverages", "installmentguard"],
+    caseStudyIds: ["egg-produce", "saviored", "quickdoctor-ie", "google-workspace-security", "zahh-beverages", "ag-plumbing-murah"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Commission Agent System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Grower and buyer ledgers, daily mandi rates, bilties and SMS statements"],
+      ["Mango Export Tracking", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Orchard purchases, grading, packing and consignments to buyers"],
+      ["College Management System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, fees, exams, attendance and parent alerts"],
+      ["Clinic or Lab Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Doctor profiles, online reports and appointment booking"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Multan and South Punjab",
+    services: [
+          {
+                icon: "🌾",
+                title: "Commission Agent Software",
+                text: "Grower and buyer accounts, daily mandi rates, bilties and settlement statements."
+          },
+          {
+                icon: "🥭",
+                title: "Mango & Produce Supply Chain",
+                text: "Orchard purchases, grading, packing and export orders tracked by consignment."
+          },
+          {
+                icon: "🎓",
+                title: "College & School Management",
+                text: "Admissions, fee collection, exams and attendance with parent SMS alerts."
+          },
+          {
+                icon: "🩺",
+                title: "Clinic & Lab Systems",
+                text: "Patient registration, lab reports online and appointment booking for Nishtar Road practices."
+          },
+          {
+                icon: "🌐",
+                title: "Websites for Local Businesses",
+                text: "Sites that rank for Multan searches and send enquiries to WhatsApp.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "📱",
+                title: "Field Staff Apps",
+                text: "Apps for sales and collection staff working across south Punjab districts.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          }
+    ],
     highlights: {
       tag: "Multan Industries",
       title: "Software for South Punjab's Agri, Education and Healthcare Sectors",
@@ -95,8 +280,52 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-peshawar": {
-    caseStudyIds: ["installmentguard", "ai-calling-agent", "whatsapp-business-api", "zeparty", "devsynx-attendance-hr", "nw-canvas"],
+    caseStudyIds: ["zeparty", "purrchase-ai", "rankmora", "ai-video-production", "installmentguard", "quickdoctor-ie"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Wholesale Trading Software", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Stock, credit customers, supplier ledgers and daily cash"],
+      ["Hospital Information System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "OPD, admissions, pharmacy, lab and billing"],
+      ["Startup MVP", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "First product version with logins, payments and an admin panel"],
+      ["Bilingual Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "English and Urdu pages, WhatsApp enquiries and local SEO"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Peshawar Businesses",
+    services: [
+          {
+                icon: "🏪",
+                title: "Wholesale Trading Software",
+                text: "Stock, credit customers and supplier ledgers for traders in Karkhano and the city markets."
+          },
+          {
+                icon: "🏥",
+                title: "Hospital Information Systems",
+                text: "OPD, admissions, pharmacy and billing for hospitals and diagnostic centres on University Road."
+          },
+          {
+                icon: "🎓",
+                title: "University & College Portals",
+                text: "Student portals, online fee payment and exam results."
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "A first version of a product in about 30 days for founders from local incubators.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          },
+          {
+                icon: "🌐",
+                title: "Bilingual Websites",
+                text: "English and Urdu websites that reach customers in Khyber Pakhtunkhwa and beyond.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "🚛",
+                title: "Cross-Border Logistics Tools",
+                text: "Consignment, customs document and transporter tracking for traders shipping to Afghanistan and Central Asia."
+          }
+    ],
     highlights: {
       tag: "Peshawar Industries",
       title: "Software for Peshawar's Traders, Hospitals and Startups",
@@ -115,8 +344,52 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
 
   "software-house-gujranwala": {
-    caseStudyIds: ["nw-canvas", "devsynx-attendance-hr", "zahh-beverages", "installmentguard", "whatsapp-business-api", "odoo-service"],
+    caseStudyIds: ["rizki-akbar-enterprise", "whatsapp-business-api", "installmentguard", "smart-links-cabling", "zahh-beverages", "odoo-service"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Factory ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Purchase, production, finished goods, dispatch and costing"],
+      ["Dealer Ordering App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Dealers check stock and prices and order from their phones"],
+      ["Dealer Credit & Warranty System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Credit limits, recoveries, statements and warranty claims"],
+      ["Product Catalogue Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Full product range with specifications and dealer enquiry forms"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Gujranwala Manufacturers",
+    services: [
+          {
+                icon: "🏭",
+                title: "Factory ERP",
+                text: "Purchase, production, finished goods and dispatch for fan, steel and ceramics units."
+          },
+          {
+                icon: "🧾",
+                title: "Dealer Credit Ledgers",
+                text: "Credit limits, recoveries and statements for hundreds of dealers, sent on WhatsApp."
+          },
+          {
+                icon: "📦",
+                title: "Dealer Ordering App",
+                text: "Dealers check stock and prices and order from their phones.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "📚",
+                title: "Product Catalogue Websites",
+                text: "Full catalogues with specifications and dealer enquiry forms.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "🔧",
+                title: "After-Sales & Warranty",
+                text: "Warranty registration, complaints and technician visits tracked to closure."
+          },
+          {
+                icon: "📊",
+                title: "Costing & Margin Reports",
+                text: "Raw material prices, production cost and margin per product, updated daily."
+          }
+    ],
     highlights: {
       tag: "Gujranwala Industries",
       title: "Software for Gujranwala's Manufacturers and Traders",
@@ -133,8 +406,54 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-bahawalpur": {
-    caseStudyIds: ["egg-produce", "saviored", "devsynx-attendance-hr", "whatsapp-business-api", "zahh-beverages", "luxora-women"],
+    caseStudyIds: ["luxora-women", "saviored", "fix-it-bilal", "scale-with-ads", "google-review-removal", "whatsapp-business-api"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Cotton & Grain Trading Software", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Grower purchases, ginning, bales, buyer sales and daily rates"],
+      ["School Fee & Results System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Fee collection, attendance and results on low-cost phones"],
+      ["First Online Store", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products, COD, courier booking and WhatsApp orders"],
+      ["Offline-Ready Mobile App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Works on slow connections and syncs when signal returns"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Bahawalpur and Cholistan Businesses",
+    services: [
+          {
+                icon: "🌱",
+                title: "Cotton & Grain Trading Software",
+                text: "Purchases from growers, ginning, bales and buyer sales with daily rates."
+          },
+          {
+                icon: "🏫",
+                title: "Simple School Software",
+                text: "Fee collection, attendance and results that work on cheap Android phones."
+          },
+          {
+                icon: "🩺",
+                title: "Clinic Booking & Records",
+                text: "Appointments, prescriptions and patient history for small clinics."
+          },
+          {
+                icon: "🛍️",
+                title: "First Online Store",
+                text: "A low-cost store with COD and courier booking for shops selling online for the first time.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🌐",
+                title: "Local Business Websites",
+                text: "Websites that show up for Bahawalpur searches and link to WhatsApp.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "📱",
+                title: "Mobile-First Apps",
+                text: "Apps designed for slow connections and offline use in rural areas.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          }
+    ],
     highlights: {
       tag: "Bahawalpur Industries",
       title: "What Bahawalpur Businesses Ask Us to Build",
@@ -151,8 +470,54 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-sialkot": {
-    caseStudyIds: ["nw-canvas", "doughi", "rebecca-minkoff", "solettos", "devsynx-attendance-hr", "mizn-abayas"],
+    caseStudyIds: ["nw-canvas", "doughi", "rebecca-minkoff", "solettos", "horizon-sole", "million-dollar-funnels"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Export Catalogue & RFQ Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Specifications, certifications and RFQ forms for importers"],
+      ["Sample & Order Tracker", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Samples, approvals, bulk orders and buyer deadlines"],
+      ["Export ERP with Documentation", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Orders, production, QC records, invoices and packing lists"],
+      ["Wholesale B2B Store", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Buyer logins, price tiers, repeat orders and online payments"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Sialkot Exporters",
+    services: [
+          {
+                icon: "⚽",
+                title: "Export Catalogue & RFQ",
+                text: "Product catalogues with specifications and RFQ forms that reach importers abroad.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          },
+          {
+                icon: "🧪",
+                title: "Sample & Order Tracking",
+                text: "Every sample, approval and bulk order tracked against buyer deadlines."
+          },
+          {
+                icon: "🛃",
+                title: "Shipment Documentation",
+                text: "Invoices, packing lists and certificates of origin generated per shipment."
+          },
+          {
+                icon: "✅",
+                title: "Quality & Compliance Records",
+                text: "Inspection results, batch traceability and audit files for surgical and sports goods buyers."
+          },
+          {
+                icon: "🛒",
+                title: "B2B Store for Wholesale",
+                text: "Online wholesale ordering for repeat buyers with their own price tiers.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🤖",
+                title: "Buyer Email Automation",
+                text: "Enquiry replies, follow-ups and quotation drafts handled with AI.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
     highlights: {
       tag: "Sialkot Exporters",
       title: "Software for Sialkot's Export Industries",
@@ -169,8 +534,52 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-sargodha": {
-    caseStudyIds: ["egg-produce", "nw-canvas", "devsynx-attendance-hr", "whatsapp-business-api", "saviored", "installmentguard"],
+    caseStudyIds: ["egg-produce", "subdiv", "zingo-assist", "motion-graphic-explainers", "top-performance", "devsynx-platform"],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Kinnow Factory System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Fruit intake, grading lines, cartons, containers and margins per lot"],
+      ["Cold Storage Management", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Chambers, client stock, rent and release slips"],
+      ["Farm & Packing Staff App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Offline data entry for farm and packing teams"],
+      ["Exporter Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Orchards, capacity and certifications for foreign buyers"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Sargodha's Kinnow and Agri Businesses",
+    services: [
+          {
+                icon: "🍊",
+                title: "Kinnow Factory Software",
+                text: "Fruit intake, waxing and grading lines, carton stock and export containers per season."
+          },
+          {
+                icon: "❄️",
+                title: "Cold Storage Management",
+                text: "Chamber occupancy, client stock, rent and release slips."
+          },
+          {
+                icon: "🚛",
+                title: "Season Dispatch Tracking",
+                text: "Trucks, drivers and deliveries to Karachi port and domestic buyers."
+          },
+          {
+                icon: "📱",
+                title: "Offline Farm Apps",
+                text: "Data entry apps for farm and packing staff that sync when signal returns.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🎓",
+                title: "Academy Management",
+                text: "Admissions, fees and attendance for colleges and academies around University Road."
+          },
+          {
+                icon: "🌐",
+                title: "Exporter Websites",
+                text: "Websites that present your orchards, capacity and certifications to foreign buyers.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          }
+    ],
     highlights: {
       tag: "Sargodha Industries",
       title: "Software for Sargodha's Citrus, Agri and Education Sectors",
@@ -199,6 +608,13 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       { icon: "🤖", title: "WhatsApp & AI Automation", text: "Order confirmations, payment reminders and enquiry replies handled automatically.", href: "/ai-automation-agency/", linkLabel: "AI Automation" },
     ],
     keepFaqs: [0, 1, 3],
+    pricing: [
+      ["Dealer & Distributor Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Dealer logins, prices, credit, orders and dispatch tracking"],
+      ["Fan or Furniture Factory ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Production, inventory, warranty claims and costing"],
+      ["Overseas Owner App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Sales, rent, expenses and site photos for owners abroad"],
+      ["Showroom Catalogue Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products, finishes and prices with WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
     highlights: {
       tag: "Gujrat Industries",
       title: "Software for Gujrat's Fan, Furniture and Overseas-Owned Businesses",
@@ -212,6 +628,41 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     faqs: [
       { question: "Can you manage warranty claims for a fan manufacturer?", answer: "Yes. Dealers or customers register a claim with the serial number and photos, your service team tracks it to repair or replacement, and you see which models and batches cause the most claims." },
       { question: "Can buyers abroad pay installments for a property in Gujrat?", answer: "Yes. We build installment systems with payment schedules, online or bank receipts, automatic reminders and statements that buyers living abroad can check at any time." },
+    ],
+  },
+
+  "software-house-abbottabad": {
+    caseStudyIds: ["ygi-holiday-homes", "saviored", "quickdoctor-ie", "alphamedi-assist", "devsynx-attendance-hr", "google-review-removal"],
+    keepFaqs: [0, 2, 3],
+    pricing: [
+      ["Hotel & Guest House Booking", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Live availability, seasonal rates, advance payments and WhatsApp confirmations"],
+      ["School or College Portal", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, hostel, fees, results and parent app"],
+      ["Clinic Appointment System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Online booking, patient records, prescriptions and reminders"],
+      ["Tourism or Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Photo galleries, maps, reviews and WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Abbottabad and Hazara",
+    services: [
+      { icon: "🏔️", title: "Hotel & Guest House Booking", text: "Direct bookings for properties in Nathia Gali, Thandiani and Abbottabad, so you pay less commission to booking sites." },
+      { icon: "🎓", title: "School, College & Hostel Systems", text: "Admissions, hostel allocation, fees and results for institutions that take students from across Pakistan." },
+      { icon: "🩺", title: "Hospital & Clinic Software", text: "OPD queues, appointments, lab reports and billing for hospitals and clinics serving Hazara." },
+      { icon: "🗺️", title: "Tourism Websites", text: "Tour operator and resort sites with packages, galleries and enquiry forms that rank for travel searches.", href: "/services/custom-web-development/", linkLabel: "Web Development" },
+      { icon: "📱", title: "Mobile Apps", text: "Booking, student and patient apps for Android and iOS built in Flutter.", href: "/services/mobile-app-development/", linkLabel: "Mobile Apps" },
+      { icon: "⭐", title: "Reviews & Reputation", text: "Automatic review requests after a stay or visit, and alerts when a new review appears." },
+    ],
+    highlights: {
+      tag: "Abbottabad Sectors",
+      title: "Software for Abbottabad's Tourism, Education and Healthcare",
+      cards: [
+        { icon: "🏨", title: "Seasonal Tourism", text: "Handle summer and snowfall peaks with online bookings, deposits and channel calendars." },
+        { icon: "🏫", title: "Education Hub", text: "Portals for schools, colleges and academies, including hostel and transport fees." },
+        { icon: "🏥", title: "Regional Healthcare", text: "Systems for hospitals and clinics that see patients from across Hazara." },
+        { icon: "🛍️", title: "Local Retail", text: "POS and stock for shops in Supply Bazaar and Mandian, with online orders." },
+      ],
+    },
+    faqs: [
+      { question: "Can a school or college take admission forms and fees online?", answer: "Yes. Students apply online, upload documents and pay fees through bank or mobile wallet payments, and your office reviews applications and issues fee vouchers from one dashboard." },
+      { question: "Do you visit Abbottabad for meetings?", answer: "Yes. Abbottabad is about two hours from our Islamabad team, so we can hold the kickoff and key reviews in person. Weekly progress calls happen online." },
     ],
   },
 

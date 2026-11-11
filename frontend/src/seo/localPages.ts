@@ -215,7 +215,7 @@ function softwareHousePage(c: PkCity): LocalPage {
     intro: [c.economy, c.extra],
     servicesTitle: `Software Development Services in ${c.name}`,
     services: softwareServices(c.name, c.links),
-    caseStudiesTitle: "Software We Have Shipped for Pakistani Brands",
+    caseStudiesTitle: "Projects Our Team Has Shipped",
     caseStudyIds: PK_PAKISTAN_CASES,
     pricingTitle: `Software Development Prices in ${c.name}`,
     pricingNote: "Every project gets a written fixed-price proposal in PKR. No hidden costs.",
@@ -1471,6 +1471,7 @@ export const localPages: LocalPage[] = rawLocalPages.map((page) => {
     caseStudyIds: o.caseStudyIds ?? page.caseStudyIds,
     servicesTitle: o.servicesTitle ?? page.servicesTitle,
     services: o.services ?? page.services,
+    pricing: o.pricing ?? page.pricing,
     faqs: [...kept, ...(o.faqs ?? [])],
   };
 });

@@ -57,4 +57,15 @@ export const pkCitiesBatch2: PkCity[] = [
     links: {},
     keywords: ["software house in gujrat", "software house gujrat", "software company in gujrat", "it company gujrat", "web development gujrat"],
   },
+  {
+    key: "abbottabad",
+    name: "Abbottabad",
+    province: "Khyber Pakhtunkhwa",
+    areas: ["Mandian", "Supply Bazaar", "Jinnahabad", "Kakul Road", "Mansehra Road", "Abbottabad Cantt", "Nawanshehr", "Havelian", "Nathia Gali", "Thandiani"],
+    economy: "Abbottabad lives on education, healthcare and tourism. Schools, colleges and the COMSATS and Ayub Medical College campuses bring students from across the country, hospitals and clinics serve all of Hazara, and hotels and guest houses on the road to Nathia Gali and the Galiyat fill up every summer and snowfall weekend.",
+    extra: "We build the systems these businesses need: online booking for hotels and guest houses, admissions and fee portals for schools and colleges, and appointment and records systems for clinics. Our team works from Islamabad, about two hours away, so a kickoff visit to Abbottabad is easy to arrange.",
+    localFaq: { question: "Can you build an online booking system for a hotel or guest house in the Galiyat?", answer: "Yes. Guests see live room availability and seasonal prices, pay an advance online and get confirmation on WhatsApp, while you manage rooms, check-ins and payments from one dashboard." },
+    links: {},
+    keywords: ["software house in abbottabad", "software house abbottabad", "software company in abbottabad", "it company abbottabad", "web development abbottabad"],
+  },
 ];
