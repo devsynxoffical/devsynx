@@ -68,4 +68,15 @@ export const pkCitiesBatch2: PkCity[] = [
     links: {},
     keywords: ["software house in abbottabad", "software house abbottabad", "software company in abbottabad", "it company abbottabad", "web development abbottabad"],
   },
+  {
+    key: "hyderabad",
+    name: "Hyderabad",
+    province: "Sindh",
+    areas: ["Latifabad", "Qasimabad", "Hirabad", "Saddar", "Auto Bhan Road", "Hyderabad Cantt", "SITE Area", "Kotri", "Jamshoro", "Tando Jam"],
+    economy: "Hyderabad is Sindh's second-largest city and a trading hub for the province: grain, cotton and vegetable markets, bangle making, textile and food units in the SITE area and Kotri, and a large education sector around Jamshoro's universities and medical colleges. Many businesses here supply buyers in Karachi, under two hours away on the motorway.",
+    extra: "We build software for this mix of trade, manufacturing and education: wholesale and dealer systems, factory stock and orders, and student and fee portals. Work runs remotely from Islamabad with weekly demos, and we travel for kickoff on larger projects.",
+    localFaq: { question: "Can you build a system for a Hyderabad wholesaler who supplies shops in interior Sindh?", answer: "Yes. Salesmen book orders on a mobile app during their route, the warehouse prepares and dispatches them, and you see each shop's balance, recoveries and outstanding credit in one dashboard." },
+    links: {},
+    keywords: ["software house in hyderabad", "software house hyderabad", "software company in hyderabad", "it company hyderabad sindh", "web development hyderabad"],
+  },
 ];

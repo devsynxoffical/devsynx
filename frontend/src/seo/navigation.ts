@@ -93,6 +93,7 @@ export const navMenus: NavMenu[] = [
           { label: "Sargodha", href: "/software-house-sargodha/" },
           { label: "Gujrat", href: "/software-house-gujrat/" },
           { label: "Abbottabad", href: "/software-house-abbottabad/" },
+          { label: "Hyderabad", href: "/software-house-hyderabad/" },
           { label: "All of Pakistan", href: "/software-house-pakistan/" },
         ],
       },

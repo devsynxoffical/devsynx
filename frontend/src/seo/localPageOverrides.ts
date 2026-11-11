@@ -666,6 +666,40 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
 
+  "software-house-hyderabad": {
+    caseStudyIds: ["egg-produce", "employee-security-crm", "installmentguard", "saviored", "top-performance", "whatsapp-business-api"],
+    keepFaqs: [0, 2, 3],
+    pricing: [
+      ["Wholesale & Salesman Order System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Route order booking app, warehouse dispatch, shop balances and recoveries"],
+      ["Factory Stock & Orders (SITE / Kotri)", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Raw material, production, finished goods and buyer orders"],
+      ["Student & Fee Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Admissions, fee vouchers, results and parent SMS"],
+      ["Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products or services, Sindhi/Urdu/English text, WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+    ],
+    servicesTitle: "Services for Hyderabad and Interior Sindh",
+    services: [
+      { icon: "🚚", title: "Salesman Route Apps", text: "Order booking, shop visits and cash recovery on Android phones for distributors covering interior Sindh.", href: "/services/mobile-app-development/", linkLabel: "Mobile Apps" },
+      { icon: "🏬", title: "Wholesale & Dealer Ledgers", text: "Credit limits, daily rates and statements for grain, cotton and general traders." },
+      { icon: "💍", title: "Bangle & Handicraft Sellers", text: "Online catalogues and stores that let Hyderabad makers sell bangles and crafts across Pakistan and abroad.", href: "/services/ecommerce-solutions/", linkLabel: "E-commerce" },
+      { icon: "🏭", title: "Factory Systems for SITE & Kotri", text: "Stock, production and buyer orders for textile, food and packaging units." },
+      { icon: "🎓", title: "Student & Fee Portals", text: "Admissions, fee collection and results for colleges and academies near Jamshoro." },
+      { icon: "🌐", title: "Multilingual Websites", text: "Sites in English, Urdu and Sindhi that reach customers across the province.", href: "/services/custom-web-development/", linkLabel: "Web Development" },
+    ],
+    highlights: {
+      tag: "Hyderabad Sectors",
+      title: "Software for Hyderabad's Trade, Industry and Education",
+      cards: [
+        { icon: "🌾", title: "Grain & Produce Trade", text: "Purchase, storage and sale records with daily market rates." },
+        { icon: "🛣️", title: "Karachi Supply Chains", text: "Order and dispatch tracking for suppliers delivering to Karachi buyers." },
+        { icon: "🏫", title: "Education Sector", text: "Systems for colleges, academies and hostels serving Jamshoro's students." },
+        { icon: "🛍️", title: "Retail & Online Sales", text: "POS for shops in Saddar and Latifabad, plus online stores." },
+      ],
+    },
+    faqs: [
+      { question: "Can a factory in Kotri or the SITE area track stock and buyer orders online?", answer: "Yes. We build systems that record raw material, production and finished goods, link them to buyer orders and show owners what is ready, pending and late, on a computer or a phone." },
+    ],
+  },
+
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
@@ -686,8 +720,50 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "SEO Expert & SEO Services in Lahore",
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in lahore", "seo expert lahore", "best seo expert in lahore", "seo specialist lahore"],
-    caseStudyIds: ["ustaad-ae", "productboxeswholesale", "topcustomboxes", "progenius-students-seo", "rankmora", "silayi-pret"],
+    caseStudyIds: ["progenius-students-seo", "topcustomboxes", "rankmora", "silayi-pret", "google-review-removal", "ustaad-ae"],
     keepFaqs: [0, 3],
+    servicesTitle: "SEO Services for Lahore Businesses",
+    services: [
+          {
+                icon: "👗",
+                title: "Fashion Store SEO",
+                text: "Collection and product pages for Lahore clothing brands that rank for searches like lawn suits and bridal wear, not only the brand name.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "📍",
+                title: "Google Maps for Lahore Areas",
+                text: "Google Business Profile, reviews and area pages so you appear in the map for Gulberg, DHA, Johar Town and Model Town searches."
+          },
+          {
+                icon: "🏘️",
+                title: "Real Estate & Housing SEO",
+                text: "Project, plot and area guide pages for developers and dealers competing for property searches."
+          },
+          {
+                icon: "🎓",
+                title: "Schools & Academies",
+                text: "Admission, course and campus pages that rank for parents and students searching in Lahore."
+          },
+          {
+                icon: "✍️",
+                title: "Urdu & English Content",
+                text: "Articles and landing pages written for how people in Lahore actually search, in both languages."
+          },
+          {
+                icon: "🤖",
+                title: "AI Search Visibility",
+                text: "Structure and schema so your business is named in ChatGPT and Google AI Overviews answers.",
+                href: "/ai-seo-agency/",
+                linkLabel: "AI SEO"
+          }
+    ],
+    pricing: [
+      ["Local Maps SEO (one Lahore branch)", "3 – 6 Months", "PKR 45,000 / mo", "Google Business Profile, reviews system, area pages for your part of Lahore, monthly ranking report"],
+      ["Fashion & E-commerce SEO", "6 – 12 Months", "PKR 140,000 / mo", "Collection and product optimisation, schema, seasonal landing pages, 8 articles / mo"],
+      ["Real Estate or Education SEO", "4 – 9 Months", "PKR 85,000 / mo", "Project or campus pages, technical fixes, 4 articles / mo, local backlinks"],
+    ],
     highlights: {
       tag: "Lahore SEO Strategy",
       title: "How We Approach SEO for Lahore Businesses",
@@ -707,8 +783,50 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "SEO Expert & SEO Services in Karachi",
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in karachi", "seo expert karachi", "seo specialist karachi"],
-    caseStudyIds: ["productboxeswholesale", "acutepharmacy", "ustaad-ae", "topcustomboxes", "rankmora", "progenius-students-seo"],
+    caseStudyIds: ["productboxeswholesale", "acutepharmacy", "ustaad-ae", "rankmora", "google-review-removal", "scale-with-ads"],
     keepFaqs: [0, 1],
+    servicesTitle: "SEO Services for Karachi Companies",
+    services: [
+          {
+                icon: "🏭",
+                title: "B2B & Industrial SEO",
+                text: "Product and capability pages for manufacturers and suppliers in SITE, Korangi and Port Qasim that buyers find on Google."
+          },
+          {
+                icon: "🏥",
+                title: "Healthcare SEO",
+                text: "Doctor, service and branch pages for hospitals, clinics and labs, written with care for medical searches."
+          },
+          {
+                icon: "🗺️",
+                title: "Area Pages for a Huge City",
+                text: "Useful pages for Clifton, DHA, Gulshan, North Nazimabad and PECHS so you rank where your customers live."
+          },
+          {
+                icon: "🚢",
+                title: "Import, Export & Logistics",
+                text: "Pages that rank for freight, clearing and wholesale supply searches from inside and outside Pakistan."
+          },
+          {
+                icon: "⚙️",
+                title: "Technical SEO",
+                text: "Speed, crawlability, schema and site structure fixes for large sites with thousands of pages.",
+                href: "/services/seo-services/",
+                linkLabel: "SEO Services"
+          },
+          {
+                icon: "🤖",
+                title: "AI Search Visibility",
+                text: "Make your company the answer when buyers ask ChatGPT or Google for suppliers in Karachi.",
+                href: "/ai-seo-agency/",
+                linkLabel: "AI SEO"
+          }
+    ],
+    pricing: [
+      ["Clinic or Branch Local SEO", "3 – 6 Months", "PKR 45,000 / mo", "Google Business Profile per branch, reviews, area pages, monthly calls and ranking report"],
+      ["B2B Supplier SEO", "4 – 9 Months", "PKR 85,000 / mo", "Product and capability pages, technical audit, 4 articles / mo, industry backlinks"],
+      ["National E-commerce SEO", "6 – 12 Months", "PKR 140,000 / mo", "Category and product optimisation, schema, internal linking, 8 articles / mo, link building"],
+    ],
     highlights: {
       tag: "Karachi SEO Strategy",
       title: "How We Approach SEO for Karachi Businesses",
@@ -736,8 +854,48 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- Digital marketing pages ---------------- */
   "digital-marketing-agency-lahore": {
-    caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "scale-with-ads", "seven-figure-studio", "glitchy-digital-marketing"],
+    caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "glitchy-digital-marketing", "motion-graphic-explainers", "ai-video-production"],
     keepFaqs: [0, 2],
+    servicesTitle: "Digital Marketing for Lahore Brands",
+    services: [
+          {
+                icon: "🛍️",
+                title: "Sale & Launch Ads",
+                text: "Meta and TikTok campaigns planned around Eid, wedding season and 11.11 sales, with budgets that scale on launch day."
+          },
+          {
+                icon: "📦",
+                title: "COD Order Quality",
+                text: "Pixel and server-side tracking that optimises for confirmed, delivered orders instead of fake COD orders."
+          },
+          {
+                icon: "🎬",
+                title: "Reels & TikTok Creatives",
+                text: "Short videos and UGC-style ads made for Lahore audiences, refreshed every week."
+          },
+          {
+                icon: "🧑‍🤝‍🧑",
+                title: "Influencer Campaigns",
+                text: "Matching brands with Lahore creators, tracking codes and measuring the sales each one brings."
+          },
+          {
+                icon: "💬",
+                title: "WhatsApp Marketing",
+                text: "Broadcasts, abandoned-cart reminders and order confirmations through the WhatsApp Business API."
+          },
+          {
+                icon: "🛒",
+                title: "Catalogue & Shopping Ads",
+                text: "Product feeds for Meta catalogue and Google Shopping campaigns from your Shopify store.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          }
+    ],
+    pricing: [
+      ["Starter: Meta Ads for a Lahore brand", "Monthly", "PKR 50,000 / mo", "Meta Ads, pixel & CAPI setup, 8 creatives / mo, weekly report"],
+      ["Growth: Meta + TikTok + Google", "Monthly", "PKR 85,000 / mo", "Three platforms, Reels and TikTok creatives, landing page tests, 16 creatives / mo"],
+      ["Scale: fashion & e-commerce", "Monthly", "PKR 140,000 / mo", "Catalogue and Shopping campaigns, COD quality tracking, retention flows, CRO"],
+    ],
     highlights: {
       tag: "Lahore Campaigns",
       title: "Campaigns That Work for Lahore Brands",
@@ -748,13 +906,54 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "How much ad budget does a Lahore clothing brand need to start?", answer: "We usually suggest starting with PKR 3,000 to 10,000 a day in ad spend, paid to Meta or TikTok directly, on top of our management fee. We begin with a two-week test of creatives and audiences, then move budget to the ads that bring delivered orders, not just clicks." },
       { question: "How do you reduce fake COD orders from ads?", answer: "We send confirmed and delivered orders back to Meta through the Conversions API so the algorithm learns from real buyers, and we add order confirmation by WhatsApp or call before dispatch." },
       { question: "Can you run campaigns for a sale starting next week?", answer: "Usually yes, if tracking is already in place. We need access to your ad accounts, the product feed and the offer details; creatives can be produced within a few days." },
     ],
   },
   "digital-marketing-agency-karachi": {
-    caseStudyIds: ["scale-with-ads", "seven-figure-studio", "zahh-beverages", "rebecca-minkoff", "ustaad-ae", "glitchy-digital-marketing"],
+    caseStudyIds: ["scale-with-ads", "seven-figure-studio", "zahh-beverages", "rebecca-minkoff", "million-dollar-funnels", "qualified-leads-x"],
     keepFaqs: [0, 2],
+    servicesTitle: "Digital Marketing for Karachi Businesses",
+    services: [
+          {
+                icon: "🎯",
+                title: "Area-Targeted Lead Generation",
+                text: "Google and Meta ads aimed at the Karachi areas you actually serve, with call tracking for every lead."
+          },
+          {
+                icon: "🥤",
+                title: "FMCG & Food Brand Campaigns",
+                text: "Awareness and trial campaigns for food, beverage and consumer brands across Sindh and Pakistan."
+          },
+          {
+                icon: "💼",
+                title: "B2B & LinkedIn Ads",
+                text: "Lead generation for suppliers, logistics and service companies selling to other businesses."
+          },
+          {
+                icon: "🔎",
+                title: "Google Search Ads",
+                text: "High-intent search campaigns for clinics, schools, real estate and professional services."
+          },
+          {
+                icon: "📊",
+                title: "Tracking & Reporting",
+                text: "GA4, conversion tracking and a weekly report that shows cost per lead and per sale."
+          },
+          {
+                icon: "📝",
+                title: "Landing Pages",
+                text: "Fast pages built for each campaign, tested to raise the share of visitors who enquire.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          }
+    ],
+    pricing: [
+      ["Starter: Google Search leads", "Monthly", "PKR 50,000 / mo", "Google Search Ads for your Karachi areas, call tracking, 8 ad variations / mo, weekly report"],
+      ["Growth: Google + Meta + LinkedIn", "Monthly", "PKR 85,000 / mo", "Three platforms, landing page tests, 16 creatives / mo, CRM lead sync"],
+      ["Scale: brand & e-commerce", "Monthly", "PKR 140,000 / mo", "Full-funnel ads, Shopping campaigns, server-side tracking, CRO, retention"],
+    ],
     highlights: {
       tag: "Karachi Campaigns",
       title: "Campaigns That Work for Karachi Businesses",
@@ -765,6 +964,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Can you track which ads bring phone calls?", answer: "Yes. We set up call tracking numbers and WhatsApp click tracking for each campaign, so you can see which ad, keyword and Karachi area produced each call or chat, and stop paying for the ones that do not." },
+      { question: "Do you run ads for B2B companies in Karachi?", answer: "Yes. For suppliers, logistics and service firms we combine Google Search ads for high-intent searches with LinkedIn ads aimed at job titles and industries, and send leads straight into your CRM or email." },
       { question: "Do you run B2B campaigns on LinkedIn?", answer: "Yes. For B2B companies we run LinkedIn and Google Search campaigns aimed at decision-makers, with lead forms connected to your CRM." },
       { question: "Can you target specific areas of Karachi?", answer: "Yes. Meta and Google both allow radius and location targeting, so campaigns can focus on the neighbourhoods you deliver to or serve." },
     ],
@@ -776,6 +977,47 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     extraKeywords: ["web designer in lahore", "web designer lahore", "website designer lahore"],
     caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "zahh-beverages", "doughi", "studio-pink-designs"],
     keepFaqs: [0, 3],
+    servicesTitle: "Web Development for Lahore Businesses",
+    services: [
+          {
+                icon: "👗",
+                title: "Fashion & Lawn Stores",
+                text: "Shopify stores with size guides, lookbooks, COD confirmation and courier booking for Lahore labels.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🍽️",
+                title: "Restaurant & Café Websites",
+                text: "Menus, online ordering, table booking and delivery zones across Lahore."
+          },
+          {
+                icon: "🏘️",
+                title: "Real Estate Project Sites",
+                text: "Project pages, payment plans, plot maps and lead forms for developers and dealers."
+          },
+          {
+                icon: "🏫",
+                title: "School & Academy Websites",
+                text: "Admissions, fee information, results and notices in English and Urdu."
+          },
+          {
+                icon: "⚡",
+                title: "Speed for Pakistani Networks",
+                text: "Pages that load fast on 4G with image compression and caching."
+          },
+          {
+                icon: "🔧",
+                title: "Website Care",
+                text: "Updates, backups, security and content edits every month."
+          }
+    ],
+    pricing: [
+      ["Restaurant or Clinic Website", "2 – 3 Weeks", "PKR 80,000 – 140,000", "Custom design, menu or services, booking, WhatsApp and Google Maps"],
+      ["Fashion Store (Shopify)", "3 – 5 Weeks", "PKR 120,000 – 350,000", "Collections, size charts, JazzCash / Easypaisa / cards, courier integration"],
+      ["Real Estate or School Portal", "4 – 10 Weeks", "PKR 350,000 – 1,200,000", "Project or student portal, admin panel, leads or admissions, payments"],
+      ["Website Care Plan", "Ongoing", "From PKR 15,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
+    ],
     highlights: {
       tag: "Lahore Websites",
       title: "Websites We Build for Lahore Businesses",
@@ -786,6 +1028,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Can my website take orders on WhatsApp?", answer: "Yes. We add WhatsApp order and enquiry buttons that send the product, size and customer details as a ready-made message, and we can connect the WhatsApp Business API for automatic confirmations." },
       { question: "Can you redesign our existing website without losing Google rankings?", answer: "Yes. We keep URLs where possible, set up 301 redirects for any that change, carry over titles and content that already rank, and check Search Console after launch." },
       { question: "Will I be able to update the website myself?", answer: "Yes. We set up an easy content editor (WordPress, Shopify or a headless CMS) and show your team how to update pages, products and blog posts." },
     ],
@@ -795,6 +1038,49 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     extraKeywords: ["web designer karachi", "web designer in karachi", "website designer karachi"],
     caseStudyIds: ["nw-canvas", "rbo-accounting", "smart-links-cabling", "zahh-beverages", "orvex-booths", "alpha-ahead-real-estate"],
     keepFaqs: [0, 3],
+    servicesTitle: "Web Development for Karachi Companies",
+    services: [
+          {
+                icon: "🏭",
+                title: "Industrial & B2B Websites",
+                text: "Product catalogues, specifications and RFQ forms for manufacturers and suppliers."
+          },
+          {
+                icon: "⚖️",
+                title: "Professional Services Sites",
+                text: "Law, accounting and consulting websites built for trust and enquiries."
+          },
+          {
+                icon: "🛒",
+                title: "Retail & E-commerce",
+                text: "Online stores for Karachi retailers with payments, courier booking and stock sync.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🚚",
+                title: "Logistics & Client Portals",
+                text: "Shipment tracking, document downloads and customer logins for logistics firms."
+          },
+          {
+                icon: "💳",
+                title: "Finance & Insurance Portals",
+                text: "Secure application forms, document upload and customer dashboards."
+          },
+          {
+                icon: "🌐",
+                title: "Corporate Websites",
+                text: "Multi-page company sites with careers, news and investor information.",
+                href: "/services/custom-web-development/",
+                linkLabel: "Web Development"
+          }
+    ],
+    pricing: [
+      ["Corporate or Professional Website", "2 – 3 Weeks", "PKR 80,000 – 140,000", "Custom design, services and team pages, contact and WhatsApp, on-page SEO"],
+      ["B2B Catalogue or Retail Store", "3 – 5 Weeks", "PKR 120,000 – 350,000", "Product catalogue or Shopify / WooCommerce store, RFQ or payments, courier integration"],
+      ["Logistics or Finance Portal", "4 – 10 Weeks", "PKR 350,000 – 1,200,000", "Customer logins, tracking or applications, document upload, admin panel and API"],
+      ["Website Care Plan", "Ongoing", "From PKR 15,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
+    ],
     highlights: {
       tag: "Karachi Websites",
       title: "Websites We Build for Karachi Businesses",
@@ -805,6 +1091,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Can you build a portal where our customers log in?", answer: "Yes. We build secure customer portals with logins, document downloads, shipment or application status and an admin panel for your staff, connected to your existing systems through an API." },
+      { question: "Do you provide hosting for Karachi businesses?", answer: "Yes. We set up fast hosting with daily backups, SSL and uptime monitoring, or deploy to your own cloud account so you keep full control." },
       { question: "Can our website show live stock from our POS?", answer: "Yes. We connect the website to your POS or ERP so product availability and prices update automatically." },
       { question: "Do you build catalogue websites for manufacturers?", answer: "Yes. We build searchable catalogues with specifications, datasheets and RFQ forms, similar to the export catalogue we built for NW Canvas Industry." },
     ],
