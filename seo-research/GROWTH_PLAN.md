@@ -86,6 +86,7 @@ which only the owner can create. Rankings cannot be guaranteed.
 - [x] Each US web design page needs city-specific content and must stay under 45% similarity to the existing app/software page for the same city
 
 ### Week 2 (15–21 Nov): push page-2 terms to page 1
+- [ ] "Crawled - currently not indexed" (11 Nov): digital-marketing-agency-lahore and web-design-company-new-york. Strengthen with more unique, specific content (real case study detail, original guide section) and more internal links from indexed pages, then ask the owner to request indexing again
 - [x] De-duplicate SEO, digital marketing and web development Lahore/Karachi/Pakistan (run 6: now 32–41%, all 900+ words)
 - [ ] De-duplicate app development Dallas/Houston/Doha/Dubai/Calgary/Melbourne (47–61%, also under 900 words)
 - [ ] Expand software-house-rawalpindi (773 words) and software-house-pakistan (859 words) past 900 words
