@@ -24,15 +24,16 @@ export const toolPages: ToolPage[] = [
     navLabel: "App Development Cost Calculator",
     metaTitle: "App Development Cost Calculator (Free Estimate)",
     metaDescription:
-      "Free app development cost calculator: pick platforms, app size and features to estimate hours, timeline and cost by team location, from US agencies to Pakistan.",
+      "Free app cost calculator: pick platforms, app size and features to get a DEVSYNX fixed-price estimate in USD and PKR, plus a timeline. Most apps cost $600–2,500.",
     keywords: ["app development cost calculator", "app development cost", "how much does it cost to build an app", "mobile app cost estimator", "app cost calculator"],
     h1: "App Development Cost Calculator",
     quickAnswer:
-      "Most mobile apps cost between about $10,000 and $250,000+ to build. A simple app with a few screens and login takes roughly 300–500 hours; a mid-size app with payments, chat and an admin panel 800–1,500 hours; a complex marketplace or streaming app 2,000+ hours. Multiply the hours by your team's hourly rate, which ranges from about $25–45 in South Asia to $100–160 at US agencies. Use the calculator below for an estimate based on your features.",
+      "At DEVSYNX, most mobile apps cost between about $600 and $2,500 (PKR 175,000–700,000). A simple app with login and a few screens costs about $600–850, a medium app with payments, notifications and an admin panel about $850–1,300, and a complex marketplace or on-demand app about $1,450–2,500. US and UK agencies often quote $10,000–250,000+ for similar apps because their hourly rates are $80–160. Use the calculator below for an estimate based on your features.",
     calcTitle: "Estimate your app",
     config: {
       teamSize: 3,
       weeklyHours: 35,
+      price: { base: 500, perHour: 0.5, cap: 4000 },
       groups: [
         {
           id: "platform",
@@ -100,7 +101,7 @@ export const toolPages: ToolPage[] = [
       {
         heading: "Typical cost ranges by app size",
         content:
-          "Simple app (5–10 screens, login, basic content, no payments): roughly 300–500 hours.\nMedium app (10–25 screens, payments, notifications, an admin panel): roughly 800–1,500 hours.\nComplex app (marketplaces, on-demand delivery, streaming, real-time features): 2,000 hours and up.\nAt $30/hour, a 1,000-hour app costs about $30,000; at $120/hour, the same app costs about $120,000. Hours matter more than the platform you choose.",
+          "Simple app (5–10 screens, login, basic content, no payments): roughly 300–500 hours.\nMedium app (10–25 screens, payments, notifications, an admin panel): roughly 800–1,500 hours.\nComplex app (marketplaces, on-demand delivery, streaming, real-time features): 2,000 hours and up.\nAn agency charging $120/hour would bill about $120,000 for a 1,000-hour app. DEVSYNX quotes a fixed price instead, and most apps stay between $600 and $2,500.",
       },
       {
         heading: "What drives the cost up",
@@ -125,11 +126,11 @@ export const toolPages: ToolPage[] = [
       {
         heading: "How accurate is this calculator?",
         content:
-          "The calculator uses typical hour ranges for each feature and typical agency rates by region, and shows a range rather than a single number. It is useful for budgeting and for checking whether a quote you received is in a reasonable range. A real quote needs your actual screens, user flows and integrations; DEVSYNX provides a written fixed-price proposal after a free scoping call.",
+          "The calculator adds up typical effort for each platform, screen count, design level and feature, and converts it into a DEVSYNX price range in USD and PKR. It is useful for budgeting before you talk to anyone. A final price needs your actual screens, user flows and integrations; DEVSYNX provides a written fixed-price proposal after a free scoping call, and most apps stay under $2,500.",
       },
     ],
     faqs: [
-      { question: "How much does it cost to build an app?", answer: "Most apps cost between about $10,000 and $250,000+. The main factors are the number of screens and features, whether you build for one or both platforms, the design level and the hourly rate of the team, which ranges from about $25 to $160 depending on location." },
+      { question: "How much does it cost to build an app?", answer: "With DEVSYNX, most apps cost about $600–2,500 (roughly PKR 175,000–700,000), depending on the number of screens and features, whether you build for one or both platforms and the design level. US and UK agencies often charge $10,000–250,000+ for similar apps because of higher hourly rates." },
       { question: "How long does it take to build an app?", answer: "A simple app usually takes 6–10 weeks, a medium app 3–5 months and a complex app 6 months or more, depending on team size and how quickly decisions are made." },
       { question: "Is it cheaper to build for iOS and Android with Flutter or React Native?", answer: "Usually yes. A cross-platform framework lets one codebase run on both platforms, typically adding 20–30% to the cost of a single-platform app instead of nearly doubling it with two native apps." },
       { question: "What are the ongoing costs of an app?", answer: "Hosting, third-party services (maps, SMS, email, AI APIs), app store developer fees, and maintenance for OS updates and bug fixes. A common planning figure is 15–20% of the build cost per year." },
@@ -148,15 +149,16 @@ export const toolPages: ToolPage[] = [
     navLabel: "Website Cost Calculator",
     metaTitle: "Website Cost Calculator: Website Development Cost",
     metaDescription:
-      "Free website cost calculator: choose the type of site, design level and features to estimate website development cost, hours and timeline by team location.",
+      "Free website cost calculator: choose the type of site, design level and features to get a DEVSYNX fixed-price estimate in USD and PKR, from $100 landing pages to about $2,000 web apps.",
     keywords: ["website cost calculator", "website development cost", "how much does a website cost", "web design cost calculator", "ecommerce website cost"],
     h1: "Website Cost Calculator",
     quickAnswer:
-      "A small business website (5–10 pages) typically takes 50–100 hours to build, a larger business site with a CMS 120–200 hours, an e-commerce store 200–400 hours and a custom web application 500 hours or more. At typical agency rates that means roughly $1,500–15,000 for a small site, $5,000–60,000 for an online store and more for web applications, depending on where the team is based. Use the calculator for an estimate based on your site.",
+      "At DEVSYNX, a landing page costs about $100–150, a small business website (5–10 pages) about $200–250, a business site with a CMS about $300–450 (PKR 35,000–120,000 for static and business sites), an e-commerce store about $500–700 and a custom web application about $1,000–2,000. Western agencies often charge $1,500–15,000 for a small site and $5,000–60,000 for an online store. Use the calculator for an estimate based on your site.",
     calcTitle: "Estimate your website",
     config: {
       teamSize: 2,
       weeklyHours: 35,
+      price: { base: 100, perHour: 1.6, cap: 4000 },
       groups: [
         {
           id: "type",
@@ -212,7 +214,7 @@ export const toolPages: ToolPage[] = [
       {
         heading: "Typical price ranges",
         content:
-          "Landing page: about 20–40 hours.\nSmall business website (5–10 pages): about 50–100 hours.\nBusiness site with CMS (10–25 pages): about 120–200 hours.\nE-commerce store: about 200–400 hours, more for large catalogues or custom checkout.\nCustom web application: 500 hours and up.\nMultiply by your team's hourly rate. At $30/hour, a 150-hour business site costs about $4,500; at $120/hour, about $18,000.",
+          "Landing page: about 20–40 hours.\nSmall business website (5–10 pages): about 50–100 hours.\nBusiness site with CMS (10–25 pages): about 120–200 hours.\nE-commerce store: about 200–400 hours, more for large catalogues or custom checkout.\nCustom web application: 500 hours and up.\nAgencies multiply these hours by their hourly rate: at $120/hour a 150-hour business site costs about $18,000. DEVSYNX quotes a fixed price instead, from about $100 for a landing page to about $2,000 for a custom web application.",
       },
       {
         heading: "Template or custom design?",
@@ -237,15 +239,15 @@ export const toolPages: ToolPage[] = [
       {
         heading: "Website prices in Pakistan",
         content:
-          "For businesses in Pakistan, DEVSYNX publishes fixed PKR price ranges: business websites from about PKR 80,000, e-commerce stores from about PKR 120,000 and custom web applications from about PKR 350,000. See the web development pages for Islamabad, Lahore and Karachi for details.",
+          "For businesses in Pakistan, DEVSYNX publishes fixed PKR price ranges: business websites from about PKR 35,000, e-commerce stores from about PKR 60,000 and custom web applications from about PKR 150,000. See the web development pages for Islamabad, Lahore and Karachi for details.",
       },
     ],
     faqs: [
-      { question: "How much does a website cost?", answer: "A small business website typically costs from about $1,500 to $15,000, an e-commerce store from about $5,000 to $50,000+, and a custom web application more, depending on features, design and the hourly rate of the team." },
+      { question: "How much does a website cost?", answer: "With DEVSYNX, a small business website costs about $200–250, a business site with a CMS about $300–450, an e-commerce store about $500–700 and a custom web application about $1,000–2,000. Western agencies typically charge several times more for the same scope." },
       { question: "How long does it take to build a website?", answer: "A landing page takes about 1–2 weeks, a small business website 2–4 weeks, an e-commerce store 4–8 weeks and a custom web application 2–6 months." },
       { question: "Is WordPress cheaper than a custom website?", answer: "Usually yes for content-focused sites, because themes and plugins cover common features. A custom build costs more upfront but can be faster, more secure and better for complex features." },
       { question: "What are the monthly costs of running a website?", answer: "Hosting, domain renewal, premium plugins or apps, email services and maintenance. For a small business site this is often modest; e-commerce and web apps cost more because of payment fees, apps and higher hosting needs." },
-      { question: "How much does a website cost in Pakistan?", answer: "At DEVSYNX, business websites start at about PKR 80,000, e-commerce stores at about PKR 120,000 and custom web applications at about PKR 350,000, with fixed quotes in writing." },
+      { question: "How much does a website cost in Pakistan?", answer: "At DEVSYNX, business websites start at about PKR 35,000, e-commerce stores at about PKR 60,000 and custom web applications at about PKR 150,000, with fixed quotes in writing." },
     ],
     related: [
       { href: "/tools/app-development-cost-calculator/", label: "App Development Cost Calculator" },

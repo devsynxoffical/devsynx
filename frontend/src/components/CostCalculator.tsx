@@ -3,9 +3,10 @@
 import { useMemo, useState } from "react";
 
 /**
- * Hours-based cost estimator. Cost = estimated hours x typical hourly rate
- * ranges by region. The initial selection is rendered at build time, so the
- * page shows a real estimate in its static HTML before any interaction.
+ * DEVSYNX price estimator. Each option adds effort (hours) or scales it; the
+ * effort is turned into a DEVSYNX fixed-price range (base + hours x rate,
+ * capped at config.price.cap) and a timeline. The initial selection is
+ * rendered at build time, so the page shows a real estimate in its static HTML.
  */
 
 export type CalcOption = { id: string; label: string; hours?: number; multiplier?: number };
@@ -22,16 +23,16 @@ export type CalcConfig = {
   teamSize: number;
   /** Hours each person delivers per week. */
   weeklyHours: number;
+  /** DEVSYNX pricing: USD = base + hours x perHour, never above cap. */
+  price: { base: number; perHour: number; cap: number };
 };
 
-const REGIONS = [
-  { id: "us", label: "US / Canada agency", min: 100, max: 160 },
-  { id: "uk", label: "UK / Western Europe agency", min: 80, max: 130 },
-  { id: "ee", label: "Eastern Europe / Latin America", min: 40, max: 75 },
-  { id: "pk", label: "Pakistan / South Asia (e.g. DEVSYNX)", min: 25, max: 45 },
-];
-
-const fmt = (n: number) => `$${(Math.round(n / 500) * 500).toLocaleString("en-US")}`;
+const PKR_PER_USD = 280;
+const usd = (n: number) => {
+  const step = n < 1000 ? 10 : 50;
+  return `$${(Math.round(n / step) * step).toLocaleString("en-US")}`;
+};
+const pkr = (n: number) => `PKR ${(Math.round((n * PKR_PER_USD) / 5000) * 5000).toLocaleString("en-US")}`;
 
 export function CostCalculator({ config, ariaLabel }: { config: CalcConfig; ariaLabel: string }) {
   const [sel, setSel] = useState<Record<string, string[]>>(() =>
@@ -53,7 +54,12 @@ export function CostCalculator({ config, ariaLabel }: { config: CalcConfig; aria
     const high = total * 1.2;
     const weeksLow = Math.max(1, Math.round(low / (config.teamSize * config.weeklyHours)));
     const weeksHigh = Math.max(weeksLow, Math.round(high / (config.teamSize * config.weeklyHours)));
-    return { low, high, weeksLow, weeksHigh };
+    const { base, perHour, cap } = config.price;
+    const mid = Math.min(cap, base + total * perHour);
+    const priceHigh = Math.min(cap, mid * 1.15);
+    const priceLow = Math.min(mid * 0.85, priceHigh * 0.8);
+    // (low is always at least 20% below high, so the range never collapses)
+    return { weeksLow, weeksHigh, priceLow, priceHigh };
   }, [sel, config]);
 
   const toggle = (g: CalcGroup, id: string) =>
@@ -89,32 +95,34 @@ export function CostCalculator({ config, ariaLabel }: { config: CalcConfig; aria
 
       <div className="calc__panel calc__result" aria-live="polite">
         <div>
-          <div className="calc__label">Estimated effort</div>
+          <div className="calc__label">DEVSYNX fixed-price estimate</div>
           <div className="calc__big">
-            {Math.round(result.low).toLocaleString("en-US")}–{Math.round(result.high).toLocaleString("en-US")} hours
+            {usd(result.priceLow)} – {usd(result.priceHigh)}
           </div>
           <div className="calc__note">
-            About {result.weeksLow}–{result.weeksHigh} weeks with a team of {config.teamSize}.
+            About {pkr(result.priceLow)} – {pkr(result.priceHigh)}
           </div>
         </div>
         <div>
-          <div className="calc__label">Estimated cost by team location</div>
-          <div className="calc__rows">
-            {REGIONS.map((r) => (
-              <div className="calc__row" key={r.id}>
-                <span>{r.label}</span>
-                <b>
-                  {fmt(result.low * r.min)} – {fmt(result.high * r.max)}
-                </b>
-              </div>
-            ))}
+          <div className="calc__label">Estimated timeline</div>
+          <div className="calc__big">
+            {result.weeksLow}–{result.weeksHigh} weeks
           </div>
+          <div className="calc__note">With a team of {config.teamSize}, plus your feedback rounds.</div>
         </div>
         <p className="calc__note">
-          Ballpark estimate from typical hours for each feature and typical agency rates (US $100–160/h, UK/Western
-          Europe $80–130/h, Eastern Europe/Latin America $40–75/h, South Asia $25–45/h). It is not a quote: real
-          cost depends on your exact requirements, integrations and design.
+          Estimate for a project built by DEVSYNX, before a scoping call. You get a written fixed price after a free
+          call, paid in milestones, and you own the full source code. Most projects cost under{" "}
+          {usd(config.price.cap)}.
         </p>
+        <a
+          className="calc__cta"
+          href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20used%20your%20cost%20calculator%20and%20want%20a%20fixed%20quote."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get a price for my budget on WhatsApp →
+        </a>
       </div>
     </div>
   );

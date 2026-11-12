@@ -47,7 +47,7 @@ export default function WebDevelopmentIslamabadPage() {
         name: "How much does a website cost in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "A 5 to 10-page business website in Islamabad usually costs PKR 80,000 to PKR 250,000; an e-commerce store costs PKR 120,000 to PKR 350,000; and custom web applications start from PKR 350,000+. Price depends on custom features and API integrations. We provide fixed-price quotes in writing.",
+          text: "A 5 to 10-page business website in Islamabad usually costs PKR 35,000 to PKR 120,000; an e-commerce store costs PKR 60,000 to PKR 200,000; and custom web applications start from PKR 150,000+. Price depends on custom features and API integrations. We provide fixed-price quotes in writing.",
         },
       },
       {
@@ -311,29 +311,38 @@ export default function WebDevelopmentIslamabadPage() {
                 <tr>
                   <td><strong>Starter Business Website</strong></td>
                   <td>Up to 5 pages, mobile responsive, WhatsApp CTA, contact form, SEO setup</td>
-                  <td><span className="price-tag">PKR 80,000 – 140,000</span></td>
+                  <td><span className="price-tag">PKR 35,000 – 70,000</span></td>
                   <td>10 – 14 Days</td>
                 </tr>
                 <tr>
                   <td><strong>Growth Corporate Website</strong></td>
                   <td>8 – 15 pages, custom UI/UX in Figma, CMS integration, portfolio showcase</td>
-                  <td><span className="price-tag">PKR 150,000 – 250,000</span></td>
+                  <td><span className="price-tag">PKR 70,000 – 120,000</span></td>
                   <td>2 – 3 Weeks</td>
                 </tr>
                 <tr>
                   <td><strong>E-Commerce Store</strong></td>
                   <td>Custom Shopify/WooCommerce, courier APIs, COD verification, product sync</td>
-                  <td><span className="price-tag">PKR 120,000 – 350,000</span></td>
+                  <td><span className="price-tag">PKR 60,000 – 200,000</span></td>
                   <td>3 – 4 Weeks</td>
                 </tr>
                 <tr>
                   <td><strong>Custom Web App / Portal</strong></td>
                   <td>Next.js frontend, backend API, database, authentication, role dashboards</td>
-                  <td><span className="price-tag">PKR 350,000 – 1,200,000</span></td>
+                  <td><span className="price-tag">PKR 150,000 – 500,000</span></td>
                   <td>4 – 8 Weeks</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a plan
+              that fits, often with a smaller first version you can grow later.
+            </p>
+            <a href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20saw%20your%20prices%20on%20%2Fweb-development-islamabad%2F%20and%20want%20a%20quote%20that%20fits%20my%20budget." target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              💬 Get a price for my budget
+            </a>
           </div>
         </div>
       </section>
@@ -350,7 +359,7 @@ export default function WebDevelopmentIslamabadPage() {
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much does a website cost in Islamabad?</h3>
               <p className="city-faq-answer">
-                A 5 to 10-page business website in Islamabad usually costs PKR 80,000 to PKR 250,000; an e-commerce store costs PKR 120,000 to PKR 350,000; and custom web applications start from PKR 350,000+. Price depends on custom features and API integrations. We provide fixed-price quotes in writing.
+                A 5 to 10-page business website in Islamabad usually costs PKR 35,000 to PKR 120,000; an e-commerce store costs PKR 60,000 to PKR 200,000; and custom web applications start from PKR 150,000+. Price depends on custom features and API integrations. We provide fixed-price quotes in writing.
               </p>
             </div>
 

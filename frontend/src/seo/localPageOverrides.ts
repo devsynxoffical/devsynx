@@ -27,11 +27,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "ai-calling-agent", "alpha-ahead-real-estate", "superhuman-mail"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Fashion Store (Shopify or custom)", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Catalogue, size charts, COD confirmation, courier booking, sale-day caching"],
-      ["Restaurant Ordering App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Menu, delivery zones across Lahore, rider app, kitchen screen, WhatsApp updates"],
-      ["Housing Society Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Plot inventory, file transfers, installments, member logins and dealer leads"],
-      ["School ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, fee vouchers, results, attendance and parent app"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Fashion Store (Shopify or custom)", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Catalogue, size charts, COD confirmation, courier booking, sale-day caching"],
+      ["Restaurant Ordering App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Menu, delivery zones across Lahore, rider app, kitchen screen, WhatsApp updates"],
+      ["Housing Society Portal", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Plot inventory, file transfers, installments, member logins and dealer leads"],
+      ["School ERP", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Admissions, fee vouchers, results, attendance and parent app"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Lahore Brands and Businesses",
     services: [
@@ -93,11 +93,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["installmentguard", "rbo-accounting", "employee-security-crm", "top-performance", "whatsapp-business-api", "nw-canvas"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Import & Distribution System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Shipments, landed cost, godown stock, distributor orders and credit"],
-      ["Delivery & Fleet App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Rider and driver apps, proof of delivery, routes and live tracking"],
-      ["Lending / Installment Platform", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Applications, KYC documents, schedules, repayments and recovery reports"],
-      ["B2B Ordering Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Wholesale price lists, online orders and WhatsApp enquiry buttons"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Import & Distribution System", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Shipments, landed cost, godown stock, distributor orders and credit"],
+      ["Delivery & Fleet App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Rider and driver apps, proof of delivery, routes and live tracking"],
+      ["Lending / Installment Platform", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Applications, KYC documents, schedules, repayments and recovery reports"],
+      ["B2B Ordering Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Wholesale price lists, online orders and WhatsApp enquiry buttons"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Karachi Traders, Importers and Lenders",
     services: [
@@ -157,11 +157,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["odoo-service", "mdt-control", "devsynx-attendance-hr", "ra-enterprise-contractor", "entiix", "signature-design-by-ashley"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Mill Production ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Lots, stages, wastage, efficiency per shift and dispatch"],
-      ["Export Order & LC Tracker", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Buyer POs, samples, LC terms, shipment status and documents"],
-      ["Exporter Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Product range, capacity, certifications and RFQ form for foreign buyers"],
-      ["Owner Dashboard App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Production, dispatch and receivables on the owner's phone"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Mill Production ERP", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Lots, stages, wastage, efficiency per shift and dispatch"],
+      ["Export Order & LC Tracker", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Buyer POs, samples, LC terms, shipment status and documents"],
+      ["Exporter Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Product range, capacity, certifications and RFQ form for foreign buyers"],
+      ["Owner Dashboard App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Production, dispatch and receivables on the owner's phone"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Faisalabad Mills and Exporters",
     services: [
@@ -221,11 +221,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["egg-produce", "saviored", "quickdoctor-ie", "google-workspace-security", "zahh-beverages", "ag-plumbing-murah"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Commission Agent System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Grower and buyer ledgers, daily mandi rates, bilties and SMS statements"],
-      ["Mango Export Tracking", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Orchard purchases, grading, packing and consignments to buyers"],
-      ["College Management System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, fees, exams, attendance and parent alerts"],
-      ["Clinic or Lab Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Doctor profiles, online reports and appointment booking"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Commission Agent System", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Grower and buyer ledgers, daily mandi rates, bilties and SMS statements"],
+      ["Mango Export Tracking", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Orchard purchases, grading, packing and consignments to buyers"],
+      ["College Management System", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Admissions, fees, exams, attendance and parent alerts"],
+      ["Clinic or Lab Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Doctor profiles, online reports and appointment booking"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Multan and South Punjab",
     services: [
@@ -283,11 +283,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["zeparty", "purrchase-ai", "rankmora", "ai-video-production", "installmentguard", "quickdoctor-ie"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Wholesale Trading Software", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Stock, credit customers, supplier ledgers and daily cash"],
-      ["Hospital Information System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "OPD, admissions, pharmacy, lab and billing"],
-      ["Startup MVP", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "First product version with logins, payments and an admin panel"],
-      ["Bilingual Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "English and Urdu pages, WhatsApp enquiries and local SEO"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Wholesale Trading Software", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Stock, credit customers, supplier ledgers and daily cash"],
+      ["Hospital Information System", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "OPD, admissions, pharmacy, lab and billing"],
+      ["Startup MVP", "4 – 8 Weeks", "PKR 150,000 – 500,000", "First product version with logins, payments and an admin panel"],
+      ["Bilingual Business Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "English and Urdu pages, WhatsApp enquiries and local SEO"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Peshawar Businesses",
     services: [
@@ -347,11 +347,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["rizki-akbar-enterprise", "whatsapp-business-api", "installmentguard", "smart-links-cabling", "zahh-beverages", "odoo-service"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Factory ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Purchase, production, finished goods, dispatch and costing"],
-      ["Dealer Ordering App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Dealers check stock and prices and order from their phones"],
-      ["Dealer Credit & Warranty System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Credit limits, recoveries, statements and warranty claims"],
-      ["Product Catalogue Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Full product range with specifications and dealer enquiry forms"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Factory ERP", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Purchase, production, finished goods, dispatch and costing"],
+      ["Dealer Ordering App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Dealers check stock and prices and order from their phones"],
+      ["Dealer Credit & Warranty System", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Credit limits, recoveries, statements and warranty claims"],
+      ["Product Catalogue Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Full product range with specifications and dealer enquiry forms"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Gujranwala Manufacturers",
     services: [
@@ -409,11 +409,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["luxora-women", "saviored", "fix-it-bilal", "scale-with-ads", "google-review-removal", "whatsapp-business-api"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Cotton & Grain Trading Software", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Grower purchases, ginning, bales, buyer sales and daily rates"],
-      ["School Fee & Results System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Fee collection, attendance and results on low-cost phones"],
-      ["First Online Store", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products, COD, courier booking and WhatsApp orders"],
-      ["Offline-Ready Mobile App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Works on slow connections and syncs when signal returns"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Cotton & Grain Trading Software", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Grower purchases, ginning, bales, buyer sales and daily rates"],
+      ["School Fee & Results System", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Fee collection, attendance and results on low-cost phones"],
+      ["First Online Store", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Products, COD, courier booking and WhatsApp orders"],
+      ["Offline-Ready Mobile App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Works on slow connections and syncs when signal returns"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Bahawalpur and Cholistan Businesses",
     services: [
@@ -473,11 +473,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["nw-canvas", "doughi", "rebecca-minkoff", "solettos", "horizon-sole", "million-dollar-funnels"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Export Catalogue & RFQ Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Specifications, certifications and RFQ forms for importers"],
-      ["Sample & Order Tracker", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Samples, approvals, bulk orders and buyer deadlines"],
-      ["Export ERP with Documentation", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Orders, production, QC records, invoices and packing lists"],
-      ["Wholesale B2B Store", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Buyer logins, price tiers, repeat orders and online payments"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Export Catalogue & RFQ Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Specifications, certifications and RFQ forms for importers"],
+      ["Sample & Order Tracker", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Samples, approvals, bulk orders and buyer deadlines"],
+      ["Export ERP with Documentation", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Orders, production, QC records, invoices and packing lists"],
+      ["Wholesale B2B Store", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Buyer logins, price tiers, repeat orders and online payments"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Sialkot Exporters",
     services: [
@@ -537,11 +537,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["egg-produce", "subdiv", "zingo-assist", "motion-graphic-explainers", "top-performance", "devsynx-platform"],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Kinnow Factory System", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Fruit intake, grading lines, cartons, containers and margins per lot"],
-      ["Cold Storage Management", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Chambers, client stock, rent and release slips"],
-      ["Farm & Packing Staff App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Offline data entry for farm and packing teams"],
-      ["Exporter Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Orchards, capacity and certifications for foreign buyers"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Kinnow Factory System", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Fruit intake, grading lines, cartons, containers and margins per lot"],
+      ["Cold Storage Management", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Chambers, client stock, rent and release slips"],
+      ["Farm & Packing Staff App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Offline data entry for farm and packing teams"],
+      ["Exporter Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Orchards, capacity and certifications for foreign buyers"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Sargodha's Kinnow and Agri Businesses",
     services: [
@@ -609,11 +609,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
     keepFaqs: [0, 1, 3],
     pricing: [
-      ["Dealer & Distributor Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Dealer logins, prices, credit, orders and dispatch tracking"],
-      ["Fan or Furniture Factory ERP", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Production, inventory, warranty claims and costing"],
-      ["Overseas Owner App", "6 – 12 Weeks", "PKR 450,000 – 1,500,000", "Sales, rent, expenses and site photos for owners abroad"],
-      ["Showroom Catalogue Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products, finishes and prices with WhatsApp enquiries"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Dealer & Distributor Portal", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Dealer logins, prices, credit, orders and dispatch tracking"],
+      ["Fan or Furniture Factory ERP", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Production, inventory, warranty claims and costing"],
+      ["Overseas Owner App", "6 – 12 Weeks", "PKR 200,000 – 700,000", "Sales, rent, expenses and site photos for owners abroad"],
+      ["Showroom Catalogue Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Products, finishes and prices with WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     highlights: {
       tag: "Gujrat Industries",
@@ -635,11 +635,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["ygi-holiday-homes", "saviored", "quickdoctor-ie", "alphamedi-assist", "devsynx-attendance-hr", "google-review-removal"],
     keepFaqs: [0, 2, 3],
     pricing: [
-      ["Hotel & Guest House Booking", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Live availability, seasonal rates, advance payments and WhatsApp confirmations"],
-      ["School or College Portal", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Admissions, hostel, fees, results and parent app"],
-      ["Clinic Appointment System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Online booking, patient records, prescriptions and reminders"],
-      ["Tourism or Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Photo galleries, maps, reviews and WhatsApp enquiries"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Hotel & Guest House Booking", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Live availability, seasonal rates, advance payments and WhatsApp confirmations"],
+      ["School or College Portal", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Admissions, hostel, fees, results and parent app"],
+      ["Clinic Appointment System", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Online booking, patient records, prescriptions and reminders"],
+      ["Tourism or Business Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Photo galleries, maps, reviews and WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Abbottabad and Hazara",
     services: [
@@ -670,11 +670,11 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     caseStudyIds: ["egg-produce", "employee-security-crm", "installmentguard", "saviored", "top-performance", "whatsapp-business-api"],
     keepFaqs: [0, 2, 3],
     pricing: [
-      ["Wholesale & Salesman Order System", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Route order booking app, warehouse dispatch, shop balances and recoveries"],
-      ["Factory Stock & Orders (SITE / Kotri)", "6 – 16 Weeks", "PKR 500,000 – 2,500,000", "Raw material, production, finished goods and buyer orders"],
-      ["Student & Fee Portal", "4 – 8 Weeks", "PKR 350,000 – 1,200,000", "Admissions, fee vouchers, results and parent SMS"],
-      ["Business Website", "2 – 3 Weeks", "PKR 80,000 – 250,000", "Products or services, Sindhi/Urdu/English text, WhatsApp enquiries"],
-      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 60,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
+      ["Wholesale & Salesman Order System", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Route order booking app, warehouse dispatch, shop balances and recoveries"],
+      ["Factory Stock & Orders (SITE / Kotri)", "6 – 16 Weeks", "PKR 250,000 – 1,100,000", "Raw material, production, finished goods and buyer orders"],
+      ["Student & Fee Portal", "4 – 8 Weeks", "PKR 150,000 – 500,000", "Admissions, fee vouchers, results and parent SMS"],
+      ["Business Website", "2 – 3 Weeks", "PKR 35,000 – 120,000", "Products or services, Sindhi/Urdu/English text, WhatsApp enquiries"],
+      ["Monthly Maintenance & SLA", "Ongoing", "From PKR 25,000 / mo", "Monitoring, security patches, bug fixes, backups, small feature changes"],
     ],
     servicesTitle: "Services for Hyderabad and Interior Sindh",
     services: [
@@ -1186,9 +1186,9 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Local Maps SEO (one Lahore branch)", "3 – 6 Months", "PKR 45,000 / mo", "Google Business Profile, reviews system, area pages for your part of Lahore, monthly ranking report"],
-      ["Fashion & E-commerce SEO", "6 – 12 Months", "PKR 140,000 / mo", "Collection and product optimisation, schema, seasonal landing pages, 8 articles / mo"],
-      ["Real Estate or Education SEO", "4 – 9 Months", "PKR 85,000 / mo", "Project or campus pages, technical fixes, 4 articles / mo, local backlinks"],
+      ["Local Maps SEO (one Lahore branch)", "3 – 6 Months", "PKR 25,000 / mo", "Google Business Profile, reviews system, area pages for your part of Lahore, monthly ranking report"],
+      ["Fashion & E-commerce SEO", "6 – 12 Months", "PKR 75,000 / mo", "Collection and product optimisation, schema, seasonal landing pages, 8 articles / mo"],
+      ["Real Estate or Education SEO", "4 – 9 Months", "PKR 45,000 / mo", "Project or campus pages, technical fixes, 4 articles / mo, local backlinks"],
     ],
     highlights: {
       tag: "Lahore SEO Strategy",
@@ -1249,9 +1249,9 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Clinic or Branch Local SEO", "3 – 6 Months", "PKR 45,000 / mo", "Google Business Profile per branch, reviews, area pages, monthly calls and ranking report"],
-      ["B2B Supplier SEO", "4 – 9 Months", "PKR 85,000 / mo", "Product and capability pages, technical audit, 4 articles / mo, industry backlinks"],
-      ["National E-commerce SEO", "6 – 12 Months", "PKR 140,000 / mo", "Category and product optimisation, schema, internal linking, 8 articles / mo, link building"],
+      ["Clinic or Branch Local SEO", "3 – 6 Months", "PKR 25,000 / mo", "Google Business Profile per branch, reviews, area pages, monthly calls and ranking report"],
+      ["B2B Supplier SEO", "4 – 9 Months", "PKR 45,000 / mo", "Product and capability pages, technical audit, 4 articles / mo, industry backlinks"],
+      ["National E-commerce SEO", "6 – 12 Months", "PKR 75,000 / mo", "Category and product optimisation, schema, internal linking, 8 articles / mo, link building"],
     ],
     highlights: {
       tag: "Karachi SEO Strategy",
@@ -1318,9 +1318,9 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Starter: Meta Ads for a Lahore brand", "Monthly", "PKR 50,000 / mo", "Meta Ads, pixel & CAPI setup, 8 creatives / mo, weekly report"],
-      ["Growth: Meta + TikTok + Google", "Monthly", "PKR 85,000 / mo", "Three platforms, Reels and TikTok creatives, landing page tests, 16 creatives / mo"],
-      ["Scale: fashion & e-commerce", "Monthly", "PKR 140,000 / mo", "Catalogue and Shopping campaigns, COD quality tracking, retention flows, CRO"],
+      ["Starter: Meta Ads for a Lahore brand", "Monthly", "PKR 25,000 / mo", "Meta Ads, pixel & CAPI setup, 8 creatives / mo, weekly report"],
+      ["Growth: Meta + TikTok + Google", "Monthly", "PKR 45,000 / mo", "Three platforms, Reels and TikTok creatives, landing page tests, 16 creatives / mo"],
+      ["Scale: fashion & e-commerce", "Monthly", "PKR 75,000 / mo", "Catalogue and Shopping campaigns, COD quality tracking, retention flows, CRO"],
     ],
     highlights: {
       tag: "Lahore Campaigns",
@@ -1376,9 +1376,9 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Starter: Google Search leads", "Monthly", "PKR 50,000 / mo", "Google Search Ads for your Karachi areas, call tracking, 8 ad variations / mo, weekly report"],
-      ["Growth: Google + Meta + LinkedIn", "Monthly", "PKR 85,000 / mo", "Three platforms, landing page tests, 16 creatives / mo, CRM lead sync"],
-      ["Scale: brand & e-commerce", "Monthly", "PKR 140,000 / mo", "Full-funnel ads, Shopping campaigns, server-side tracking, CRO, retention"],
+      ["Starter: Google Search leads", "Monthly", "PKR 25,000 / mo", "Google Search Ads for your Karachi areas, call tracking, 8 ad variations / mo, weekly report"],
+      ["Growth: Google + Meta + LinkedIn", "Monthly", "PKR 45,000 / mo", "Three platforms, landing page tests, 16 creatives / mo, CRM lead sync"],
+      ["Scale: brand & e-commerce", "Monthly", "PKR 75,000 / mo", "Full-funnel ads, Shopping campaigns, server-side tracking, CRO, retention"],
     ],
     highlights: {
       tag: "Karachi Campaigns",
@@ -1439,10 +1439,10 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Restaurant or Clinic Website", "2 – 3 Weeks", "PKR 80,000 – 140,000", "Custom design, menu or services, booking, WhatsApp and Google Maps"],
-      ["Fashion Store (Shopify)", "3 – 5 Weeks", "PKR 120,000 – 350,000", "Collections, size charts, JazzCash / Easypaisa / cards, courier integration"],
-      ["Real Estate or School Portal", "4 – 10 Weeks", "PKR 350,000 – 1,200,000", "Project or student portal, admin panel, leads or admissions, payments"],
-      ["Website Care Plan", "Ongoing", "From PKR 15,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
+      ["Restaurant or Clinic Website", "2 – 3 Weeks", "PKR 35,000 – 70,000", "Custom design, menu or services, booking, WhatsApp and Google Maps"],
+      ["Fashion Store (Shopify)", "3 – 5 Weeks", "PKR 60,000 – 200,000", "Collections, size charts, JazzCash / Easypaisa / cards, courier integration"],
+      ["Real Estate or School Portal", "4 – 10 Weeks", "PKR 150,000 – 500,000", "Project or student portal, admin panel, leads or admissions, payments"],
+      ["Website Care Plan", "Ongoing", "From PKR 8,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
     ],
     highlights: {
       tag: "Lahore Websites",
@@ -1502,10 +1502,10 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
           }
     ],
     pricing: [
-      ["Corporate or Professional Website", "2 – 3 Weeks", "PKR 80,000 – 140,000", "Custom design, services and team pages, contact and WhatsApp, on-page SEO"],
-      ["B2B Catalogue or Retail Store", "3 – 5 Weeks", "PKR 120,000 – 350,000", "Product catalogue or Shopify / WooCommerce store, RFQ or payments, courier integration"],
-      ["Logistics or Finance Portal", "4 – 10 Weeks", "PKR 350,000 – 1,200,000", "Customer logins, tracking or applications, document upload, admin panel and API"],
-      ["Website Care Plan", "Ongoing", "From PKR 15,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
+      ["Corporate or Professional Website", "2 – 3 Weeks", "PKR 35,000 – 70,000", "Custom design, services and team pages, contact and WhatsApp, on-page SEO"],
+      ["B2B Catalogue or Retail Store", "3 – 5 Weeks", "PKR 60,000 – 200,000", "Product catalogue or Shopify / WooCommerce store, RFQ or payments, courier integration"],
+      ["Logistics or Finance Portal", "4 – 10 Weeks", "PKR 150,000 – 500,000", "Customer logins, tracking or applications, document upload, admin panel and API"],
+      ["Website Care Plan", "Ongoing", "From PKR 8,000 / mo", "Hosting management, updates, backups, uptime monitoring, content edits"],
     ],
     highlights: {
       tag: "Karachi Websites",

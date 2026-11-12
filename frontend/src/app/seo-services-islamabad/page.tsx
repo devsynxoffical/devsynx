@@ -45,7 +45,7 @@ export default function SeoServicesIslamabadPage() {
         name: "How much do SEO services cost in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Local SEO for one twin-city location starts at PKR 45,000 to PKR 65,000 per month. Comprehensive business SEO with on-page technical fixes and content ranges from PKR 85,000 to PKR 120,000 per month. National or e-commerce SEO ranges from PKR 140,000+. We quote fixed monthly fees with zero hidden charges after a complimentary audit.",
+          text: "Local SEO for one twin-city location starts at PKR 25,000 to PKR 35,000 per month. Comprehensive business SEO with on-page technical fixes and content ranges from PKR 45,000 to PKR 65,000 per month. National or e-commerce SEO ranges from PKR 75,000+. We quote fixed monthly fees with zero hidden charges after a complimentary audit.",
         },
       },
       {
@@ -322,24 +322,33 @@ export default function SeoServicesIslamabadPage() {
               <tbody>
                 <tr>
                   <td><strong>Local Map Pack SEO</strong></td>
-                  <td><span className="price-tag">PKR 45,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 25,000 / mo</span></td>
                   <td>1 Location (Islamabad or Rawalpindi)</td>
                   <td>GBP optimization, citation building, review strategy, monthly ranking grid report</td>
                 </tr>
                 <tr>
                   <td><strong>Full Business SEO</strong></td>
-                  <td><span className="price-tag">PKR 85,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 45,000 / mo</span></td>
                   <td>Up to 25 Target Keywords</td>
                   <td>Technical code fixes, 4 optimized content articles/mo, schema setup, authority links</td>
                 </tr>
                 <tr>
                   <td><strong>E-Commerce / Enterprise</strong></td>
-                  <td><span className="price-tag">PKR 140,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 75,000 / mo</span></td>
                   <td>50+ Commercial Keywords</td>
                   <td>Collection &amp; product SEO, speed tuning, competitive gap blitz, high-DA outreach</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a plan
+              that fits, often with a smaller first version you can grow later.
+            </p>
+            <a href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20saw%20your%20prices%20on%20%2Fseo-services-islamabad%2F%20and%20want%20a%20quote%20that%20fits%20my%20budget." target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              💬 Get a price for my budget
+            </a>
           </div>
         </div>
       </section>
@@ -356,7 +365,7 @@ export default function SeoServicesIslamabadPage() {
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much do SEO services cost in Islamabad?</h3>
               <p className="city-faq-answer">
-                Local SEO for one twin-city location starts at PKR 45,000 to PKR 65,000 per month. Comprehensive business SEO with on-page technical fixes and content ranges from PKR 85,000 to PKR 120,000 per month. National or e-commerce SEO ranges from PKR 140,000+. We quote fixed monthly fees with zero hidden charges after a complimentary audit.
+                Local SEO for one twin-city location starts at PKR 25,000 to PKR 35,000 per month. Comprehensive business SEO with on-page technical fixes and content ranges from PKR 45,000 to PKR 65,000 per month. National or e-commerce SEO ranges from PKR 75,000+. We quote fixed monthly fees with zero hidden charges after a complimentary audit.
               </p>
             </div>
 

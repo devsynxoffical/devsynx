@@ -202,8 +202,9 @@ export default function ContactPage() {
                   <label htmlFor="budget" className="contact-form__label">Estimated Budget</label>
                   <select id="budget" name="budget" className="contact-form__input" value={formData.budget} onChange={handleChange}>
                     <option value="">Select a range</option>
-                    <option value="under-pkr-250k">Under PKR 250,000 (~$900)</option>
-                    <option value="pkr-250k-1m">PKR 250,000 - 1,000,000</option>
+                    <option value="under-pkr-100k">Under PKR 100,000 (~$350)</option>
+                    <option value="pkr-100k-500k">PKR 100,000 - 500,000</option>
+                    <option value="pkr-500k-1.1m">PKR 500,000 - 1,100,000</option>
                     <option value="under-5k">Under $5,000</option>
                     <option value="5k-10k">$5,000 - $10,000</option>
                     <option value="10k-25k">$10,000 - $25,000</option>

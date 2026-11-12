@@ -285,35 +285,44 @@ export default function SoftwareHouseRawalpindiPage() {
                 <tr>
                   <td><strong>Retail / Business Website</strong></td>
                   <td>2 – 3 Weeks</td>
-                  <td><span className="price-tag">PKR 80,000 – 250,000</span></td>
+                  <td><span className="price-tag">PKR 35,000 – 120,000</span></td>
                   <td>Custom responsive design, SEO setup, WhatsApp integration, hosting setup</td>
                 </tr>
                 <tr>
                   <td><strong>Shopify / Ecommerce Store</strong></td>
                   <td>3 – 5 Weeks</td>
-                  <td><span className="price-tag">PKR 120,000 – 350,000</span></td>
+                  <td><span className="price-tag">PKR 60,000 – 200,000</span></td>
                   <td>Courier API integration (TCS/Trax), COD verification, payment gateway</td>
                 </tr>
                 <tr>
                   <td><strong>Custom Web App / Portal</strong></td>
                   <td>4 – 8 Weeks</td>
-                  <td><span className="price-tag">PKR 350,000 – 1,200,000</span></td>
+                  <td><span className="price-tag">PKR 150,000 – 500,000</span></td>
                   <td>Full-stack Next.js/React &amp; Node.js, database architecture, auth, role management</td>
                 </tr>
                 <tr>
                   <td><strong>Mobile App (iOS + Android)</strong></td>
                   <td>6 – 12 Weeks</td>
-                  <td><span className="price-tag">PKR 450,000 – 1,500,000</span></td>
+                  <td><span className="price-tag">PKR 200,000 – 700,000</span></td>
                   <td>Flutter single-codebase app, push notifications, offline cache, App Store deployment</td>
                 </tr>
                 <tr>
                   <td><strong>POS / Inventory / ERP</strong></td>
                   <td>6 – 16 Weeks</td>
-                  <td><span className="price-tag">PKR 500,000 – 2,500,000</span></td>
+                  <td><span className="price-tag">PKR 250,000 – 1,100,000</span></td>
                   <td>Stock management, barcode billing, multi-store sync, accounts, FBR integration</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a plan
+              that fits, often with a smaller first version you can grow later.
+            </p>
+            <a href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20saw%20your%20prices%20on%20%2Fsoftware-house-rawalpindi%2F%20and%20want%20a%20quote%20that%20fits%20my%20budget." target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              💬 Get a price for my budget
+            </a>
           </div>
         </div>
       </section>

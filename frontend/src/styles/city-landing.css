@@ -531,3 +531,10 @@
 .calc__row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--color-border); font-size: 0.93rem; color: var(--color-text); font-variant-numeric: tabular-nums; }
 .calc__row b { color: var(--color-dark); white-space: nowrap; }
 .calc__note { font-size: 0.82rem; color: var(--color-text-secondary); line-height: 1.6; }
+.calc__cta { display: block; text-align: center; padding: 12px 16px; border-radius: 10px; background: #25D366; color: #fff; font-weight: 700; text-decoration: none; }
+.calc__cta:hover { filter: brightness(0.95); }
+
+/* "Have a tighter budget?" prompt under every price table */
+.price-cta { margin-top: 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 24px; border: 1px dashed var(--color-primary); border-radius: 14px; background: var(--color-primary-light, transparent); }
+.price-cta__text { margin: 0; flex: 1 1 320px; color: var(--color-text); line-height: 1.6; }
+.price-cta__text strong { color: var(--color-dark); }

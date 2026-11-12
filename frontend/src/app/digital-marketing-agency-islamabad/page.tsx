@@ -53,7 +53,7 @@ export default function DigitalMarketingAgencyIslamabadPage() {
         name: "How much does a digital marketing agency in Islamabad charge?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Management retainers start from PKR 50,000 to PKR 85,000 per month for local twin-city businesses, and PKR 120,000+ for high-growth e-commerce brands. Ad budgets are paid directly to Meta and Google with full client account ownership. We recommend a starting monthly ad spend of PKR 75,000+ to generate actionable statistical data.",
+          text: "Management retainers start from PKR 25,000 to PKR 25,000 per month for local twin-city businesses, and PKR 65,000+ for high-growth e-commerce brands. Ad budgets are paid directly to Meta and Google with full client account ownership. We recommend a starting monthly ad spend of PKR 75,000+ to generate actionable statistical data.",
         },
       },
       {
@@ -289,24 +289,33 @@ export default function DigitalMarketingAgencyIslamabadPage() {
               <tbody>
                 <tr>
                   <td><strong>Local Business Starter</strong></td>
-                  <td><span className="price-tag">PKR 50,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 25,000 / mo</span></td>
                   <td>PKR 60,000 – 120,000 / mo</td>
                   <td>Meta or Google Ads (1 platform), 6 custom creatives/mo, weekly optimization, WhatsApp tracking</td>
                 </tr>
                 <tr>
                   <td><strong>Growth Accelerator</strong></td>
-                  <td><span className="price-tag">PKR 85,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 45,000 / mo</span></td>
                   <td>PKR 120,000 – 300,000 / mo</td>
                   <td>Meta + TikTok or Google, 12 ad creatives + reels/mo, landing page A/B tests, CAPI tracking</td>
                 </tr>
                 <tr>
                   <td><strong>Scale &amp; E-Commerce</strong></td>
-                  <td><span className="price-tag">PKR 140,000 / mo</span></td>
+                  <td><span className="price-tag">PKR 75,000 / mo</span></td>
                   <td>PKR 300,000+ / mo</td>
                   <td>Multi-channel media buying (Meta, TikTok, Google), daily optimization, custom CRO funnels, bi-weekly review</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a plan
+              that fits, often with a smaller first version you can grow later.
+            </p>
+            <a href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20saw%20your%20prices%20on%20%2Fdigital-marketing-agency-islamabad%2F%20and%20want%20a%20quote%20that%20fits%20my%20budget." target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              💬 Get a price for my budget
+            </a>
           </div>
         </div>
       </section>
@@ -330,7 +339,7 @@ export default function DigitalMarketingAgencyIslamabadPage() {
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much does a digital marketing agency in Islamabad charge?</h3>
               <p className="city-faq-answer">
-                Management retainers start from PKR 50,000 to PKR 85,000 per month for local twin-city businesses, and PKR 120,000+ for high-growth e-commerce brands. Ad budgets are paid directly to Meta and Google with full client account ownership. We recommend a starting monthly ad spend of PKR 75,000+ to generate actionable statistical data.
+                Management retainers start from PKR 25,000 to PKR 25,000 per month for local twin-city businesses, and PKR 65,000+ for high-growth e-commerce brands. Ad budgets are paid directly to Meta and Google with full client account ownership. We recommend a starting monthly ad spend of PKR 75,000+ to generate actionable statistical data.
               </p>
             </div>
 

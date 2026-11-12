@@ -224,6 +224,20 @@ export function LocalLandingPage({ page }: { page: LocalPage }) {
               </tbody>
             </table>
           </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a
+              plan that fits, often with a smaller first version you can grow later.
+            </p>
+            <a
+              href={`https://wa.me/923029462542?text=${encodeURIComponent(`Hi DEVSYNX, I saw your prices on ${page.path} and want a quote that fits my budget.`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-whatsapp"
+            >
+              💬 Get a price for my budget
+            </a>
+          </div>
         </div>
       </section>
 

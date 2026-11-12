@@ -35,7 +35,7 @@ export default function SoftwareHouseIslamabadPage() {
     description: "DEVSYNX is a premier software house in Islamabad building custom web apps, mobile apps, ERP systems, and AI automation.",
     telephone: "+923029462542",
     email: "info@devsynx.com",
-    priceRange: "PKR 80,000 - 2,500,000",
+    priceRange: "PKR 35,000 - 1,100,000",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Old Airport Road, Chaklala Cantt.",
@@ -88,7 +88,7 @@ export default function SoftwareHouseIslamabadPage() {
         name: "How much does it cost to hire a software house in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pricing depends on project scope. A high-converting business website typically ranges from PKR 80,000 to PKR 250,000; a custom web app or mobile app MVP starts from PKR 350,000 to PKR 1,200,000; and enterprise ERP setup ranges from PKR 500,000+. We provide fixed-price proposals with full source code ownership.",
+          text: "Pricing depends on project scope. A high-converting business website typically ranges from PKR 35,000 to PKR 120,000; a custom web app or mobile app MVP starts from PKR 150,000 to PKR 500,000; and enterprise ERP setup ranges from PKR 250,000+. We provide fixed-price proposals with full source code ownership.",
         },
       },
       {
@@ -386,35 +386,44 @@ export default function SoftwareHouseIslamabadPage() {
                 <tr>
                   <td><strong>Business Website</strong></td>
                   <td>2 – 3 Weeks</td>
-                  <td><span className="price-tag">PKR 80,000 – 250,000</span></td>
+                  <td><span className="price-tag">PKR 35,000 – 120,000</span></td>
                   <td>Next.js/WordPress, custom UI, technical SEO, mobile responsive, domain &amp; SSL</td>
                 </tr>
                 <tr>
                   <td><strong>Custom Web App / MVP</strong></td>
                   <td>4 – 8 Weeks</td>
-                  <td><span className="price-tag">PKR 350,000 – 1,200,000</span></td>
+                  <td><span className="price-tag">PKR 150,000 – 500,000</span></td>
                   <td>React/Next.js frontend, Node.js API, PostgreSQL/MongoDB, auth, payments, role access</td>
                 </tr>
                 <tr>
                   <td><strong>Mobile App (iOS &amp; Android)</strong></td>
                   <td>6 – 12 Weeks</td>
-                  <td><span className="price-tag">PKR 450,000 – 1,500,000</span></td>
+                  <td><span className="price-tag">PKR 200,000 – 700,000</span></td>
                   <td>Flutter single-codebase app, push notifications, offline cache, App Store submission</td>
                 </tr>
                 <tr>
                   <td><strong>ERP &amp; Odoo Implementation</strong></td>
                   <td>6 – 16 Weeks</td>
-                  <td><span className="price-tag">PKR 500,000 – 2,500,000</span></td>
+                  <td><span className="price-tag">PKR 250,000 – 1,100,000</span></td>
                   <td>Inventory, accounting, sales, HR modules, data migration, staff training &amp; FBR POS</td>
                 </tr>
                 <tr>
                   <td><strong>Monthly Maintenance &amp; SLA</strong></td>
                   <td>Ongoing</td>
-                  <td><span className="price-tag">From PKR 60,000 / mo</span></td>
+                  <td><span className="price-tag">From PKR 25,000 / mo</span></td>
                   <td>Server monitoring, security patches, bug fixes, automated backups, feature tweaks</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div className="price-cta">
+            <p className="price-cta__text">
+              <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a plan
+              that fits, often with a smaller first version you can grow later.
+            </p>
+            <a href="https://wa.me/923029462542?text=Hi%20DEVSYNX%2C%20I%20saw%20your%20prices%20on%20%2Fsoftware-house-islamabad%2F%20and%20want%20a%20quote%20that%20fits%20my%20budget." target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
+              💬 Get a price for my budget
+            </a>
           </div>
         </div>
       </section>
@@ -476,7 +485,7 @@ export default function SoftwareHouseIslamabadPage() {
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much does it cost to hire a software house in Islamabad?</h3>
               <p className="city-faq-answer">
-                Pricing depends on project scope. A business website typically ranges from PKR 80,000 to PKR 250,000; a custom web app or mobile app MVP starts from PKR 350,000 to PKR 1,200,000; and enterprise ERP setup ranges from PKR 500,000+. We provide fixed-price proposals with full source code ownership.
+                Pricing depends on project scope. A business website typically ranges from PKR 35,000 to PKR 120,000; a custom web app or mobile app MVP starts from PKR 150,000 to PKR 500,000; and enterprise ERP setup ranges from PKR 250,000+. We provide fixed-price proposals with full source code ownership.
               </p>
             </div>
 
