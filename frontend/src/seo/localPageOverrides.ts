@@ -700,6 +700,432 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
 
+  "app-development-company-dallas": {
+    caseStudyIds: ["contractor-leads", "roofing-systems", "ai-calling-agent", "ballchart", "zingo-assist", "qualified-leads-x"],
+    highlights: { tag: "DFW Apps", title: "Apps Dallas\u2013Fort Worth Businesses Ask Us For", cards: [
+            {
+                  icon: "🛠️",
+                  title: "Contractors & Roofers",
+                  text: "Lead capture, estimates and job tracking from the first call to the final invoice."
+            },
+            {
+                  icon: "🏥",
+                  title: "Healthcare Practices",
+                  text: "Patient booking, reminders and secure messaging for clinics across the metroplex."
+            },
+            {
+                  icon: "🏢",
+                  title: "Corporate Teams",
+                  text: "Internal apps for sales, inspections and approvals at Dallas headquarters."
+            },
+            {
+                  icon: "🛍️",
+                  title: "Retail & Restaurants",
+                  text: "Ordering, loyalty and push campaigns for local and franchise brands."
+            }
+      ] },
+    servicesTitle: "App Development Services in Dallas",
+    services: [
+          {
+                icon: "🧰",
+                title: "Field Service & Dispatch Apps",
+                text: "Job scheduling, technician routing, photos, signatures and invoices for DFW contractors and home-service firms.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "📞",
+                title: "AI Call Answering",
+                text: "Voice agents that answer, qualify and book callers after hours, so leads from your app and ads are never missed.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "🏈",
+                title: "Sports & Fan Apps",
+                text: "Stats, schedules, live scores and team management, like the BallChart platform we built."
+          },
+          {
+                icon: "🏪",
+                title: "Franchise & Multi-Location Apps",
+                text: "Ordering, loyalty and location finders shared across many DFW branches."
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "A first iOS and Android release in about 30 days for founders in Dallas and Plano.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          },
+          {
+                icon: "🎨",
+                title: "App UX Design",
+                text: "Clickable prototypes tested with real users before a line of code is written.",
+                href: "/services/ui-ux-design/",
+                linkLabel: "UI/UX Design"
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in USD, paid per milestone", "Core features, admin panel, store submission"],
+      ["Field Service App", "8 – 14 Weeks", "Fixed price in USD, paid per milestone", "Scheduling, dispatch, offline mode, invoicing"],
+      ["Dedicated App Developer", "Monthly, min. 1 month", "Flat monthly rate in USD", "Flutter or React Native engineer in your team"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in USD", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "Can the app send leads straight into our CRM?", answer: "Yes. Quote requests, bookings and calls captured in the app can go directly into HubSpot, Salesforce, GoHighLevel or your own CRM, with notifications to your sales team." }, { question: "Do you publish the app to the App Store and Google Play for us?", answer: "Yes. We prepare store listings, screenshots and privacy details, submit the app under your own developer accounts and handle reviewer questions until it is approved." }, { question: "Can my app work for technicians without signal on a job site?", answer: "Yes. We build offline-first apps that save job notes, photos and signatures on the phone and sync them automatically when the technician is back in coverage." }],
+  },
+
+  "app-development-company-houston": {
+    caseStudyIds: ["sigma-smart-tech", "egg-produce", "alphamedi-assist", "quickdoctor-ie", "employee-security-crm", "roofing-systems"],
+    highlights: { tag: "Houston Apps", title: "Apps for Houston's Energy, Medical and Logistics Sectors", cards: [
+            {
+                  icon: "⛑️",
+                  title: "Safety & Compliance",
+                  text: "Digital permits, toolbox talks and incident reports instead of paper."
+            },
+            {
+                  icon: "🩺",
+                  title: "Patient Experience",
+                  text: "Booking, reminders and secure messaging for clinics and specialists."
+            },
+            {
+                  icon: "📦",
+                  title: "Distribution",
+                  text: "Route planning, delivery photos and customer notifications."
+            },
+            {
+                  icon: "🔌",
+                  title: "Connected Devices",
+                  text: "Bluetooth and Wi-Fi device apps for equipment and smart homes."
+            }
+      ] },
+    servicesTitle: "App Development Services in Houston",
+    services: [
+          {
+                icon: "🛢️",
+                title: "Industrial Field Apps",
+                text: "Inspections, safety checklists and asset logs for energy and industrial crews, with offline mode.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🏥",
+                title: "Healthcare & Telehealth Apps",
+                text: "Appointment, telehealth and patient apps for practices around the Texas Medical Center."
+          },
+          {
+                icon: "🚢",
+                title: "Logistics & Delivery Apps",
+                text: "Driver apps, proof of delivery and shipment tracking for Houston's port and distribution businesses."
+          },
+          {
+                icon: "🏠",
+                title: "Smart Home & IoT Apps",
+                text: "Device control and monitoring apps like the one we built for Sigma Smart Tech."
+          },
+          {
+                icon: "🌾",
+                title: "Supply Chain Apps",
+                text: "Ordering and delivery tracking for food and produce suppliers, as in our Egg Produce project."
+          },
+          {
+                icon: "🤖",
+                title: "AI Assistants",
+                text: "Chat and voice assistants that handle bookings and common questions.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in USD, paid per milestone", "Core features, admin panel, store submission"],
+      ["Offline Field / Inspection App", "8 – 14 Weeks", "Fixed price in USD, paid per milestone", "Forms, photos, GPS, sync and PDF reports"],
+      ["Telehealth or Booking App", "8 – 16 Weeks", "Fixed price in USD, paid per milestone", "Appointments, video, payments and reminders"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in USD", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "Can you build HIPAA-ready healthcare apps?", answer: "We build healthcare apps with encrypted data, access controls, audit logs and hosting on HIPAA-eligible cloud services, and we sign a Business Associate Agreement where the project requires it." }],
+  },
+
+  "app-development-company-calgary": {
+    caseStudyIds: ["installmentguard", "devsynx-attendance-hr", "superhuman-mail", "saviored", "mdt-control", "contractor-leads"],
+    highlights: { tag: "Calgary Apps", title: "Apps for Alberta's Energy, Agri and Trades Businesses", cards: [
+            {
+                  icon: "⚡",
+                  title: "Energy Services",
+                  text: "Inspection, maintenance and safety apps for field technicians."
+            },
+            {
+                  icon: "🌾",
+                  title: "Agriculture",
+                  text: "Farm records, equipment logs and grain delivery tracking."
+            },
+            {
+                  icon: "🏗️",
+                  title: "Construction & Trades",
+                  text: "Daily reports, photos, timesheets and change orders."
+            },
+            {
+                  icon: "🏙️",
+                  title: "Local Startups",
+                  text: "MVPs for founders building in Calgary's tech community."
+            }
+      ] },
+    servicesTitle: "App Development Services in Calgary",
+    services: [
+          {
+                icon: "❄️",
+                title: "Rugged Field Apps",
+                text: "Apps that work in the cold, with gloves and without signal, for energy, construction and agriculture crews.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "⏱️",
+                title: "Workforce & Timesheet Apps",
+                text: "Clock-in, job costing and payroll exports, based on the attendance system we built."
+          },
+          {
+                icon: "🏭",
+                title: "Industrial Monitoring",
+                text: "Dashboards and alerts for equipment and sensors, drawing on our MDT Control SCADA work."
+          },
+          {
+                icon: "🎓",
+                title: "Learning Apps",
+                text: "Course and training apps, like the Saviored e-learning platform."
+          },
+          {
+                icon: "💳",
+                title: "Payments & Installments",
+                text: "Recurring billing and installment tracking apps."
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "Launch-ready iOS and Android apps for Calgary founders in about 30 days.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in CAD, paid per milestone", "Core features, admin panel, store submission"],
+      ["Offline Field App", "8 – 14 Weeks", "Fixed price in CAD, paid per milestone", "Forms, photos, GPS, offline sync"],
+      ["Dedicated App Developer", "Monthly, min. 1 month", "Flat monthly rate in CAD", "Engineer working in Mountain Time mornings"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in CAD", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "How long does a field app take to build?", answer: "A focused field app with forms, photos and offline sync usually takes 8 to 14 weeks. We release a first version to a small crew early, collect feedback from the field and then roll it out to everyone." }, { question: "Do you build apps that work in very cold weather?", answer: "Yes. We design for field conditions: large buttons that work with gloves, high-contrast screens for bright snow, and offline storage so crews can keep working where there is no signal, with data syncing later." }, { question: "Can the app connect to our existing accounting or payroll system?", answer: "Yes. We connect timesheets, job costs and invoices to tools such as QuickBooks or Xero, or to your own system through an API, so the office does not re-enter data." }, { question: "Can you invoice a Canadian company in CAD?", answer: "Yes. We quote and invoice in CAD, sign Canadian-law contracts on request and assign all IP to your company." }],
+  },
+
+  "app-development-company-melbourne": {
+    caseStudyIds: ["suuvo", "spicify-app", "glitchy-digital-marketing", "purrchase-ai", "quickdoctor-ie", "zingo-assist"],
+    highlights: { tag: "Melbourne Apps", title: "Apps for Melbourne's Consumer, Health and Hospitality Brands", cards: [
+            {
+                  icon: "🍽️",
+                  title: "Food & Venues",
+                  text: "Ordering and loyalty for cafés and restaurants."
+            },
+            {
+                  icon: "🏃",
+                  title: "Sport & Fitness",
+                  text: "Bookings, memberships and training apps."
+            },
+            {
+                  icon: "🎓",
+                  title: "Education",
+                  text: "Student, course and campus apps."
+            },
+            {
+                  icon: "🧑‍💻",
+                  title: "Startups",
+                  text: "MVPs and second versions for funded teams."
+            }
+      ] },
+    servicesTitle: "App Development Services in Melbourne",
+    services: [
+          {
+                icon: "📱",
+                title: "Consumer & Social Apps",
+                text: "Feeds, profiles, chat and creator tools, like Suuvo and Spicify.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "☕",
+                title: "Hospitality Apps",
+                text: "Ordering, loyalty and table booking for cafés, restaurants and venues."
+          },
+          {
+                icon: "🩺",
+                title: "Health & Telehealth",
+                text: "Booking and consultation apps, drawing on our QuickDoctor work."
+          },
+          {
+                icon: "🛍️",
+                title: "Shopping Apps",
+                text: "AI-assisted shopping and e-commerce apps such as Purrchase AI."
+          },
+          {
+                icon: "🎨",
+                title: "App UX Design",
+                text: "Research, prototypes and design systems before development.",
+                href: "/services/ui-ux-design/",
+                linkLabel: "UI/UX Design"
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "A first release in about 30 days for Melbourne founders.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in AUD, paid per milestone", "Core features, admin panel, store submission"],
+      ["Consumer / Social App", "10 – 16 Weeks", "Fixed price in AUD, paid per milestone", "Profiles, feeds, chat, notifications, analytics"],
+      ["Dedicated App Developer", "Monthly, min. 1 month", "Flat monthly rate in AUD", "Engineer overlapping the AEST afternoon"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in AUD", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "Do you sign NDAs and Australian contracts?", answer: "Yes. We sign an NDA before discussing your idea and can work under an Australian-law services agreement that assigns all intellectual property to your company." }, { question: "Do you work with Australian startups after launch?", answer: "Yes. Many founders keep us on a monthly retainer after launch to ship new features, fix issues and keep the app updated for each new iOS and Android release." }, { question: "Can you take over an app another agency started?", answer: "Yes. We review the existing code, fix urgent issues, document what is there and then continue development, or recommend a rebuild only if the code cannot be maintained." }, { question: "How do you work across the time difference with Melbourne?", answer: "Pakistan is 5 to 6 hours behind Melbourne, so our morning overlaps your afternoon for live calls, and you wake up to finished work and a written update." }],
+  },
+
+  "app-development-company-dubai": {
+    caseStudyIds: ["zeparty", "horizone-invest", "ygi-holiday-homes", "ustaad-ae", "whatsapp-business-api", "fix-it-bilal"],
+    highlights: { tag: "Dubai Apps", title: "Apps Dubai Businesses Ask Us For", cards: [
+            {
+                  icon: "🏢",
+                  title: "Property",
+                  text: "Listings, investor portals and short-term rental bookings."
+            },
+            {
+                  icon: "🛠️",
+                  title: "Home Services",
+                  text: "Technician booking, live tracking and payments."
+            },
+            {
+                  icon: "🛍️",
+                  title: "Retail",
+                  text: "Shopping apps with loyalty and delivery."
+            },
+            {
+                  icon: "🎟️",
+                  title: "Events & Lifestyle",
+                  text: "Tickets, guest lists and social features."
+            }
+      ] },
+    servicesTitle: "App Development Services in Dubai",
+    services: [
+          {
+                icon: "🌐",
+                title: "Arabic & English Apps",
+                text: "Right-to-left Arabic layouts and bilingual content built in from the first screen.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🏙️",
+                title: "Real Estate & Holiday Home Apps",
+                text: "Listings, viewings and booking apps, like our YGI Holiday Homes and Horizone Invest projects."
+          },
+          {
+                icon: "🔧",
+                title: "On-Demand Service Apps",
+                text: "Booking, tracking and payments for home services, as in Fix It Bilal."
+          },
+          {
+                icon: "🎉",
+                title: "Social & Events Apps",
+                text: "Event discovery, tickets and social features, like Zeparty."
+          },
+          {
+                icon: "💬",
+                title: "WhatsApp Integration",
+                text: "Bookings, confirmations and support over the WhatsApp Business API."
+          },
+          {
+                icon: "💳",
+                title: "Payments & BNPL",
+                text: "Card, Apple Pay and buy-now-pay-later options such as Tabby or Tamara."
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in AED, paid per milestone", "Core features, Arabic/English, store submission"],
+      ["Booking / On-Demand App", "8 – 14 Weeks", "Fixed price in AED, paid per milestone", "Customer + provider apps, tracking, payments"],
+      ["Dedicated App Developer", "Monthly, min. 1 month", "Flat monthly rate in AED", "Engineer overlapping Gulf working hours"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in AED", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "Who owns the app and the code?", answer: "You do. The source code, design files and App Store and Google Play accounts belong to your company, and we transfer everything at each paid milestone." }, { question: "Do you build apps in Arabic?", answer: "Yes. We design right-to-left Arabic layouts alongside English, handle Arabic fonts and numbers correctly, and test both languages on iOS and Android." }],
+  },
+
+  "app-development-company-doha": {
+    caseStudyIds: ["top-performance", "spicify-app", "superhuman-mail", "glitchy-digital-marketing", "devsynx-attendance-hr", "ai-calling-agent"],
+    highlights: { tag: "Doha Apps", title: "Apps for Qatar's Retail, Services and Enterprise Teams", cards: [
+            {
+                  icon: "🛍️",
+                  title: "Retail Brands",
+                  text: "Catalogue, loyalty and delivery apps."
+            },
+            {
+                  icon: "🏗️",
+                  title: "Contractors",
+                  text: "Workforce, attendance and site reporting apps."
+            },
+            {
+                  icon: "🏨",
+                  title: "Hospitality",
+                  text: "Booking and guest service apps."
+            },
+            {
+                  icon: "🏛️",
+                  title: "Enterprises",
+                  text: "Internal apps for approvals, requests and reporting."
+            }
+      ] },
+    servicesTitle: "App Development Services in Doha",
+    services: [
+          {
+                icon: "🛒",
+                title: "Retail & Shopping Apps",
+                text: "Shopping apps for Qatari retailers, building on our Top Performance e-commerce work.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🌐",
+                title: "Arabic & English Apps",
+                text: "Bilingual apps with right-to-left Arabic layouts."
+          },
+          {
+                icon: "👥",
+                title: "Staff & HR Apps",
+                text: "Attendance, leave and field staff apps for companies with large teams."
+          },
+          {
+                icon: "📧",
+                title: "Productivity Apps",
+                text: "Email, messaging and task apps, like Superhuman Mail."
+          },
+          {
+                icon: "🤖",
+                title: "AI Voice & Chat",
+                text: "Assistants that answer customers in Arabic or English.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "First releases for Qatari founders in about 30 days.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          }
+    ],
+    pricing: [
+      ["App MVP (iOS + Android)", "4 – 8 Weeks", "Fixed price in QAR, paid per milestone", "Core features, Arabic/English, store submission"],
+      ["Retail / Loyalty App", "8 – 14 Weeks", "Fixed price in QAR, paid per milestone", "Catalogue, cart, loyalty, push campaigns"],
+      ["Workforce App", "6 – 12 Weeks", "Fixed price in QAR, paid per milestone", "Attendance, leave, tasks, manager dashboard"],
+      ["App Support & Updates", "Ongoing", "Monthly retainer in QAR", "OS updates, crash fixes, store compliance"],
+    ],
+    faqs: [{ question: "Do you provide designs before development starts?", answer: "Yes. We start with wireframes and a clickable prototype in both Arabic and English, review it with your team and only begin development once the screens are approved." }, { question: "Can you support the app after it launches?", answer: "Yes. Our monthly support plan covers crash monitoring, fixes, security updates and changes needed for each new iOS and Android version, plus small improvements." }, { question: "Can the app accept payments from customers in Qatar?", answer: "Yes. We integrate card payments and Apple Pay through payment gateways that operate in Qatar, and can add cash on delivery for retail orders." }, { question: "Can staff and managers use the same app?", answer: "Yes. We build role-based apps where staff see their own tasks, attendance and requests, and managers see team dashboards, approvals and reports." }, { question: "Can you build an attendance app for a Qatar company with many sites?", answer: "Yes. Staff clock in with GPS or QR codes at each site, managers approve leave and overtime in the app, and HR exports reports for payroll." }],
+  },
+
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
