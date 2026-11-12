@@ -149,7 +149,7 @@ export default function TeamPage() {
             <p className="section__subtitle" style={{ maxWidth: "600px", margin: "0 auto 32px" }}>
               Ready to be part of our innovative team? Explore career opportunities and grow with us.
             </p>
-            <Link href="/contact/" className="btn btn--primary btn--lg">
+            <Link href="/careers/" className="btn btn--primary btn--lg">
               View Careers &amp; Open Roles
             </Link>
           </AnimatedSection>

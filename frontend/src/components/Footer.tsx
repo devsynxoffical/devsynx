@@ -114,6 +114,7 @@ export const Footer: React.FC = () => {
             <ul className="footer__links">
               <li><Link href="/about/" className="footer__link">About Us</Link></li>
               <li><Link href="/team/" className="footer__link">Our Team</Link></li>
+              <li><Link href="/careers/" className="footer__link">Careers</Link></li>
               <li><Link href="/clients/" className="footer__link">Case Studies</Link></li>
               <li><Link href="/blog/" className="footer__link">Blog</Link></li>
               <li><Link href="/tools/" className="footer__link">Free Cost Calculators</Link></li>

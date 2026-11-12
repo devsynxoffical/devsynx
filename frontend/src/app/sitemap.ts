@@ -35,6 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Core High-Priority Main Pages
   entries.push(toSitemapEntry("/", 1.0, "weekly"));
   entries.push(toSitemapEntry("/team/", 0.95, "weekly"));
+  entries.push(toSitemapEntry("/careers/", 0.7, "weekly"));
   entries.push(toSitemapEntry("/clients/", 0.95, "weekly"));
   entries.push(toSitemapEntry("/portfolio/", 0.95, "weekly"));
   entries.push(toSitemapEntry("/portfolio/mobile-applications/", 0.92, "weekly"));

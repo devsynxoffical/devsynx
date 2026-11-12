@@ -195,6 +195,7 @@ export const navMenus: NavMenu[] = [
         links: [
           { label: "About DEVSYNX", href: "/about/" },
           { label: "Our Team", href: "/team/" },
+          { label: "Careers", href: "/careers/", desc: "Jobs & internships" },
           { label: "Contact", href: "/contact/" },
         ],
       },
