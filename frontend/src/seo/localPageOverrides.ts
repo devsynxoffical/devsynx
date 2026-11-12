@@ -1126,6 +1126,373 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     faqs: [{ question: "Do you provide designs before development starts?", answer: "Yes. We start with wireframes and a clickable prototype in both Arabic and English, review it with your team and only begin development once the screens are approved." }, { question: "Can you support the app after it launches?", answer: "Yes. Our monthly support plan covers crash monitoring, fixes, security updates and changes needed for each new iOS and Android version, plus small improvements." }, { question: "Can the app accept payments from customers in Qatar?", answer: "Yes. We integrate card payments and Apple Pay through payment gateways that operate in Qatar, and can add cash on delivery for retail orders." }, { question: "Can staff and managers use the same app?", answer: "Yes. We build role-based apps where staff see their own tasks, attendance and requests, and managers see team dashboards, approvals and reports." }, { question: "Can you build an attendance app for a Qatar company with many sites?", answer: "Yes. Staff clock in with GPS or QR codes at each site, managers approve leave and overtime in the app, and HR exports reports for payroll." }],
   },
 
+  "software-development-company-riyadh": {
+    caseStudyIds: ["zeparty", "purrchase-ai", "superhuman-mail", "mizn-abayas", "ai-calling-agent", "whatsapp-business-api"],
+    highlights: { tag: "Saudi Software", title: "What Saudi Businesses Ask Us to Build", cards: [
+            {
+                  icon: "🛒",
+                  title: "Retail & Fashion",
+                  text: "Online stores, loyalty and delivery for Saudi brands."
+            },
+            {
+                  icon: "🏢",
+                  title: "Enterprises",
+                  text: "Portals, approvals and reporting for growing companies."
+            },
+            {
+                  icon: "🚚",
+                  title: "Logistics",
+                  text: "Fleet, delivery and warehouse tools across Riyadh, Jeddah and Dammam."
+            },
+            {
+                  icon: "🎓",
+                  title: "Training & Education",
+                  text: "Course, booking and certification platforms."
+            }
+      ] },
+    servicesTitle: "Software We Build for Saudi Companies",
+    services: [
+          {
+                icon: "🧾",
+                title: "ZATCA E-Invoicing Integration",
+                text: "Invoicing systems connected to ZATCA's FATOORA requirements, with QR codes and compliant tax invoices.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "🛍️",
+                title: "E-commerce for Saudi Brands",
+                text: "Stores with Mada, Apple Pay and buy-now-pay-later options, in Arabic and English.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "📱",
+                title: "Arabic-First Apps",
+                text: "Mobile and web apps designed right-to-left from the first screen.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "🤖",
+                title: "Arabic AI Agents",
+                text: "Voice and chat agents that answer and qualify customers in Arabic.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "🎉",
+                title: "Consumer & Social Platforms",
+                text: "Events, communities and content apps, like our Zeparty platform."
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers working Saudi business hours, billed monthly in SAR or USD.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in SAR, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in SAR", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in SAR", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in SAR", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Can you work with teams in Jeddah and Dammam as well?", answer: "Yes. We work remotely with companies across Saudi Arabia, holding video calls during Saudi business hours and sharing progress in a weekly demo and a shared project board." }, { question: "Can you make our invoicing compliant with ZATCA e-invoicing?", answer: "Yes. We build or update invoicing systems to produce compliant e-invoices with the required QR code and integrate them with ZATCA's platform, or configure an ERP that supports it." }, { question: "Do you build fully Arabic interfaces?", answer: "Yes. We design right-to-left layouts, use proper Arabic fonts and numbers, and test every screen in Arabic and English." }],
+  },
+  "software-development-company-toronto": {
+    caseStudyIds: ["qualified-leads-x", "employee-security-crm", "rankmora", "entiix", "installmentguard", "ai-calling-agent"],
+    highlights: { tag: "Toronto Software", title: "Software for Toronto Startups and Growing Companies", cards: [
+            {
+                  icon: "💼",
+                  title: "B2B SaaS",
+                  text: "Products for sales, operations and finance teams."
+            },
+            {
+                  icon: "🏦",
+                  title: "Fintech Tools",
+                  text: "Dashboards, payments and reporting for financial services."
+            },
+            {
+                  icon: "🏥",
+                  title: "Health Services",
+                  text: "Booking and patient tools built with privacy in mind."
+            },
+            {
+                  icon: "🏗️",
+                  title: "Trades & Field Services",
+                  text: "Scheduling, quotes and invoicing for service businesses."
+            }
+      ] },
+    servicesTitle: "Software We Build for Toronto Companies",
+    services: [
+          {
+                icon: "☁️",
+                title: "SaaS Products",
+                text: "Multi-tenant SaaS with subscriptions, roles and analytics, like our Rankmora platform.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "📇",
+                title: "CRM & Sales Tools",
+                text: "Lead management, pipelines and sales intelligence tools, building on our Qualified Leads X work."
+          },
+          {
+                icon: "💳",
+                title: "Payments & Billing",
+                text: "Recurring billing, installment plans and payment reconciliation."
+          },
+          {
+                icon: "🤖",
+                title: "AI Call & Chat Agents",
+                text: "Agents that answer, qualify and book customers around the clock.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "🚀",
+                title: "Startup MVPs",
+                text: "A first production release in about 30 days for Toronto founders.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers overlapping the Eastern Time morning, billed monthly in CAD.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in CAD, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in CAD", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in CAD", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in CAD", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Do you handle personal data in line with Canadian privacy law?", answer: "We build with privacy by design: encrypted data, access controls, audit logs and hosting in Canadian cloud regions when needed, so you can meet your obligations under PIPEDA." }, { question: "What time overlap do you have with Toronto?", answer: "Our team covers the Eastern Time morning for live calls and stand-ups, with written updates waiting when your day starts." }],
+  },
+  "software-development-company-sydney": {
+    caseStudyIds: ["quickdoctor-ie", "contractor-leads", "roofing-systems", "saviored", "zingo-assist", "entiix"],
+    highlights: { tag: "Sydney Software", title: "What Sydney Businesses Ask Us to Build", cards: [
+            {
+                  icon: "🔧",
+                  title: "Trades",
+                  text: "Lead capture, quoting and job management."
+            },
+            {
+                  icon: "🏥",
+                  title: "Healthcare",
+                  text: "Bookings, reminders and secure patient communication."
+            },
+            {
+                  icon: "🎓",
+                  title: "Training",
+                  text: "Online courses and certification tracking."
+            },
+            {
+                  icon: "🛒",
+                  title: "Retail",
+                  text: "Online stores and stock systems."
+            }
+      ] },
+    servicesTitle: "Software We Build for Sydney Companies",
+    services: [
+          {
+                icon: "🛠️",
+                title: "Trades & Field Service Software",
+                text: "Quotes, scheduling, job photos and invoicing for tradies and service companies.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "🩺",
+                title: "Telehealth & Booking",
+                text: "Consultation booking and patient tools, drawing on our QuickDoctor platform."
+          },
+          {
+                icon: "🎓",
+                title: "Education Platforms",
+                text: "Course, student and training platforms, like Saviored."
+          },
+          {
+                icon: "📞",
+                title: "AI Receptionists",
+                text: "Voice agents that answer calls and book jobs after hours.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "📱",
+                title: "Mobile Apps",
+                text: "iOS and Android apps for customers and field staff.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers overlapping the Sydney afternoon, billed monthly in AUD.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in AUD, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in AUD", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in AUD", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in AUD", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "How do you work across the time difference with Sydney?", answer: "Pakistan is 5 to 6 hours behind Sydney, so our morning overlaps your afternoon for live calls, and you start each day with completed work and a written update." }, { question: "Can you build software that respects Australian privacy rules?", answer: "Yes. We design with privacy in mind, keep personal data encrypted and access-controlled, and can host in Australian cloud regions to support your obligations under the Privacy Act." }],
+  },
+  "software-development-company-new-york": {
+    caseStudyIds: ["rebecca-minkoff", "seven-figure-studio", "thestarmint", "scale-with-ads", "million-dollar-media", "saviored"],
+    highlights: { tag: "New York Software", title: "Software for New York Brands, Agencies and Startups", cards: [
+            {
+                  icon: "👗",
+                  title: "Fashion & Consumer",
+                  text: "Commerce, product drops and customer accounts."
+            },
+            {
+                  icon: "📣",
+                  title: "Agencies & Media",
+                  text: "Client reporting, funnels and content tools."
+            },
+            {
+                  icon: "🏦",
+                  title: "Finance & Digital Assets",
+                  text: "Dashboards, payments and investor portals."
+            },
+            {
+                  icon: "🎓",
+                  title: "Education",
+                  text: "Learning platforms and student portals."
+            }
+      ] },
+    servicesTitle: "Software We Build for New York Companies",
+    services: [
+          {
+                icon: "🚀",
+                title: "Startup MVPs & SaaS",
+                text: "Production-ready MVPs and SaaS platforms for New York founders, launched in weeks.",
+                href: "/mvp-development-company/",
+                linkLabel: "MVP Development"
+          },
+          {
+                icon: "🛍️",
+                title: "Commerce Platforms",
+                text: "Custom and headless commerce for fashion and consumer brands, drawing on our Rebecca Minkoff work.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "📈",
+                title: "Agency & Marketing Tools",
+                text: "Dashboards, funnels and client portals for agencies, like Seven Figure Studio and Scale With Ads."
+          },
+          {
+                icon: "💎",
+                title: "Web3 & Digital Assets",
+                text: "Dashboards and platforms for digital asset projects, as with The Starmint."
+          },
+          {
+                icon: "🤖",
+                title: "AI Automation",
+                text: "Agents and workflows that cut manual work in sales, support and operations.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers overlapping the Eastern Time morning, billed monthly in USD.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in USD, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in USD", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in USD", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in USD", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Do you sign US contracts and NDAs?", answer: "Yes. We sign an NDA before scoping and work under a US-law services agreement that assigns all code and intellectual property to your company." }, { question: "What overlap do you have with New York hours?", answer: "Our engineers cover the Eastern Time morning for stand-ups and live calls, and post written updates in Slack before your day starts." }],
+  },
+  "software-development-company-london": {
+    caseStudyIds: ["doughi", "spicify-app", "mdt-control", "odoo-service", "rankmora", "quickdoctor-ie"],
+    highlights: { tag: "London Software", title: "What London Businesses Ask Us to Build", cards: [
+            {
+                  icon: "🚀",
+                  title: "Startups",
+                  text: "MVPs and second versions for funded teams."
+            },
+            {
+                  icon: "🛒",
+                  title: "Retail & Food",
+                  text: "Online ordering, stores and loyalty."
+            },
+            {
+                  icon: "🏭",
+                  title: "Industry",
+                  text: "Monitoring, ERP and operations software."
+            },
+            {
+                  icon: "🩺",
+                  title: "Health",
+                  text: "Booking and consultation platforms."
+            }
+      ] },
+    servicesTitle: "Software We Build for London Companies",
+    services: [
+          {
+                icon: "☁️",
+                title: "SaaS & Platforms",
+                text: "Subscription products with roles, billing and analytics for London startups.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "🛍️",
+                title: "E-commerce",
+                text: "Stores and ordering systems for UK brands, like our work for Doughi.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "🧾",
+                title: "Odoo ERP",
+                text: "Odoo setups and custom modules for inventory, sales and accounting, as with Odoo Service."
+          },
+          {
+                icon: "🏭",
+                title: "IoT & Industrial Dashboards",
+                text: "Monitoring and control dashboards, drawing on our MDT Control SCADA project."
+          },
+          {
+                icon: "📱",
+                title: "Mobile Apps",
+                text: "Social and consumer apps for iOS and Android, like Spicify.",
+                href: "/services/mobile-app-development/",
+                linkLabel: "Mobile Apps"
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers overlapping the UK working day, billed monthly in GBP.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in GBP, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in GBP", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in GBP", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in GBP", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Can you take over a project from another agency?", answer: "Yes. We review the existing code and infrastructure, fix urgent issues, write down how everything works and then continue development, recommending a rebuild only if the code cannot reasonably be maintained." }, { question: "Do you build software that complies with UK GDPR?", answer: "We build with data protection by design: minimal data collection, encryption, access controls, audit logs and UK or EU hosting where required, and we sign a data processing agreement." }, { question: "What overlap do you have with UK hours?", answer: "Pakistan is 4 to 5 hours ahead of the UK, so our afternoon overlaps your whole morning for calls, and most of the build work is done before your day starts." }],
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
@@ -1133,12 +1500,150 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaDescription: "IT and software development company for Dubai and UAE businesses: custom software, web and mobile apps, ERP/CRM and AI automation. Fixed AED or USD pricing.",
     h1Before: "IT & Software Development Company in",
     extraKeywords: ["it company dubai", "it company uae", "it company in dubai", "it companies in dubai", "it services company dubai"],
+    caseStudyIds: ["horizone-invest", "installmentguard", "whatsapp-business-api", "odoo-service", "employee-security-crm", "ai-calling-agent"],
+    highlights: { tag: "Dubai Software", title: "What Dubai Businesses Ask Us to Build", cards: [
+            {
+                  icon: "🏗️",
+                  title: "Trading & Distribution",
+                  text: "Stock, orders and customer credit across branches and free zones."
+            },
+            {
+                  icon: "🏘️",
+                  title: "Property",
+                  text: "CRM, listings and investor reporting for brokers and developers."
+            },
+            {
+                  icon: "🛎️",
+                  title: "Services",
+                  text: "Booking, dispatch and payments for home-service and facilities companies."
+            },
+            {
+                  icon: "🛍️",
+                  title: "Retail",
+                  text: "POS, loyalty and online stores connected to stock."
+            }
+      ] },
+    servicesTitle: "Software We Build for Dubai Companies",
+    services: [
+          {
+                icon: "🧾",
+                title: "ERP & VAT-Ready Invoicing",
+                text: "Inventory, sales and accounting systems with UAE VAT on every invoice, including Odoo setups.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "🏢",
+                title: "Real Estate & Investor Portals",
+                text: "Listings, investor dashboards and payment-plan tracking, as in our Horizone Invest platform."
+          },
+          {
+                icon: "💳",
+                title: "Installment & Collections",
+                text: "Payment schedules, reminders and collection dashboards, building on our InstallmentGuard product."
+          },
+          {
+                icon: "💬",
+                title: "WhatsApp Business Automation",
+                text: "Orders, bookings and support handled on the WhatsApp Business API, in Arabic and English.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          },
+          {
+                icon: "🚚",
+                title: "Logistics & Trading Systems",
+                text: "Shipment, warehouse and distributor tools for trading companies in Jebel Ali, Deira and Al Quoz."
+          },
+          {
+                icon: "👩‍💻",
+                title: "Dedicated Developers",
+                text: "Engineers who work Gulf hours inside your team, billed monthly in AED or USD.",
+                href: "/hire-dedicated-developers/",
+                linkLabel: "Hire Developers"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in AED, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in AED", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in AED", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in AED", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Can your software handle UAE VAT?", answer: "Yes. We build invoicing and accounting modules that apply UAE VAT, produce tax invoices with your TRN and export the reports your accountant needs, or we configure Odoo to do the same." }, { question: "Do you work with free zone companies?", answer: "Yes. We work with mainland and free zone companies across Dubai, invoice in AED or USD and sign contracts that assign all intellectual property to your company." }],
   },
   "software-development-company-doha": {
     metaTitle: "IT & Software Company in Qatar | Doha",
     metaDescription: "IT and software company serving Doha and Qatar: custom software, web and mobile apps, e-commerce and AI automation, in Arabic and English. Fixed QAR or USD pricing.",
     h1Before: "IT & Software Company in",
     extraKeywords: ["it company qatar", "it company in qatar", "software company qatar", "software company in qatar", "it company doha"],
+    caseStudyIds: ["top-performance", "rbo-accounting", "devsynx-attendance-hr", "google-workspace-security", "entiix", "mizn-abayas"],
+    highlights: { tag: "Qatar Software", title: "Software for Qatar's Contractors, Retailers and Service Firms", cards: [
+            {
+                  icon: "🏗️",
+                  title: "Contractors",
+                  text: "Workforce, site reports and equipment tracking."
+            },
+            {
+                  icon: "🛍️",
+                  title: "Retailers",
+                  text: "Online stores, loyalty and stock across branches."
+            },
+            {
+                  icon: "💼",
+                  title: "Professional Services",
+                  text: "Client portals, document handling and billing."
+            },
+            {
+                  icon: "🏨",
+                  title: "Hospitality",
+                  text: "Booking, guest services and staff scheduling."
+            }
+      ] },
+    servicesTitle: "Software We Build for Qatar Companies",
+    services: [
+          {
+                icon: "👥",
+                title: "HR, Attendance & Payroll",
+                text: "Attendance by site, leave, overtime and payroll exports for contractors with large teams.",
+                href: "/custom-software-development-company/",
+                linkLabel: "Custom Software"
+          },
+          {
+                icon: "🛒",
+                title: "Retail & E-commerce Systems",
+                text: "Stores, stock and order systems for Qatari retailers, building on our Top Performance work.",
+                href: "/services/ecommerce-solutions/",
+                linkLabel: "E-commerce"
+          },
+          {
+                icon: "📊",
+                title: "Accounting & Reporting",
+                text: "Finance dashboards and client portals for accounting and consulting firms."
+          },
+          {
+                icon: "🔐",
+                title: "Workspace Security",
+                text: "Google Workspace and cloud security setups that protect company email and data."
+          },
+          {
+                icon: "🌐",
+                title: "Arabic & English Portals",
+                text: "Customer and employee portals with right-to-left Arabic built in."
+          },
+          {
+                icon: "🤖",
+                title: "AI Assistants",
+                text: "Chat and voice assistants that answer customers and staff in Arabic or English.",
+                href: "/ai-automation-agency/",
+                linkLabel: "AI Automation"
+          }
+    ],
+    pricing: [
+      ["Fixed-Scope Software Project", "3 – 12 Weeks", "Fixed price in QAR, paid per milestone", "Portals, internal tools, MVPs and integrations with a clear feature list"],
+      ["Dedicated Developer", "Monthly, min. 1 month", "Flat monthly rate in QAR", "A full-time engineer working inside your team and tools"],
+      ["Product Team", "Monthly, min. 3 months", "Monthly team rate in QAR", "Project manager, designer and engineers for an ongoing roadmap"],
+      ["Support & Maintenance", "Ongoing", "Monthly retainer in QAR", "Monitoring, security updates, fixes and small improvements"],
+    ],
+    faqs: [{ question: "Can you build an attendance system for many work sites?", answer: "Yes. Staff check in with GPS or QR codes at each site, supervisors approve overtime and leave, and HR exports payroll-ready reports every month." }, { question: "Can you invoice a Qatari company in QAR?", answer: "Yes. We quote and invoice in QAR or USD, with milestone payments and full transfer of code and intellectual property." }],
   },
 
   /* ---------------- SEO pages ---------------- */
