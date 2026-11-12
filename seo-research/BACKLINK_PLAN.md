@@ -74,7 +74,7 @@ About 30–45 minutes a day is enough. Track every item in the sheet in section 
 ## 3. Business profiles and directories (weeks 1–2)
 
 Use exactly the same details everywhere (text ready in `seo-research/LISTINGS.md`):
-**DEVSYNX · info@devsynx.com · +92 302 946 2542 · Islamabad · https://devsynx.com**
+**DEVSYNX · info@devsynx.com · +92 302 946 2542 · Old Airport Road, Chaklala Cantt., Rawalpindi · https://devsynx.com**
 
 ### A. Must-have (week 1)
 | # | Site | Link | Why |

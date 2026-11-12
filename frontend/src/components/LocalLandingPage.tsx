@@ -30,8 +30,10 @@ export function LocalLandingPage({ page }: { page: LocalPage }) {
     parentOrganization: { "@id": "https://devsynx.com/#organization" },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Islamabad",
-      addressRegion: "Islamabad Capital Territory",
+      streetAddress: "Old Airport Road, Chaklala Cantt.",
+      addressLocality: "Rawalpindi",
+      addressRegion: "Punjab",
+      postalCode: "46000",
       addressCountry: "PK",
     },
     areaServed: page.areaServed.map((name) => ({ "@type": page.areaType, name })),

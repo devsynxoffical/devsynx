@@ -38,21 +38,23 @@ export default function SoftwareHouseIslamabadPage() {
     priceRange: "PKR 80,000 - 2,500,000",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Islamabad",
-      addressRegion: "Islamabad Capital Territory",
+      streetAddress: "Old Airport Road, Chaklala Cantt.",
+      addressLocality: "Rawalpindi",
+      addressRegion: "Punjab",
+      postalCode: "46000",
       addressCountry: "PK",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "33.6844",
-      longitude: "73.0479",
+      latitude: "33.6088",
+      longitude: "73.1044",
     },
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        opens: "09:00",
-        closes: "19:00",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
       },
     ],
     sameAs: [
@@ -70,7 +72,7 @@ export default function SoftwareHouseIslamabadPage() {
         name: "Where is DEVSYNX located in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "DEVSYNX Private Limited is based in Islamabad, serving clients across Blue Area, F-sectors, I-sectors, and DHA. You can visit us during business hours (Monday to Saturday, 9 AM to 7 PM). Please call or WhatsApp +92 302 946 2542 before visiting so the relevant tech lead is available.",
+          text: "DEVSYNX Private Limited's office is on Old Airport Road, Chaklala Cantt., Rawalpindi, a short drive from Islamabad, and we serve clients across Blue Area, the F-sectors, I-sectors and DHA. We answer calls and WhatsApp 24/7 on +92 302 946 2542. Please message us before visiting so the relevant tech lead is available.",
         },
       },
       {
@@ -460,7 +462,7 @@ export default function SoftwareHouseIslamabadPage() {
             <div className="city-faq-item">
               <h3 className="city-faq-question">Where is DEVSYNX located in Islamabad?</h3>
               <p className="city-faq-answer">
-                DEVSYNX Private Limited is based in Islamabad, serving businesses across Blue Area, F-sectors, I-sectors, and DHA. You can visit us during business hours (Monday to Saturday, 9 AM to 7 PM). Please WhatsApp +92 302 946 2542 first so the relevant project architect is on-site to review your requirements.
+                DEVSYNX Private Limited&apos;s office is on Old Airport Road, Chaklala Cantt., Rawalpindi, a short drive from Islamabad, and we serve businesses across Blue Area, the F-sectors, I-sectors and DHA. We answer calls and WhatsApp 24/7 on +92 302 946 2542. Please message us first so the relevant project architect is available to review your requirements.
               </p>
             </div>
 

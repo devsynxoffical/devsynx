@@ -155,10 +155,13 @@ const organizationSchema = {
   ],
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Islamabad",
-    addressRegion: "Islamabad Capital Territory",
+    streetAddress: "Old Airport Road, Chaklala Cantt.",
+    addressLocality: "Rawalpindi",
+    addressRegion: "Punjab",
+    postalCode: "46000",
     addressCountry: "PK",
   },
+  hasMap: "https://maps.google.com/maps?cid=4755994376785600381",
   sameAs: [...ORGANIZATION_SAME_AS],
   contactPoint: [
     {

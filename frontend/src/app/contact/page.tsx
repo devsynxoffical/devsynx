@@ -287,7 +287,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="contact-info__label">Location</p>
-                        <p className="contact-info__value">Islamabad, Pakistan</p>
+                        <a href="https://maps.google.com/maps?cid=4755994376785600381" target="_blank" rel="noopener noreferrer" className="contact-info__value">Old Airport Road, Chaklala Cantt., Rawalpindi 46000, Pakistan</a>
                       </div>
                     </div>
                     <div className="contact-info__item">

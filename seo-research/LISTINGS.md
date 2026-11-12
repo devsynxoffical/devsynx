@@ -15,8 +15,8 @@ same company name, phone and address everywhere (Google compares them).
 | Website | https://devsynx.com |
 | Email | info@devsynx.com |
 | Phone / WhatsApp | +92 302 946 2542 |
-| City | Islamabad, Pakistan |
-| Street address | [[office street address]] |
+| City | Rawalpindi (Islamabad–Rawalpindi), Pakistan |
+| Street address | Old Airport Road, Chaklala Cantt., Rawalpindi 46000 (same as Google Business Profile) |
 | Founded | [[year]] |
 | Team size | [[number of people, e.g. 10-49]] |
 | Hourly rate | [[e.g. $25-$49 / hr]] |
