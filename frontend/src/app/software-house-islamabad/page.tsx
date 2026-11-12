@@ -46,8 +46,8 @@ export default function SoftwareHouseIslamabadPage() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "33.6088",
-      longitude: "73.1044",
+      latitude: "33.6075",
+      longitude: "73.1002",
     },
     openingHoursSpecification: [
       {
