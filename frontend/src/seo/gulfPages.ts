@@ -117,7 +117,7 @@ export const gulfPages: LocalPage[] = [
       { question: "How long does SEO take to work in Dubai?", answer: "Technical fixes and Google Business Profile improvements can show results within weeks. Competitive keywords usually take three to six months to reach the first page." },
       { question: "Do you do Arabic SEO?", answer: "Yes. We create proper Arabic pages with their own URLs and hreflang tags, written for Arabic searches rather than machine translated." },
       { question: "Can you guarantee first position on Google?", answer: "No honest agency can guarantee rankings, because Google decides them. We commit to clear deliverables every month and report real data from Google Search Console." },
-      { question: "Do you have an office in Dubai?", answer: "Our team is based in Islamabad, Pakistan, one hour ahead of the UAE, so we work fully within Dubai business hours. We meet clients by video and can travel for larger projects." },
+      { question: "Do you have an office in Dubai?", answer: "Our team is based in Rawalpindi–Islamabad, Pakistan, one hour ahead of the UAE, so we work fully within Dubai business hours. We meet clients by video and can travel for larger projects." },
     ],
     ctaTitle: "Get a Free SEO Review for Your Dubai Business",
   },

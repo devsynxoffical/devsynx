@@ -13,7 +13,7 @@ const aboutFaqs = [
   {
     question: "What is Devsynx?",
     answer:
-      "Devsynx is a full-service software development, AI automation, and cloud engineering agency based in Islamabad, Pakistan. We partner with growth-focused businesses, startups, and global enterprises to design, build, and scale custom web applications, mobile apps, SaaS platforms, and intelligent AI agents.",
+      "Devsynx is a full-service software development, AI automation, and cloud engineering agency based in Islamabad–Rawalpindi, Pakistan. We partner with growth-focused businesses, startups, and global enterprises to design, build, and scale custom web applications, mobile apps, SaaS platforms, and intelligent AI agents.",
   },
   {
     question: "Who leads Devsynx executive leadership?",
@@ -23,7 +23,7 @@ const aboutFaqs = [
   {
     question: "Where is Devsynx located and what regions do you serve?",
     answer:
-      "Devsynx is headquartered in Islamabad, Pakistan, and operates globally, providing dedicated software engineering and offshore development teams to clients across North America (USA, Canada), Europe (UK, Germany), the Middle East (UAE, Saudi Arabia), and Asia-Pacific.",
+      "Devsynx is headquartered in Rawalpindi–Islamabad, Pakistan, and operates globally, providing dedicated software engineering and offshore development teams to clients across North America (USA, Canada), Europe (UK, Germany), the Middle East (UAE, Saudi Arabia), and Asia-Pacific.",
   },
   {
     question: "What core services does DEVSYNX specialize in?",

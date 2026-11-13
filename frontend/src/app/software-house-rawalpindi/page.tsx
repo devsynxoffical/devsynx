@@ -42,10 +42,26 @@ export default function SoftwareHouseRawalpindiPage() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "Can I visit your office in Rawalpindi?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Our office is on Old Airport Road, Chaklala Cantt. Message us on WhatsApp at +92 302 946 2542 before you come, so the right project lead is available to meet you.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can you replace our Excel sheets and registers with software?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. We start by digitising the records you already keep, such as stock, credit customers, fees or rent, then add reports and WhatsApp reminders, so your staff can switch without a long training period.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "Do you have an office in Rawalpindi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Our headquarters is located in Islamabad, approximately 20 minutes from Saddar, Rawalpindi. We actively serve Rawalpindi businesses every week: our senior team comes directly to your office for kickoff meetings and sprint reviews, while day-to-day coordination runs on WhatsApp and Google Meet.",
+          text: "Yes. Our office is on Old Airport Road, Chaklala Cantt., Rawalpindi, about 15 minutes from Saddar. We actively serve Rawalpindi businesses every week: our senior team comes directly to your office for kickoff meetings and sprint reviews, while day-to-day coordination runs on WhatsApp and Google Meet.",
         },
       },
       {
@@ -235,6 +251,38 @@ export default function SoftwareHouseRawalpindiPage() {
         </div>
       </section>
 
+      {/* Rawalpindi industries */}
+      <section className="city-section city-section--alt">
+        <div className="container">
+          <div className="city-section__header">
+            <span className="city-section__tag">Rawalpindi Industries</span>
+            <h2 className="city-section__title">Software for Rawalpindi&apos;s Traders, Schools and Property Businesses</h2>
+          </div>
+          <div className="city-grid">
+            <div className="city-card">
+              <div className="city-card__icon">🏪</div>
+              <h3 className="city-card__title">Raja Bazaar &amp; Saddar Traders</h3>
+              <p className="city-card__text">Wholesale billing, credit ledgers for shopkeepers, daily stock and WhatsApp statements for traders who still run on registers and Excel.</p>
+            </div>
+            <div className="city-card">
+              <div className="city-card__icon">🏘️</div>
+              <h3 className="city-card__title">Bahria Town &amp; DHA Property</h3>
+              <p className="city-card__text">Listing websites, lead tracking, installment plans and rent collection for estate agents and developers.</p>
+            </div>
+            <div className="city-card">
+              <div className="city-card__icon">🎓</div>
+              <h3 className="city-card__title">Schools &amp; Academies</h3>
+              <p className="city-card__text">Admissions, fee vouchers, attendance and parent apps for schools and tuition academies across Satellite Town and Westridge.</p>
+            </div>
+            <div className="city-card">
+              <div className="city-card__icon">🏥</div>
+              <h3 className="city-card__title">Clinics &amp; Labs</h3>
+              <p className="city-card__text">Appointment booking, patient records and online lab reports for clinics along Murree Road and 6th Road.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Rawalpindi Areas Covered */}
       <section className="city-section">
         <div className="container">
@@ -337,9 +385,23 @@ export default function SoftwareHouseRawalpindiPage() {
 
           <div className="city-faq-list">
             <div className="city-faq-item">
+              <h3 className="city-faq-question">Can I visit your office in Rawalpindi?</h3>
+              <p className="city-faq-answer">
+                Yes. Our office is on Old Airport Road, Chaklala Cantt. Message us on WhatsApp at +92 302 946 2542 before you come, so the right project lead is available to meet you.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Can you replace our Excel sheets and registers with software?</h3>
+              <p className="city-faq-answer">
+                Yes. We start by digitising the records you already keep, such as stock, credit customers, fees or rent, then add reports and WhatsApp reminders, so your staff can switch without a long training period.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
               <h3 className="city-faq-question">Do you have an office in Rawalpindi?</h3>
               <p className="city-faq-answer">
-                Our main office is located in Islamabad, approximately 20 minutes from Saddar, Rawalpindi. We serve Rawalpindi clients on-site every week: our senior technical team comes to your office for kickoff meetings and sprint demos, while daily coordination runs on WhatsApp.
+                Yes. Our office is on Old Airport Road, Chaklala Cantt., Rawalpindi, about 15 minutes from Saddar. We serve Rawalpindi clients on-site every week: our senior technical team comes to your office for kickoff meetings and sprint demos, while daily coordination runs on WhatsApp.
               </p>
             </div>
 
@@ -379,7 +441,7 @@ export default function SoftwareHouseRawalpindiPage() {
         <div className="container">
           <h2 className="city-section__title">Ready to Start Your Project in Rawalpindi?</h2>
           <p className="city-section__desc" style={{ maxWidth: "600px", margin: "0 auto 30px" }}>
-            Book an on-site consultation at your Rawalpindi premises or visit our Islamabad office.
+            Book an on-site consultation at your Rawalpindi premises or visit our office on Old Airport Road, Chaklala Cantt.
           </p>
           <div className="city-cta-bar" style={{ justifyContent: "center" }}>
             <a

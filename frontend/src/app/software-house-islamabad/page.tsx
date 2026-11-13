@@ -143,7 +143,7 @@ export default function SoftwareHouseIslamabadPage() {
               <span>⚡ Quick Answer</span>
             </div>
             <p className="direct-answer-box__text">
-              <strong>DEVSYNX</strong> is a full-service software house in Islamabad. We engineer custom web applications, cross-platform mobile apps, ERP and HR systems, and AI automation for businesses across Islamabad and Rawalpindi. Founded by senior engineers, we deliver 100% in-house with guaranteed source code ownership. Visit our office in Islamabad or WhatsApp us directly at +92 302 946 2542.
+              <strong>DEVSYNX</strong> is a full-service software house in Islamabad. We engineer custom web applications, cross-platform mobile apps, ERP and HR systems, and AI automation for businesses across Islamabad and Rawalpindi. Founded by senior engineers, we deliver 100% in-house with guaranteed source code ownership. Visit our office on Old Airport Road, Chaklala Cantt., Rawalpindi (minutes from Islamabad) or WhatsApp us directly at +92 302 946 2542.
             </p>
           </div>
 

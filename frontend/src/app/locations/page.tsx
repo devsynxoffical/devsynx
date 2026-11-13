@@ -6,7 +6,7 @@ import { buildBreadcrumbSchema, buildPageMetadata } from "@/seo/metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "Locations We Serve: Pakistan, Gulf, US, UK & More",
   description:
-    "DEVSYNX serves clients from Islamabad across Pakistan, the UAE, Saudi Arabia, Qatar, the US, Canada, the UK, Europe and Australia. Find your city's page.",
+    "DEVSYNX serves clients from Islamabad–Rawalpindi across Pakistan, the UAE, Saudi Arabia, Qatar, the US, Canada, the UK, Europe and Australia. Find your city's page.",
   path: "/locations/",
 });
 
@@ -67,7 +67,7 @@ export default function LocationsPage() {
             Locations We <span>Serve</span>
           </h1>
           <p className="city-section__desc" style={{ textAlign: "left", maxWidth: "760px" }}>
-            DEVSYNX is based in Islamabad, Pakistan, and builds software, apps and AI automation for clients across
+            DEVSYNX is based in Islamabad–Rawalpindi, Pakistan, and builds software, apps and AI automation for clients across
             Pakistan and in more than 15 countries. Choose your city or country to see local details, pricing and
             relevant case studies.
           </p>

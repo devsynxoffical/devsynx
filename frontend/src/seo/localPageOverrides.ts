@@ -337,7 +337,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
-      { question: "Can you visit Peshawar for project meetings?", answer: "Yes. Peshawar is about two hours from our Islamabad office by motorway, so we can hold kickoff workshops and milestone reviews on-site." },
+      { question: "Can you visit Peshawar for project meetings?", answer: "Yes. Peshawar is about two hours from our Rawalpindi office by motorway, so we can hold kickoff workshops and milestone reviews on-site." },
       { question: "Do you build multi-currency invoicing?", answer: "Yes. We build invoicing and ledgers that handle multiple currencies with exchange rates recorded per transaction." },
     ],
   },
@@ -401,7 +401,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
-      { question: "Do you visit Gujranwala for meetings?", answer: "Gujranwala is within easy reach of our Islamabad office by motorway, so we can hold kickoff workshops on-site for larger projects. Day-to-day work runs on WhatsApp and video calls." },
+      { question: "Do you visit Gujranwala for meetings?", answer: "Gujranwala is within easy reach of our Rawalpindi office by motorway, so we can hold kickoff workshops on-site for larger projects. Day-to-day work runs on WhatsApp and video calls." },
       { question: "Can you set up Odoo for a manufacturing company?", answer: "Yes. We implement Odoo manufacturing, inventory, sales and accounting modules and build custom add-ons where your process differs." },
     ],
   },
@@ -1492,6 +1492,24 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ["Support & Maintenance", "Ongoing", "Monthly retainer in GBP", "Monitoring, security updates, fixes and small improvements"],
     ],
     faqs: [{ question: "Can you take over a project from another agency?", answer: "Yes. We review the existing code and infrastructure, fix urgent issues, write down how everything works and then continue development, recommending a rebuild only if the code cannot reasonably be maintained." }, { question: "Do you build software that complies with UK GDPR?", answer: "We build with data protection by design: minimal data collection, encryption, access controls, audit logs and UK or EU hosting where required, and we sign a data processing agreement." }, { question: "What overlap do you have with UK hours?", answer: "Pakistan is 4 to 5 hours ahead of the UK, so our afternoon overlaps your whole morning for calls, and most of the build work is done before your day starts." }],
+  },
+  "software-house-pakistan": {
+    faqs: [
+      { question: "How do you work with clients in other Pakistani cities?", answer: "Most projects run remotely: a kickoff call, a written fixed-price proposal, weekly demo calls and a WhatsApp group with the team. For larger projects we travel for the kickoff and key milestones, and you can always visit our office in Rawalpindi." },
+    ],
+  },
+  "web-design-company-dubai": {
+    faqs: [
+      { question: "Can you build a website in Arabic and English?", answer: "Yes. We build bilingual websites with separate Arabic and English pages, right-to-left layouts and proper Arabic fonts, so each language can rank on Google for its own searches." },
+      { question: "Can my Dubai website take bookings or payments?", answer: "Yes. We connect booking calendars, WhatsApp enquiries and online payments through gateways that work in the UAE, so customers can book or pay without leaving your site." },
+    ],
+  },
+  "app-development-company-pakistan": {
+    faqs: [
+      { question: "Can my app accept JazzCash, Easypaisa and card payments?", answer: "Yes. We integrate JazzCash, Easypaisa and card payments through local payment gateways, plus cash on delivery where it suits your business, and send payment confirmations by SMS or WhatsApp." },
+      { question: "Do you publish the app on Google Play and the App Store?", answer: "Yes. We prepare the store listings, screenshots and privacy details, publish under your own developer accounts and handle reviewer questions until the app is approved." },
+      { question: "What happens after the app launches?", answer: "We offer a monthly support plan for fixes, updates for new Android and iOS versions and small improvements, so the app keeps working as phones and stores change." },
+    ],
   },
 
   /* ---------------- Retargeted international pages ---------------- */
