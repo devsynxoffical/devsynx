@@ -105,6 +105,7 @@ export const navMenus: NavMenu[] = [
           { label: "Digital Marketing, Dubai", href: "/digital-marketing-agency-dubai/" },
           { label: "E-commerce, Dubai", href: "/ecommerce-website-development-dubai/" },
           { label: "Abu Dhabi", href: "/it-company-abu-dhabi/" },
+          { label: "SEO & Marketing, Abu Dhabi", href: "/digital-marketing-agency-abu-dhabi/" },
           { label: "Sharjah", href: "/it-company-sharjah/" },
           { label: "Riyadh, Saudi Arabia", href: "/software-development-company-riyadh/" },
           { label: "Doha, Qatar", href: "/software-development-company-doha/" },

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { ContactClickTracker } from "@/components/ContactClickTracker";
 import {
   brandVariantKeywords,
   coreIntentKeywords,
@@ -251,6 +252,7 @@ export default function RootLayout({
         <main className="main-content">{children}</main>
         <Footer />
         <WhatsAppFloat />
+        <ContactClickTracker />
       </body>
     </html>
   );
