@@ -88,7 +88,8 @@ which only the owner can create. Rankings cannot be guaranteed.
 ### Google Business Profile (location 4242339604368124883, via Windsor google_my_business)
 - [x] Verified profile filled: description, website, phone 0302, 24/7 hours, 11 services, socials, categories (software company + website designer, computer consultant, internet marketing service), logo, 5 team photos (14 Nov)
 - [ ] Every run on Monday and Thursday: publish one Google post (no phone numbers in the text, link to a relevant page, LEARN_MORE button); check the previous post is LIVE, not REJECTED
-- [ ] Every run: check new reviews and reply to each within a day (thank the client, mention the service, no keyword stuffing)
+- [ ] Every run: fetch reviews (google_my_business review_* fields, last 30 days) and REPLY AUTOMATICALLY to every review without a reply (owner approved auto-replies on 14 Nov). Personal, varied replies: thank the reviewer by first name, mention the service/project if they did, invite them back; never copy the same text, no keyword stuffing, no phone numbers or prices. For a 1–3 star review: reply politely, offer to fix it via info@devsynx.com, and tell the owner in the run update. 15 Nov: profile shows 5 reviews (5.0) but the Windsor trial had not synced them yet.
+- [ ] Never upload photos of people to the profile (owner request 14 Nov); owner is deleting the 5 team photos I uploaded
 - [ ] Owner: get the first 10 reviews from real clients (review link: https://search.google.com/local/writereview?placeid=ChIJq-63OuTr3zgRfZ8P9q-vAEI); add office photos (inside, signboard, team at work) and service areas Islamabad + Rawalpindi in the dashboard
 - [ ] Track GBP impressions, calls and website clicks weekly once data appears (Google lags 3–5 days)
 
