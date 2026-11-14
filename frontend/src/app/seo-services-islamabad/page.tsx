@@ -3,8 +3,8 @@ import Link from "next/link";
 import { buildBreadcrumbSchema, buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "SEO Services in Islamabad | Local & Technical SEO",
-  description: "SEO services in Islamabad and Rawalpindi: Google Maps rankings, technical audits, and high-converting content that drives qualified customer inquiries.",
+  title: "SEO Services in Islamabad from PKR 25,000/mo",
+  description: "SEO services in Islamabad from PKR 25,000 a month: Google Maps rankings, technical fixes and content that brings enquiries. Free SEO audit on WhatsApp.",
   path: "/seo-services-islamabad/",
   keywords: [
     "seo services in islamabad",

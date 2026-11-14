@@ -160,6 +160,22 @@ const intlSoftwareServices = [
   { icon: "☁️", title: "Cloud & DevOps", text: "AWS, GCP and Vercel infrastructure, CI/CD pipelines and monitoring.", href: "/services/devops-cicd/", linkLabel: "DevOps" },
 ];
 
+/** Nearest software house pages for each city, used for "related" links. */
+const PK_NEARBY: Record<string, { key: string; name: string }[]> = {
+  lahore: [{ key: "gujranwala", name: "Gujranwala" }, { key: "faisalabad", name: "Faisalabad" }, { key: "sialkot", name: "Sialkot" }],
+  karachi: [{ key: "hyderabad", name: "Hyderabad" }],
+  faisalabad: [{ key: "lahore", name: "Lahore" }, { key: "sargodha", name: "Sargodha" }, { key: "multan", name: "Multan" }],
+  multan: [{ key: "bahawalpur", name: "Bahawalpur" }, { key: "faisalabad", name: "Faisalabad" }],
+  peshawar: [{ key: "abbottabad", name: "Abbottabad" }, { key: "rawalpindi", name: "Rawalpindi" }],
+  gujranwala: [{ key: "lahore", name: "Lahore" }, { key: "sialkot", name: "Sialkot" }, { key: "gujrat", name: "Gujrat" }],
+  bahawalpur: [{ key: "multan", name: "Multan" }],
+  sialkot: [{ key: "gujranwala", name: "Gujranwala" }, { key: "gujrat", name: "Gujrat" }, { key: "lahore", name: "Lahore" }],
+  sargodha: [{ key: "faisalabad", name: "Faisalabad" }, { key: "gujrat", name: "Gujrat" }],
+  gujrat: [{ key: "gujranwala", name: "Gujranwala" }, { key: "sialkot", name: "Sialkot" }, { key: "rawalpindi", name: "Rawalpindi" }],
+  abbottabad: [{ key: "rawalpindi", name: "Rawalpindi" }, { key: "peshawar", name: "Peshawar" }],
+  hyderabad: [{ key: "karachi", name: "Karachi" }],
+};
+
 const pkRelated = [
   { href: "/software-house-islamabad/", label: "Software House Islamabad" },
   { href: "/software-house-lahore/", label: "Software House Lahore" },
@@ -224,7 +240,10 @@ function softwareHousePage(c: PkCity): LocalPage {
     areasTitle: `Areas We Serve in ${c.name}`,
     areasNote: "Kickoff meetings on-site or online, then weekly demo calls.",
     areas: c.areas,
-    related: pkRelated.filter((r) => r.href !== path).concat(c.links.seo ? [{ href: c.links.seo, label: `SEO Services ${c.name}` }] : []),
+    related: [
+      ...(PK_NEARBY[c.key] ?? []).map((n) => ({ href: `/software-house-${n.key}/`, label: `Software House ${n.name}` })),
+      ...pkRelated.filter((r) => r.href !== path && !(PK_NEARBY[c.key] ?? []).some((n) => r.href === `/software-house-${n.key}/`)),
+    ].concat(c.links.seo ? [{ href: c.links.seo, label: `SEO Services ${c.name}` }] : []),
     faqs: [
       { question: `Does DEVSYNX have an office in ${c.name}?`, answer: `Our office is in Rawalpindi, next to Islamabad. We serve ${c.name} clients remotely through WhatsApp, Google Meet and a shared project board, and we travel to ${c.name} for kickoff or milestone meetings on larger projects.` },
       { question: `How much does a software house in ${c.name} charge?`, answer: "A business website typically costs PKR 35,000 to 120,000, a custom web app or MVP PKR 150,000 to 500,000, a mobile app PKR 200,000 to 700,000 and an ERP rollout PKR 250,000 to 1,100,000. You get a fixed-price proposal before any work starts." },

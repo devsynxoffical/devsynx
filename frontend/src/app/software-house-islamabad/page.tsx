@@ -3,8 +3,8 @@ import Link from "next/link";
 import { buildBreadcrumbSchema, buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Software House in Islamabad | DEVSYNX",
-  description: "Software house in Islamabad: custom web apps, mobile apps, ERP and AI automation for businesses in Islamabad and Rawalpindi. Visit our office or WhatsApp.",
+  title: "Software House in Islamabad from PKR 35,000",
+  description: "Software house in Islamabad & Rawalpindi: websites from PKR 35,000, mobile apps, ERP and AI automation. Fixed price, full code ownership. WhatsApp for a quote.",
   path: "/software-house-islamabad/",
   keywords: [
     "software house in islamabad",

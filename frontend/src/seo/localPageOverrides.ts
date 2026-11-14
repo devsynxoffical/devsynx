@@ -90,6 +90,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-karachi": {
+    metaTitle: "Software House in Karachi from PKR 35,000",
+    metaDescription: "Software house serving Karachi: websites from PKR 35,000, apps, ERP and AI automation. Fixed PKR price, full code ownership. Free quote in 48 hours.",
     caseStudyIds: ["installmentguard", "rbo-accounting", "employee-security-crm", "top-performance", "whatsapp-business-api", "nw-canvas"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -218,6 +220,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-multan": {
+    metaTitle: "Software House in Multan from PKR 35,000",
+    metaDescription: "Software house serving Multan: websites from PKR 35,000, apps, ERP and AI automation. Fixed PKR price, full code ownership. Free quote in 48 hours.",
     caseStudyIds: ["egg-produce", "saviored", "quickdoctor-ie", "google-workspace-security", "zahh-beverages", "ag-plumbing-murah"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -1494,6 +1498,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     faqs: [{ question: "Can you take over a project from another agency?", answer: "Yes. We review the existing code and infrastructure, fix urgent issues, write down how everything works and then continue development, recommending a rebuild only if the code cannot reasonably be maintained." }, { question: "Do you build software that complies with UK GDPR?", answer: "We build with data protection by design: minimal data collection, encryption, access controls, audit logs and UK or EU hosting where required, and we sign a data processing agreement." }, { question: "What overlap do you have with UK hours?", answer: "Pakistan is 4 to 5 hours ahead of the UK, so our afternoon overlaps your whole morning for calls, and most of the build work is done before your day starts." }],
   },
   "software-house-pakistan": {
+    metaTitle: "Software House in Pakistan from PKR 35,000",
+    metaDescription: "Software house in Pakistan: websites from PKR 35,000, mobile apps from PKR 200,000, ERP and AI automation. Fixed prices, 70+ case studies, quote in 48 hours.",
     faqs: [
       { question: "How do you work with clients in other Pakistani cities?", answer: "Most projects run remotely: a kickoff call, a written fixed-price proposal, weekly demo calls and a WhatsApp group with the team. For larger projects we travel for the kickoff and key milestones, and you can always visit our office in Rawalpindi." },
     ],
@@ -1861,6 +1867,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "digital-marketing-agency-karachi": {
+    metaTitle: "Digital Marketing Agency Karachi from PKR 25k/mo",
     caseStudyIds: ["scale-with-ads", "seven-figure-studio", "zahh-beverages", "rebecca-minkoff", "million-dollar-funnels", "qualified-leads-x"],
     keepFaqs: [0, 2],
     servicesTitle: "Digital Marketing for Karachi Businesses",
