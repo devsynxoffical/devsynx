@@ -42,6 +42,22 @@ export default function DigitalMarketingAgencyIslamabadPage() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "Can you run ads for both Islamabad and Rawalpindi?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. We target the twin cities together or by area, such as F-sectors, DHA, Bahria Town or Saddar, and send each campaign to a landing page that speaks to that audience, so you are not paying for clicks from people you cannot serve.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How soon will I see results from ads?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Most campaigns start bringing enquiries in the first one to two weeks. The first month is used to test audiences and creatives; from the second month we move budget to the ads that bring real leads and sales, and cost per lead usually falls.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "What does a digital marketing agency do?",
         acceptedAnswer: {
           "@type": "Answer",
@@ -329,6 +345,20 @@ export default function DigitalMarketingAgencyIslamabadPage() {
           </div>
 
           <div className="city-faq-list">
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Can you run ads for both Islamabad and Rawalpindi?</h3>
+              <p className="city-faq-answer">
+                Yes. We target the twin cities together or by area, such as F-sectors, DHA, Bahria Town or Saddar, and send each campaign to a landing page that speaks to that audience, so you are not paying for clicks from people you cannot serve.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">How soon will I see results from ads?</h3>
+              <p className="city-faq-answer">
+                Most campaigns start bringing enquiries in the first one to two weeks. The first month is used to test audiences and creatives; from the second month we move budget to the ads that bring real leads and sales, and cost per lead usually falls.
+              </p>
+            </div>
+
             <div className="city-faq-item">
               <h3 className="city-faq-question">What does a digital marketing agency do?</h3>
               <p className="city-faq-answer">

@@ -1803,6 +1803,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in pakistan", "seo expert pakistan", "best seo expert in pakistan", "seo specialist pakistan"],
     faqs: [
+      { question: "Can you do SEO for a business that serves all of Pakistan?", answer: "Yes. National SEO focuses on service and category pages that rank across the country, supported by city pages for your biggest markets, technical fixes and links from Pakistani websites and directories." },
+      { question: "Do you also optimise for Urdu searches?", answer: "Yes. Where your customers search in Urdu or Roman Urdu, we add pages and content for those searches alongside English, so you appear for the way people actually type." },
       { question: "Will an SEO expert work on my account?", answer: "Yes. Your campaign is planned and reviewed by an experienced SEO specialist, technical fixes are made by our developers, and you speak directly with the person working on your account rather than a sales manager." },
     ],
   },
@@ -1920,6 +1922,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       ],
     },
     faqs: [
+      { question: "Which Karachi businesses do you run ads for?", answer: "Mostly retailers and clothing brands, food and beverage companies, clinics, real estate, education and B2B suppliers. Each gets campaigns built around its own goal, whether that is store orders, booked appointments or qualified leads." },
       { question: "Can you track which ads bring phone calls?", answer: "Yes. We set up call tracking numbers and WhatsApp click tracking for each campaign, so you can see which ad, keyword and Karachi area produced each call or chat, and stop paying for the ones that do not." },
       { question: "Do you run ads for B2B companies in Karachi?", answer: "Yes. For suppliers, logistics and service firms we combine Google Search ads for high-intent searches with LinkedIn ads aimed at job titles and industries, and send leads straight into your CRM or email." },
       { question: "Do you run B2B campaigns on LinkedIn?", answer: "Yes. For B2B companies we run LinkedIn and Google Search campaigns aimed at decision-makers, with lead forms connected to your CRM." },
