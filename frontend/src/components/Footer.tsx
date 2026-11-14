@@ -115,6 +115,7 @@ export const Footer: React.FC = () => {
               <li><Link href="/about/" className="footer__link">About Us</Link></li>
               <li><Link href="/team/" className="footer__link">Our Team</Link></li>
               <li><Link href="/careers/" className="footer__link">Careers</Link></li>
+              <li><a href="https://search.google.com/local/writereview?placeid=ChIJq-63OuTr3zgRfZ8P9q-vAEI" target="_blank" rel="noopener noreferrer" className="footer__link">Review us on Google ★</a></li>
               <li><Link href="/clients/" className="footer__link">Case Studies</Link></li>
               <li><Link href="/blog/" className="footer__link">Blog</Link></li>
               <li><Link href="/tools/" className="footer__link">Free Cost Calculators</Link></li>

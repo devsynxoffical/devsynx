@@ -298,6 +298,7 @@ export default function ContactPage() {
                       <div>
                         <p className="contact-info__label">Response Time</p>
                         <p className="contact-info__value">Within 24 hours</p>
+                        <a href="https://search.google.com/local/writereview?placeid=ChIJq-63OuTr3zgRfZ8P9q-vAEI" target="_blank" rel="noopener noreferrer" className="contact-info__value" style={{ display: "inline-block", marginTop: "6px", textDecoration: "underline" }}>Worked with us? Leave a Google review ★</a>
                       </div>
                     </div>
                   </div>
