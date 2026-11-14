@@ -137,6 +137,7 @@ export const navMenus: NavMenu[] = [
         title: "UK, Europe & Australia",
         links: [
           { label: "London", href: "/software-development-company-london/" },
+          { label: "Web Design, London", href: "/web-design-company-london/" },
           { label: "Germany", href: "/germany/" },
           { label: "Sydney", href: "/software-development-company-sydney/" },
           { label: "Melbourne", href: "/app-development-company-melbourne/" },

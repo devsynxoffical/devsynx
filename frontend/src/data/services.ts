@@ -67,7 +67,7 @@ export const services: Service[] = [
   },
   {
     slug: 'custom-web-development',
-    title: 'Custom Web Development Company & React Services',
+    title: 'Web Development Company: Next.js & React',
     shortTitle: 'Web Development',
     description: 'Fast, scalable web applications built with modern frameworks like Next.js, React, and TypeScript for US & EU clients.',
     longDescription: 'Devsynx is a custom web development company engineering high-performance digital platforms using Next.js, React, Node.js, and TypeScript. Every application is built search-engine-first, fully responsive, and optimized for sub-100ms TTFB and flawless Core Web Vitals.',
@@ -86,7 +86,7 @@ export const services: Service[] = [
   },
   {
     slug: 'mobile-app-development',
-    title: 'Mobile App Development',
+    title: 'Mobile App Development Company: iOS & Android',
     shortTitle: 'App Development',
     description: 'Native and cross-platform mobile apps for iOS and Android with intuitive UX and strong retention.',
     longDescription: 'We design and develop mobile apps for iOS and Android that users love to use. From UX strategy and architecture to deployment and support.',
@@ -139,7 +139,7 @@ export const services: Service[] = [
   },
   {
     slug: 'ecommerce-solutions',
-    title: 'E-Commerce Solutions & Shopify',
+    title: 'E-commerce Website Development & Shopify',
     shortTitle: 'E-Commerce',
     description: 'Custom e-commerce storefronts, Shopify integration, and conversion-optimized shopping checkout flows.',
     longDescription: 'High-converting online stores engineered with headless commerce, inventory synchronization, and secure payment processing.',
@@ -282,7 +282,7 @@ export const services: Service[] = [
   },
   {
     slug: 'voice-ai-bots',
-    title: 'AI Calling Agent & Voice AI Bot Development',
+    title: 'AI Voice Agent Development & AI Calling Agents',
     shortTitle: 'Voice AI Bots',
     description: 'Deploy sub-second latency conversational AI calling agents for inbound customer service, lead qualification, and appointment booking.',
     longDescription: 'Devsynx develops production-grade voice AI agents and AI phone calling systems that converse naturally, handle complex caller inquiries, qualify inbound leads, and schedule appointments directly into your CRM with sub-500ms response latency.',

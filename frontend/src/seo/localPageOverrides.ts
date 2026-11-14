@@ -991,6 +991,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "app-development-company-dubai": {
+    metaTitle: "Mobile App Development Company in Dubai & UAE",
+    extraKeywords: ["mobile app development company uae", "mobile app development company dubai", "app development company uae", "mobile app developers dubai"],
     caseStudyIds: ["zeparty", "horizone-invest", "ygi-holiday-homes", "ustaad-ae", "whatsapp-business-api", "fix-it-bilal"],
     highlights: { tag: "Dubai Apps", title: "Apps Dubai Businesses Ask Us For", cards: [
             {
