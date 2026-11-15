@@ -46,6 +46,26 @@ which only the owner can create. Rankings cannot be guaranteed.
 6. After deploy is live: IndexNow submit for changed URLs (OpenSEO, free).
 7. Update the backlog checkboxes and the run log below; post a short update to the owner with the URLs to request indexing for.
 
+## PRIORITY (owner, 15 Nov): promote SERVICES by country and city
+The owner wants web development, mobile app development, SEO, AI voice agents and e-commerce ranked in different countries and cities. Software-house pages: maintain only, build no new ones. US SEO-agency city terms stay with the separate RankEmpire site. Each run: up to 4 items from this queue, top first, same quality rules.
+
+Service × location queue (monthly searches, KD from the Nov research):
+- [ ] App development company New York (590, KD 0)
+- [ ] App development company London (390 KD 30; "mobile app developers london" 480 KD 31)
+- [ ] Shopify development agency (US 480 KD 31, UK 210 KD 4): new national e-commerce page
+- [ ] Web development company Calgary (590 KD 28)
+- [ ] Expand /services/voice-ai-bots/ for "ai voice agent" (US 22,200 KD 38, UK 320, CA 260)
+- [ ] Expand /services/ecommerce-solutions/ for "ecommerce website development" (US 1,000 KD 26, UK 480 KD 26)
+- [ ] Expand /ai-automation-agency/ ("ai automation agency" US 4,400 KD 19, "ai automation services" US 720 KD 3, UK 720, CA 480)
+- [ ] Expand /services/seo-services/ (801 words)
+- [ ] AI development company (US 2,400 KD 25): new page
+- [ ] Flutter app development company (US 480 KD 29): new page
+- [ ] App development company Chicago (590 KD 27) and Los Angeles (260 KD 33 + "mobile app developers los angeles" 260)
+- [ ] App development / mobile app developers San Francisco (210 KD 1)
+- [ ] Hire app developers (US 1,600 KD 13): retarget /hire-dedicated-developers/
+- [ ] Web development company Dubai (880 KD 34): check web-design-company-dubai covers it, else new page
+- [ ] KSA and Europe beyond the UK: needs OpenSEO credits for research first
+
 ## Backlog
 
 ### Week 1 (8–14 Nov): indexing and Pakistan + Gulf expansion
