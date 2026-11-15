@@ -129,6 +129,28 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
         </div>
       </section>
 
+      {/* In-depth guide (service-specific) */}
+      {service.guide && service.guide.length > 0 ? (
+        <section className="section section--alt">
+          <div className="container" style={{ maxWidth: "900px" }}>
+            <AnimatedSection animation="fade-up">
+              <div className="section__header">
+                <span className="section__label">Guide</span>
+                <h2 className="section__title">{service.guideTitle ?? `${service.shortTitle}: What You Need to Know`}</h2>
+              </div>
+            </AnimatedSection>
+            <div style={{ display: "grid", gap: "28px" }}>
+              {service.guide.map((g) => (
+                <div key={g.heading}>
+                  <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "10px", color: "var(--color-dark)" }}>{g.heading}</h3>
+                  <p style={{ lineHeight: 1.75, color: "var(--color-text)" }}>{g.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* Key Features - Bento Grid */}
       <section className="section section--alt">
         <div className="container">
@@ -183,7 +205,8 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
                   </div>
                   <h3 className="usecase-card__title">{useCase}</h3>
                   <p className="usecase-card__desc">
-                    Tailored {service.shortTitle.toLowerCase()} solutions designed specifically for {useCase.toLowerCase()} workflows and requirements.
+                    {service.useCaseDetails?.[useCase] ??
+                      `Tailored ${service.shortTitle.toLowerCase()} solutions designed specifically for ${useCase.toLowerCase()} workflows and requirements.`}
                   </p>
                 </div>
               </AnimatedSection>
@@ -205,13 +228,13 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
             </div>
           </AnimatedSection>
           <div className="timeline">
-            {[
+            {(service.process ?? [
               { step: "01", title: "Discovery & Planning", desc: `We analyze your current state, define objectives, and create a detailed roadmap for your ${service.shortTitle.toLowerCase()} project.` },
               { step: "02", title: "Design & Architecture", desc: `Our team designs the solution architecture, creates prototypes, and validates the approach with your stakeholders.` },
               { step: "03", title: "Development & Implementation", desc: `We build your solution using best practices, with regular demos and iterative feedback cycles to ensure quality.` },
               { step: "04", title: "Testing & Quality Assurance", desc: `Rigorous testing including functional, performance, security, and user acceptance testing before launch.` },
               { step: "05", title: "Launch & Optimization", desc: `We deploy your solution, monitor performance, and continuously optimize based on real-world data and feedback.` },
-            ].map((item, index) => (
+            ]).map((item, index) => (
               <AnimatedSection key={item.step} animation="fade-up" delay={index * 120}>
                 <div className="timeline__item">
                   <div className="timeline__marker">
@@ -227,6 +250,59 @@ export function ServicePageClient({ service, relatedServices }: ServicePageClien
           </div>
         </div>
       </section>
+
+      {/* Pricing (service-specific) */}
+      {service.pricing && service.pricing.length > 0 ? (
+        <section className="section section--alt">
+          <div className="container">
+            <AnimatedSection animation="fade-up">
+              <div className="section__header">
+                <span className="section__label">Pricing</span>
+                <h2 className="section__title">
+                  {service.shortTitle} <span className="text-gradient">Prices</span>
+                </h2>
+                {service.pricingNote ? <p className="section__subtitle">{service.pricingNote}</p> : null}
+              </div>
+            </AnimatedSection>
+            <div className="pricing-table-container">
+              <table className="pricing-table">
+                <thead>
+                  <tr>
+                    <th>Project</th>
+                    <th>Typical Timeline</th>
+                    <th>Price</th>
+                    <th>What&apos;s Included</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {service.pricing.map((r) => (
+                    <tr key={r[0]}>
+                      <td><strong>{r[0]}</strong></td>
+                      <td>{r[1]}</td>
+                      <td><span className="price-tag">{r[2]}</span></td>
+                      <td>{r[3]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="price-cta">
+              <p className="price-cta__text">
+                <strong>Have a tighter budget?</strong> Send us your idea and budget on WhatsApp. We&apos;ll suggest a
+                plan that fits, often with a smaller first version you can grow later.
+              </p>
+              <a
+                href={`https://wa.me/923029462542?text=${encodeURIComponent(`Hi DEVSYNX, I saw your ${service.shortTitle} prices and want a quote that fits my budget.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-whatsapp"
+              >
+                💬 Get a price for my budget
+              </a>
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* FAQ Section */}
       <section className="section">
