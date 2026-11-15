@@ -9,6 +9,7 @@ import { localPageOverrides } from "./localPageOverrides";
 import { industryConfigs } from "./industryPages";
 import { usCityConfigs } from "./usCityPages";
 import { usWebDesignConfigs } from "./usWebDesignPages";
+import { appCityConfigs } from "./appCityPages";
 import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 import { gulfPages } from "./gulfPages";
 import { gulfPages2 } from "./gulfPages2";
@@ -717,6 +718,7 @@ export type IntlConfig = {
   guide?: LocalPage["guide"];
   services?: LocalPage["services"];
   servicesTitle?: string;
+  pricing?: LocalPage["pricing"];
 };
 
 const intlServiceLabel = {
@@ -761,7 +763,7 @@ function intlPage(c: IntlConfig): LocalPage {
     pricingTitle: "Ways to Work With Us",
     pricingNote: `Every engagement is quoted in ${c.currency} after a free scoping call. You receive a written proposal within 48 hours.`,
     pricingColumns: INTL_ENGAGEMENT_COLUMNS,
-    pricing: intlEngagement(c.currency),
+    pricing: c.pricing ?? intlEngagement(c.currency),
     areasTitle: `Areas We Serve in and Around ${c.city}`,
     areasNote: "Remote delivery with scheduled overlap hours and video demos every sprint.",
     areas: c.areas,
@@ -1462,6 +1464,7 @@ const rawLocalPages: LocalPage[] = [
   ...intlPages,
   ...usCityConfigs.map(intlPage),
   ...usWebDesignConfigs.map(intlPage),
+  ...appCityConfigs.map(intlPage),
   ...gulfPages,
   ...gulfPages2,
   aeoPage,

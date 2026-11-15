@@ -117,6 +117,7 @@ export const navMenus: NavMenu[] = [
         title: "North America",
         links: [
           { label: "New York", href: "/software-development-company-new-york/" },
+          { label: "App Development, New York", href: "/app-development-company-new-york/" },
           { label: "Chicago", href: "/software-development-company-chicago/" },
           { label: "Dallas", href: "/app-development-company-dallas/" },
           { label: "Houston", href: "/app-development-company-houston/" },
@@ -138,6 +139,7 @@ export const navMenus: NavMenu[] = [
         links: [
           { label: "London", href: "/software-development-company-london/" },
           { label: "Web Design, London", href: "/web-design-company-london/" },
+          { label: "App Development, London", href: "/app-development-company-london/" },
           { label: "Germany", href: "/germany/" },
           { label: "Sydney", href: "/software-development-company-sydney/" },
           { label: "Melbourne", href: "/app-development-company-melbourne/" },
