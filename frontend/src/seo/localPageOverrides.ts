@@ -1519,6 +1519,10 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       { question: "What happens after the app launches?", answer: "We offer a monthly support plan for fixes, updates for new Android and iOS versions and small improvements, so the app keeps working as phones and stores change." },
     ],
   },
+  "web-development-company-calgary": {
+    metaTitle: "Web Development Company in Calgary",
+    h1Before: "Web Development Company in",
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {

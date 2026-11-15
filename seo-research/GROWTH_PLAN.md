@@ -53,9 +53,9 @@ Service × location queue (monthly searches, KD from the Nov research):
 - [x] App development company New York (590, KD 0) (15 Nov)
 - [x] App development company London (390 KD 30; "mobile app developers london" 480 KD 31) (15 Nov)
 - [ ] Shopify development agency (US 480 KD 31, UK 210 KD 4): new national e-commerce page
-- [ ] Web development company Calgary (590 KD 28)
-- [ ] Expand /services/voice-ai-bots/ for "ai voice agent" (US 22,200 KD 38, UK 320, CA 260)
-- [ ] Expand /services/ecommerce-solutions/ for "ecommerce website development" (US 1,000 KD 26, UK 480 KD 26)
+- [x] Web development company Calgary (590 KD 28) (run 14)
+- [x] Expand /services/voice-ai-bots/ for "ai voice agent" (US 22,200 KD 38, UK 320, CA 260) (run 14)
+- [x] Expand /services/ecommerce-solutions/ for "ecommerce website development" (US 1,000 KD 26, UK 480 KD 26) (run 14)
 - [ ] Expand /ai-automation-agency/ ("ai automation agency" US 4,400 KD 19, "ai automation services" US 720 KD 3, UK 720, CA 480)
 - [ ] Expand /services/seo-services/ (801 words)
 - [ ] AI development company (US 2,400 KD 25): new page
@@ -176,6 +176,7 @@ Demand from the Nov research (monthly searches, KD):
 
 ## Run log
 
+- 2026-11-15 21:14 PKT (run 14): GSC 9–15 Nov: first click on 'digital marketing agency karachi' (#14.9, 20 impr), seo services in islamabad 2 clicks (#9.6, 76 impr), fastest way to build my mvp in 2026 #5 (blog, new). GBP: first review synced (Adnan Shakeel, 5 stars, Malaysia websites) and replied automatically. Done (services-first queue): /services/voice-ai-bots/ rewritten (707 to 1,395 words; removed unverifiable claims like '70% lower cost' and '100% follow-up'), /services/ecommerce-solutions/ rewritten (512 to 1,285 words, PKR prices from the approved list), new /web-development-company-calgary/ (1,066 words, 30%). Note: a build was briefly run from the wrong folder and its stray .next output was deleted; nothing was committed from it.
 - 2026-11-15 (owner request): services-first priority queue added; built /app-development-company-new-york/ (1,094 words, 27%) and /app-development-company-london/ (1,059 words, 30%); IntlConfig now accepts custom pricing.
 - 2026-11-15 09:14 PKT (run 13): GSC 8–14 Nov: 28 clicks / 5,897 impressions vs 20 / 2,336 for 1–7 Nov (impressions +152%). Page 1: software house in gujrat #7 (new), seo services islamabad #6.4, software house near me #6.6 (Gujranwala) / #9.6 (Islamabad), multan software houses #6.7, software house faisalabad #8.9, software houses in multan #8.9, seo services in islamabad #9.6 (73 impr, 1 click), software house sargodha #10, seo near me #10.2. Page 2: seo islamabad #10.7, software house karachi #11.4, software house in karachi #14.7, software house in islamabad #15.4, software house in saddar rawalpindi #16.2 (was #5.6, still unsettled after edits), digital marketing agency karachi #17. Indexing: web-design-company-london unknown (new); New York and London 'Discovered'. GBP: reviews still not synced via the Windsor trial (owner sees 5 reviews, 5.0), so no replies posted yet; no post today (posts Mon/Thu). Done: service page template gained optional guide, pricing table (with budget WhatsApp prompt), service-specific process and use-case descriptions; mobile app and web development service pages rewritten and expanded (517/666 to 1,430/1,419 words), removed an unverifiable '60% faster' claim.
 - 2026-11-14 23:30 PKT (owner request, GBP): added categories website designer, computer consultant, internet marketing service; uploaded logo and 5 team photos; first post had been REJECTED (phone number in text), republished without it; added 'Review us on Google' links in the footer and contact page; GBP routine added to the plan. Profile has 0 reviews and no performance data yet.
