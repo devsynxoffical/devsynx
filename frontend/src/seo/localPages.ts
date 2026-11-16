@@ -1370,6 +1370,24 @@ const globalPages: LocalPage[] = [
       "The best first AI project is a repetitive, high-volume task: answering inbound calls, qualifying leads, booking appointments, replying to WhatsApp enquiries or extracting data from documents. We pick one, measure the hours it costs today, and build an agent that handles it.",
       "Our own AI calling agent answers and qualifies leads for US service businesses around the clock, and our WhatsApp Business API automations handle customer conversations for Gulf and Pakistani brands.",
     ],
+    highlights: {
+      tag: "Where AI Pays Off",
+      title: "AI Automations We Build for Businesses in the US, UK, Gulf and Pakistan",
+      cards: [
+        { icon: "📞", title: "Missed Calls & Lead Follow-Up", text: "Voice agents answer every call and qualify leads around the clock, so service businesses stop losing jobs to voicemail." },
+        { icon: "💬", title: "Customer Questions on WhatsApp", text: "Chat assistants answer prices, availability and order status in English, Urdu or Arabic and hand over to staff when needed." },
+        { icon: "🧾", title: "Back-Office Data Entry", text: "Invoices, forms and emails are read by AI and entered into your accounting, CRM or ERP without retyping." },
+        { icon: "📈", title: "Sales & Marketing Ops", text: "Lead scoring, CRM updates, follow-up sequences and reporting that run on their own every day." },
+      ],
+    },
+    guideTitle: "How to Start with AI Automation",
+    guide: [
+      { heading: "Pick one workflow that costs real hours", content: "The best first project is narrow and repetitive: answering the same calls, replying to the same WhatsApp questions or copying data from one system to another. We measure how many hours or missed leads it costs today, so you can judge the result in money, not demos." },
+      { heading: "Connect AI to the tools you already use", content: "Agents are only useful when they act: booking in your calendar, updating your CRM, creating an order or sending a confirmation. We integrate with tools such as HubSpot, GoHighLevel, Salesforce, Google Calendar, Shopify, WhatsApp Business and your own database." },
+      { heading: "Add guardrails before going live", content: "Every agent works from your approved knowledge, has rules for what it must not say, asks for confirmation before important actions and hands over to a person when it is unsure. We test with real scenarios and keep transcripts so you can review every conversation." },
+      { heading: "What it costs", content: "You pay a fixed price for the build and integrations, then usage costs for AI models, phone minutes or WhatsApp messages, billed by the providers at cost. Most businesses start with a single agent, see the results within weeks and then add the next workflow." },
+      { heading: "Serving the US, UK, Canada, the Gulf and Pakistan", content: "We build agents in English, Urdu and Arabic, schedule calls in your time zone and configure data storage and call-recording disclosures for your market, so the same approach works for a Texas contractor, a London clinic or a Dubai real estate team." },
+    ],
     servicesTitle: "AI Automation Services",
     services: [
       { icon: "📞", title: "AI Voice Agents", text: "Inbound and outbound calling agents that answer, qualify, book and transfer to a human.", href: "/services/voice-ai-bots/", linkLabel: "Voice AI Bots" },
@@ -1396,6 +1414,9 @@ const globalPages: LocalPage[] = [
       { href: "/software-development-company-dubai/", label: "Software Development Dubai" },
     ],
     faqs: [
+      { question: "How long does it take to build an AI agent?", answer: "A single voice or chat agent usually takes 2 to 4 weeks from the audit to going live, including integrations and testing with real scenarios." },
+      { question: "Do you build AI automation for clients outside Pakistan?", answer: "Yes. Most of our AI automation work is for businesses in the US, the UK, Canada and the Gulf, with calls in your working hours and pricing in USD, GBP, CAD or AED." },
+      { question: "Can the AI work in Urdu or Arabic?", answer: "Yes. Voice and chat agents can understand and reply in English, Urdu, Arabic and other languages, and switch when the customer does." },
       { question: "What does an AI automation agency do?", answer: "It designs, builds and maintains AI systems that handle business tasks: answering calls and chats, qualifying leads, booking appointments, processing documents and moving data between tools." },
       { question: "How much does an AI voice agent cost?", answer: "There is a one-time build cost for the agent and its integrations, plus usage costs for the AI model and phone minutes, which are usually a fraction of a human agent's hourly cost. We quote both after a short audit." },
       { question: "Will the AI say something wrong to my customers?", answer: "We limit agents to your approved knowledge, add guardrails and confirmation steps, test them against real conversation transcripts and hand off to a human whenever the agent is unsure." },
