@@ -52,15 +52,16 @@ The owner wants web development, mobile app development, SEO, AI voice agents an
 Service × location queue (monthly searches, KD from the Nov research):
 - [x] App development company New York (590, KD 0) (15 Nov)
 - [x] App development company London (390 KD 30; "mobile app developers london" 480 KD 31) (15 Nov)
-- [ ] Shopify development agency (US 480 KD 31, UK 210 KD 4): new national e-commerce page
+- [x] Shopify development agency (US 480 KD 31, UK 210 KD 4): new national e-commerce page (run 16)
 - [x] Web development company Calgary (590 KD 28) (run 14)
 - [x] Expand /services/voice-ai-bots/ for "ai voice agent" (US 22,200 KD 38, UK 320, CA 260) (run 14)
 - [x] Expand /services/ecommerce-solutions/ for "ecommerce website development" (US 1,000 KD 26, UK 480 KD 26) (run 14)
 - [x] Expand /ai-automation-agency/ ("ai automation agency" US 4,400 KD 19, "ai automation services" US 720 KD 3, UK 720, CA 480) (run 15)
 - [x] Expand /services/seo-services/ (801 words) (run 15)
-- [ ] AI development company (US 2,400 KD 25): new page
-- [ ] Flutter app development company (US 480 KD 29): new page
-- [ ] App development company Chicago (590 KD 27) and Los Angeles (260 KD 33 + "mobile app developers los angeles" 260)
+- [x] AI development company (US 2,400 KD 25): new page (run 16)
+- [x] Flutter app development company (US 480 KD 29): new page (run 16)
+- [x] App development company Chicago (590 KD 27) (run 16)
+- [ ] App development company Los Angeles (260 KD 33 + "mobile app developers los angeles" 260)
 - [ ] App development / mobile app developers San Francisco (210 KD 1)
 - [ ] Hire app developers (US 1,600 KD 13): retarget /hire-dedicated-developers/
 - [ ] Web development company Dubai (880 KD 34): check web-design-company-dubai covers it, else new page
@@ -176,6 +177,7 @@ Demand from the Nov research (monthly searches, KD):
 
 ## Run log
 
+- 2026-11-16 21:20 PKT (run 16): GSC 10–16 Nov (16th incomplete): 34 clicks / 6,239 impressions vs 21 / 3,143 for 3–9 Nov (impressions roughly doubled). 'digital marketing agency karachi' 3 clicks (#12.2), 'seo services in islamabad' 2 clicks (#10.5, 78 impr), 'software house in islamabad' 1 click (#12.2), 'how to choose a software development company' #7.9 (56 impr), 'software houses in faisalabad' #5.8, 'software house near me' #6.5 (Gujranwala), 'seo services islamabad' #7.1, 'software house in gujrat' #8.3. Indexed: app-development-company-new-york and -london, web-design-company-london. Not yet: software-development-company-new-york (unknown), -london (Discovered), web-development-company-calgary and services/ecommerce-solutions (unknown). Done (services-first queue): new /shopify-development-agency/ (1,303 words, 13%), /ai-development-company/ (1,281 words, 18% vs AI automation), /flutter-app-development-company/ (1,196 words, 16%), /app-development-company-chicago/ (1,121 words, 31% vs New York); added to Services and North America menus; Chicago software page no longer lists app keywords. Owner request same day: seo-research/LAUNCH_DIRECTORIES.md (which of the 50 launch/directory sites fit an agency, calculators as the product to launch).
 - 2026-11-16 09:14 PKT (run 15): GSC 9–15 Nov: 34 clicks / 6,387 impressions (vs 20 / 2,585 for 2–8 Nov); 'digital marketing agency karachi' 2 clicks (#12.3), 'seo services in islamabad' 2 clicks (#9.5), 'marketing agency karachi' #13.5 (new), 'seo company lahore' #18.6 (new), 'software houses in faisalabad' #6.8 (new). GBP: first stats: 4 impressions and 9 direction requests (12–13 Nov); Monday post published (mobile app service); Adnan's review already replied; no new reviews synced. Done: /ai-automation-agency/ expanded with highlights, a 5-part guide and 3 FAQs (776 to 1,247 words); /services/seo-services/ rewritten with guide, pricing from the approved list, process and FAQs, including an honest no-guarantee answer (801 to 1,284 words).
 - 2026-11-15 21:14 PKT (run 14): GSC 9–15 Nov: first click on 'digital marketing agency karachi' (#14.9, 20 impr), seo services in islamabad 2 clicks (#9.6, 76 impr), fastest way to build my mvp in 2026 #5 (blog, new). GBP: first review synced (Adnan Shakeel, 5 stars, Malaysia websites) and replied automatically. Done (services-first queue): /services/voice-ai-bots/ rewritten (707 to 1,395 words; removed unverifiable claims like '70% lower cost' and '100% follow-up'), /services/ecommerce-solutions/ rewritten (512 to 1,285 words, PKR prices from the approved list), new /web-development-company-calgary/ (1,066 words, 30%). Note: a build was briefly run from the wrong folder and its stray .next output was deleted; nothing was committed from it.
 - 2026-11-15 (owner request): services-first priority queue added; built /app-development-company-new-york/ (1,094 words, 27%) and /app-development-company-london/ (1,059 words, 30%); IntlConfig now accepts custom pricing.

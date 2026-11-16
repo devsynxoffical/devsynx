@@ -14,6 +14,7 @@ import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 import { gulfPages } from "./gulfPages";
 import { gulfPages2 } from "./gulfPages2";
 import { aeoPage } from "./aeoPage";
+import { servicePageConfigs } from "./servicePages";
 
 export type LocalPage = {
   slug: string;
@@ -1162,7 +1163,7 @@ const intlPages: LocalPage[] = [
 /* Global service pages (no city)                                       */
 /* ------------------------------------------------------------------ */
 
-type GlobalConfig = Omit<LocalPage, "group" | "areaType" | "areaServed" | "breadcrumbs" | "placeLabel" | "stats" | "pricingColumns" | "areasTitle" | "areasNote" | "areas"> & {
+export type GlobalConfig = Omit<LocalPage, "group" | "areaType" | "areaServed" | "breadcrumbs" | "placeLabel" | "stats" | "pricingColumns" | "areasTitle" | "areasNote" | "areas"> & {
   stats?: LocalPage["stats"];
   pricingColumns?: LocalPage["pricingColumns"];
 };
@@ -1490,6 +1491,7 @@ const rawLocalPages: LocalPage[] = [
   ...gulfPages2,
   aeoPage,
   ...globalPages,
+  ...servicePageConfigs.map(globalPage),
   ...industryConfigs.map((c) =>
     globalPage({
       ...c,

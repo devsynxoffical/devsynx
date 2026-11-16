@@ -26,6 +26,8 @@ export const navMenus: NavMenu[] = [
           { label: "Custom Software Development", href: "/custom-software-development-company/", desc: "SaaS, portals, CRM & ERP" },
           { label: "Web Development", href: "/services/custom-web-development/", desc: "Next.js, WordPress, Shopify" },
           { label: "Mobile App Development", href: "/services/mobile-app-development/", desc: "iOS & Android, Flutter" },
+          { label: "Flutter App Development", href: "/flutter-app-development-company/" },
+          { label: "Shopify Development", href: "/shopify-development-agency/" },
           { label: "MVP Development", href: "/mvp-development-company/", desc: "Launch in about 30 days" },
           { label: "SaaS Product Development", href: "/services/saas-product-development/" },
           { label: "UI/UX Design", href: "/services/ui-ux-design/" },
@@ -34,6 +36,7 @@ export const navMenus: NavMenu[] = [
       {
         title: "AI & Automation",
         links: [
+          { label: "AI Development Company", href: "/ai-development-company/", desc: "Custom AI apps, RAG, LLMs" },
           { label: "AI Automation Agency", href: "/ai-automation-agency/", desc: "Agents, chatbots, workflows" },
           { label: "AI Voice Agents", href: "/services/voice-ai-bots/", desc: "Answer & book calls 24/7" },
           { label: "Process Automation", href: "/services/process-automation/" },
@@ -119,6 +122,7 @@ export const navMenus: NavMenu[] = [
           { label: "New York", href: "/software-development-company-new-york/" },
           { label: "App Development, New York", href: "/app-development-company-new-york/" },
           { label: "Chicago", href: "/software-development-company-chicago/" },
+          { label: "App Development, Chicago", href: "/app-development-company-chicago/" },
           { label: "Dallas", href: "/app-development-company-dallas/" },
           { label: "Houston", href: "/app-development-company-houston/" },
           { label: "Austin", href: "/app-development-company-austin/" },

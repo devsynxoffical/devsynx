@@ -11,7 +11,7 @@ export const usCityConfigs: IntlConfig[] = [
     currency: "USD",
     areas: ["The Loop", "River North", "West Loop", "Fulton Market", "Evanston", "Oak Brook", "Schaumburg", "Naperville", "Milwaukee", "Indianapolis"],
     caseStudyIds: ["qualified-leads-x", "employee-security-crm", "egg-produce", "contractor-leads", "rankmora", "ai-calling-agent"],
-    keywords: ["software development company chicago", "app development company chicago", "custom software development chicago", "mobile app developers chicago", "software developers chicago"],
+    keywords: ["software development company chicago", "custom software development chicago", "software developers chicago", "software company chicago"],
     quickAnswerExtra: "We build custom software, internal tools, SaaS products and AI automation for Chicago companies, with live overlap every Central Time morning.",
     intro: [
       "Chicago's economy is broad: trading and financial services, logistics and freight, manufacturing, healthcare and a growing B2B SaaS scene. Most of the software those companies need is unglamorous and valuable: internal tools that replace spreadsheets, customer portals, integrations between ERPs and CRMs, and dashboards that pull data together.",
