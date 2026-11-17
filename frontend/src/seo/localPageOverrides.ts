@@ -1507,9 +1507,33 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "web-design-company-dubai": {
+    metaTitle: "Web Design & Development Company in Dubai",
+    h1Before: "Web Design & Development Company in",
+    extraKeywords: ["web development company in dubai", "website development company dubai"],
     faqs: [
       { question: "Can you build a website in Arabic and English?", answer: "Yes. We build bilingual websites with separate Arabic and English pages, right-to-left layouts and proper Arabic fonts, so each language can rank on Google for its own searches." },
+      { question: "Are you a web development company in Dubai or only a design agency?", answer: "Both. Our developers build the website, online store or web application itself in Next.js, WordPress, Shopify or custom code, including portals, booking systems and integrations with your CRM or ERP, not only the design." },
       { question: "Can my Dubai website take bookings or payments?", answer: "Yes. We connect booking calendars, WhatsApp enquiries and online payments through gateways that work in the UAE, so customers can book or pay without leaving your site." },
+    ],
+  },
+  "hire-dedicated-developers": {
+    metaTitle: "Hire App Developers & Dedicated Developers",
+    h1Before: "Hire App Developers and",
+    extraKeywords: ["hire app developers", "hire mobile app developers", "hire app developer", "hire ios developers", "hire android developers"],
+    highlights: {
+      tag: "Hire App Developers",
+      title: "Mobile App Developers You Can Hire Monthly",
+      cards: [
+        { icon: "📱", title: "Flutter Developers", text: "One engineer for iOS and Android from a single codebase, our most requested hire." },
+        { icon: "⚛️", title: "React Native Developers", text: "For teams already working in React who want to share code with their web app." },
+        { icon: "🍎", title: "iOS & Android Native", text: "Swift and Kotlin engineers for apps that need deep native features." },
+        { icon: "🧪", title: "QA for Mobile Apps", text: "Testers who check builds on real devices before every App Store and Play Store release." },
+      ],
+    },
+    faqs: [
+      { question: "Can I hire an app developer for a single project instead of monthly?", answer: "Yes. If you have a defined app to build, we usually quote a fixed project price instead. Monthly hiring suits ongoing development where your priorities change week to week." },
+      { question: "How do I check an app developer's skills before hiring?", answer: "You review apps they have shipped, interview them and can start with a paid trial week. If the fit is not right, we replace the developer at no extra cost." },
+      { question: "Will the app developer publish to the App Store and Google Play?", answer: "Yes. Our app developers handle builds, TestFlight and Play Console testing and store submission under your own developer accounts." },
     ],
   },
   "app-development-company-pakistan": {

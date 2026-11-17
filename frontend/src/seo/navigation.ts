@@ -123,6 +123,8 @@ export const navMenus: NavMenu[] = [
           { label: "App Development, New York", href: "/app-development-company-new-york/" },
           { label: "Chicago", href: "/software-development-company-chicago/" },
           { label: "App Development, Chicago", href: "/app-development-company-chicago/" },
+          { label: "App Development, Los Angeles", href: "/app-development-company-los-angeles/" },
+          { label: "App Development, San Francisco", href: "/app-development-company-san-francisco/" },
           { label: "Dallas", href: "/app-development-company-dallas/" },
           { label: "Houston", href: "/app-development-company-houston/" },
           { label: "Austin", href: "/app-development-company-austin/" },
