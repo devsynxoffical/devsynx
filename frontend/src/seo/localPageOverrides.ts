@@ -13,6 +13,8 @@ export type LocalPageOverride = {
   h1Before?: string;
   extraKeywords?: string[];
   highlights?: LocalPage["highlights"];
+  guideTitle?: string;
+  guide?: LocalPage["guide"];
   caseStudyIds?: string[];
   keepFaqs?: number[];
   faqs?: { question: string; answer: string }[];
@@ -1537,6 +1539,15 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "app-development-company-pakistan": {
+    extraKeywords: ["mobile app development company in pakistan", "mobile app development services in pakistan", "app development agency pakistan", "mobile app developers in pakistan"],
+    guideTitle: "Building a Mobile App in Pakistan: A Practical Guide",
+    guide: [
+      { heading: "Start with one core feature", content: "The first version should do one job well: ordering, booking, tracking or learning. Launching a focused app in six to ten weeks costs far less than a feature-packed app and shows you what users actually want before you spend more." },
+      { heading: "Android first, but do not ignore iPhone", content: "Most users in Pakistan are on Android, often on mid-range phones with limited storage and patchy mobile data. We build in Flutter so the app runs smoothly on these phones, while the same code also gives you an iPhone app for customers abroad and premium segments." },
+      { heading: "Local payments and delivery", content: "Pakistani users expect JazzCash, Easypaisa, cards and cash on delivery, plus order updates on WhatsApp or SMS. We integrate these from the start, along with courier booking and tracking where your business needs it." },
+      { heading: "Urdu and English", content: "An app in Urdu and English reaches far more customers, especially outside the big cities. We support right-to-left Urdu screens, clear icons and simple flows for first-time smartphone users." },
+      { heading: "What it costs and how long it takes", content: "Mobile apps with us range from PKR 200,000 to 700,000 depending on features. A first version usually takes six to twelve weeks, including the backend, admin panel and publishing on Google Play and the App Store." },
+    ],
     faqs: [
       { question: "Can my app accept JazzCash, Easypaisa and card payments?", answer: "Yes. We integrate JazzCash, Easypaisa and card payments through local payment gateways, plus cash on delivery where it suits your business, and send payment confirmations by SMS or WhatsApp." },
       { question: "Do you publish the app on Google Play and the App Store?", answer: "Yes. We prepare the store listings, screenshots and privacy details, publish under your own developer accounts and handle reviewer questions until the app is approved." },
@@ -1899,6 +1910,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "digital-marketing-agency-karachi": {
+    guideTitle: "Digital Marketing in Karachi: What Works in 2026",
+    guide: [
+      { heading: "Karachi is a WhatsApp-first market", content: "Most Karachi buyers message before they buy, whether it is a restaurant in Clifton, a clothing brand in Tariq Road or a clinic in Gulshan. We run click-to-WhatsApp campaigns with quick replies and saved catalogues, and track each conversation back to the ad that started it." },
+      { heading: "Target by area and delivery zone", content: "Delivery costs and customer budgets differ between DHA, Clifton, PECHS, Gulshan-e-Iqbal, North Nazimabad and Korangi. We split campaigns by area so you can show different offers and avoid paying for clicks from places you do not deliver to." },
+      { heading: "Plan around Karachi's sales calendar", content: "Ramadan and Eid, 11.11 and year-end sales bring the biggest spikes in demand and in ad costs. We build creatives and budgets weeks ahead, so campaigns are ready when competition and prices rise." },
+      { heading: "Cash on delivery needs follow-up", content: "For e-commerce, cash-on-delivery orders that are never accepted cost money twice. We add order confirmation on WhatsApp, track delivered orders rather than placed orders and tune campaigns toward customers who actually pay." },
+      { heading: "Combine ads with search", content: "Paid ads create demand quickly, while Google search and Maps capture people already looking for your service. Running both, with one tracking setup, shows which channel brings profitable Karachi customers." },
+    ],
     metaTitle: "Digital Marketing Agency Karachi from PKR 25k/mo",
     caseStudyIds: ["scale-with-ads", "seven-figure-studio", "zahh-beverages", "rebecca-minkoff", "million-dollar-funnels", "qualified-leads-x"],
     keepFaqs: [0, 2],

@@ -42,6 +42,22 @@ export default function SeoServicesIslamabadPage() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "Is SEO or Google Ads better for a business in Islamabad?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Ads bring calls from the first day but stop when you stop paying; SEO takes a few months but keeps bringing enquiries without paying per click. Many Islamabad businesses run a small Google Ads budget while SEO builds, then reduce ad spend as organic rankings grow.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What do you need from me to start SEO?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Access to your website, Google Business Profile and Search Console, a list of your services and areas, and a few photos of your office and work. We handle the rest and send a written 90-day plan after the free audit.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "How much do SEO services cost in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
@@ -282,9 +298,9 @@ export default function SeoServicesIslamabadPage() {
             </div>
 
             <div className="city-card">
-              <h3 className="city-card__title">Instant Indexing Automation</h3>
+              <h3 className="city-card__title">Faster Indexing of New Pages</h3>
               <p className="city-card__text">
-                We configure live IndexNow and Google Search Console APIs to push every new page update directly to Googlebot and Bing within minutes of publishing.
+                We submit new and updated pages through Google Search Console and IndexNow (used by Bing), and fix the crawl and indexing problems that keep pages out of search.
               </p>
             </div>
 
@@ -292,6 +308,63 @@ export default function SeoServicesIslamabadPage() {
               <h3 className="city-card__title">Zero Third-Party Delays</h3>
               <p className="city-card__text">
                 One accountable partner handles the entire funnel: from high-speed hosting and frontend code to keyword content and local Google Maps optimization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Local SEO playbook */}
+      <section className="city-section">
+        <div className="container">
+          <div className="city-section__header">
+            <span className="city-section__tag">Local SEO Playbook</span>
+            <h2 className="city-section__title">How We Rank Islamabad and Rawalpindi Businesses on Google</h2>
+            <p className="city-section__desc">
+              Local SEO in the twin cities is won sector by sector. This is the routine we follow for every local client.
+            </p>
+          </div>
+
+          <div className="city-grid">
+            <div className="city-card">
+              <h3 className="city-card__title">Rank Across Sectors, Not Just Your Pin</h3>
+              <p className="city-card__text">
+                Google Maps results depend on where the searcher is standing. A clinic in F-8 can rank first in F-8 and not appear at all for someone in G-11, I-8 or Bahria Town. We check your visibility across the sectors you serve and build area pages so you show up beyond your own street.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Google Business Profile Done Properly</h3>
+              <p className="city-card__text">
+                The right primary category, every service listed, a clear description, real photos of your office and team at work, weekly posts and answered questions. These details decide whether you appear in the map pack for searches in Blue Area, the F and G sectors or Rawalpindi.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">A Steady Flow of Reviews</h3>
+              <p className="city-card__text">
+                Reviews are one of the strongest local ranking signals. We set up a simple routine to ask happy customers on WhatsApp after each job, and reply to every review, so your rating and review count keep growing every month.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Pages for Each Service You Sell</h3>
+              <p className="city-card__text">
+                One homepage cannot rank for everything. Separate pages for each service, with prices, process, FAQs and examples from Islamabad clients, match what people search and give Google a clear reason to rank you.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Local Citations and Mentions</h3>
+              <p className="city-card__text">
+                Your name, address and phone must match everywhere: business directories, maps, social profiles and chamber or association listings. We also look for genuine mentions on Islamabad and Rawalpindi websites, which build local authority.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Measure Calls, Not Just Rankings</h3>
+              <p className="city-card__text">
+                We track phone calls, WhatsApp clicks, direction requests and form enquiries from Google, so every monthly report shows how many real customers SEO brought, not only keyword positions.
               </p>
             </div>
           </div>
@@ -362,6 +435,20 @@ export default function SeoServicesIslamabadPage() {
           </div>
 
           <div className="city-faq-list">
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Is SEO or Google Ads better for a business in Islamabad?</h3>
+              <p className="city-faq-answer">
+                Ads bring calls from the first day but stop when you stop paying; SEO takes a few months but keeps bringing enquiries without paying per click. Many Islamabad businesses run a small Google Ads budget while SEO builds, then reduce ad spend as organic rankings grow.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">What do you need from me to start SEO?</h3>
+              <p className="city-faq-answer">
+                Access to your website, Google Business Profile and Search Console, a list of your services and areas, and a few photos of your office and work. We handle the rest and send a written 90-day plan after the free audit.
+              </p>
+            </div>
+
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much do SEO services cost in Islamabad?</h3>
               <p className="city-faq-answer">

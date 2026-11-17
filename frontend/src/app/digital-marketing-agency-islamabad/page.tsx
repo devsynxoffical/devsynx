@@ -42,6 +42,22 @@ export default function DigitalMarketingAgencyIslamabadPage() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "How much should I spend on ads in Islamabad?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Most local service businesses start with an ad budget of about PKR 30,000 to 100,000 a month, paid directly to Meta, Google or TikTok, plus our management fee from PKR 25,000. E-commerce brands usually spend more once campaigns are profitable.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you also manage social media pages and posting?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Our focus is paid ads, SEO and tracking that bring enquiries. We can produce ad creatives and a monthly content plan, and work alongside your in-house team or designer for daily posting.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "Can you run ads for both Islamabad and Rawalpindi?",
         acceptedAnswer: {
           "@type": "Answer",
@@ -281,6 +297,63 @@ export default function DigitalMarketingAgencyIslamabadPage() {
         </div>
       </section>
 
+      {/* Process */}
+      <section className="city-section">
+        <div className="container">
+          <div className="city-section__header">
+            <span className="city-section__tag">How We Work</span>
+            <h2 className="city-section__title">Running Profitable Digital Marketing in Islamabad</h2>
+            <p className="city-section__desc">
+              A clear process for Islamabad and Rawalpindi businesses that want enquiries and sales, not just followers.
+            </p>
+          </div>
+
+          <div className="city-grid">
+            <div className="city-card">
+              <h3 className="city-card__title">Start With Tracking</h3>
+              <p className="city-card__text">
+                Before spending on ads, we set up Meta Pixel and Conversions API, GA4 and WhatsApp click tracking, so you know which campaign brought each lead or sale instead of judging by likes and reach.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Target the Right Twin-City Audience</h3>
+              <p className="city-card__text">
+                Islamabad and Rawalpindi buyers differ by area and income. We target by location, such as the F and E sectors, DHA, Bahria Town or Saddar, and by interest, and exclude areas you cannot deliver to.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Creative Made for Pakistani Feeds</h3>
+              <p className="city-card__text">
+                Short videos in Urdu or English, real product shots and clear prices outperform polished but generic ads. We test several hooks each month and keep spending on the ones that bring messages and orders.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Send Clicks to WhatsApp or a Fast Page</h3>
+              <p className="city-card__text">
+                Most twin-city customers want to ask a question before buying. We send ads to WhatsApp with quick replies or to a fast landing page with a form, and follow up leads the same day.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Budget Guidance</h3>
+              <p className="city-card__text">
+                For a local service business, ad budgets from about PKR 30,000 to 100,000 a month on top of our fee are a sensible starting range. We start small, find what works and scale only the campaigns that are profitable.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Monthly Review of Real Results</h3>
+              <p className="city-card__text">
+                Every month you see spend, leads, cost per lead, sales where they are tracked and what we will change next. If a channel is not working for your business, we say so and move the budget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Packages Table */}
       <section className="city-section city-section--alt">
         <div className="container">
@@ -345,6 +418,20 @@ export default function DigitalMarketingAgencyIslamabadPage() {
           </div>
 
           <div className="city-faq-list">
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">How much should I spend on ads in Islamabad?</h3>
+              <p className="city-faq-answer">
+                Most local service businesses start with an ad budget of about PKR 30,000 to 100,000 a month, paid directly to Meta, Google or TikTok, plus our management fee from PKR 25,000. E-commerce brands usually spend more once campaigns are profitable.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Do you also manage social media pages and posting?</h3>
+              <p className="city-faq-answer">
+                Our focus is paid ads, SEO and tracking that bring enquiries. We can produce ad creatives and a monthly content plan, and work alongside your in-house team or designer for daily posting.
+              </p>
+            </div>
+
             <div className="city-faq-item">
               <h3 className="city-faq-question">Can you run ads for both Islamabad and Rawalpindi?</h3>
               <p className="city-faq-answer">

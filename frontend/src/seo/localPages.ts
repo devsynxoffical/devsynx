@@ -1513,6 +1513,8 @@ export const localPages: LocalPage[] = rawLocalPages.map((page) => {
     h1Before: o.h1Before ?? page.h1Before,
     keywords: [...(o.extraKeywords ?? []), ...page.keywords],
     highlights: o.highlights ?? page.highlights,
+    guideTitle: o.guideTitle ?? page.guideTitle,
+    guide: o.guide ?? page.guide,
     caseStudyIds: o.caseStudyIds ?? page.caseStudyIds,
     servicesTitle: o.servicesTitle ?? page.servicesTitle,
     services: o.services ?? page.services,
