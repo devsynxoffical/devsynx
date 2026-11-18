@@ -1671,6 +1671,15 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "Web Development Company in Chicago",
     h1Before: "Web Development Company in",
   },
+  "web-design-company-london": {
+    metaTitle: "Web Design & Development Company in London",
+    h1Before: "Web Design & Development Company in",
+    extraKeywords: ["web development agency london", "web development company london", "web development agency uk", "website development company london"],
+    faqs: [
+      { question: "Are you a web development agency or only web designers?", answer: "Both. Our developers build the website, online store or web application itself in Next.js, WordPress, Shopify or custom code, including customer portals, booking systems and integrations with tools such as Xero, HubSpot and Stripe." },
+      { question: "Do you work with businesses outside London?", answer: "Yes. We build websites for businesses across the UK, including Manchester, Birmingham, Leeds and Bristol, with calls during UK working hours and pricing in GBP." },
+    ],
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
