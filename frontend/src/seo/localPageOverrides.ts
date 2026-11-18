@@ -1558,6 +1558,119 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "Web Development Company in Calgary",
     h1Before: "Web Development Company in",
   },
+  /* ---------------- Rawalpindi service pages (run 19) ---------------- */
+  "seo-services-rawalpindi": {
+    metaTitle: "SEO Services in Rawalpindi | Local SEO Company",
+    caseStudyIds: ["fix-it-bilal", "acutepharmacy", "progenius-students-seo", "ustaad-ae", "google-review-removal", "rbo-accounting"],
+    keepFaqs: [0, 2],
+    servicesTitle: "SEO Services for Rawalpindi Businesses",
+    services: [
+      { icon: "📍", title: "Google Maps for Rawalpindi Areas", text: "Google Business Profile, reviews and photos so you show up in the map for Saddar, Satellite Town, Bahria Town and DHA searches." },
+      { icon: "🏥", title: "Clinics & Healthcare SEO", text: "Doctor, treatment and appointment pages for clinics, labs and pharmacies serving the twin cities." },
+      { icon: "🏘️", title: "Housing Society & Property SEO", text: "Project, plot and area pages for developers and dealers around Bahria Town, DHA and Adiala Road." },
+      { icon: "🎓", title: "Schools, Academies & Colleges", text: "Admission and course pages that rank when Rawalpindi parents and students search." },
+      { icon: "🛍️", title: "Retail & Wholesale SEO", text: "Product and category pages for shops and wholesalers who now sell online across Pakistan.", href: "/services/ecommerce-solutions/", linkLabel: "E-commerce" },
+      { icon: "🛠️", title: "Technical SEO by Developers", text: "Speed, indexing and schema problems fixed in your website's code by our own developers.", href: "/services/seo-services/", linkLabel: "SEO Services" },
+    ],
+    highlights: {
+      tag: "Why Rawalpindi Businesses Choose Us",
+      title: "A Local SEO Team in Chaklala Cantt",
+      cards: [
+        { icon: "🤝", title: "Meet Us in Person", text: "Our office is on Old Airport Road, Chaklala Cantt, so you can sit with the team that works on your rankings." },
+        { icon: "🗺️", title: "Twin-City Coverage", text: "We rank you for Rawalpindi searches and for customers across the Islamabad border who search for both cities." },
+        { icon: "📊", title: "Reports You Can Read", text: "Monthly reports with Search Console clicks, Maps calls and enquiries, explained in plain English or Urdu." },
+        { icon: "💬", title: "WhatsApp Updates", text: "Quick answers on WhatsApp instead of waiting for a monthly meeting." },
+      ],
+    },
+    guideTitle: "Local SEO in Rawalpindi: What Actually Moves Rankings",
+    guide: [
+      { heading: "Your Google Business Profile is your second shop front", content: "For searches like clinics, schools or repair services near me, the map results appear above the websites. A complete profile with the right category, services, opening hours, real photos and a steady flow of reviews is usually the fastest SEO win for a Rawalpindi business." },
+      { heading: "Rank in the areas you actually serve", content: "Map results depend on where the searcher is. A business in Saddar may not appear for someone in Bahria Town or Adiala Road. We check visibility across the areas you serve and add area sections or pages where you have real customers there." },
+      { heading: "Use the language customers search in", content: "Many Rawalpindi customers search in a mix of English and Roman Urdu. We research the exact words people use for your service and use them naturally in page titles, headings and Google Business Profile posts." },
+      { heading: "Directories and local mentions", content: "Consistent name, address and phone number on business directories, maps apps and social profiles helps Google trust your listing. Mentions from local news sites, associations and partners strengthen it further." },
+    ],
+    faqs: [
+      { question: "Do you have an office in Rawalpindi?", answer: "Yes. Our office is on Old Airport Road, Chaklala Cantt, Rawalpindi. You can meet the team in person or work with us fully online on WhatsApp and video calls." },
+      { question: "Is SEO for Rawalpindi different from SEO for Islamabad?", answer: "The process is the same, but the keywords and areas differ. Many Rawalpindi customers search with the city name or for their own area, so we target Rawalpindi searches directly while also covering twin-city searches." },
+      { question: "How quickly can my business appear on Google Maps in Rawalpindi?", answer: "A newly optimised Google Business Profile often starts getting more views within a few weeks. Ranking in the top three map results for competitive searches usually takes two to four months of reviews, posts and local signals." },
+    ],
+  },
+  "digital-marketing-agency-rawalpindi": {
+    metaTitle: "Digital Marketing Agency in Rawalpindi",
+    caseStudyIds: ["fix-it-bilal", "scale-with-ads", "zahh-beverages", "mizn-abayas", "funnels-that-print", "whatsapp-business-api"],
+    keepFaqs: [0, 2],
+    servicesTitle: "Digital Marketing Services in Rawalpindi",
+    services: [
+      { icon: "💬", title: "Click-to-WhatsApp Ads", text: "Meta and Instagram ads that open a WhatsApp chat, with quick replies so no Rawalpindi enquiry is left waiting." },
+      { icon: "🔍", title: "Google Search & Maps Ads", text: "Ads for people searching your service in Rawalpindi right now, with call and direction tracking." },
+      { icon: "📍", title: "Google Business Profile Management", text: "Weekly posts, photos, offers and review replies that keep you visible in local map results.", href: "/seo-services-rawalpindi/", linkLabel: "SEO Rawalpindi" },
+      { icon: "🎬", title: "Short Video Ads", text: "Reels and TikTok videos in Urdu or English, shot simply and tested every month." },
+      { icon: "🖥️", title: "Landing Pages", text: "Fast pages for offers, admissions or property projects, built by our developers.", href: "/web-development-rawalpindi/", linkLabel: "Web Development" },
+      { icon: "📈", title: "Tracking & Reporting", text: "Meta Conversions API, GA4 and WhatsApp click tracking, so every lead is traced to its campaign." },
+    ],
+    highlights: {
+      tag: "Who We Help in Rawalpindi",
+      title: "Marketing for Rawalpindi's Main Business Types",
+      cards: [
+        { icon: "🏥", title: "Clinics & Labs", text: "Appointment campaigns and Maps visibility for doctors, dentists, physiotherapists and labs." },
+        { icon: "🎓", title: "Schools & Academies", text: "Admission campaigns timed around intake seasons, with lead forms that reach your front desk." },
+        { icon: "🏘️", title: "Housing Societies & Dealers", text: "Property campaigns around Bahria Town, DHA and Adiala Road with qualified-lead filtering." },
+        { icon: "🛍️", title: "Shops & Wholesalers", text: "Ads that bring walk-ins to Saddar and Raja Bazar shops and online orders nationwide." },
+      ],
+    },
+    guideTitle: "Getting Customers Online in Rawalpindi",
+    guide: [
+      { heading: "Start where your customers already are", content: "Most Rawalpindi customers use WhatsApp, Facebook and Google Maps every day. Campaigns that open a WhatsApp chat or show your business on Maps usually bring enquiries faster than campaigns aimed at website visits." },
+      { heading: "Target areas you can serve", content: "Delivery, travel time and customer budgets vary between Saddar, Satellite Town, Bahria Town, DHA and Wah Cantt. We target the areas where your customers are and can include Islamabad sectors when it makes sense." },
+      { heading: "Answer leads within minutes", content: "Leads from ads go cold quickly. We set up quick replies, saved answers for prices and timings, and alerts for your team so every enquiry gets a reply while the customer is still interested." },
+      { heading: "Start with a test budget", content: "A sensible first month for a local business is a modest ad budget paid directly to Meta or Google, plus our management fee from PKR 25,000. We keep what brings enquiries, stop what does not and only then increase spend." },
+    ],
+    faqs: [
+      { question: "Can I meet your marketing team in Rawalpindi?", answer: "Yes. Our office is on Old Airport Road, Chaklala Cantt. You can meet us there or work with us online over WhatsApp and video calls." },
+      { question: "Do you run ads for Rawalpindi and Islamabad together?", answer: "Yes. We can target both cities as one market or run separate campaigns for each, depending on where you can deliver or where your customers come from." },
+      { question: "Do you work with small shops and clinics?", answer: "Yes. Our starter package from PKR 25,000 a month is built for single-location businesses such as clinics, academies and shops." },
+    ],
+  },
+  "web-development-rawalpindi": {
+    metaTitle: "Web Development Company in Rawalpindi",
+    caseStudyIds: ["fix-it-bilal", "zahh-beverages", "orvex-booths", "nw-canvas", "devsynx-attendance-hr", "ygi-holiday-homes"],
+    keepFaqs: [0, 3],
+    servicesTitle: "Website Services for Rawalpindi Businesses",
+    services: [
+      { icon: "🌐", title: "Business Websites", text: "Fast websites with your services, prices, location map and WhatsApp button, from PKR 35,000." },
+      { icon: "🛒", title: "Online Stores", text: "Shopify and WooCommerce stores for Rawalpindi shops selling across Pakistan, with COD and courier booking.", href: "/shopify-development-agency/", linkLabel: "Shopify" },
+      { icon: "🏥", title: "Clinic & School Websites", text: "Appointment booking, doctor and course pages, admission forms and fee information." },
+      { icon: "🏘️", title: "Property & Housing Websites", text: "Project pages, plot availability, payment plans and lead forms for dealers and societies." },
+      { icon: "⚙️", title: "Web Apps & Portals", text: "Booking systems, staff portals, attendance and inventory tools with admin panels." },
+      { icon: "🔍", title: "SEO-Ready From Launch", text: "Titles, schema and Google Business Profile linking so your site can rank in Rawalpindi.", href: "/seo-services-rawalpindi/", linkLabel: "SEO Rawalpindi" },
+    ],
+    highlights: {
+      tag: "Why a Local Web Team",
+      title: "Websites Built by a Team in Chaklala Cantt",
+      cards: [
+        { icon: "🤝", title: "Meet the Developers", text: "Discuss your website face to face at our Old Airport Road office, or online if you prefer." },
+        { icon: "💰", title: "Fixed PKR Prices", text: "A written quote before we start, with no surprise charges for domain, SSL or mobile layout." },
+        { icon: "⚡", title: "Fast on Mobile Data", text: "Pages that load quickly on 4G, where most of your customers will see them." },
+        { icon: "🔑", title: "You Own Everything", text: "Domain, hosting and code are in your name, with training to update content yourself." },
+      ],
+    },
+    guideTitle: "Planning a Website for Your Rawalpindi Business",
+    guide: [
+      { heading: "Decide what the website must do", content: "For most local businesses the job is simple: show services and prices, prove you are trustworthy and make it easy to call, WhatsApp or visit. Starting from that goal keeps the website small, fast and affordable." },
+      { heading: "Show your location clearly", content: "Customers want to know if you are in Saddar, Bahria Town or near their area. An embedded map, directions, opening hours and a link to your Google Business Profile help both customers and Google." },
+      { heading: "Choose WordPress or custom code wisely", content: "WordPress suits businesses that want to edit pages often. A custom Next.js site is faster and more secure, ideal when speed and SEO matter most. We explain the trade-off in your quote." },
+      { heading: "Plan for after launch", content: "A website needs updates, backups and security fixes. Our care plan from PKR 8,000 a month covers these, or we train your staff to handle simple changes." },
+    ],
+    faqs: [
+      { question: "Where is your office in Rawalpindi?", answer: "On Old Airport Road, Chaklala Cantt, Rawalpindi. You are welcome to visit for a meeting, or we can handle everything online." },
+      { question: "Can you redesign my old website?", answer: "Yes. We rebuild slow or outdated websites, keep your existing pages and Google rankings with proper redirects, and add WhatsApp and booking features." },
+      { question: "Do you build websites for clinics and schools?", answer: "Yes. We build websites with appointment booking, admission forms, fee details and staff profiles for clinics, schools and academies." },
+    ],
+  },
+  "web-development-company-chicago": {
+    metaTitle: "Web Development Company in Chicago",
+    h1Before: "Web Development Company in",
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {

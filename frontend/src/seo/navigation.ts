@@ -85,6 +85,9 @@ export const navMenus: NavMenu[] = [
         links: [
           { label: "Islamabad (HQ)", href: "/software-house-islamabad/" },
           { label: "Rawalpindi", href: "/software-house-rawalpindi/" },
+          { label: "SEO, Rawalpindi", href: "/seo-services-rawalpindi/" },
+          { label: "Digital Marketing, Rawalpindi", href: "/digital-marketing-agency-rawalpindi/" },
+          { label: "Web Development, Rawalpindi", href: "/web-development-rawalpindi/" },
           { label: "Lahore", href: "/software-house-lahore/" },
           { label: "Karachi", href: "/software-house-karachi/" },
           { label: "Faisalabad", href: "/software-house-faisalabad/" },
@@ -123,6 +126,7 @@ export const navMenus: NavMenu[] = [
           { label: "App Development, New York", href: "/app-development-company-new-york/" },
           { label: "Chicago", href: "/software-development-company-chicago/" },
           { label: "App Development, Chicago", href: "/app-development-company-chicago/" },
+          { label: "Web Development, Chicago", href: "/web-development-company-chicago/" },
           { label: "App Development, Los Angeles", href: "/app-development-company-los-angeles/" },
           { label: "App Development, San Francisco", href: "/app-development-company-san-francisco/" },
           { label: "Dallas", href: "/app-development-company-dallas/" },

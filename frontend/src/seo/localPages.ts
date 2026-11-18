@@ -513,6 +513,7 @@ function webCityPage(city: string, key: string, areas: string[], context: string
 
 const lahoreAreas = lahore.areas;
 const karachiAreas = karachi.areas;
+const rawalpindiAreas = ["Saddar", "Chaklala Cantt", "Bahria Town", "DHA Phase 1 & 2", "Satellite Town", "Westridge", "Gulraiz", "Peshawar Road", "Murree Road", "Commercial Market", "Adiala Road", "Askari", "Raja Bazar", "Wah Cantt & Taxila"];
 
 /* ------------------------------------------------------------------ */
 /* Pakistan: national pages                                            */
@@ -1481,6 +1482,27 @@ const rawLocalPages: LocalPage[] = [
     karachiAreas,
     "From trading companies on I.I. Chundrigar Road to restaurants in DHA, Karachi businesses increasingly win customers on Google and WhatsApp before anyone visits in person. Your website needs to load fast, show up for the right searches and turn visitors into WhatsApp conversations.",
     ["web development company in karachi", "web development karachi", "website development karachi", "web design karachi", "web design in karachi"],
+  ),
+  seoCityPage(
+    "Rawalpindi",
+    "rawalpindi",
+    rawalpindiAreas,
+    "Our office is on Old Airport Road in Chaklala Cantt, so Rawalpindi is home ground for us. Rawalpindi businesses compete in two markets at once: customers in Saddar, Satellite Town, Bahria Town and DHA, and customers across the Islamabad border who search for the twin cities as one place. Ranking well here means showing up on Google Maps for nearby searches and on the first page for the services you sell.",
+    ["seo services in rawalpindi", "seo services rawalpindi", "seo company in rawalpindi", "seo expert in rawalpindi", "seo agency rawalpindi", "local seo rawalpindi"],
+  ),
+  dmCityPage(
+    "Rawalpindi",
+    "rawalpindi",
+    rawalpindiAreas,
+    "Rawalpindi has a huge base of retailers, wholesalers, clinics, schools and housing societies, many of which still rely on walk-in customers and word of mouth. The businesses growing fastest are moving to WhatsApp-led ads, Google Maps and simple landing pages, and our team works from Chaklala Cantt, a short drive from most of them.",
+    ["digital marketing agency in rawalpindi", "digital marketing agency rawalpindi", "digital marketing company rawalpindi", "social media marketing agency rawalpindi", "marketing agency rawalpindi"],
+  ),
+  webCityPage(
+    "Rawalpindi",
+    "rawalpindi",
+    rawalpindiAreas,
+    "Many Rawalpindi businesses still run on a Facebook page, an old website that does not load on mobile data, or no website at all. Customers now search on Google before they visit Saddar, Raja Bazar or a clinic in Bahria Town, so a fast, simple website with your services, prices and a WhatsApp button wins business that used to come only from walk-ins.",
+    ["web development company in rawalpindi", "web development rawalpindi", "website development rawalpindi", "web design rawalpindi", "website design company rawalpindi", "web developer rawalpindi"],
   ),
   appDevelopmentPakistan,
   ...intlPages,
