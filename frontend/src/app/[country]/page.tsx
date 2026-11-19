@@ -40,7 +40,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
         <span className="text-gradient">US Startups &amp; Enterprises</span>
       </>
     ),
-    heroSubtitle: "Senior full-stack engineering pods and AI specialists with 5+ hours daily US business hours overlap. 60% lower total cost than US onshore agencies with zero compromise on code quality.",
+    heroSubtitle: "Senior full-stack engineering pods and AI specialists with 5+ hours daily US business hours overlap. Fixed USD pricing, code in your repositories and weekly demos.",
     keywords: [
       "offshore software development company usa",
       "software outsourcing pakistan",
@@ -101,7 +101,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
         <span className="text-gradient">German Enterprises</span>
       </>
     ),
-    heroSubtitle: "Engineered for Mittelstand and high-growth European tech firms. Clean architecture, ISO standards, strict EU GDPR compliance, and 4+ hours synchronous CET working overlap.",
+    heroSubtitle: "Engineered for Mittelstand and high-growth European tech firms. Clean architecture, EU GDPR-aware delivery and 4+ hours of overlap with CET working hours.",
     keywords: [
       "software development company germany",
       "softwareentwicklung unternehmen deutschland",
@@ -121,7 +121,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
         <span className="text-gradient">Canadian Tech Teams</span>
       </>
     ),
-    heroSubtitle: "Dedicated full-stack engineering pods and AI specialists with 100% Eastern and Pacific daytime overlap. 60% lower cost than domestic Canadian agencies with guaranteed velocity.",
+    heroSubtitle: "Dedicated full-stack engineers and AI specialists with calls in your morning, daily written updates and fixed CAD pricing, at a fraction of domestic agency rates.",
     keywords: [
       "software development company canada",
       "offshore software development toronto",
@@ -264,7 +264,7 @@ const countryHighlightMap: Record<string, CountryHighlight> = {
   germany: {
     timezoneLabel: "Central European Time (CET)",
     timezoneTitle: "4 Hours Synchronous CET Overlap",
-    timezoneDesc: "Direct afternoon overlap with Berlin, Frankfurt, and Munich. Clean architecture, ISO/IEC standards, and strict adherence to EU GDPR and data protection laws.",
+    timezoneDesc: "Direct afternoon overlap with Berlin, Frankfurt, and Munich. Clean architecture and careful adherence to EU GDPR and data protection laws.",
     portfolioLabel: "German & EU Case Studies",
     portfolioTitle: "Enterprise ERP & Automation Systems",
     portfolioDesc: (
@@ -279,8 +279,8 @@ const countryHighlightMap: Record<string, CountryHighlight> = {
   },
   canada: {
     timezoneLabel: "Canadian Timezone Coverage",
-    timezoneTitle: "EST & PST Synchronous Collaboration",
-    timezoneDesc: "Full working day overlap for teams in Toronto, Montreal, Vancouver, and Calgary. Senior engineering talent delivering at 60% lower cost than domestic Canadian agencies.",
+    timezoneTitle: "Morning Calls, Overnight Progress",
+    timezoneDesc: "Morning overlap for teams in Toronto, Montreal, Vancouver, and Calgary. Calls in your morning and overnight progress, at a fraction of domestic Canadian agency rates.",
     portfolioLabel: "Canadian Case Studies",
     portfolioTitle: "Industrial Systems & AI Engines",
     portfolioDesc: (
@@ -507,6 +507,57 @@ export default async function CountryLandingPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+
+      {content.guide && content.guide.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <div className="section__header">
+              <h2 className="section__title">{content.guideTitle ?? `Working with Devsynx from ${country.name}`}</h2>
+            </div>
+            <div className="services-grid services-grid--full">
+              {content.guide.map((g) => (
+                <div key={g.heading} className="about-card">
+                  <h3 className="about-card__title">{g.heading}</h3>
+                  <p className="about-card__text">{g.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {content.faqs && content.faqs.length > 0 && (
+        <section className="section section--alt">
+          <div className="container">
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: content.faqs.map((f) => ({
+                    "@type": "Question",
+                    name: f.question,
+                    acceptedAnswer: { "@type": "Answer", text: f.answer },
+                  })),
+                }),
+              }}
+            />
+            <div className="section__header">
+              <h2 className="section__title">Questions from {country.name} clients</h2>
+            </div>
+            <div className="services-grid services-grid--full">
+              {content.faqs.map((f) => (
+                <div key={f.question} className="about-card">
+                  <h3 className="about-card__title">{f.question}</h3>
+                  <p className="about-card__text">{f.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CtaSection
         title={`Start a project in ${country.name}`}
