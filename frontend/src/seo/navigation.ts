@@ -136,6 +136,7 @@ export const navMenus: NavMenu[] = [
           { label: "Toronto", href: "/software-development-company-toronto/" },
           { label: "Calgary", href: "/app-development-company-calgary/" },
           { label: "Web Development, Calgary", href: "/web-development-company-calgary/" },
+          { label: "Web Development, Canada", href: "/web-development-company-canada/" },
           { label: "Web Design, New York", href: "/web-design-company-new-york/" },
           { label: "Web Design, Dallas", href: "/web-design-company-dallas/" },
           { label: "Web Design, Houston", href: "/web-design-company-houston/" },

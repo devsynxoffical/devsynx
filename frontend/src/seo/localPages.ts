@@ -749,7 +749,7 @@ function intlPage(c: IntlConfig): LocalPage {
       ...(c.countryHub ? [{ name: c.country, path: c.countryHub }] : []),
       { name: `${s.nav} ${c.city}`, path },
     ],
-    badge: `Serving ${c.city} · ${c.country}`,
+    badge: c.city === c.country ? `Serving all of ${c.country}` : `Serving ${c.city} · ${c.country}`,
     h1Before: s.h1,
     h1Highlight: c.city,
     quickAnswer: `DEVSYNX is a ${s.name.toLowerCase()} company serving ${c.city}. ${c.quickAnswerExtra} Every project has a fixed ${c.currency} price or a flat monthly rate, milestone payments and full source code ownership.`,

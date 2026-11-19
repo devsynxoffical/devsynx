@@ -1680,6 +1680,10 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       { question: "Do you work with businesses outside London?", answer: "Yes. We build websites for businesses across the UK, including Manchester, Birmingham, Leeds and Bristol, with calls during UK working hours and pricing in GBP." },
     ],
   },
+  "web-development-company-canada": {
+    metaTitle: "Web Development Company in Canada",
+    h1Before: "Web Development Company in",
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
@@ -1835,6 +1839,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- SEO pages ---------------- */
   "seo-services-lahore": {
+    guideTitle: "SEO in Lahore: A Practical Plan for a Competitive City",
+    guide: [
+      { heading: "Pick the searches you can win first", content: "Lahore has the most competitive SEO market in Pakistan. Instead of chasing only the biggest keywords, we start with specific searches where you can reach page one in months, such as a service plus an area like Gulberg, DHA or Johar Town, then build toward broader terms." },
+      { heading: "Fashion and retail stores need product SEO", content: "Lahore's clothing, lawn and bridal brands compete for seasonal searches. Collection pages for each season and category, product details, size guides and fast mobile pages help a store rank before the season peaks, not after." },
+      { heading: "Education, health and real estate", content: "Schools, academies, clinics and housing projects are among the most searched local services in Lahore. Clear pages for each programme, treatment or project, with fees, timings and location, answer what people search and turn visits into enquiries." },
+      { heading: "Links from Lahore and Pakistani websites", content: "Mentions on Pakistani news sites, directories, university and association pages and partner businesses carry weight for Lahore searches. We build these through outreach and genuine partnerships, never paid link networks." },
+      { heading: "Speed on mobile data", content: "Most Lahore customers search on phones over mobile data. Slow sites lose both rankings and customers, so our developers fix page speed directly as part of the SEO work." },
+    ],
     metaTitle: "SEO Expert & SEO Services in Lahore",
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in lahore", "seo expert lahore", "best seo expert in lahore", "seo specialist lahore"],
@@ -1898,6 +1910,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "seo-services-karachi": {
+    guideTitle: "SEO in Karachi: How Businesses Win Page One",
+    guide: [
+      { heading: "Rank neighbourhood by neighbourhood", content: "Karachi is too big for one ranking. Someone searching in Clifton sees different map results from someone in Gulshan-e-Iqbal or North Nazimabad. We check where you appear across the areas you serve and add area pages or sections where you have real customers, so you are not invisible outside your own block." },
+      { heading: "Category pages for Karachi's online stores", content: "Many of Pakistan's biggest online brands sell from Karachi. Collection and product pages with unique descriptions, size and fabric details, reviews and product schema rank for buyer searches across Pakistan, not just your brand name." },
+      { heading: "B2B and industrial searches", content: "Exporters, distributors and manufacturers in SITE, Korangi and Port Qasim get enquiries from buyers searching for products and certifications. Product, capability and certification pages written for those searches bring serious leads from Pakistan and abroad." },
+      { heading: "Reviews and Google Maps", content: "For clinics, restaurants, showrooms and service businesses, map results bring most of the calls. A complete Google Business Profile, regular photos and posts, and a steady flow of reviews from happy customers are often the quickest win." },
+      { heading: "Measure enquiries, not only rankings", content: "We track calls, WhatsApp clicks, forms and orders from Google, so you can see which pages bring Karachi customers and where to invest next." },
+    ],
     metaTitle: "SEO Expert & SEO Services in Karachi",
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in karachi", "seo expert karachi", "seo specialist karachi"],
