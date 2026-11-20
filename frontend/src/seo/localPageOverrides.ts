@@ -1519,6 +1519,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "hire-dedicated-developers": {
+    guideTitle: "Hiring Dedicated Developers From Pakistan: How It Works",
+    guide: [
+      { heading: "Dedicated developers vs project outsourcing", content: "With project outsourcing you buy a finished result at a fixed price. With a dedicated developer you get an engineer's full working time on your roadmap and decide the priorities each week. Dedicated developers suit ongoing products; fixed projects suit clearly scoped builds." },
+      { heading: "How hiring works", content: "You share the role and skills you need, we send profiles within a few days, you interview the candidates, and the chosen developer can usually start within five business days. They join your Slack, stand-ups, task board and repositories like any team member." },
+      { heading: "Time zones and availability", content: "Pakistan is 4 to 5 hours ahead of the UK, 1 hour ahead of the UAE and 9 to 13 hours ahead of North America. Developers keep several hours of overlap with your working day for calls and reviews and post written updates daily." },
+      { heading: "Contract model", content: "Engagements are monthly with a one-month minimum for individual developers, invoiced in USD, GBP or AED. The contract assigns all code and intellectual property to your company, includes an NDA, and lets you replace a developer at no cost or end with one month's notice." },
+      { heading: "Cost compared with local hiring", content: "There are no recruitment fees, benefits, equipment or office costs, and the monthly rate is typically a fraction of a comparable local salary in the US, UK or Gulf. Rates depend on seniority and skills and are confirmed in writing before the developer starts." },
+    ],
     metaTitle: "Hire App Developers & Dedicated Developers",
     h1Before: "Hire App Developers and",
     extraKeywords: ["hire app developers", "hire mobile app developers", "hire app developer", "hire ios developers", "hire android developers"],
