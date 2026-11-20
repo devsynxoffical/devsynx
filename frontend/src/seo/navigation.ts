@@ -24,6 +24,9 @@ export const navMenus: NavMenu[] = [
         title: "Build",
         links: [
           { label: "Custom Software Development", href: "/custom-software-development-company/", desc: "SaaS, portals, CRM & ERP" },
+          { label: "Offshore Software Development", href: "/offshore-software-development/", desc: "Outsource to our team" },
+          { label: "Custom CRM Development", href: "/custom-crm-development/" },
+          { label: "ERP Development", href: "/erp-development-company/" },
           { label: "Web Development", href: "/services/custom-web-development/", desc: "Next.js, WordPress, Shopify" },
           { label: "Mobile App Development", href: "/services/mobile-app-development/", desc: "iOS & Android, Flutter" },
           { label: "Flutter App Development", href: "/flutter-app-development-company/" },
@@ -39,6 +42,7 @@ export const navMenus: NavMenu[] = [
           { label: "AI Development Company", href: "/ai-development-company/", desc: "Custom AI apps, RAG, LLMs" },
           { label: "AI Automation Agency", href: "/ai-automation-agency/", desc: "Agents, chatbots, workflows" },
           { label: "AI Voice Agents", href: "/services/voice-ai-bots/", desc: "Answer & book calls 24/7" },
+          { label: "AI Chatbot Development", href: "/ai-chatbot-development-company/", desc: "Website & WhatsApp bots" },
           { label: "Process Automation", href: "/services/process-automation/" },
           { label: "Predictive Analytics", href: "/services/predictive-analytics/" },
           { label: "API Development & Integration", href: "/services/api-development-integration/" },

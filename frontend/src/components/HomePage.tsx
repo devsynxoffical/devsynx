@@ -37,9 +37,9 @@ export default function HomePage() {
 
                 <h1 className="hero__title stagger-item">
                   Custom Software <br />
-                  &amp; AI Solutions <br />
-                  <span style={{ color: '#FDBD02' }}>That Drive</span> <br />
-                  <span style={{ color: '#FDBD02' }}>Business Growth</span>
+                  Development Company <br />
+                  <span style={{ color: '#FDBD02' }}>for Web, Mobile</span> <br />
+                  <span style={{ color: '#FDBD02' }}>&amp; AI Solutions</span>
                 </h1>
 
                 <p className="hero__subtitle stagger-item">
