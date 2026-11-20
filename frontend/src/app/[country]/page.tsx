@@ -73,7 +73,7 @@ const countryMetaMap: Record<string, CountryMetaConfig> = {
     ],
   },
   uae: {
-    title: "Software Development Company UAE: Dubai & Abu Dhabi",
+    title: "Software Development Company UAE & Dubai",
     description: "High-performance web development, mobile apps, and autonomous AI automation for Dubai and UAE enterprises. 100% real-time GST timezone alignment.",
     heroTitle: (
       <>

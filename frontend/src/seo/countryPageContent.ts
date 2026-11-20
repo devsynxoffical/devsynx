@@ -71,6 +71,24 @@ const contentBySlug: Record<string, CountryContent> = {
     delivery:
       "We align milestones to GST-friendly reporting, provide Arabic-ready UI foundations when needed, and ship mobile-first experiences for high mobile usage.",
     industries: ["Real Estate", "Logistics", "Hospitality", "Retail", "Government Tech"],
+    guideTitle: "Working With DEVSYNX From the UAE",
+    guide: [
+      { heading: "One hour apart", content: "Pakistan is one hour ahead of the UAE, so our working day lines up almost completely with yours. Calls, WhatsApp questions and reviews happen in real time, the same day, without anyone working late." },
+      { heading: "Arabic and English from the start", content: "UAE customers expect both languages. We build right-to-left Arabic layouts, proper Arabic fonts and separate Arabic and English pages with their own titles and descriptions, so each language can rank in Google and read naturally." },
+      { heading: "Payments, WhatsApp and local tools", content: "Gulf customers pay with cards, Apple Pay and buy-now-pay-later services such as Tabby and Tamara, and they prefer WhatsApp to email. We integrate UAE payment gateways, WhatsApp Business and CRMs such as Zoho and HubSpot that many UAE companies already use." },
+      { heading: "VAT and corporate tax ready", content: "Invoices, receipts and reports often need to show VAT correctly, and many businesses now track corporate tax too. We build systems that store tax details properly and export the reports your accountant needs. Our own UAE work includes the website for an FTA-approved accounting firm." },
+      { heading: "What we build for UAE clients", content: "Websites and Shopify stores, mobile apps, real-estate and holiday-home booking platforms, education marketplaces, AI voice and WhatsApp agents and internal tools. See our Dubai, Abu Dhabi and Sharjah pages for local details and case studies." },
+      { heading: "How a project runs", content: "After a call we send a written scope and fixed price in AED or USD. Work runs in short sprints with a demo at the end of each, test links you can open on your phone, and a handover with documentation at launch." },
+      { heading: "Data and hosting", content: "When your sector or clients require it, we deploy to cloud regions in the UAE or the wider Middle East, and set up access controls, backups and logs your team can review." },
+      { heading: "Support after launch", content: "After launch we offer monthly support in AED or USD for monitoring, security updates, bug fixes and new features, or a documented handover if your own team will take over. Support requests come in on WhatsApp and are answered during your working day." },
+    ],
+    faqs: [
+      { question: "Do you have an office in the UAE?", answer: "Our team is based in Rawalpindi, Pakistan, and works with UAE clients remotely. With only a one-hour time difference, communication is the same as working with a local team, and we can schedule visits for larger projects." },
+      { question: "Can you build an Arabic and English website or app?", answer: "Yes. We build bilingual products with right-to-left Arabic layouts and separate language versions that can each rank on Google." },
+      { question: "How do you price projects for UAE companies?", answer: "Projects are quoted as fixed prices in AED or USD with milestone payments, or as a monthly rate for dedicated developers. Because our team is offshore, prices are usually well below Dubai agency rates." },
+      { question: "Which UAE cities do you work with?", answer: "Dubai, Abu Dhabi, Sharjah, Ajman and the Northern Emirates, as well as clients across Saudi Arabia, Qatar, Kuwait and Oman." },
+      { question: "Can you add an AI voice or WhatsApp agent for our UAE business?", answer: "Yes. We build AI agents that answer calls and WhatsApp messages in English and Arabic, book appointments and update your CRM, with handover to your staff when needed." },
+    ],
   },
   dubai: {
     intro:
@@ -89,6 +107,26 @@ const contentBySlug: Record<string, CountryContent> = {
     delivery:
       "We run structured bi-weekly sprints, comprehensive automated test suites (CI/CD), clear technical documentation, and production deployments on AWS Europe or GCP Frankfurt.",
     industries: ["Fintech & Banking", "Automotive & Logistics", "Industrial B2B", "Healthcare & MedTech", "Enterprise SaaS"],
+    guideTitle: "Working With DEVSYNX From Germany",
+    guide: [
+      { heading: "Time difference with Germany", content: "Pakistan is three to four hours ahead of Germany depending on daylight saving. Our afternoon overlaps with your morning, so stand-ups, reviews and calls happen in German business hours, and work continues while you are offline." },
+      { heading: "GDPR and data processing", content: "For systems that handle personal data we sign a data processing agreement, keep personal data to what the system needs and host in EU regions such as Frankfurt when required. We document data flows, retention and access so your data protection officer can review them." },
+      { heading: "Documentation and quality", content: "German clients rightly expect clear specifications, tested code and documentation. We write requirements and acceptance criteria before development, use code review and automated tests, and hand over technical documentation with every release." },
+      { heading: "ERP, Odoo and integrations", content: "Many German Mittelstand companies run on ERP systems and need web portals, dashboards or automation around them. Our work includes a website and lead platform for an Odoo ERP consultancy serving the DACH region, and we integrate with ERPs, CRMs and accounting tools through their APIs." },
+      { heading: "Language", content: "We work in English. Customer-facing websites and apps can be built in German and English with separate pages and metadata; you provide the German texts or we arrange professional translation." },
+      { heading: "Pricing in EUR", content: "Projects are quoted as fixed EUR prices with milestone payments, or as monthly rates for dedicated developers, with all code and intellectual property owned by your company." },
+      { heading: "What we build for German clients", content: "Web platforms, customer and partner portals, mobile apps, ERP add-ons and AI automation for document processing, customer service and internal workflows." },
+      { heading: "Choosing an offshore partner", content: "Compare partners on the same written specification rather than on day rates. Ask for live examples, the people who will work on your project, how often you will see working software, and how code ownership and handover are handled. A reliable partner answers these in writing before you sign." },
+      { heading: "Support after launch", content: "We offer monthly support in EUR for monitoring, security updates, bug fixes and new features, or a documented handover to your in-house team." },
+      { heading: "Security", content: "We follow secure development practices: role-based access, encrypted connections, secrets kept out of code, dependency updates and logs for important actions. For sensitive projects we can work inside your own cloud account and repositories so you keep full control." },
+    ],
+    faqs: [
+      { question: "Is your work GDPR compliant?", answer: "We design systems to support GDPR compliance: data processing agreements, EU hosting where needed, data minimisation, access control and documented retention. Final compliance also depends on your own processes, which we help you document." },
+      { question: "Can you build German-language websites?", answer: "Yes. We build German and English versions with separate pages, language tags and translated metadata." },
+      { question: "How do we start?", answer: "Send a short description by email, WhatsApp or the contact form. We arrange a call in your morning and send a written proposal with a fixed EUR price within 48 hours." },
+      { question: "Do you sign NDAs and contracts with German companies?", answer: "Yes. We sign NDAs and services agreements that assign all intellectual property to your company, with EUR milestone payments." },
+      { question: "Can you work alongside our in-house developers?", answer: "Yes. We join existing teams, follow your coding standards and review process, and work in your repositories and project tools." },
+    ],
   },
   canada: {
     intro:
@@ -125,6 +163,26 @@ const contentBySlug: Record<string, CountryContent> = {
     delivery:
       "Our Australian clients enjoy dedicated Slack communication, weekly video reviews, fixed-price discovery sprints, and cloud architectures optimized for Australian users.",
     industries: ["Mining & Logistics", "Fintech & Wealth", "Real Estate & PropTech", "E-Commerce", "Health & Wellness"],
+    guideTitle: "Working With DEVSYNX From Australia",
+    guide: [
+      { heading: "Using the time difference", content: "Australia's east coast is five to six hours ahead of Pakistan. We meet during your afternoon, then our team works through your evening and night, so changes discussed in a call are often ready to review the next morning." },
+      { heading: "Privacy and data hosting", content: "Systems that handle personal information should follow the Australian Privacy Principles. We minimise personal data, document how it is used and can host in Australian cloud regions such as Sydney when your clients or sector expect it." },
+      { heading: "GST, payments and local services", content: "Online stores and booking systems need GST on invoices, Australian payment options such as cards, Apple Pay and buy-now-pay-later services, and shipping or delivery integrations. We set these up for your business and state." },
+      { heading: "Accessibility", content: "Australian organisations increasingly expect websites to meet WCAG accessibility guidelines. We build with accessible colours, keyboard navigation and screen-reader labels from the start." },
+      { heading: "Pricing in AUD", content: "Projects are quoted as fixed AUD prices with milestone payments, or as monthly rates for dedicated developers, and all code and intellectual property belong to your company." },
+      { heading: "How a project runs", content: "After a call we send a written scope and fixed price. Work runs in short sprints with demos, test links and daily written updates, and launch includes deployment, monitoring and a handover document." },
+      { heading: "What we build for Australian clients", content: "Websites and online stores, mobile apps, booking and field-service systems, customer portals and AI voice and chat agents. See our Sydney and Melbourne pages for local examples." },
+      { heading: "Choosing an offshore partner", content: "Compare proposals on the same written scope, ask to see live products, find out who will actually work on your project and how often you will see working software, and confirm that you will own the code and all accounts from day one." },
+      { heading: "Support after launch", content: "After launch we offer monthly support in AUD covering monitoring, security updates, bug fixes and new features, or a documented handover to your own developers." },
+      { heading: "Security", content: "We use role-based access, encrypted connections, regular dependency updates and secrets kept out of code. For sensitive projects we work inside your own cloud account and repositories, so you keep control of the system and its data." },
+    ],
+    faqs: [
+      { question: "How much overlap is there with Sydney and Melbourne hours?", answer: "Our working day overlaps with your afternoon, which we use for calls and reviews. Work continues overnight, so you usually see progress first thing in the morning." },
+      { question: "Can you host our data in Australia?", answer: "Yes. We can deploy to Australian cloud regions such as AWS or Azure Sydney when your clients or industry require local hosting." },
+      { question: "How do you price projects for Australian companies?", answer: "We quote a fixed AUD price after a free call, or a monthly rate for dedicated developers. Because our team is offshore, the cost is usually well below Australian agency rates." },
+      { question: "Which Australian cities do you work with?", answer: "Sydney, Melbourne, Brisbane, Perth, Adelaide and regional businesses across Australia, all remotely." },
+      { question: "Can you work alongside our in-house team?", answer: "Yes. We regularly join existing teams, follow your coding standards and review process, and work in your repositories and project tools." },
+    ],
   },
 };
 
