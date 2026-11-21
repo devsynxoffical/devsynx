@@ -125,6 +125,32 @@ export const Footer: React.FC = () => {
 
         </div>
 
+        {/* Google Preferred Sources */}
+        <div style={{ display: "flex", justifyContent: "center", padding: "8px 0 20px" }}>
+          <a
+            href="https://www.google.com/preferences/source?q=devsynx.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Add DEVSYNX as a preferred source on Google"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "10px",
+              padding: "10px 18px",
+              borderRadius: "999px",
+              border: "1px solid rgba(148, 163, 184, 0.35)",
+              background: "rgba(255, 255, 255, 0.04)",
+              color: "inherit",
+              fontSize: "0.9rem",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>★</span>
+            Add DEVSYNX as a preferred source on Google
+          </a>
+        </div>
+
         {/* Bottom Bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
