@@ -137,17 +137,17 @@ export const Footer: React.FC = () => {
               alignItems: "center",
               gap: "10px",
               padding: "10px 18px",
-              borderRadius: "999px",
-              border: "1px solid rgba(148, 163, 184, 0.35)",
-              background: "rgba(255, 255, 255, 0.04)",
-              color: "inherit",
+              borderRadius: "8px",
+              border: "none",
+              background: "#1a73e8",
+              color: "#ffffff",
               fontSize: "0.9rem",
               fontWeight: 600,
               textDecoration: "none",
             }}
           >
-            <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>★</span>
-            Add DEVSYNX as a preferred source on Google
+            <span aria-hidden="true" style={{ fontWeight: 800, fontSize: "1.05rem" }}>G</span>
+            Make DEVSYNX a preferred source on Google
           </a>
         </div>
 
