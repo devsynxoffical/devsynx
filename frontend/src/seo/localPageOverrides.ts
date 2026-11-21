@@ -1692,6 +1692,26 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "Web Development Company in Canada",
     h1Before: "Web Development Company in",
   },
+  "mvp-development-company": {
+    keepFaqs: [0, 2, 3],
+    guideTitle: "MVP Development: Cost, Timeline and What to Build First",
+    guide: [
+      { heading: "What an MVP should include", content: "A minimum viable product is the smallest version that lets real users complete the one job your product promises, so you can learn whether they want it and will pay. It needs that core workflow, sign-up, basic admin and analytics, and nothing else. Every extra feature delays the moment you learn something." },
+      { heading: "What an MVP costs with DEVSYNX", content: "A web MVP usually falls in our web application range of about $535 to $1,800 (PKR 150,000 to 500,000). A mobile app MVP for iOS and Android typically costs about $700 to $1,250, rising toward $2,500 for apps with several user types. The one-week scoping sprint produces a fixed price before any build starts." },
+      { heading: "Timeline", content: "A focused MVP launches in about 30 days; MVPs with several user roles or integrations take 6 to 8 weeks. The biggest factor is how quickly decisions are made, which is why we agree the feature list and screens in writing during scoping." },
+      { heading: "Web app, mobile app or both", content: "If your users work at a desk or you sell to businesses, start with a web app. If the product depends on a phone, such as location, camera or notifications, start with a Flutter app for iOS and Android. Many products launch on one platform and add the other once the idea is proven." },
+      { heading: "After the MVP", content: "Once real users arrive, we measure what they do, fix friction and plan the next releases. You can continue with us on a monthly team, or take the documented code to your own developers." },
+    ],
+    faqs: [
+      { question: "How much does MVP development cost?", answer: "A web MVP usually costs about $535 to $1,800 (PKR 150,000 to 500,000) and a mobile app MVP about $700 to $1,250, rising toward $2,500 for apps with several user types. You get a fixed price after the one-week scoping sprint, and the scoping fee is credited to the build." },
+      { question: "What is the difference between an MVP and a prototype?", answer: "A prototype is a clickable design used to test ideas and raise interest; it has no real backend. An MVP is working software that real users can sign up to and use, so you can learn from actual behaviour and payments." },
+    ],
+  },
+  "ai-seo-agency": {
+    faqs: [
+      { question: "How much does AI SEO cost?", answer: "In Pakistan, AI SEO runs alongside our SEO packages from PKR 25,000, 45,000 or 75,000 a month depending on scope. International campaigns are quoted in USD, GBP or AED after a free AI visibility check, starting with a fixed-fee audit." },
+    ],
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
