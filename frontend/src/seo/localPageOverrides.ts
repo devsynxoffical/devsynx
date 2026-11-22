@@ -1135,6 +1135,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "software-development-company-riyadh": {
+    guideTitle: "Building Software for Saudi Arabia: What to Plan For",
+    guide: [
+      { heading: "Arabic first, not translated later", content: "Saudi users expect Arabic interfaces that read naturally from right to left, with Arabic fonts, numbers and dates handled correctly. We design Arabic and English versions together from the first screen, rather than translating an English product at the end, which avoids broken layouts and awkward text." },
+      { heading: "ZATCA e-invoicing", content: "Businesses in Saudi Arabia must issue electronic invoices that meet ZATCA (FATOORA) requirements, and many must integrate their systems with ZATCA's platform. When we build sales, billing or ERP features for Saudi clients, invoice formats, QR codes and integration are planned from the start." },
+      { heading: "Data protection and hosting", content: "Saudi Arabia's Personal Data Protection Law sets rules for collecting, using and transferring personal data. We keep personal data to what the system needs, document how it is processed and can host in Saudi or regional cloud regions when your sector or clients require it." },
+      { heading: "Local payments", content: "Saudi customers pay with mada cards, Apple Pay, STC Pay and buy-now-pay-later services such as Tabby and Tamara. We integrate the payment gateways that support these methods, so checkout feels familiar to local customers." },
+      { heading: "Internal tools and Next.js web platforms", content: "Many Riyadh companies need internal tools that replace spreadsheets and manual approvals: dashboards, request and approval workflows, inventory and field reporting. We build these as fast Next.js web applications with role-based access, so they work on any device without app store installs, and connect them to the systems you already use." },
+    ],
     caseStudyIds: ["zeparty", "purrchase-ai", "superhuman-mail", "mizn-abayas", "ai-calling-agent", "whatsapp-business-api"],
     highlights: { tag: "Saudi Software", title: "What Saudi Businesses Ask Us to Build", cards: [
             {
@@ -1715,6 +1723,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
+    guideTitle: "Building Software for Dubai and the UAE: What to Plan For",
+    guide: [
+      { heading: "Bilingual products that rank", content: "UAE customers switch between Arabic and English. We build both languages with separate pages, right-to-left layouts and translated titles and descriptions, so each version reads naturally and can rank in Google on its own." },
+      { heading: "UAE data protection", content: "The UAE's federal Personal Data Protection Law applies to most businesses, and free zones such as DIFC and ADGM have their own data protection rules. We minimise personal data, document how it is processed and can host in UAE cloud regions when needed." },
+      { heading: "Payments and VAT", content: "Customers expect cards, Apple Pay and buy-now-pay-later options such as Tabby and Tamara. Invoices and receipts need VAT shown correctly, and many companies now track corporate tax. We build checkout, invoicing and reports with these requirements in mind." },
+      { heading: "WhatsApp and CRM integration", content: "Most UAE customers prefer WhatsApp to email. We connect websites, apps and internal systems to WhatsApp Business and CRMs such as Zoho, HubSpot and Salesforce, so enquiries, bookings and order updates reach the right person automatically." },
+      { heading: "Time zone and working style", content: "Pakistan is one hour ahead of the UAE, so our working day lines up with yours. Calls, reviews and WhatsApp questions are answered the same day, and we can schedule in-person visits for larger projects." },
+    ],
     metaTitle: "IT & Software Development Company in Dubai",
     metaDescription: "IT and software development company for Dubai and UAE businesses: custom software, web and mobile apps, ERP/CRM and AI automation. Fixed AED or USD pricing.",
     h1Before: "IT & Software Development Company in",
