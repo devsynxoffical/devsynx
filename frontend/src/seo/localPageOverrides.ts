@@ -92,6 +92,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-karachi": {
+    guideTitle: "Choosing a Software House in Karachi: What Matters",
+    guide: [
+      { heading: "Software for trading, import and export", content: "Karachi is Pakistan's port city, and many of its businesses buy, ship and sell goods. Inventory with batch and container tracking, purchase and sales orders, landed-cost calculations and dealer portals save hours of spreadsheet work. Ask any software house to show how it would handle your stock and order flow before you sign." },
+      { heading: "Online stores that handle Karachi's delivery reality", content: "Karachi is home to many of Pakistan's largest online brands. A store needs cash on delivery with order confirmation, courier booking with TCS, Leopards, PostEx or Trax, return handling and fast mobile pages, because most customers shop on their phones over mobile data." },
+      { heading: "FBR-integrated POS and invoicing", content: "Retailers covered by FBR's point-of-sale integration must report sales in real time. If you need a POS, ERP or billing system, confirm that the software house has planned for FBR integration and tax-ready invoices rather than adding it later." },
+      { heading: "Meeting your team", content: "Our office is in Rawalpindi, so Karachi clients work with us online through video calls, WhatsApp and a shared project board, with a live preview link every week. Large projects can include on-site visits for workshops and training." },
+      { heading: "What to ask before hiring", content: "Ask for live projects you can open, the names of the developers who will work on yours, a written fixed price with milestones, and confirmation that the code, domain and hosting will be in your name." },
+    ],
     metaTitle: "Software House in Karachi from PKR 35,000",
     metaDescription: "Software house serving Karachi: websites from PKR 35,000, apps, ERP and AI automation. Fixed PKR price, full code ownership. Free quote in 48 hours.",
     caseStudyIds: ["installmentguard", "rbo-accounting", "employee-security-crm", "top-performance", "whatsapp-business-api", "nw-canvas"],
@@ -158,6 +166,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-faisalabad": {
+    guideTitle: "Software for Faisalabad Businesses: A Practical Guide",
+    guide: [
+      { heading: "Built for the textile industry", content: "Faisalabad is Pakistan's textile centre, from spinning and weaving units to garment exporters. The software that helps most is practical: yarn and fabric inventory, production and loom tracking, order costing, dispatch and export documentation. We start by mapping one department's workflow and replacing the spreadsheet that causes the most mistakes." },
+      { heading: "B2B websites that win export enquiries", content: "International buyers search for fabric types, certifications and capacity before they contact a mill. Product catalogues with specifications, certifications and a request-for-quote form, available in English and fast on any device, turn those searches into enquiries." },
+      { heading: "ERP for mills and traders", content: "Many Faisalabad companies run accounts, stock and payroll in separate systems. An ERP that connects purchasing, production, inventory, sales and HR, with FBR-ready invoicing, gives owners one set of numbers. We usually implement it department by department to avoid disrupting production." },
+      { heading: "Payroll and attendance for large workforces", content: "Factories with shifts and hundreds of workers need biometric attendance, overtime rules and payroll that match their policies. Our own HR and attendance system shows how we approach this." },
+      { heading: "Working with us from Faisalabad", content: "Our office is in Rawalpindi. Faisalabad clients work with us through video calls, WhatsApp and weekly preview links, and larger projects can include visits for workshops and staff training." },
+    ],
     caseStudyIds: ["odoo-service", "mdt-control", "devsynx-attendance-hr", "ra-enterprise-contractor", "entiix", "signature-design-by-ashley"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -412,6 +428,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-bahawalpur": {
+    guideTitle: "Software and Websites for Bahawalpur Businesses",
+    guide: [
+      { heading: "Agriculture and agri-trade", content: "Bahawalpur's economy is closely tied to agriculture, from cotton and wheat to livestock and agri-trading. Simple tools for purchase records, stock, payments to growers and dealer orders replace notebooks and spreadsheets, and work on a phone in the field." },
+      { heading: "Education and training", content: "With a large university and many colleges, schools and academies, Bahawalpur needs admission forms, fee management, results portals and online classes. A good school system lets parents pay fees and see results on their phone without visiting the office." },
+      { heading: "Local shops that sell online", content: "Shops and brands in Bahawalpur can now sell across Pakistan. A simple online store with cash on delivery, courier booking and WhatsApp ordering reaches customers far beyond the city at low cost." },
+      { heading: "Being found on Google", content: "When people in Bahawalpur, Ahmadpur East or Hasilpur search for a service, Google Maps results appear first. A complete Google Business Profile, a fast website and reviews from real customers are often the quickest way to get more calls." },
+      { heading: "Working with us from Bahawalpur", content: "Our office is in Rawalpindi, and Bahawalpur clients work with us online through WhatsApp, video calls and weekly preview links, with fixed PKR prices agreed in writing before work starts." },
+    ],
     caseStudyIds: ["luxora-women", "saviored", "fix-it-bilal", "scale-with-ads", "google-review-removal", "whatsapp-business-api"],
     keepFaqs: [0, 1, 3],
     pricing: [
