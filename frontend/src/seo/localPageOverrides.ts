@@ -238,6 +238,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-multan": {
+    guideTitle: "Software and Websites for Multan Businesses",
+    guide: [
+      { heading: "Agriculture, mangoes and cotton", content: "Multan's economy runs on farming and agri-trade, from mango orchards and cotton to grain and fertiliser dealers. Simple systems for purchase records, grower payments, stock and dealer orders replace registers and spreadsheets, and work on a phone in the field or the mandi." },
+      { heading: "Wholesale and retail trade", content: "Multan's wholesale markets serve all of South Punjab. Inventory with credit tracking, dealer ledgers, purchase and sales invoices and FBR-ready billing help traders know exactly what they have and what they are owed." },
+      { heading: "Schools, colleges and academies", content: "With a large university and many colleges and academies, Multan needs admission forms, fee collection, results portals and online classes that parents and students can use on their phones." },
+      { heading: "Selling beyond Multan", content: "Mango exporters, handicraft makers and local brands can now sell across Pakistan and abroad. An online store with cash on delivery, courier booking and WhatsApp ordering, or an export-ready product catalogue, reaches buyers far beyond the city." },
+      { heading: "Working with us from Multan", content: "Our office is in Rawalpindi. Multan clients work with us through WhatsApp, video calls and weekly preview links, with a fixed PKR price agreed in writing before work starts." },
+    ],
     metaTitle: "Software House in Multan from PKR 35,000",
     metaDescription: "Software house serving Multan: websites from PKR 35,000, apps, ERP and AI automation. Fixed PKR price, full code ownership. Free quote in 48 hours.",
     caseStudyIds: ["egg-produce", "saviored", "quickdoctor-ie", "google-workspace-security", "zahh-beverages", "ag-plumbing-murah"],
@@ -302,6 +310,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-peshawar": {
+    guideTitle: "Software and Websites for Peshawar Businesses",
+    guide: [
+      { heading: "Trade and wholesale", content: "Peshawar is a major trading city with links to the rest of Khyber Pakhtunkhwa and across the border. Inventory, dealer ledgers, multi-branch stock and FBR-ready invoicing help wholesalers and traders keep accurate records across shops and warehouses." },
+      { heading: "Urdu, English and Pashto audiences", content: "Many Peshawar customers prefer Urdu or Pashto. Websites and apps with Urdu interfaces, clear icons and WhatsApp contact options reach far more people than English-only sites." },
+      { heading: "Healthcare, education and services", content: "Hospitals, clinics, schools and training institutes in Hayatabad, University Town and across the city need appointment booking, admissions, fee collection and patient or student portals that work on mobile phones." },
+      { heading: "Online stores and local brands", content: "Peshawar brands in clothing, dry fruits, handicrafts and food can sell nationwide with an online store, cash on delivery, courier booking and WhatsApp ordering." },
+      { heading: "Working with us from Peshawar", content: "Our office is in Rawalpindi, about two hours away by motorway. Peshawar clients work with us online through WhatsApp, video calls and weekly preview links, and larger projects can include on-site visits." },
+    ],
     caseStudyIds: ["zeparty", "purrchase-ai", "rankmora", "ai-video-production", "installmentguard", "quickdoctor-ie"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -564,6 +580,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-sargodha": {
+    guideTitle: "Software and Websites for Sargodha Businesses",
+    guide: [
+      { heading: "Kinnow and citrus trade", content: "Sargodha is Pakistan's citrus centre, and kinnow growers, processors and exporters handle large seasonal volumes in a short window. Tools for grower purchases, grading, packing house stock, dispatch and export documents help keep the season organised." },
+      { heading: "Agriculture and dealers", content: "Seed, fertiliser, pesticide and machinery dealers across the district manage stock and customer credit. A simple inventory and ledger system with SMS or WhatsApp payment reminders reduces errors and late payments." },
+      { heading: "Education", content: "Sargodha's university, colleges and private academies need admission, fee and results systems, plus websites that rank when parents and students search." },
+      { heading: "Local businesses on Google", content: "Clinics, shops and service businesses in Sargodha, Bhalwal and Kot Momin win more calls with a complete Google Business Profile, a fast website and regular reviews from real customers." },
+      { heading: "Working with us from Sargodha", content: "Our office is in Rawalpindi. Sargodha clients work with us online through WhatsApp, video calls and weekly preview links, with fixed PKR prices agreed before work starts." },
+    ],
     caseStudyIds: ["egg-produce", "subdiv", "zingo-assist", "motion-graphic-explainers", "top-performance", "devsynx-platform"],
     keepFaqs: [0, 1, 3],
     pricing: [
