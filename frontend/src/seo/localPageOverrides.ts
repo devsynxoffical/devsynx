@@ -382,6 +382,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
 
   "software-house-gujranwala": {
+    guideTitle: "Software and Websites for Gujranwala Businesses",
+    guide: [
+      { heading: "Software for manufacturers", content: "Gujranwala is one of Pakistan's busiest manufacturing cities, known for fans, electric motors, sanitary fittings, cutlery and metal products. Inventory of raw materials and finished goods, production tracking, dealer orders and costing help factories know their real margins and avoid stock shortages." },
+      { heading: "Dealer and distributor networks", content: "Many Gujranwala manufacturers sell through dealers across Pakistan. A dealer portal or mobile app for orders, price lists, credit limits and delivery status saves hours of phone calls and reduces order mistakes." },
+      { heading: "Export-ready catalogues", content: "Buyers in the Gulf, Africa and Europe search online for products and specifications. An English product catalogue with photos, specifications and a request-for-quote form helps Gujranwala exporters receive enquiries directly." },
+      { heading: "Payroll and attendance", content: "Factories with shifts and piece-rate workers need attendance, overtime and payroll that follow their own rules. Our HR and attendance system shows how we approach this." },
+      { heading: "Working with us from Gujranwala", content: "Our office is in Rawalpindi. Gujranwala clients work with us online through WhatsApp, video calls and weekly preview links, and larger projects can include on-site visits for workshops and training." },
+    ],
     caseStudyIds: ["rizki-akbar-enterprise", "whatsapp-business-api", "installmentguard", "smart-links-cabling", "zahh-beverages", "odoo-service"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -651,6 +659,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "software-house-gujrat": {
+    guideTitle: "Software and Websites for Gujrat Businesses",
+    guide: [
+      { heading: "Furniture, ceramics and fans", content: "Gujrat is known for furniture, ceramics, pottery and electric fans. Online catalogues with clear photos, sizes and prices, plus WhatsApp ordering, help these makers reach customers across Pakistan and overseas buyers." },
+      { heading: "Families abroad and remittances", content: "Many Gujrat families have relatives in Europe and the Gulf. Websites for property, schools and services often serve both local customers and overseas Pakistanis, so they need clear English and Urdu content and WhatsApp contact that works across time zones." },
+      { heading: "Education and training", content: "The city's university, colleges and private academies need admission forms, fee collection and results portals that parents and students can use on their phones." },
+      { heading: "Getting found on Google Maps", content: "For shops, clinics and service businesses in Gujrat, Kharian and Lalamusa, a complete Google Business Profile, a fast website and regular reviews are often the quickest way to get more calls." },
+      { heading: "Working with us from Gujrat", content: "Our office is in Rawalpindi, a short drive away. Gujrat clients work with us online through WhatsApp, video calls and weekly preview links, with fixed PKR prices agreed in writing." },
+    ],
     caseStudyIds: ["alpha-ahead-real-estate", "entiix", "employee-security-crm", "ai-calling-agent", "rbo-accounting", "google-workspace-security"],
     servicesTitle: "What We Build for Gujrat Companies",
     services: [
@@ -686,6 +702,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "software-house-abbottabad": {
+    guideTitle: "Software and Websites for Abbottabad Businesses",
+    guide: [
+      { heading: "Tourism and hospitality", content: "Abbottabad sits on the route to Nathia Gali, Murree and the northern areas. Hotels, guest houses and tour operators need booking websites with availability, online payment or deposits, WhatsApp contact and pages that rank when travellers search." },
+      { heading: "Schools and colleges", content: "Abbottabad is known for its schools, colleges and military institutions. Admission forms, fee management, results portals and parent apps reduce office work and make communication easier." },
+      { heading: "Healthcare", content: "Hospitals, clinics and labs serving Hazara Division can offer appointment booking, report downloads and WhatsApp reminders through a simple patient portal." },
+      { heading: "Local shops and services", content: "Shops, restaurants and service businesses in Abbottabad, Mansehra and Havelian win more customers with a fast website, a complete Google Business Profile and regular reviews." },
+      { heading: "Working with us from Abbottabad", content: "Our office is in Rawalpindi, about two hours away. Abbottabad clients work with us online through WhatsApp, video calls and weekly preview links, and larger projects can include on-site visits." },
+    ],
     caseStudyIds: ["ygi-holiday-homes", "saviored", "quickdoctor-ie", "alphamedi-assist", "devsynx-attendance-hr", "google-review-removal"],
     keepFaqs: [0, 2, 3],
     pricing: [

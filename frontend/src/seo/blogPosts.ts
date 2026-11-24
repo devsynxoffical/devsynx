@@ -282,7 +282,7 @@ const baseBlogPosts: BlogPost[] = [
     slug: "how-to-choose-a-software-development-company",
     title: "How to Choose a Software Development Company (2026)",
     description:
-      "A comprehensive selection framework for vetting software agencies in 2026: 10 critical interview questions, technical evaluation criteria, red flags, and scoring template.",
+      "Comparing software companies? Use this free checklist: 10 questions to ask, red flags to avoid, how to check past work and a simple scoring sheet. Updated for 2026.",
     keywords: [
       "how to choose a software development company",
       "how to choose software development partner",
