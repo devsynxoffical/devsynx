@@ -13,6 +13,7 @@ import { appCityConfigs } from "./appCityPages";
 import { pkCitiesBatch2 } from "./pkCitiesBatch2";
 import { gulfPages } from "./gulfPages";
 import { gulfPages2 } from "./gulfPages2";
+import { gulfPages3 } from "./gulfPages3";
 import { aeoPage } from "./aeoPage";
 import { servicePageConfigs } from "./servicePages";
 
@@ -1511,6 +1512,7 @@ const rawLocalPages: LocalPage[] = [
   ...appCityConfigs.map(intlPage),
   ...gulfPages,
   ...gulfPages2,
+  ...gulfPages3,
   aeoPage,
   ...globalPages,
   ...servicePageConfigs.map(globalPage),
