@@ -524,6 +524,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-sialkot": {
+    guideTitle: "Software and Websites for Sialkot Exporters and Businesses",
+    guide: [
+      { heading: "Built for exporters", content: "Sialkot is one of Pakistan's biggest export hubs, known for sports goods, surgical instruments, leather and gloves. Exporters need English product catalogues with specifications and certifications, request-for-quote forms and fast websites that international buyers trust." },
+      { heading: "Order and production tracking", content: "Export orders move through cutting, stitching, finishing, quality checks and packing. Simple production tracking, order status for buyers and sample management replace spreadsheets and endless email threads." },
+      { heading: "Documents and compliance", content: "Buyers in Europe and the US ask for certifications, test reports and traceability. A secure document area for each customer and product saves time and makes audits easier." },
+      { heading: "Selling online, B2B and B2C", content: "Some Sialkot makers now sell directly to customers through Shopify or Amazon, or to retailers through B2B portals with wholesale pricing. We build the store or portal and connect it to your stock." },
+      { heading: "Working with us from Sialkot", content: "Our office is in Rawalpindi. Sialkot clients work with us online through WhatsApp, video calls and weekly preview links, with fixed prices in PKR or USD agreed in writing." },
+    ],
     caseStudyIds: ["nw-canvas", "doughi", "rebecca-minkoff", "solettos", "horizon-sole", "million-dollar-funnels"],
     keepFaqs: [0, 1, 3],
     pricing: [
@@ -745,6 +753,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "software-house-hyderabad": {
+    guideTitle: "Software and Websites for Hyderabad Businesses",
+    guide: [
+      { heading: "Trade, bangles and local industry", content: "Hyderabad's businesses range from the bangle industry and wholesale markets to agriculture and food processing across interior Sindh. Inventory, dealer ledgers and order tracking help traders and manufacturers keep accurate stock and credit records." },
+      { heading: "Sindhi, Urdu and English audiences", content: "Customers in Hyderabad and interior Sindh often prefer Urdu or Sindhi. Websites with Urdu content, clear icons and WhatsApp contact reach far more people than English-only sites." },
+      { heading: "Education and healthcare", content: "Universities, colleges, schools, hospitals and clinics need admissions, fee collection, appointment booking and results portals that work smoothly on mobile phones." },
+      { heading: "Selling online", content: "Local brands, from bangles and clothing to food products, can reach customers across Pakistan with an online store, cash on delivery, courier booking and WhatsApp ordering." },
+      { heading: "Working with us from Hyderabad", content: "Our office is in Rawalpindi. Hyderabad clients work with us online through WhatsApp, video calls and weekly preview links, with fixed PKR prices agreed before work starts." },
+    ],
     caseStudyIds: ["egg-produce", "employee-security-crm", "installmentguard", "saviored", "top-performance", "whatsapp-business-api"],
     keepFaqs: [0, 2, 3],
     pricing: [
@@ -1792,6 +1808,12 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
       { question: "How much does AI SEO cost?", answer: "In Pakistan, AI SEO runs alongside our SEO packages from PKR 25,000, 45,000 or 75,000 a month depending on scope. International campaigns are quoted in USD, GBP or AED after a free AI visibility check, starting with a fixed-fee audit." },
     ],
   },
+  "digital-marketing-agency-abu-dhabi": {
+    faqs: [
+      { question: "Are you a digital marketing company in Abu Dhabi or a remote agency?", answer: "We are a remote team based in Pakistan, one hour ahead of Abu Dhabi, working with UAE clients through WhatsApp, video calls and shared reports. You get the same working hours as a local agency at lower cost, and we can arrange visits for larger projects." },
+      { question: "How much does digital marketing cost in Abu Dhabi with DEVSYNX?", answer: "We quote a fixed monthly management fee in AED after a free audit of your website, Google Business Profile and ad accounts. Ad spend is paid directly to Google, Meta or TikTok from your own accounts." },
+    ],
+  },
 
   /* ---------------- Retargeted international pages ---------------- */
   "software-development-company-dubai": {
@@ -2300,6 +2322,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "web-development-karachi": {
+    guideTitle: "Website Development in Karachi: What to Get Right",
+    guide: [
+      { heading: "Built for Karachi's mobile shoppers", content: "Most Karachi customers find businesses on their phones, often on mobile data while commuting. Pages need to load in a couple of seconds, show prices and contact options without scrolling, and open WhatsApp in one tap." },
+      { heading: "Online stores that survive sale days", content: "Karachi brands run big promotions around Eid, 11.11 and year-end sales. Stores need hosting and checkout that cope with traffic spikes, inventory that updates in real time, and order confirmation for cash on delivery to reduce fake orders." },
+      { heading: "Courier and payment integrations", content: "We connect stores to Karachi-based and national couriers such as TCS, Leopards, PostEx and Trax, and to JazzCash, Easypaisa and card gateways, so orders, tracking numbers and payments flow without manual entry." },
+      { heading: "B2B websites for traders and manufacturers", content: "Distributors and manufacturers in SITE, Korangi and Port Qasim need product catalogues, dealer enquiry forms and export-ready English pages rather than a basic brochure site." },
+      { heading: "Ranking in Karachi searches", content: "Searchers often add an area, such as Clifton, DHA, Gulshan or Saddar. Clear service pages, a Google Business Profile linked to your site and fast load times help you appear for those local searches." },
+    ],
     metaTitle: "Web Designer & Web Development in Karachi",
     extraKeywords: ["web designer karachi", "web designer in karachi", "website designer karachi"],
     caseStudyIds: ["nw-canvas", "rbo-accounting", "smart-links-cabling", "zahh-beverages", "orvex-booths", "alpha-ahead-real-estate"],
