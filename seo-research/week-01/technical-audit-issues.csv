@@ -1,0 +1,10 @@
+check,before (25 Nov),after fixes,examples (before)
+brand twice in title,9,0,/team/; /portfolio/mobile-applications/; /portfolio/mobile-apps/; /portfolio/ui-ux/; /portfolio/digital-marketing/
+canonical not self,1,1,/portfolio/mobile-apps/
+description > 160,36,0,/web-design-company-doha/; /seo-services-pakistan/; /digital-marketing-agency-dubai/; /web-design-company-abu-dhabi/; /services/progressive-web-apps/
+duplicate description,1,1,"Mobile apps DEVSYNX shipped for iOS and Android: social, spo"
+duplicate title,1,1,Mobile App Portfolio | DEVSYNX | Devsynx
+indexable but not in sitemap,5,5,/global/; /solutions/; /solutions/ai-automation-services/; /solutions/web-development-company-services/; /portfolio/mobile-apps/
+noindex pages,100,100,/global/uae/software-development/; /global/uae/web-development/; /global/uae/mobile-app-development/; /global/uae/ai-automation/; /global/uae/cloud-solutions/
+orphan/weak (<=1 inbound),13,13,/services/microservices-architecture/; /services/progressive-web-apps/; /services/quality-assurance-testing/; /services/nlp-text-mining/; /services/serverless-computing/
+title > 60 chars,7,1,/global/; /blog/how-to-build-an-mvp-in-30-days/; /blog/why-outsource-software-development-to-pakistan/; /blog/business-process-automation-guide/; /blog/cloud-migration-checklist/

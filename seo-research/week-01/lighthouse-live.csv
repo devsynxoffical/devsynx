@@ -1,0 +1,11 @@
+page,device,performance,accessibility,best-practices,seo,LCP,CLS,TBT
+/blog/how-to-choose-a-software-development-company/,desktop,100,96,96,100,0.4 s,0.004,50 ms
+/blog/how-to-choose-a-software-development-company/,mobile,83,96,96,100,1.0 s,0,680 ms
+/,desktop,99,96,96,100,0.7 s,0.001,50 ms
+/,mobile,78,96,96,100,2.3 s,0,810 ms
+/services/custom-web-development/,desktop,100,96,96,100,0.4 s,0.034,70 ms
+/services/custom-web-development/,mobile,83,96,96,100,1.2 s,0,660 ms
+/services/,desktop,100,94,96,100,0.4 s,0.002,80 ms
+/services/,mobile,82,94,96,100,1.0 s,0,750 ms
+/software-house-islamabad/,desktop,100,96,96,100,0.3 s,0.002,80 ms
+/software-house-islamabad/,mobile,81,96,96,100,1.7 s,0,780 ms
