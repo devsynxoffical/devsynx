@@ -124,7 +124,9 @@ export const navMenus: NavMenu[] = [
           { label: "SEO & Marketing, Qatar", href: "/digital-marketing-agency-qatar/" },
           { label: "Kuwait", href: "/it-company-kuwait/" },
           { label: "Digital Marketing, Kuwait", href: "/digital-marketing-agency-kuwait/" },
+          { label: "App Development, Kuwait", href: "/app-development-company-kuwait/" },
           { label: "Oman", href: "/it-company-oman/" },
+          { label: "Digital Marketing, Oman", href: "/digital-marketing-agency-oman/" },
         ],
       },
       {
