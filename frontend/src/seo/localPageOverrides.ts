@@ -166,6 +166,8 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     ],
   },
   "software-house-faisalabad": {
+    metaTitle: "Software House in Faisalabad from PKR 35,000",
+    metaDescription: "Software house serving Faisalabad: websites from PKR 35,000, textile ERP, payroll and mobile apps. Fixed PKR price, full code ownership. Quote in 48 hours.",
     guideTitle: "Software for Faisalabad Businesses: A Practical Guide",
     guide: [
       { heading: "Built for the textile industry", content: "Faisalabad is Pakistan's textile centre, from spinning and weaving units to garment exporters. The software that helps most is practical: yarn and fabric inventory, production and loom tracking, order costing, dispatch and export documentation. We start by mapping one department's workflow and replacing the spreadsheet that causes the most mistakes." },
@@ -1901,7 +1903,7 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
   "software-development-company-doha": {
     metaTitle: "IT & Software Company in Qatar | Doha",
-    metaDescription: "IT and software company serving Doha and Qatar: custom software, web and mobile apps, e-commerce and AI automation, in Arabic and English. Fixed QAR or USD pricing.",
+    metaDescription: "IT and software company for Doha and Qatar: custom software, web and mobile apps, e-commerce and AI automation in Arabic and English. Fixed QAR pricing.",
     h1Before: "IT & Software Company in",
     extraKeywords: ["it company qatar", "it company in qatar", "software company qatar", "software company in qatar", "it company doha"],
     caseStudyIds: ["top-performance", "rbo-accounting", "devsynx-attendance-hr", "google-workspace-security", "entiix", "mizn-abayas"],

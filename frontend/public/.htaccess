@@ -10,6 +10,7 @@ RewriteRule ^solutions/ai-automation-services/?$ /services/ai-automation/ [R=301
 RewriteRule ^solutions/?$ /services/ [R=301,L]
 RewriteRule ^global/singapore/web-development/?$ /services/custom-web-development/ [R=301,L]
 RewriteRule ^global/?$ /usa/ [R=301,L]
+RewriteRule ^portfolio/mobile-apps/?$ /portfolio/mobile-applications/ [R=301,L]
 
 # 1. Disable MultiViews to avoid conflicts with index.html files
 <IfModule mod_negotiation.c>
@@ -38,6 +39,10 @@ RewriteRule ^(.*)/index\.txt$ /$1/ [R=301,L]
 
 RewriteCond %{HTTP:RSC} ^$
 RewriteRule ^index\.txt$ / [R=301,L]
+
+# Duplicate URLs: /page/index.html -> /page/ (checks the original request, so internal rewrites do not loop)
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
 
 # 5. Serve existing static files & directories directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -91,4 +96,5 @@ ErrorDocument 404 /404.html
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>

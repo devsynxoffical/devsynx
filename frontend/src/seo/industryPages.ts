@@ -89,7 +89,7 @@ export const industryConfigs: IndustryConfig[] = [
     navLabel: "Real Estate Software Development",
     metaTitle: "Real Estate Software & App Development",
     metaDescription:
-      "Real estate software and app development: property portals, CRMs, investment platforms, holiday-home booking and lead management. Case studies in the UAE and US.",
+      "Real estate software development: property portals, CRMs, investment platforms, holiday-home booking and lead management, with UAE and US case studies.",
     keywords: ["real estate software development", "real estate app development", "property management software development", "real estate crm development", "property portal development", "proptech development company"],
     serviceName: "Real Estate Software Development",
     badge: "Property portals · CRMs · Investment & booking platforms",
@@ -293,7 +293,7 @@ export const industryConfigs: IndustryConfig[] = [
     navLabel: "Field Service App Development",
     metaTitle: "Field Service App Development for Contractors",
     metaDescription:
-      "Field service and contractor app development: lead generation, dispatch, scheduling, quotes and job tracking for roofing, HVAC, plumbing and home service businesses.",
+      "Field service app development: leads, dispatch, scheduling, quotes and job tracking for roofing, HVAC, plumbing and other home service businesses.",
     keywords: ["field service app development", "contractor app development", "field service management software development", "home services app development", "contractor lead generation software", "dispatch software development"],
     serviceName: "Field Service App Development",
     badge: "Leads · Dispatch · Quotes · Job tracking",

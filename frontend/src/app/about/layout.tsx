@@ -10,7 +10,8 @@ import {
 import { buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "About DEVSYNX: Software and AI Engineering Company",
+  title: "About DEVSYNX: Software & AI Company in Islamabad",
+  absoluteTitle: true,
   description:
     "DEVSYNX is a software and AI engineering company in Islamabad, Pakistan, serving clients in the US, UK, UAE and Pakistan.",
   path: "/about/",

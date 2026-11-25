@@ -10,7 +10,7 @@ import "@/styles/clients.css";
 export const metadata: Metadata = {
   title: "Global Client Portfolio & Engineering Showcase",
   description:
-    "Explore Devsynx's global portfolio across Mobile Applications, Custom Software & SaaS, SEO Results, Digital Marketing, and UI/UX Design. Production case studies across 15+ countries.",
+    "DEVSYNX portfolio: mobile apps, custom software and SaaS, SEO results, digital marketing and UI/UX design, with real case studies from 15+ countries.",
   keywords: [
     "custom software development company",
     "mobile app development company",

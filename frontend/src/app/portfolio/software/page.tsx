@@ -10,7 +10,7 @@ import "@/styles/clients.css";
 export const metadata: Metadata = {
   title: "Custom Software & SaaS Development Portfolio",
   description:
-    "Explore Devsynx's enterprise software and SaaS portfolio featuring multi-tenant cloud platforms, automated CRM engines, HRMS systems, SCADA IoT telemetry, and SecOps portals.",
+    "Software and SaaS portfolio: multi-tenant cloud platforms, CRM engines, HR systems, SCADA IoT telemetry and security portals built by DEVSYNX.",
   keywords: [
     "custom software development company",
     "enterprise saas development",
@@ -48,7 +48,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 const pageSchema = buildWebPageSchema({
   title: "Custom Software & SaaS Development Portfolio | Devsynx",
   description:
-    "Explore Devsynx's enterprise software and SaaS portfolio featuring multi-tenant cloud platforms, automated CRM engines, HRMS systems, SCADA IoT telemetry, and SecOps portals.",
+    "Software and SaaS portfolio: multi-tenant cloud platforms, CRM engines, HR systems, SCADA IoT telemetry and security portals built by DEVSYNX.",
   path: "/portfolio/software/",
 });
 

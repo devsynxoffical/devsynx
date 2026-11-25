@@ -8,7 +8,7 @@ import { buildBreadcrumbSchema, buildWebPageSchema } from "@/seo/metadata";
 import "@/styles/clients.css";
 
 export const metadata: Metadata = {
-  title: "Digital Marketing and Funnel Work | DEVSYNX",
+  title: "Digital Marketing and Funnel Work",
   description:
     "Funnels, ads and social campaigns DEVSYNX built for clients, with the results and the stack behind each project.",
   keywords: [

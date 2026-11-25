@@ -11,6 +11,7 @@ import { buildPageMetadata } from "@/seo/metadata";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact DEVSYNX: Call, WhatsApp or Book a Call",
+  absoluteTitle: true,
   description:
     "Call or WhatsApp DEVSYNX on +92 302 946 2542, email info@devsynx.com, or book a free 30 minute call. Reply within 24 hours.",
   path: "/contact/",

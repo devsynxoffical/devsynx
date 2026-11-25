@@ -84,7 +84,7 @@ const baseBlogPosts: BlogPost[] = [
     slug: "how-much-does-software-development-cost",
     title: "Software Development Cost in 2026: Pricing Guide",
     description:
-      "Comprehensive 2026 software development cost breakdown: hourly rates by country, MVP costs (from about $1,000), SaaS platform budgets, and hidden pricing factors.",
+      "Software development cost in 2026: hourly rates by country, MVP costs from about $1,000, SaaS budgets and the hidden factors that change the price.",
     keywords: [
       "software development cost",
       "cost to develop software",
@@ -280,9 +280,9 @@ const baseBlogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-choose-a-software-development-company",
-    title: "How to Choose a Software Development Company (2026)",
+    title: "How to Choose a Software Development Company: 2026 Checklist",
     description:
-      "Comparing software companies? Use this free checklist: 10 questions to ask, red flags to avoid, how to check past work and a simple scoring sheet. Updated for 2026.",
+      "Best practices for choosing a software development company: a 2026 checklist with 10 vetting questions, red flags to avoid and a free vendor scoring sheet.",
     keywords: [
       "how to choose a software development company",
       "how to choose software development partner",

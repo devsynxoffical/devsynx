@@ -8,7 +8,7 @@ import { buildBreadcrumbSchema, buildWebPageSchema } from "@/seo/metadata";
 import "@/styles/clients.css";
 
 export const metadata: Metadata = {
-  title: "UI and UX Design Portfolio | DEVSYNX",
+  title: "UI and UX Design Portfolio",
   description:
     "UI and UX design work by DEVSYNX: design systems, product flows and 3D visuals for SaaS, ecommerce and mobile apps.",
   keywords: [

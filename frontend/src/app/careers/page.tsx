@@ -9,6 +9,7 @@ import { buildBreadcrumbSchema, buildFaqSchema, buildPageMetadata, buildWebPageS
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Careers at DEVSYNX: Jobs & Internships",
+  absoluteTitle: true,
   description:
     "Apply to DEVSYNX, a software house in Rawalpindi–Islamabad. Roles for developers, designers, AI engineers, SEO and marketing specialists, sales and interns.",
   path: "/careers/",

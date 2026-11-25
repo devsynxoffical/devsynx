@@ -6,7 +6,7 @@ import { buildBreadcrumbSchema, buildPageMetadata } from "@/seo/metadata";
 export const metadata: Metadata = buildPageMetadata({
   title: "Locations We Serve: Pakistan, Gulf, US, UK & More",
   description:
-    "DEVSYNX serves clients from Islamabad–Rawalpindi across Pakistan, the UAE, Saudi Arabia, Qatar, the US, Canada, the UK, Europe and Australia. Find your city's page.",
+    "DEVSYNX serves clients from Islamabad–Rawalpindi across Pakistan, the Gulf, the US, Canada, the UK, Europe and Australia. Find your city's page.",
   path: "/locations/",
 });
 

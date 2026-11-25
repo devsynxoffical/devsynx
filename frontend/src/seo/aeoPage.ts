@@ -13,7 +13,7 @@ export const aeoPage: LocalPage = {
   navLabel: "AI SEO Agency (AEO & GEO)",
   metaTitle: "AI SEO Agency: AEO & GEO Services",
   metaDescription:
-    "AI SEO agency for answer engine optimization (AEO) and generative engine optimization (GEO): get your brand understood, cited and recommended in Google AI Overviews, ChatGPT and Perplexity.",
+    "AI SEO agency for AEO and GEO: get your brand understood, cited and recommended in Google AI Overviews, ChatGPT and Perplexity.",
   keywords: ["ai seo agency", "ai seo services", "aeo agency", "aeo services", "geo agency", "generative engine optimization agency", "answer engine optimization agency", "llm seo", "seo for chatgpt", "how to rank in chatgpt"],
   serviceName: "AI SEO (AEO & GEO)",
   placeLabel: "",

@@ -13,7 +13,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "Shopify Development Agency",
     metaTitle: "Shopify Development Agency: Stores, Themes & Apps",
     metaDescription:
-      "Shopify development agency for new stores, custom themes, Shopify Plus, headless builds and apps. Fixed prices, fast delivery, clients in the US, UK, Gulf and Pakistan.",
+      "Shopify development agency for new stores, custom themes, Shopify Plus, headless builds and apps. Fixed prices and fast delivery for US, UK and Gulf brands.",
     keywords: ["shopify development agency", "shopify agency", "shopify developers", "shopify store development", "shopify plus agency", "shopify theme development", "hire shopify developer", "shopify experts"],
     serviceName: "Shopify Development",
     badge: "Stores · Themes · Shopify Plus · Apps",
@@ -91,7 +91,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "AI Development Company",
     metaTitle: "AI Development Company: Custom AI Apps & Agents",
     metaDescription:
-      "AI development company building custom AI apps, LLM features, RAG chatbots, AI agents and voice AI on top of OpenAI, Claude and Gemini. Fixed-price milestones, full code ownership.",
+      "AI development company: AI apps, LLM features, RAG chatbots, agents and voice AI on OpenAI, Claude and Gemini. Fixed-price milestones, you own the code.",
     keywords: ["ai development company", "ai development services", "ai software development company", "custom ai development", "llm development company", "generative ai development company", "ai app development company", "rag development"],
     serviceName: "AI Development",
     badge: "LLM apps · RAG · AI agents · Voice AI",
@@ -316,7 +316,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "Offshore Software Development",
     metaTitle: "Offshore Software Development & Outsourcing",
     metaDescription:
-      "Offshore software development and outsourcing from Pakistan for US, UK and Gulf companies: senior engineers, fixed prices or monthly teams, your code and IP from day one.",
+      "Offshore software development from Pakistan for US, UK and Gulf companies: senior engineers, fixed prices or monthly teams, and your code and IP from day one.",
     keywords: ["offshore software development", "software development outsourcing", "outsource software development", "offshore software development company", "software outsourcing pakistan", "offshore development team"],
     serviceName: "Offshore Software Development",
     badge: "Pakistan-based team · US, UK & Gulf clients",
@@ -391,7 +391,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "AI Chatbot Development",
     metaTitle: "AI Chatbot Development Company: Web & WhatsApp",
     metaDescription:
-      "AI chatbot development company: custom GPT and Claude chatbots for websites, WhatsApp and support desks that answer from your data, book appointments and hand over to staff.",
+      "AI chatbot development: custom GPT and Claude chatbots for websites, WhatsApp and support that answer from your data, book meetings and hand over to staff.",
     keywords: ["ai chatbot development company", "ai chatbot development", "chatbot development company", "custom ai chatbot", "whatsapp chatbot development", "gpt chatbot development", "rag chatbot"],
     serviceName: "AI Chatbot Development",
     badge: "Website · WhatsApp · Support desk · Voice",
@@ -465,7 +465,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "Custom CRM Development",
     metaTitle: "Custom CRM Development: Built Around Your Sales",
     metaDescription:
-      "Custom CRM development for sales teams, contractors, agencies and service businesses: pipelines, lead routing, WhatsApp and calling, automations and reports built around your process.",
+      "Custom CRM development for sales and service teams: pipelines, lead routing, WhatsApp and calling, automations and reports built around your process.",
     keywords: ["custom crm development", "custom crm development company", "crm software development", "bespoke crm", "crm development services", "build a custom crm"],
     serviceName: "Custom CRM Development",
     badge: "Pipelines · Lead routing · Automation · Reports",
@@ -537,7 +537,7 @@ export const servicePageConfigs: GlobalConfig[] = [
     navLabel: "ERP Development",
     metaTitle: "ERP Development Company: Custom ERP & Odoo",
     metaDescription:
-      "ERP development company for inventory, sales, purchasing, accounting, HR and payroll: custom ERP modules and Odoo implementation, integrated with your existing tools.",
+      "ERP development company: custom modules and Odoo setup for inventory, sales, purchasing, accounting, HR and payroll, connected to your existing tools.",
     keywords: ["erp development company", "custom erp development", "erp software development", "odoo implementation", "erp development services", "erp software house pakistan"],
     serviceName: "ERP Development",
     badge: "Inventory · Accounting · HR & payroll · Odoo",

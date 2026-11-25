@@ -42,6 +42,8 @@ type BuildPageMetadataOptions = {
   publishedTime?: string;
   modifiedTime?: string;
   includeCanonical?: boolean;
+  /** Use the title as-is, without the root " | Devsynx" template suffix */
+  absoluteTitle?: boolean;
 };
 
 /** Consistent canonical, Open Graph, and Twitter metadata for every route */
@@ -56,6 +58,7 @@ export function buildPageMetadata({
   publishedTime,
   modifiedTime,
   includeCanonical = true,
+  absoluteTitle = false,
 }: BuildPageMetadataOptions): Metadata {
   const canonical = pathToAbsoluteUrl(path);
   const cleanTitle = title.replace(/\s*\|\s*Devsynx\s*$/i, "").trim();
@@ -79,7 +82,7 @@ export function buildPageMetadata({
   } satisfies Metadata["openGraph"];
 
   return {
-    title: cleanTitle,
+    title: absoluteTitle ? { absolute: cleanTitle } : cleanTitle,
     description,
     ...(keywords?.length ? { keywords } : {}),
     robots,

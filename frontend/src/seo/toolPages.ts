@@ -24,7 +24,7 @@ export const toolPages: ToolPage[] = [
     navLabel: "App Development Cost Calculator",
     metaTitle: "App Development Cost in 2026: Free Calculator",
     metaDescription:
-      "Free app cost calculator: pick platforms, app size and features to get a DEVSYNX fixed-price estimate in USD and PKR, plus a timeline. Most apps cost $600–2,500.",
+      "Free app cost calculator: pick platforms, size and features for a fixed-price estimate in USD and PKR plus a timeline. Most apps cost $600–2,500.",
     keywords: ["app development cost calculator", "app development cost", "how much does it cost to build an app", "mobile app cost estimator", "app cost calculator"],
     h1: "App Development Cost Calculator",
     quickAnswer:
@@ -166,7 +166,7 @@ export const toolPages: ToolPage[] = [
     navLabel: "Website Cost Calculator",
     metaTitle: "Website Development Cost 2026: Free Calculator",
     metaDescription:
-      "Free website cost calculator: choose the type of site, design level and features to get a DEVSYNX fixed-price estimate in USD and PKR, from $100 landing pages to about $2,000 web apps.",
+      "Free website cost calculator: pick the site type, design and features for a fixed-price estimate in USD and PKR, from $100 landing pages to $2,000 web apps.",
     keywords: ["website cost calculator", "website development cost", "how much does a website cost", "web design cost calculator", "ecommerce website cost"],
     h1: "Website Cost Calculator",
     quickAnswer:

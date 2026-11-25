@@ -8,7 +8,7 @@ import { buildBreadcrumbSchema, buildWebPageSchema } from "@/seo/metadata";
 import "@/styles/clients.css";
 
 export const metadata: Metadata = {
-  title: "SEO Results and Case Studies | DEVSYNX",
+  title: "SEO Results and Case Studies",
   description:
     "SEO results DEVSYNX delivered for clients in the US, UAE and Pakistan: rankings, clicks and leads, with the work behind each one.",
   keywords: [

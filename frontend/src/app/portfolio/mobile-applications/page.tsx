@@ -9,7 +9,7 @@ import { buildBreadcrumbSchema, buildWebPageSchema } from "@/seo/metadata";
 import "@/styles/clients.css";
 
 export const metadata: Metadata = {
-  title: "Mobile App Portfolio | DEVSYNX",
+  title: "Mobile App Portfolio",
   description:
     "Mobile apps DEVSYNX shipped for iOS and Android: social, sports, ecommerce and fintech, with features and results for each.",
   keywords: [

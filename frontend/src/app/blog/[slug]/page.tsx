@@ -105,6 +105,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     publishedTime: post.publishedAt,
     modifiedTime: post.updatedAt ?? post.publishedAt,
     ogImageAlt: post.title,
+    absoluteTitle: true,
   });
 }
 
