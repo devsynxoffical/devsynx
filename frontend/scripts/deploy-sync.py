@@ -8,7 +8,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 FTP_HOST = "ftp.devsynx.com"
 FTP_PORT = 21
 FTP_USER = os.environ.get("FTP_USER", "devsynx@devsynx.com")
-FTP_PASS = os.environ.get("FTP_PASS", "Allah512@@")
+FTP_PASS = os.environ.get("FTP_PASS")  # never hardcode; set FTP_PASS in the environment
+if not FTP_PASS:
+    sys.exit("FTP_PASS environment variable is not set")
 LOCAL_OUT = os.path.abspath("frontend/out")
 
 def get_ftps():

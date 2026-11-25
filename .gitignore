@@ -9,3 +9,6 @@ service_account.json
 google-indexing*.json
 !service_account.template.json
 
+
+# Local MCP config holds API keys; copy mcp_config.example.json and add your key
+.agents/mcp_config.json

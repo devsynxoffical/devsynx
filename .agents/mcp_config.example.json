@@ -3,7 +3,7 @@
     "openseo": {
       "serverUrl": "https://app.openseo.so/mcp",
       "headers": {
-        "Authorization": "Bearer oseo_GewpZukxKROHkgAvzeKPTckJUzZskCRCyNVMJWCoUQfKcwUVQPsTtGGOWTRccpxs",
+        "Authorization": "Bearer YOUR_OPENSEO_API_KEY",
         "Accept": "application/json, text/event-stream"
       }
     }
