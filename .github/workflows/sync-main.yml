@@ -1,0 +1,40 @@
+name: Keep main in sync with the live branch
+
+# Every commit pushed to the live branch (including the automated SEO runs)
+# is copied to main, so main always matches what is deployed.
+# Fast-forward only: if main ever has commits the live branch lacks, this
+# job fails instead of overwriting them.
+# Pushes made with GITHUB_TOKEN do not trigger other workflows, so this does
+# not start a second deploy.
+
+on:
+  push:
+    branches: [claude/friendly-mccarthy-n4j32s]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout live branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward main
+        run: |
+          git fetch origin main
+          if git merge-base --is-ancestor origin/main HEAD; then
+            git push origin HEAD:main
+            echo "main is now at $(git rev-parse --short HEAD)"
+          else
+            echo "::error::main has commits that are not on the live branch; not overwriting. Merge them into the live branch first."
+            exit 1
+          fi
