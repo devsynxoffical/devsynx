@@ -2134,6 +2134,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- Digital marketing pages ---------------- */
   "digital-marketing-agency-lahore": {
+    guideTitle: "Digital Marketing in Lahore: What Works in 2026",
+    guide: [
+      { heading: "Lahore runs on seasons", content: "Lawn launches, Eid, wedding season and back-to-school periods drive most of the year's demand for fashion, food, events and education brands. We plan creatives and budgets weeks ahead, so campaigns are ready before costs rise." },
+      { heading: "Instagram and TikTok for discovery", content: "Lahore's fashion, beauty and restaurant brands win attention with short videos and strong offers. We test several creative hooks each month and move budget to the ones that bring messages and orders, not just views." },
+      { heading: "Google search for services", content: "For clinics, schools, real estate and home services, people search on Google and Maps first. Search ads and local SEO capture those high-intent customers in areas like Gulberg, DHA, Johar Town and Bahria Town." },
+      { heading: "WhatsApp is where sales happen", content: "Most Lahore customers ask questions on WhatsApp before buying. Click-to-WhatsApp ads, quick replies and same-day follow-up turn more ad clicks into orders and bookings." },
+      { heading: "Track orders, not likes", content: "For cash-on-delivery brands, the number that matters is delivered orders. We connect ads, the website and order confirmation so campaigns are judged by real sales." },
+    ],
     caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "glitchy-digital-marketing", "motion-graphic-explainers", "ai-video-production"],
     keepFaqs: [0, 2],
     servicesTitle: "Digital Marketing for Lahore Brands",
@@ -2263,6 +2271,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
 
   /* ---------------- Web development pages ---------------- */
   "web-development-lahore": {
+    guideTitle: "Website Development in Lahore: A Practical Guide",
+    guide: [
+      { heading: "Fashion and retail stores that sell in season", content: "Lahore's lawn, bridal and pret brands make much of their revenue in a few weeks around each season and Eid. A store needs collections ready before launch day, product pages with fabric and size details, fast mobile pages and checkout with cash on delivery and order confirmation." },
+      { heading: "Real estate and housing projects", content: "Developers and dealers around DHA, Bahria Town and the Raiwind Road corridor need project pages, plot availability, payment plans and lead forms that route enquiries to the right agent quickly." },
+      { heading: "Schools, colleges and academies", content: "Lahore has hundreds of private schools and academies competing for admissions. Clear programme pages, fee information, online admission forms and a fast mobile site make a real difference during admission season." },
+      { heading: "Clinics and healthcare", content: "Doctors and clinics in Gulberg, Model Town and Johar Town need appointment booking, doctor profiles and treatment pages that answer patients' questions in Urdu and English." },
+      { heading: "Show up when Lahore searches", content: "Many searches include an area, such as Gulberg, Johar Town or DHA. Service pages that mention the areas you serve, a linked Google Business Profile and fast load times help you appear for those local searches." },
+    ],
     metaTitle: "Web Designer & Web Development in Lahore",
     extraKeywords: ["web designer in lahore", "web designer lahore", "website designer lahore"],
     caseStudyIds: ["silayi-pret", "luxora-women", "mizn-abayas", "zahh-beverages", "doughi", "studio-pink-designs"],
