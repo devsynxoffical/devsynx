@@ -44,6 +44,22 @@ export default function WebDevelopmentIslamabadPage() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "Can I meet your web team in person?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Our office is on Old Airport Road, Chaklala Cantt, Rawalpindi, close to Islamabad. You can visit for a meeting or work with us fully online over WhatsApp and video calls.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you build websites for government suppliers and NGOs?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. We build clear, professional websites with capability pages, project portfolios and downloadable company profiles for consultancies, suppliers and development-sector organisations.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "How much does a website cost in Islamabad?",
         acceptedAnswer: {
           "@type": "Answer",
@@ -240,6 +256,63 @@ export default function WebDevelopmentIslamabadPage() {
         </div>
       </section>
 
+      {/* Who we build for */}
+      <section className="city-section">
+        <div className="container">
+          <div className="city-section__header">
+            <span className="city-section__tag">Twin-City Websites</span>
+            <h2 className="city-section__title">Websites We Build for Islamabad and Rawalpindi Businesses</h2>
+            <p className="city-section__desc">
+              Our office is on Old Airport Road, Chaklala Cantt, so most of our local clients are a short drive away. These are the kinds of websites we build most often in the twin cities.
+            </p>
+          </div>
+
+          <div className="city-grid">
+            <div className="city-card">
+              <h3 className="city-card__title">Government Suppliers &amp; Consultancies</h3>
+              <p className="city-card__text">
+                Islamabad has many firms that work with ministries, donors and development projects. A clear capability page, past projects, certifications and downloadable company profile help you pass the first check when buyers look you up.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Clinics, Schools &amp; Professional Services</h3>
+              <p className="city-card__text">
+                Doctors in F-8 and Blue Area, schools in the G and I sectors and law or accounting firms need appointment or admission forms, staff profiles and fee information that parents and clients can find quickly on a phone.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Real Estate in DHA, Bahria &amp; Gulberg Greens</h3>
+              <p className="city-card__text">
+                Housing projects and dealers need project pages, plot availability, payment plans and lead forms that send enquiries to the right agent on WhatsApp straight away.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Startups from NSTP &amp; Incubators</h3>
+              <p className="city-card__text">
+                Islamabad's startup community needs product sites and web apps that can launch fast, take payments and grow into full SaaS platforms without a rebuild.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Rawalpindi Shops &amp; Services</h3>
+              <p className="city-card__text">
+                Retailers and service businesses across the twin cities need simple, fast websites with prices, a location map, opening hours and a WhatsApp button, linked to their Google Business Profile.
+              </p>
+            </div>
+
+            <div className="city-card">
+              <h3 className="city-card__title">Overseas Pakistani Customers</h3>
+              <p className="city-card__text">
+                Many Islamabad businesses serve customers abroad, from property buyers to education consultants. English and Urdu content, WhatsApp contact across time zones and online payment options matter for them.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Comparison Table */}
       <section className="city-section">
         <div className="container">
@@ -356,6 +429,20 @@ export default function WebDevelopmentIslamabadPage() {
           </div>
 
           <div className="city-faq-list">
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Can I meet your web team in person?</h3>
+              <p className="city-faq-answer">
+                Yes. Our office is on Old Airport Road, Chaklala Cantt, Rawalpindi, close to Islamabad. You can visit for a meeting or work with us fully online over WhatsApp and video calls.
+              </p>
+            </div>
+
+            <div className="city-faq-item">
+              <h3 className="city-faq-question">Do you build websites for government suppliers and NGOs?</h3>
+              <p className="city-faq-answer">
+                Yes. We build clear, professional websites with capability pages, project portfolios and downloadable company profiles for consultancies, suppliers and development-sector organisations.
+              </p>
+            </div>
+
             <div className="city-faq-item">
               <h3 className="city-faq-question">How much does a website cost in Islamabad?</h3>
               <p className="city-faq-answer">

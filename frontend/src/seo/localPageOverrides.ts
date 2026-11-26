@@ -1600,6 +1600,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     faqs: [{ question: "Can you take over a project from another agency?", answer: "Yes. We review the existing code and infrastructure, fix urgent issues, write down how everything works and then continue development, recommending a rebuild only if the code cannot reasonably be maintained." }, { question: "Do you build software that complies with UK GDPR?", answer: "We build with data protection by design: minimal data collection, encryption, access controls, audit logs and UK or EU hosting where required, and we sign a data processing agreement." }, { question: "What overlap do you have with UK hours?", answer: "Pakistan is 4 to 5 hours ahead of the UK, so our afternoon overlaps your whole morning for calls, and most of the build work is done before your day starts." }],
   },
   "software-house-pakistan": {
+    guideTitle: "Choosing a Software House in Pakistan: A Practical Guide",
+    guide: [
+      { heading: "Look at live work, not promises", content: "Ask for websites you can open, apps you can download and two clients you can speak to. A software house that cannot show working products in your type of project is a risk, whatever its price." },
+      { heading: "Fixed price or monthly team", content: "A fixed price suits a clearly defined website, app or system. A monthly team suits a product that will keep changing. Many clients start with a fixed-price first version, then move to a monthly team once the product is live." },
+      { heading: "Local payments and integrations", content: "Pakistani projects usually need JazzCash, Easypaisa, card payments, cash on delivery, courier booking and FBR-ready invoicing. Confirm early that the software house has done these integrations before." },
+      { heading: "Ownership and handover", content: "The domain, hosting, app store accounts and source code should be in your company's name from the start. Ask for documentation and a handover plan so you are never locked in." },
+      { heading: "Support after launch", content: "Software needs updates, security fixes and new features after launch. Agree a monthly support plan, or at least response times for urgent issues, before the project ends." },
+    ],
     metaTitle: "Software House in Pakistan from PKR 35,000",
     metaDescription: "Software house in Pakistan: websites from PKR 35,000, mobile apps from PKR 200,000, ERP and AI automation. Fixed prices, 70+ case studies, quote in 48 hours.",
     faqs: [
@@ -2122,6 +2130,14 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
   },
 
   "seo-services-pakistan": {
+    guideTitle: "SEO in Pakistan: What Works for Local and National Brands",
+    guide: [
+      { heading: "City searches versus national searches", content: "A clinic in Lahore and an online clothing brand selling across Pakistan need very different SEO. Local businesses win with Google Maps, area pages and reviews; national brands win with category pages, product content and links from Pakistani publications. We start by deciding which game you are playing." },
+      { heading: "Urdu, Roman Urdu and English", content: "Many Pakistanis search in a mix of English and Roman Urdu, and some in Urdu script. We research the exact words your customers use and reflect them naturally in titles, headings and content, rather than relying only on English keywords." },
+      { heading: "Mobile speed on 4G", content: "Most searches in Pakistan happen on phones over mobile data. Slow pages lose both rankings and customers, so our developers fix page speed, images and hosting as part of the SEO work." },
+      { heading: "E-commerce SEO for Pakistani stores", content: "Online stores compete on collections, product pages and seasonal searches around Eid, lawn launches and 11.11. Unique product descriptions, structured data and fast mobile pages help stores rank before demand peaks." },
+      { heading: "Links from Pakistani websites", content: "Mentions on Pakistani news sites, business directories, universities and partner businesses carry weight for Pakistani searches. We earn these through outreach and real partnerships, never paid link networks that can harm your site." },
+    ],
     metaTitle: "SEO Expert & SEO Services in Pakistan",
     h1Before: "SEO Expert & SEO Services in",
     extraKeywords: ["seo expert in pakistan", "seo expert pakistan", "best seo expert in pakistan", "seo specialist pakistan"],
