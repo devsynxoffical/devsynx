@@ -1798,6 +1798,23 @@ export const localPageOverrides: Record<string, LocalPageOverride> = {
     metaTitle: "Web Development Company in Canada",
     h1Before: "Web Development Company in",
   },
+  "custom-software-development-company": {
+    guideTitle: "Custom Software Development: Cost, Process and When It Makes Sense",
+    guide: [
+      { heading: "When custom software beats off-the-shelf", content: "Ready-made tools are the right start for most businesses. Custom software makes sense when you are paying for several subscriptions that do not talk to each other, when staff copy data between spreadsheets every day, when your process is what makes you different from competitors, or when you want to sell the software itself as a product. In those cases a system built around your workflow pays back through saved hours, fewer errors and no per-user licence fees." },
+      { heading: "What we build", content: "Our custom software work covers customer and staff portals, CRM and sales systems, inventory, order and quotation systems, ERP modules, booking platforms, SaaS products with subscriptions, internal dashboards and integrations between existing tools such as accounting, payment gateways, couriers and WhatsApp. Most projects are web applications built with Next.js, Node.js and PostgreSQL, with iOS and Android apps in React Native or Flutter when staff or customers need them on the phone." },
+      { heading: "What custom software costs", content: "With DEVSYNX a focused web application or MVP usually costs about PKR 150,000 to 500,000 (around $535 to $1,800), a mobile app PKR 200,000 to 700,000 (around $700 to $2,500) and an ERP system PKR 250,000 to 1.1 million depending on modules and users. Clients in the UAE, Saudi Arabia, the US, the UK and Europe are quoted in their own currency. You receive a written fixed price for a defined scope before any work starts." },
+      { heading: "How a project runs", content: "We begin with a discovery workshop to map the workflow, users and integrations, then design the key screens in Figma so you can see the system before it is built. Development runs in short sprints with a live demo every week on a staging link. After testing with your team, we launch, train staff and stay on for support and new features." },
+      { heading: "Timeline", content: "A focused internal tool or MVP takes about four to eight weeks. A larger platform with several user roles, payments and integrations takes about two to four months, usually released in phases so the most valuable part goes live first." },
+      { heading: "You own everything", content: "The source code, database, domain and cloud accounts are registered in your name. Every project includes documentation and a handover, so you can continue with us on a monthly support plan or with your own developers." },
+    ],
+    faqs: [
+      { question: "How much does custom software development cost?", answer: "A focused web application or MVP usually costs about PKR 150,000 to 500,000 (around $535 to $1,800), mobile apps PKR 200,000 to 700,000 and ERP systems PKR 250,000 to 1.1 million. You get a written fixed price after a free discovery call." },
+      { question: "How long does it take to build custom software?", answer: "Four to eight weeks for a focused tool or MVP, and two to four months for larger platforms, which we usually release in phases." },
+      { question: "Do I own the source code?", answer: "Yes. Code, database, domain and cloud accounts are in your name, with documentation and a full handover." },
+      { question: "Can you connect the new system to our existing software?", answer: "Yes. We integrate with accounting tools, payment gateways, couriers, CRMs, WhatsApp Business and older systems through APIs, database bridges or scheduled file imports." },
+    ],
+  },
   "mvp-development-company": {
     keepFaqs: [0, 2, 3],
     guideTitle: "MVP Development: Cost, Timeline and What to Build First",
