@@ -280,9 +280,9 @@ const baseBlogPosts: BlogPost[] = [
   },
   {
     slug: "how-to-choose-a-software-development-company",
-    title: "How to Choose a Software Development Company: 2026 Checklist",
+    title: "How to Choose a Software Development Company (Checklist)",
     description:
-      "Best practices for choosing a software development company: a 2026 checklist with 10 vetting questions, red flags to avoid and a free vendor scoring sheet.",
+      "How to choose a software development company: 10 questions to ask, red flags, contract clauses and a free weighted scoring sheet to compare vendors side by side.",
     keywords: [
       "how to choose a software development company",
       "how to choose software development partner",

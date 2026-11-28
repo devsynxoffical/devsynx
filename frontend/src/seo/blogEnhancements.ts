@@ -25,7 +25,7 @@ const TODAY = "2026-11-07";
 
 export const blogEnhancements: Record<string, BlogEnhancement> = {
   "how-to-choose-a-software-development-company": {
-    updatedAt: TODAY,
+    updatedAt: "2026-11-28",
     takeaways: [
       "Judge a software company by work you can open and test, not by its pitch deck: ask for live URLs, app store links and two reference calls.",
       "Get IP assignment, repository access from day one, and milestone-based payments written into the contract before any code is written.",
@@ -34,6 +34,7 @@ export const blogEnhancements: Record<string, BlogEnhancement> = {
       "A short paid discovery sprint (1–2 weeks) is the cheapest way to test a vendor before committing a full budget.",
     ],
     extraSections: [
+      {"heading": "Free Vendor Scoring Sheet (Copy This Table)", "content": "Score every shortlisted company from 1 (poor) to 5 (excellent) on each line, multiply by the weight and add the results. The highest total is not automatically the winner, but any company scoring 1 on a heavily weighted line should be dropped.\n• Relevant, live portfolio you could test — weight 3\n• Reference calls with two past clients — weight 3\n• Quality of the proposal: numbered features, acceptance criteria, milestones — weight 3\n• Named engineers you have met, and their seniority — weight 2\n• Contract terms: IP assignment, repository access, termination — weight 3\n• Communication: response time, written English, overlap with your working hours — weight 2\n• Testing, code review and deployment process — weight 2\n• Price and payment schedule against the scope — weight 2\n• Support and maintenance after launch — weight 1\nMaximum score: 105. In practice, a vendor above about 80 is a strong choice, 60 to 80 is worth a paid discovery sprint first, and below 60 usually means keep looking. Fill the sheet in straight after each call while the details are fresh, and have two people score independently if you can."},
       {
         heading: "Step-by-Step: A 2-Week Vendor Selection Process",
         content:
